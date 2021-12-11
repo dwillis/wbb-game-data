@@ -1,0 +1,4437 @@
+{
+    "Game": {
+        "Type": "BasketballGame",
+        "HasStarted": true,
+        "IsComplete": true,
+        "Source": "statcrew",
+        "Date": "1/5/2019",
+        "DateUTC": null,
+        "StartTime": "4:00 PM",
+        "EndTime": "",
+        "NcaaGameId": "",
+        "Notes": [],
+        "Location": "Newberg, Ore.",
+        "GlobalSportShortname": null,
+        "BannerMessage": null,
+        "StadiumImage": null,
+        "SiteImage": null,
+        "ClientHostname": null,
+        "Officials": "",
+        "Attendance": 189,
+        "PeriodsRegulation": 4,
+        "Period": 4,
+        "ClockSeconds": 0,
+        "Context": "",
+        "Rules": {
+            "PeriodMinutes": 10,
+            "PeriodName": "Quarter",
+            "OTMinutes": 5,
+            "ShowExtraPeriodsAsOT": true,
+            "ClockDirection": "Down",
+            "ClockSegmentation": "Periods"
+        },
+        "HomeTeam": {
+            "Id": "GFU-W",
+            "Name": "George Fox",
+            "Score": 59,
+            "CurrentRecord": "11-2, 4-0 NWC",
+            "NcaaSchoolCode": "",
+            "Color": "#002E62",
+            "TextColor": "#224876",
+            "Logo": "https://goboxers.com/images/logos/George-Fox.png",
+            "Url": null,
+            "PeriodScores": [
+                16,
+                16,
+                17,
+                10
+            ],
+            "PeriodTimeouts": [
+                1
+            ]
+        },
+        "VisitingTeam": {
+            "Id": "PAC-W",
+            "Name": "Pacific (Ore.)",
+            "Score": 54,
+            "CurrentRecord": "6-7, 0-4 NWC",
+            "NcaaSchoolCode": "",
+            "Color": "#990000",
+            "TextColor": "#666666",
+            "Logo": "https://goboxers.com/images/logos/site/site.png",
+            "Url": "https://goboxers.com",
+            "PeriodScores": [
+                12,
+                13,
+                15,
+                14
+            ],
+            "PeriodTimeouts": []
+        },
+        "LastPlays": [
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Holder",
+                    "UniformNumber": "43",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "43 Emily Holder STEAL (1 Stl)",
+                "Context": "",
+                "Id": "127+39FE09D1",
+                "Type": "STEAL",
+                "Action": "STEAL",
+                "Period": 1,
+                "ClockSeconds": 3,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Liana",
+                    "LastName": "Tanaka",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "02 Liana Tanaka TURNOVER (2 TO)",
+                "Context": "",
+                "Id": "126+F4BF5285",
+                "Type": "TURNOVER",
+                "Action": "TURNOVER",
+                "Period": 1,
+                "ClockSeconds": 3,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haley",
+                    "LastName": "Strowbridge",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Hailey",
+                        "LastName": "Hartney",
+                        "UniformNumber": "24",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "HomeTeam",
+                "Narrative": "25 Haley Strowbridge IN; 24 Hailey Hartney OUT",
+                "Context": "",
+                "Id": "124+E949098C",
+                "Type": "SUBS",
+                "Action": "SUBS",
+                "Period": 1,
+                "ClockSeconds": 6,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tavin",
+                    "LastName": "Headings",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "22 Tavin Headings FT GOOD (4 Pt)",
+                "Context": "",
+                "Id": "123+F693E7CD",
+                "Type": "FT",
+                "Action": "GOOD",
+                "Period": 1,
+                "ClockSeconds": 6,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 16,
+                    "VisitingTeam": 12
+                }
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tavin",
+                    "LastName": "Headings",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "22 Tavin Headings FT GOOD (3 Pt)",
+                "Context": "",
+                "Id": "122+DD3CFB00",
+                "Type": "FT",
+                "Action": "GOOD",
+                "Period": 1,
+                "ClockSeconds": 6,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 15,
+                    "VisitingTeam": 12
+                }
+            }
+        ]
+    },
+    "Leaders": {
+        "VisitingTeam": {
+            "Points": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "13"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "13"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Liana",
+                        "LastName": "Tanaka",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "10"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Ashley",
+                        "LastName": "Jones",
+                        "UniformNumber": "31",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "7"
+                }
+            ],
+            "Rebounds": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "7"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Megan",
+                        "LastName": "Wesel",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "5"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Liana",
+                        "LastName": "Tanaka",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                }
+            ],
+            "Assists": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Ashley",
+                        "LastName": "Jones",
+                        "UniformNumber": "31",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Liana",
+                        "LastName": "Tanaka",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                }
+            ],
+            "Blocks": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Alexa",
+                        "LastName": "Hinkley",
+                        "UniformNumber": "05",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Shelby",
+                        "LastName": "Holman",
+                        "UniformNumber": "14",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Naomi",
+                        "LastName": "Johnson",
+                        "UniformNumber": "34",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                }
+            ],
+            "Steals": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Alexa",
+                        "LastName": "Hinkley",
+                        "UniformNumber": "05",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Megan",
+                        "LastName": "Wesel",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                }
+            ],
+            "Personal Fouls": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Alexa",
+                        "LastName": "Hinkley",
+                        "UniformNumber": "05",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Megan",
+                        "LastName": "Huynh",
+                        "UniformNumber": "03",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                }
+            ],
+            "Efficiency": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "15.0"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Ashley",
+                        "LastName": "Jones",
+                        "UniformNumber": "31",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "13.0"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Megan",
+                        "LastName": "Wesel",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "7.0"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "6.0"
+                }
+            ],
+            "Usage Percentage": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Courtney",
+                        "LastName": "Carolan",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "30.57"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Charli",
+                        "LastName": "Elliott",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "24.26"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Liana",
+                        "LastName": "Tanaka",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "21.98"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Alexa",
+                        "LastName": "Hinkley",
+                        "UniformNumber": "05",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "18.57"
+                }
+            ]
+        },
+        "HomeTeam": {
+            "Points": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tavin",
+                        "LastName": "Headings",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "18"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "12"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haylee",
+                        "LastName": "Hutzler",
+                        "UniformNumber": "11",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "9"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haley",
+                        "LastName": "Strowbridge",
+                        "UniformNumber": "25",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "8"
+                }
+            ],
+            "Rebounds": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haylee",
+                        "LastName": "Hutzler",
+                        "UniformNumber": "11",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "6"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haley",
+                        "LastName": "Strowbridge",
+                        "UniformNumber": "25",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "6"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Holder",
+                        "UniformNumber": "43",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                }
+            ],
+            "Assists": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "5"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Matney",
+                        "LastName": "Jamieson",
+                        "UniformNumber": "30",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Kylin",
+                        "LastName": "Collman",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Madison",
+                        "LastName": "Hull",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                }
+            ],
+            "Blocks": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tavin",
+                        "LastName": "Headings",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haley",
+                        "LastName": "Strowbridge",
+                        "UniformNumber": "25",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                }
+            ],
+            "Steals": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Holder",
+                        "UniformNumber": "43",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Kylin",
+                        "LastName": "Collman",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tavin",
+                        "LastName": "Headings",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                }
+            ],
+            "Personal Fouls": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tavin",
+                        "LastName": "Headings",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Hailey",
+                        "LastName": "Hartney",
+                        "UniformNumber": "24",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Kylin",
+                        "LastName": "Collman",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                }
+            ],
+            "Efficiency": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tavin",
+                        "LastName": "Headings",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "18.0"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haley",
+                        "LastName": "Strowbridge",
+                        "UniformNumber": "25",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "12.0"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "11.0"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haylee",
+                        "LastName": "Hutzler",
+                        "UniformNumber": "11",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "10.0"
+                }
+            ],
+            "Usage Percentage": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tavin",
+                        "LastName": "Headings",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "34.34"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Emily",
+                        "LastName": "Spencer",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "29.19"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haley",
+                        "LastName": "Strowbridge",
+                        "UniformNumber": "25",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "20.83"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Haylee",
+                        "LastName": "Hutzler",
+                        "UniformNumber": "11",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "18.86"
+                }
+            ]
+        }
+    },
+    "Stats": {
+        "HomeTeam": {
+            "TopPerformer": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "Players": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tavin",
+                    "LastName": "Headings",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hailey",
+                    "LastName": "Hartney",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haley",
+                    "LastName": "Strowbridge",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haylee",
+                    "LastName": "Hutzler",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Spencer",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Matney",
+                    "LastName": "Jamieson",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kylin",
+                    "LastName": "Collman",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Madison",
+                    "LastName": "Hull",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Cassidy",
+                    "LastName": "Posey",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lillie",
+                    "LastName": "Abrahamson",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kate",
+                    "LastName": "Huguenin",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Aubrey",
+                    "LastName": "Baker",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Daria",
+                    "LastName": "Ruediger",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Rachel",
+                    "LastName": "Parks",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Holder",
+                    "UniformNumber": "43",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "PlayerGroups": {
+                "Players": {
+                    "Title": "Players",
+                    "Key": {
+                        "Uni": "Uni",
+                        "Name": "Name",
+                        "Position": "P",
+                        "CurrentlyInGame": "",
+                        "Minutes": "Min",
+                        "Fgam": "FG",
+                        "ShootingPercentage": "FG%",
+                        "Tpam": "3P",
+                        "Tppercentage": "3P%",
+                        "Ftma": "FT",
+                        "Ftp": "FT%",
+                        "TotalRebounds": "Reb",
+                        "OffensiveRebounds": "OReb",
+                        "DefensiveRebounds": "DReb",
+                        "Assists": "Ast",
+                        "Turnovers": "TO",
+                        "Blocks": "Blk",
+                        "Steals": "Stl",
+                        "PersonalFouls": "PF",
+                        "TechnicalFouls": "TF",
+                        "Efficiency": "EFF",
+                        "UsagePercentage": "USG%",
+                        "PointsPerMinute": "PpM",
+                        "Points": "Pts",
+                        "PersonId": "PersonId"
+                    },
+                    "Descriptions": {
+                        "Uni": "Uniform Number",
+                        "Name": "Name",
+                        "Position": "Position",
+                        "CurrentlyInGame": "Currently in game",
+                        "Minutes": "Minutes",
+                        "Fgam": "Field Goals: Made-Attempted",
+                        "ShootingPercentage": "Field Goal Percentage",
+                        "Tpam": "Three Point: Made-Attempted",
+                        "Tppercentage": "Three Point Percentage",
+                        "Ftma": "Free Throws: Made-Attempted",
+                        "Ftp": "Free Throw Percentage",
+                        "TotalRebounds": "Rebounds",
+                        "OffensiveRebounds": "Offensive Rebounds",
+                        "DefensiveRebounds": "Defensive Rebounds",
+                        "Assists": "Assists",
+                        "Turnovers": "Turnovers",
+                        "Blocks": "Blocks",
+                        "Steals": "Steals",
+                        "PersonalFouls": "Personal Fouls",
+                        "TechnicalFouls": "Technical Fouls",
+                        "Efficiency": "Efficiency: \r\n((Points + Rebounds + Assists + Steals + Blocks) - \r\n((Field Goals Att. - Field Goals Made) + \r\n(Free Throws Att. - Free Throws Made) + Turnovers))",
+                        "UsagePercentage": "Usage Percentage: The percentage of team plays used by a player. \r\n(FGA + (0.44 * FTA) + TO) / POSS",
+                        "PointsPerMinute": "Points per Minute",
+                        "Points": "Points",
+                        "PersonId": "NCAA Person ID"
+                    },
+                    "Values": [
+                        {
+                            "Uni": "02",
+                            "Name": "E. SPENCER",
+                            "Position": "G",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "30",
+                            "Fgam": "5-11",
+                            "ShootingPercentage": "45.5%",
+                            "Tpam": "0-2",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "2-6",
+                            "Ftp": "33.3%",
+                            "TotalRebounds": "3",
+                            "OffensiveRebounds": "1",
+                            "DefensiveRebounds": "2",
+                            "Assists": "5",
+                            "Turnovers": "2",
+                            "Blocks": "0",
+                            "Steals": "3",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "11.0",
+                            "UsagePercentage": "29.19",
+                            "PointsPerMinute": ".400",
+                            "Points": "12",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "04",
+                            "Name": "K. COLLMAN",
+                            "Position": "G",
+                            "CurrentlyInGame": "",
+                            "Minutes": "19",
+                            "Fgam": "0-2",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-2",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "1-4",
+                            "Ftp": "25.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "1",
+                            "Turnovers": "2",
+                            "Blocks": "0",
+                            "Steals": "2",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "-3.0",
+                            "UsagePercentage": "16.97",
+                            "PointsPerMinute": ".053",
+                            "Points": "1",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "11",
+                            "Name": "H. HUTZLER",
+                            "Position": "F",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "26",
+                            "Fgam": "3-7",
+                            "ShootingPercentage": "42.9%",
+                            "Tpam": "1-2",
+                            "Tppercentage": "50.0%",
+                            "Ftma": "2-4",
+                            "Ftp": "50.0%",
+                            "TotalRebounds": "6",
+                            "OffensiveRebounds": "1",
+                            "DefensiveRebounds": "5",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "0",
+                            "Steals": "1",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "10.0",
+                            "UsagePercentage": "18.86",
+                            "PointsPerMinute": ".346",
+                            "Points": "9",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "24",
+                            "Name": "H. HARTNEY",
+                            "Position": "F",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "26",
+                            "Fgam": "0-2",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "3-4",
+                            "Ftp": "75.0%",
+                            "TotalRebounds": "1",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "1",
+                            "Assists": "0",
+                            "Turnovers": "1",
+                            "Blocks": "0",
+                            "Steals": "1",
+                            "PersonalFouls": "3",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "1.0",
+                            "UsagePercentage": "10.25",
+                            "PointsPerMinute": ".115",
+                            "Points": "3",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "43",
+                            "Name": "E. HOLDER",
+                            "Position": "F",
+                            "CurrentlyInGame": "",
+                            "Minutes": "20",
+                            "Fgam": "1-3",
+                            "ShootingPercentage": "33.3%",
+                            "Tpam": "1-1",
+                            "Tppercentage": "100.0%",
+                            "Ftma": "2-2",
+                            "Ftp": "100.0%",
+                            "TotalRebounds": "3",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "3",
+                            "Assists": "0",
+                            "Turnovers": "2",
+                            "Blocks": "0",
+                            "Steals": "3",
+                            "PersonalFouls": "0",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "7.0",
+                            "UsagePercentage": "16.46",
+                            "PointsPerMinute": ".250",
+                            "Points": "5",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "10",
+                            "Name": "M. HULL",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "12",
+                            "Fgam": "0-2",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "1-2",
+                            "Ftp": "50.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "1",
+                            "Turnovers": "0",
+                            "Blocks": "0",
+                            "Steals": "1",
+                            "PersonalFouls": "1",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "0.0",
+                            "UsagePercentage": "13.44",
+                            "PointsPerMinute": ".083",
+                            "Points": "1",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "22",
+                            "Name": "T. HEADINGS",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "21",
+                            "Fgam": "6-9",
+                            "ShootingPercentage": "66.7%",
+                            "Tpam": "4-6",
+                            "Tppercentage": "66.7%",
+                            "Ftma": "2-2",
+                            "Ftp": "100.0%",
+                            "TotalRebounds": "3",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "3",
+                            "Assists": "0",
+                            "Turnovers": "3",
+                            "Blocks": "1",
+                            "Steals": "2",
+                            "PersonalFouls": "4",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "18.0",
+                            "UsagePercentage": "34.34",
+                            "PointsPerMinute": ".857",
+                            "Points": "18",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "23",
+                            "Name": "C. POSEY",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "5",
+                            "Fgam": "0-0",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-0",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "1",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "0.0",
+                            "UsagePercentage": "-",
+                            "PointsPerMinute": "-",
+                            "Points": "0",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "25",
+                            "Name": "H. STROWBRIDGE",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "20",
+                            "Fgam": "3-5",
+                            "ShootingPercentage": "60.0%",
+                            "Tpam": "1-3",
+                            "Tppercentage": "33.3%",
+                            "Ftma": "1-1",
+                            "Ftp": "100.0%",
+                            "TotalRebounds": "6",
+                            "OffensiveRebounds": "1",
+                            "DefensiveRebounds": "5",
+                            "Assists": "1",
+                            "Turnovers": "2",
+                            "Blocks": "1",
+                            "Steals": "0",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "12.0",
+                            "UsagePercentage": "20.83",
+                            "PointsPerMinute": ".400",
+                            "Points": "8",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "30",
+                            "Name": "M. JAMIESON",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "21",
+                            "Fgam": "1-3",
+                            "ShootingPercentage": "33.3%",
+                            "Tpam": "0-0",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-1",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "1",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "1",
+                            "Assists": "2",
+                            "Turnovers": "3",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "-1.0",
+                            "UsagePercentage": "17.17",
+                            "PointsPerMinute": ".095",
+                            "Points": "2",
+                            "PersonId": ""
+                        }
+                    ]
+                }
+            },
+            "Totals": {
+                "Key": {
+                    "Points": "Pts",
+                    "Fgam": "FG",
+                    "ShootingPercentage": "FG%",
+                    "Tpam": "3P",
+                    "Tppercentage": "3P%",
+                    "Ftma": "FT",
+                    "Ftp": "FT%",
+                    "TotalRebounds": "Reb",
+                    "OffensiveRebounds": "OReb",
+                    "DefensiveRebounds": "DReb",
+                    "Ties": "Tie",
+                    "Leads": "Lead",
+                    "TimeWithLead": "Lead",
+                    "PercentLead": "%Lead",
+                    "LastLeadScore": "LLead",
+                    "LastLeadTime": "LLeadT",
+                    "LargestLead": "LrgL",
+                    "LargestLeadScores": "LLS",
+                    "LargestLeadTime": "LLT",
+                    "Assists": "Ast",
+                    "Turnovers": "TO",
+                    "PointsFromBench": "BnP",
+                    "Blocks": "Blk",
+                    "PointsOnCourt": "CtPts",
+                    "PointsOffFastBreak": "FbP",
+                    "Steals": "Stl",
+                    "PointsOffTurnovers": "PoT",
+                    "PointsInPaint": "Paint",
+                    "PointsOffSecondChance": "SCP",
+                    "PersonalFouls": "PF",
+                    "TechnicalFouls": "TF",
+                    "Possession": "Pos",
+                    "AverageScoringPossession": "ST"
+                },
+                "FullKey": {
+                    "Points": "Points",
+                    "Fgam": "Field Goals: Made-Attempted",
+                    "ShootingPercentage": "Field Goal Percentage",
+                    "Tpam": "Three Point: Made-Attempted",
+                    "Tppercentage": "Three Point Percentage",
+                    "Ftma": "Free Throws: Made-Attempted",
+                    "Ftp": "Free Throw Percentage",
+                    "TotalRebounds": "Rebounds",
+                    "OffensiveRebounds": "Offensive Rebounds",
+                    "DefensiveRebounds": "Defensive Rebounds",
+                    "Ties": "Ties",
+                    "Leads": "Lead Changes",
+                    "TimeWithLead": "Time with Lead",
+                    "PercentLead": "Lead % of Game",
+                    "LastLeadScore": "Last Lead",
+                    "LastLeadTime": "Last Lead: Time",
+                    "LargestLead": "Largest Lead",
+                    "LargestLeadScores": "Largest Lead: Score",
+                    "LargestLeadTime": "Largest Lead: Time",
+                    "Assists": "Assists",
+                    "Turnovers": "Turnovers",
+                    "PointsFromBench": "Bench Points",
+                    "Blocks": "Blocks",
+                    "PointsOnCourt": "On Court Points",
+                    "PointsOffFastBreak": "Fastbreak Points",
+                    "Steals": "Steals",
+                    "PointsOffTurnovers": "Points off Turnovers",
+                    "PointsInPaint": "Points in the Paint",
+                    "PointsOffSecondChance": "Second Chance Points",
+                    "PersonalFouls": "Personal Fouls",
+                    "TechnicalFouls": "Technical Fouls",
+                    "Possession": "Possessions",
+                    "AverageScoringPossession": "Avg Scoring Poss Length"
+                },
+                "Values": {
+                    "Points": "59",
+                    "Fgam": "19-44",
+                    "ShootingPercentage": "43.2%",
+                    "Tpam": "7-18",
+                    "Tppercentage": "38.9%",
+                    "Ftma": "14-26",
+                    "Ftp": "53.8%",
+                    "TotalRebounds": "28",
+                    "OffensiveRebounds": "4",
+                    "DefensiveRebounds": "24",
+                    "Ties": "0",
+                    "Leads": "0",
+                    "TimeWithLead": "39:31",
+                    "PercentLead": "98.8%",
+                    "LastLeadScore": "",
+                    "LastLeadTime": "",
+                    "LargestLead": "6",
+                    "LargestLeadScores": "14-8",
+                    "LargestLeadTime": "2:58 (1st)",
+                    "Assists": "10",
+                    "Turnovers": "16",
+                    "PointsFromBench": "6",
+                    "Blocks": "2",
+                    "PointsOnCourt": "50",
+                    "PointsOffFastBreak": "6",
+                    "Steals": "13",
+                    "PointsOffTurnovers": "4",
+                    "PointsInPaint": "10",
+                    "PointsOffSecondChance": "0",
+                    "PersonalFouls": "19",
+                    "TechnicalFouls": "0",
+                    "Possession": "19",
+                    "AverageScoringPossession": "0:11"
+                }
+            },
+            "PeriodStats": [
+                {
+                    "Key": {
+                        "Points": "Pts",
+                        "Fgam": "FG",
+                        "ShootingPercentage": "FG%",
+                        "Tpam": "3P",
+                        "Tppercentage": "3P%",
+                        "Ftma": "FT",
+                        "Ftp": "FT%",
+                        "TotalRebounds": "Reb",
+                        "OffensiveRebounds": "OReb",
+                        "DefensiveRebounds": "DReb",
+                        "Ties": "Tie",
+                        "Leads": "Lead",
+                        "TimeWithLead": "Lead",
+                        "PercentLead": "%Lead",
+                        "LastLeadScore": "LLead",
+                        "LastLeadTime": "LLeadT",
+                        "LargestLead": "LrgL",
+                        "LargestLeadScores": "LLS",
+                        "LargestLeadTime": "LLT",
+                        "Assists": "Ast",
+                        "Turnovers": "TO",
+                        "PointsFromBench": "BnP",
+                        "Blocks": "Blk",
+                        "PointsOnCourt": "CtPts",
+                        "PointsOffFastBreak": "FbP",
+                        "Steals": "Stl",
+                        "PointsOffTurnovers": "PoT",
+                        "PointsInPaint": "Paint",
+                        "PointsOffSecondChance": "SCP",
+                        "PersonalFouls": "PF",
+                        "TechnicalFouls": "TF",
+                        "Possession": "Pos",
+                        "AverageScoringPossession": "ST"
+                    },
+                    "FullKey": {
+                        "Points": "Points",
+                        "Fgam": "Field Goals: Made-Attempted",
+                        "ShootingPercentage": "Field Goal Percentage",
+                        "Tpam": "Three Point: Made-Attempted",
+                        "Tppercentage": "Three Point Percentage",
+                        "Ftma": "Free Throws: Made-Attempted",
+                        "Ftp": "Free Throw Percentage",
+                        "TotalRebounds": "Rebounds",
+                        "OffensiveRebounds": "Offensive Rebounds",
+                        "DefensiveRebounds": "Defensive Rebounds",
+                        "Ties": "Ties",
+                        "Leads": "Lead Changes",
+                        "TimeWithLead": "Time with Lead",
+                        "PercentLead": "Lead % of Game",
+                        "LastLeadScore": "Last Lead",
+                        "LastLeadTime": "Last Lead: Time",
+                        "LargestLead": "Largest Lead",
+                        "LargestLeadScores": "Largest Lead: Score",
+                        "LargestLeadTime": "Largest Lead: Time",
+                        "Assists": "Assists",
+                        "Turnovers": "Turnovers",
+                        "PointsFromBench": "Bench Points",
+                        "Blocks": "Blocks",
+                        "PointsOnCourt": "On Court Points",
+                        "PointsOffFastBreak": "Fastbreak Points",
+                        "Steals": "Steals",
+                        "PointsOffTurnovers": "Points off Turnovers",
+                        "PointsInPaint": "Points in the Paint",
+                        "PointsOffSecondChance": "Second Chance Points",
+                        "PersonalFouls": "Personal Fouls",
+                        "TechnicalFouls": "Technical Fouls",
+                        "Possession": "Possessions",
+                        "AverageScoringPossession": "Avg Scoring Poss Length"
+                    },
+                    "Values": {
+                        "Points": "16",
+                        "Fgam": "6-10",
+                        "ShootingPercentage": "60.0%",
+                        "Tpam": "1-2",
+                        "Tppercentage": "50.0%",
+                        "Ftma": "3-6",
+                        "Ftp": "50.0%",
+                        "TotalRebounds": "8",
+                        "OffensiveRebounds": "0",
+                        "DefensiveRebounds": "8",
+                        "Ties": "0",
+                        "Leads": "0",
+                        "TimeWithLead": "9:31",
+                        "PercentLead": "23.8%",
+                        "LastLeadScore": "",
+                        "LastLeadTime": "",
+                        "LargestLead": "6",
+                        "LargestLeadScores": "14-8",
+                        "LargestLeadTime": "2:58 (1st)",
+                        "Assists": "4",
+                        "Turnovers": "5",
+                        "PointsFromBench": "6",
+                        "Blocks": "2",
+                        "PointsOnCourt": "50",
+                        "PointsOffFastBreak": "6",
+                        "Steals": "3",
+                        "PointsOffTurnovers": "4",
+                        "PointsInPaint": "10",
+                        "PointsOffSecondChance": "0",
+                        "PersonalFouls": "4",
+                        "TechnicalFouls": "0",
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:11"
+                    }
+                }
+            ]
+        },
+        "VisitingTeam": {
+            "TopPerformer": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "Players": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Hinkley",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Courtney",
+                    "LastName": "Carolan",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Charli",
+                    "LastName": "Elliott",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Megan",
+                    "LastName": "Huynh",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Candice",
+                    "LastName": "Nkoy",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Jones",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Megan",
+                    "LastName": "Wesel",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Shelby",
+                    "LastName": "Holman",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Liana",
+                    "LastName": "Tanaka",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Naomi",
+                    "LastName": "Johnson",
+                    "UniformNumber": "34",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jenee",
+                    "LastName": "Brown",
+                    "UniformNumber": "32",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Cameron",
+                    "LastName": "Hanson",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alissa",
+                    "LastName": "Cole",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "PlayerGroups": {
+                "Players": {
+                    "Title": "Players",
+                    "Key": {
+                        "Uni": "Uni",
+                        "Name": "Name",
+                        "Position": "P",
+                        "CurrentlyInGame": "",
+                        "Minutes": "Min",
+                        "Fgam": "FG",
+                        "ShootingPercentage": "FG%",
+                        "Tpam": "3P",
+                        "Tppercentage": "3P%",
+                        "Ftma": "FT",
+                        "Ftp": "FT%",
+                        "TotalRebounds": "Reb",
+                        "OffensiveRebounds": "OReb",
+                        "DefensiveRebounds": "DReb",
+                        "Assists": "Ast",
+                        "Turnovers": "TO",
+                        "Blocks": "Blk",
+                        "Steals": "Stl",
+                        "PersonalFouls": "PF",
+                        "TechnicalFouls": "TF",
+                        "Efficiency": "EFF",
+                        "UsagePercentage": "USG%",
+                        "PointsPerMinute": "PpM",
+                        "Points": "Pts",
+                        "PersonId": "PersonId"
+                    },
+                    "Descriptions": {
+                        "Uni": "Uniform Number",
+                        "Name": "Name",
+                        "Position": "Position",
+                        "CurrentlyInGame": "Currently in game",
+                        "Minutes": "Minutes",
+                        "Fgam": "Field Goals: Made-Attempted",
+                        "ShootingPercentage": "Field Goal Percentage",
+                        "Tpam": "Three Point: Made-Attempted",
+                        "Tppercentage": "Three Point Percentage",
+                        "Ftma": "Free Throws: Made-Attempted",
+                        "Ftp": "Free Throw Percentage",
+                        "TotalRebounds": "Rebounds",
+                        "OffensiveRebounds": "Offensive Rebounds",
+                        "DefensiveRebounds": "Defensive Rebounds",
+                        "Assists": "Assists",
+                        "Turnovers": "Turnovers",
+                        "Blocks": "Blocks",
+                        "Steals": "Steals",
+                        "PersonalFouls": "Personal Fouls",
+                        "TechnicalFouls": "Technical Fouls",
+                        "Efficiency": "Efficiency: \r\n((Points + Rebounds + Assists + Steals + Blocks) - \r\n((Field Goals Att. - Field Goals Made) + \r\n(Free Throws Att. - Free Throws Made) + Turnovers))",
+                        "UsagePercentage": "Usage Percentage: The percentage of team plays used by a player. \r\n(FGA + (0.44 * FTA) + TO) / POSS",
+                        "PointsPerMinute": "Points per Minute",
+                        "Points": "Points",
+                        "PersonId": "NCAA Person ID"
+                    },
+                    "Values": [
+                        {
+                            "Uni": "02",
+                            "Name": "L. TANAKA",
+                            "Position": "G",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "38",
+                            "Fgam": "4-10",
+                            "ShootingPercentage": "40.0%",
+                            "Tpam": "1-3",
+                            "Tppercentage": "33.3%",
+                            "Ftma": "1-2",
+                            "Ftp": "50.0%",
+                            "TotalRebounds": "4",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "4",
+                            "Assists": "2",
+                            "Turnovers": "5",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "1",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "4.0",
+                            "UsagePercentage": "21.98",
+                            "PointsPerMinute": ".263",
+                            "Points": "10",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "03",
+                            "Name": "M. HUYNH",
+                            "Position": "G",
+                            "CurrentlyInGame": "",
+                            "Minutes": "24",
+                            "Fgam": "0-2",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "1",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "1",
+                            "Assists": "0",
+                            "Turnovers": "2",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "3",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "-3.0",
+                            "UsagePercentage": "8.77",
+                            "PointsPerMinute": ".000",
+                            "Points": "0",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "05",
+                            "Name": "A. HINKLEY",
+                            "Position": "F",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "17",
+                            "Fgam": "2-6",
+                            "ShootingPercentage": "33.3%",
+                            "Tpam": "1-4",
+                            "Tppercentage": "25.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "2",
+                            "Steals": "1",
+                            "PersonalFouls": "4",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "4.0",
+                            "UsagePercentage": "18.57",
+                            "PointsPerMinute": ".294",
+                            "Points": "5",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "10",
+                            "Name": "C. ELLIOTT",
+                            "Position": "F",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "32",
+                            "Fgam": "5-11",
+                            "ShootingPercentage": "45.5%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "3-4",
+                            "Ftp": "75.0%",
+                            "TotalRebounds": "7",
+                            "OffensiveRebounds": "3",
+                            "DefensiveRebounds": "4",
+                            "Assists": "2",
+                            "Turnovers": "2",
+                            "Blocks": "0",
+                            "Steals": "2",
+                            "PersonalFouls": "3",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "15.0",
+                            "UsagePercentage": "24.26",
+                            "PointsPerMinute": ".406",
+                            "Points": "13",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "21",
+                            "Name": "C. CAROLAN",
+                            "Position": "G",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "34",
+                            "Fgam": "4-11",
+                            "ShootingPercentage": "36.4%",
+                            "Tpam": "1-4",
+                            "Tppercentage": "25.0%",
+                            "Ftma": "4-4",
+                            "Ftp": "100.0%",
+                            "TotalRebounds": "4",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "4",
+                            "Assists": "1",
+                            "Turnovers": "7",
+                            "Blocks": "0",
+                            "Steals": "2",
+                            "PersonalFouls": "3",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "6.0",
+                            "UsagePercentage": "30.57",
+                            "PointsPerMinute": ".382",
+                            "Points": "13",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "11",
+                            "Name": "C. NKOY",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "2",
+                            "Fgam": "0-0",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-0",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "0.0",
+                            "UsagePercentage": "-",
+                            "PointsPerMinute": "-",
+                            "Points": "0",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "14",
+                            "Name": "S. HOLMAN",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "11",
+                            "Fgam": "1-1",
+                            "ShootingPercentage": "100.0%",
+                            "Tpam": "0-0",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "2",
+                            "OffensiveRebounds": "1",
+                            "DefensiveRebounds": "1",
+                            "Assists": "0",
+                            "Turnovers": "1",
+                            "Blocks": "1",
+                            "Steals": "0",
+                            "PersonalFouls": "1",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "4.0",
+                            "UsagePercentage": "9.56",
+                            "PointsPerMinute": ".182",
+                            "Points": "2",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "23",
+                            "Name": "M. WESEL",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "15",
+                            "Fgam": "2-5",
+                            "ShootingPercentage": "40.0%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "5",
+                            "OffensiveRebounds": "2",
+                            "DefensiveRebounds": "3",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "0",
+                            "Steals": "1",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "7.0",
+                            "UsagePercentage": "17.53",
+                            "PointsPerMinute": ".267",
+                            "Points": "4",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "31",
+                            "Name": "A. JONES",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "24",
+                            "Fgam": "1-3",
+                            "ShootingPercentage": "33.3%",
+                            "Tpam": "1-3",
+                            "Tppercentage": "33.3%",
+                            "Ftma": "4-4",
+                            "Ftp": "100.0%",
+                            "TotalRebounds": "4",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "4",
+                            "Assists": "4",
+                            "Turnovers": "1",
+                            "Blocks": "0",
+                            "Steals": "1",
+                            "PersonalFouls": "2",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "13.0",
+                            "UsagePercentage": "12.62",
+                            "PointsPerMinute": ".292",
+                            "Points": "7",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "34",
+                            "Name": "N. JOHNSON",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "3",
+                            "Fgam": "0-1",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-2",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "1",
+                            "Steals": "0",
+                            "PersonalFouls": "0",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "-2.0",
+                            "UsagePercentage": "-",
+                            "PointsPerMinute": "-",
+                            "Points": "0",
+                            "PersonId": ""
+                        }
+                    ]
+                }
+            },
+            "Totals": {
+                "Key": {
+                    "Points": "Pts",
+                    "Fgam": "FG",
+                    "ShootingPercentage": "FG%",
+                    "Tpam": "3P",
+                    "Tppercentage": "3P%",
+                    "Ftma": "FT",
+                    "Ftp": "FT%",
+                    "TotalRebounds": "Reb",
+                    "OffensiveRebounds": "OReb",
+                    "DefensiveRebounds": "DReb",
+                    "Ties": "Tie",
+                    "Leads": "Lead",
+                    "TimeWithLead": "Lead",
+                    "PercentLead": "%Lead",
+                    "LastLeadScore": "LLead",
+                    "LastLeadTime": "LLeadT",
+                    "LargestLead": "LrgL",
+                    "LargestLeadScores": "LLS",
+                    "LargestLeadTime": "LLT",
+                    "Assists": "Ast",
+                    "Turnovers": "TO",
+                    "PointsFromBench": "BnP",
+                    "Blocks": "Blk",
+                    "PointsOnCourt": "CtPts",
+                    "PointsOffFastBreak": "FbP",
+                    "Steals": "Stl",
+                    "PointsOffTurnovers": "PoT",
+                    "PointsInPaint": "Paint",
+                    "PointsOffSecondChance": "SCP",
+                    "PersonalFouls": "PF",
+                    "TechnicalFouls": "TF",
+                    "Possession": "Pos",
+                    "AverageScoringPossession": "ST"
+                },
+                "FullKey": {
+                    "Points": "Points",
+                    "Fgam": "Field Goals: Made-Attempted",
+                    "ShootingPercentage": "Field Goal Percentage",
+                    "Tpam": "Three Point: Made-Attempted",
+                    "Tppercentage": "Three Point Percentage",
+                    "Ftma": "Free Throws: Made-Attempted",
+                    "Ftp": "Free Throw Percentage",
+                    "TotalRebounds": "Rebounds",
+                    "OffensiveRebounds": "Offensive Rebounds",
+                    "DefensiveRebounds": "Defensive Rebounds",
+                    "Ties": "Ties",
+                    "Leads": "Lead Changes",
+                    "TimeWithLead": "Time with Lead",
+                    "PercentLead": "Lead % of Game",
+                    "LastLeadScore": "Last Lead",
+                    "LastLeadTime": "Last Lead: Time",
+                    "LargestLead": "Largest Lead",
+                    "LargestLeadScores": "Largest Lead: Score",
+                    "LargestLeadTime": "Largest Lead: Time",
+                    "Assists": "Assists",
+                    "Turnovers": "Turnovers",
+                    "PointsFromBench": "Bench Points",
+                    "Blocks": "Blocks",
+                    "PointsOnCourt": "On Court Points",
+                    "PointsOffFastBreak": "Fastbreak Points",
+                    "Steals": "Steals",
+                    "PointsOffTurnovers": "Points off Turnovers",
+                    "PointsInPaint": "Points in the Paint",
+                    "PointsOffSecondChance": "Second Chance Points",
+                    "PersonalFouls": "Personal Fouls",
+                    "TechnicalFouls": "Technical Fouls",
+                    "Possession": "Possessions",
+                    "AverageScoringPossession": "Avg Scoring Poss Length"
+                },
+                "Values": {
+                    "Points": "54",
+                    "Fgam": "19-50",
+                    "ShootingPercentage": "38.0%",
+                    "Tpam": "4-18",
+                    "Tppercentage": "22.2%",
+                    "Ftma": "12-16",
+                    "Ftp": "75.0%",
+                    "TotalRebounds": "34",
+                    "OffensiveRebounds": "9",
+                    "DefensiveRebounds": "25",
+                    "Ties": "1",
+                    "Leads": "0",
+                    "TimeWithLead": "0:00",
+                    "PercentLead": "0.0%",
+                    "LastLeadScore": "-",
+                    "LastLeadTime": "-",
+                    "LargestLead": "0",
+                    "LargestLeadScores": "-",
+                    "LargestLeadTime": "-",
+                    "Assists": "9",
+                    "Turnovers": "19",
+                    "PointsFromBench": "0",
+                    "Blocks": "4",
+                    "PointsOnCourt": "48",
+                    "PointsOffFastBreak": "0",
+                    "Steals": "7",
+                    "PointsOffTurnovers": "2",
+                    "PointsInPaint": "4",
+                    "PointsOffSecondChance": "2",
+                    "PersonalFouls": "21",
+                    "TechnicalFouls": "0",
+                    "Possession": "19",
+                    "AverageScoringPossession": "0:29"
+                }
+            },
+            "PeriodStats": [
+                {
+                    "Key": {
+                        "Points": "Pts",
+                        "Fgam": "FG",
+                        "ShootingPercentage": "FG%",
+                        "Tpam": "3P",
+                        "Tppercentage": "3P%",
+                        "Ftma": "FT",
+                        "Ftp": "FT%",
+                        "TotalRebounds": "Reb",
+                        "OffensiveRebounds": "OReb",
+                        "DefensiveRebounds": "DReb",
+                        "Ties": "Tie",
+                        "Leads": "Lead",
+                        "TimeWithLead": "Lead",
+                        "PercentLead": "%Lead",
+                        "LastLeadScore": "LLead",
+                        "LastLeadTime": "LLeadT",
+                        "LargestLead": "LrgL",
+                        "LargestLeadScores": "LLS",
+                        "LargestLeadTime": "LLT",
+                        "Assists": "Ast",
+                        "Turnovers": "TO",
+                        "PointsFromBench": "BnP",
+                        "Blocks": "Blk",
+                        "PointsOnCourt": "CtPts",
+                        "PointsOffFastBreak": "FbP",
+                        "Steals": "Stl",
+                        "PointsOffTurnovers": "PoT",
+                        "PointsInPaint": "Paint",
+                        "PointsOffSecondChance": "SCP",
+                        "PersonalFouls": "PF",
+                        "TechnicalFouls": "TF",
+                        "Possession": "Pos",
+                        "AverageScoringPossession": "ST"
+                    },
+                    "FullKey": {
+                        "Points": "Points",
+                        "Fgam": "Field Goals: Made-Attempted",
+                        "ShootingPercentage": "Field Goal Percentage",
+                        "Tpam": "Three Point: Made-Attempted",
+                        "Tppercentage": "Three Point Percentage",
+                        "Ftma": "Free Throws: Made-Attempted",
+                        "Ftp": "Free Throw Percentage",
+                        "TotalRebounds": "Rebounds",
+                        "OffensiveRebounds": "Offensive Rebounds",
+                        "DefensiveRebounds": "Defensive Rebounds",
+                        "Ties": "Ties",
+                        "Leads": "Lead Changes",
+                        "TimeWithLead": "Time with Lead",
+                        "PercentLead": "Lead % of Game",
+                        "LastLeadScore": "Last Lead",
+                        "LastLeadTime": "Last Lead: Time",
+                        "LargestLead": "Largest Lead",
+                        "LargestLeadScores": "Largest Lead: Score",
+                        "LargestLeadTime": "Largest Lead: Time",
+                        "Assists": "Assists",
+                        "Turnovers": "Turnovers",
+                        "PointsFromBench": "Bench Points",
+                        "Blocks": "Blocks",
+                        "PointsOnCourt": "On Court Points",
+                        "PointsOffFastBreak": "Fastbreak Points",
+                        "Steals": "Steals",
+                        "PointsOffTurnovers": "Points off Turnovers",
+                        "PointsInPaint": "Points in the Paint",
+                        "PointsOffSecondChance": "Second Chance Points",
+                        "PersonalFouls": "Personal Fouls",
+                        "TechnicalFouls": "Technical Fouls",
+                        "Possession": "Possessions",
+                        "AverageScoringPossession": "Avg Scoring Poss Length"
+                    },
+                    "Values": {
+                        "Points": "12",
+                        "Fgam": "4-16",
+                        "ShootingPercentage": "25.0%",
+                        "Tpam": "2-7",
+                        "Tppercentage": "28.6%",
+                        "Ftma": "2-2",
+                        "Ftp": "100.0%",
+                        "TotalRebounds": "9",
+                        "OffensiveRebounds": "4",
+                        "DefensiveRebounds": "5",
+                        "Ties": "1",
+                        "Leads": "0",
+                        "TimeWithLead": "0:00",
+                        "PercentLead": "0.0%",
+                        "LastLeadScore": "-",
+                        "LastLeadTime": "-",
+                        "LargestLead": "0",
+                        "LargestLeadScores": "-",
+                        "LargestLeadTime": "-",
+                        "Assists": "2",
+                        "Turnovers": "5",
+                        "PointsFromBench": "0",
+                        "Blocks": "2",
+                        "PointsOnCourt": "48",
+                        "PointsOffFastBreak": "0",
+                        "Steals": "3",
+                        "PointsOffTurnovers": "2",
+                        "PointsInPaint": "4",
+                        "PointsOffSecondChance": "2",
+                        "PersonalFouls": "4",
+                        "TechnicalFouls": "0",
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:29"
+                    }
+                }
+            ]
+        }
+    },
+    "SeasonStats": {
+        "HomeTeam": null,
+        "VisitingTeam": null
+    },
+    "Plays": [
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Holder",
+                "UniformNumber": "43",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Spencer",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "43 Emily Holder 3PTR GOOD (3 Pt); 02 Emily Spencer Assist (1 Asst)",
+            "Context": "",
+            "Id": "0+ED04050C",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 586,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 3,
+                "VisitingTeam": 0
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott LAYUP GOOD (2 Pt)",
+            "Context": "",
+            "Id": "2+2F8A6DC6",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 560,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 3,
+                "VisitingTeam": 2
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Holder",
+                "UniformNumber": "43",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "43 Emily Holder TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "3+DDCBD774",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 535,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Courtney",
+                "LastName": "Carolan",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Courtney Carolan TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "4+FDEA0BA0",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 526,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haylee",
+                "LastName": "Hutzler",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Haylee Hutzler JUMPER MISS",
+            "Context": "",
+            "Id": "5+F8B25C48",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 521,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Pacific (Ore.) REBOUND",
+            "Context": "",
+            "Id": "6+4FEE69EB",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 521,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haylee",
+                "LastName": "Hutzler",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Haylee Hutzler FOUL (1 PF)",
+            "Context": "",
+            "Id": "7+88E04EDE",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 521,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Liana",
+                "LastName": "Tanaka",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Liana Tanaka TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "8+A5E8E372",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 511,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer STEAL (1 Stl)",
+            "Context": "",
+            "Id": "9+74B14253",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 1,
+            "ClockSeconds": 511,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haylee",
+                "LastName": "Hutzler",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Spencer",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Haylee Hutzler LAYUP GOOD (2 Pt); 02 Emily Spencer Assist (2 Asst)",
+            "Context": "",
+            "Id": "10+F87C8440",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 508,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 5,
+                "VisitingTeam": 2
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Alexa",
+                "LastName": "Hinkley",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Alexa Hinkley 3PTR MISS",
+            "Context": "",
+            "Id": "12+33111983",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 489,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Holder",
+                "UniformNumber": "43",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "43 Emily Holder DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "13+D9381415",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 489,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer LAYUP GOOD (2 Pt)",
+            "Context": "",
+            "Id": "14+F454B2C1",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 478,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 7,
+                "VisitingTeam": 2
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Courtney",
+                "LastName": "Carolan",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Charli",
+                    "LastName": "Elliott",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Courtney Carolan 3PTR GOOD (3 Pt); 10 Charli Elliott Assist (1 Asst)",
+            "Context": "",
+            "Id": "15+C6DCE255",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 453,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 7,
+                "VisitingTeam": 5
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott FOUL (1 PF)",
+            "Context": "",
+            "Id": "17+26B5576D",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer FT MISS",
+            "Context": "",
+            "Id": "18+BB3C9890",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "George Fox REBOUND",
+            "Context": "",
+            "Id": "19+82926E9F",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer FT GOOD (3 Pt)",
+            "Context": "",
+            "Id": "20+40A73AC9",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 8,
+                "VisitingTeam": 5
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hailey",
+                    "LastName": "Hartney",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge IN; 24 Hailey Hartney OUT",
+            "Context": "",
+            "Id": "21+2640CA79",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Liana",
+                "LastName": "Tanaka",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haley",
+                    "LastName": "Strowbridge",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Liana Tanaka LAYUP MISS; 25 Haley Strowbridge BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "23+DA3403D5",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 404,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Pacific (Ore.) REBOUND",
+            "Context": "",
+            "Id": "25+6E0694F5",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 404,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Matney",
+                "LastName": "Jamieson",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Cassidy",
+                    "LastName": "Posey",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tavin",
+                    "LastName": "Headings",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Madison",
+                    "LastName": "Hull",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haylee",
+                    "LastName": "Hutzler",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Spencer",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kylin",
+                    "LastName": "Collman",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Holder",
+                    "UniformNumber": "43",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "30 Matney Jamieson IN; 23 Cassidy Posey IN; 22 Tavin Headings IN; 10 Madison Hull IN; 11 Haylee Hutzler OUT; 02 Emily Spencer OUT; 04 Kylin Collman OUT; 43 Emily Holder OUT",
+            "Context": "",
+            "Id": "26+514FE43",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 404,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Courtney",
+                "LastName": "Carolan",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Courtney Carolan LAYUP MISS",
+            "Context": "",
+            "Id": "34+B6960C72",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 398,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "35+6C7946E9",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 398,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Matney",
+                "LastName": "Jamieson",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "30 Matney Jamieson TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "36+9E39C612",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 390,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott STEAL (1 Stl)",
+            "Context": "",
+            "Id": "37+2BADD4B1",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 1,
+            "ClockSeconds": 390,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ashley",
+                "LastName": "Jones",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Megan",
+                    "LastName": "Huynh",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "31 Ashley Jones IN; 03 Megan Huynh OUT",
+            "Context": "",
+            "Id": "38+E26A0D3F",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 390,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Alexa",
+                "LastName": "Hinkley",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Alexa Hinkley 3PTR MISS",
+            "Context": "",
+            "Id": "40+8BD2176B",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 365,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "George Fox REBOUND",
+            "Context": "",
+            "Id": "41+92DFC0FE",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 365,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Alexa",
+                "LastName": "Hinkley",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Alexa Hinkley FOUL (1 PF)",
+            "Context": "",
+            "Id": "42+E7A926C0",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 336,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Hinkley",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings LAYUP MISS; 05 Alexa Hinkley BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "43+DB28FD9A",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 332,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Courtney",
+                "LastName": "Carolan",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Courtney Carolan DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "45+FA49B308",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 332,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Liana",
+                "LastName": "Tanaka",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Jones",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Liana Tanaka 3PTR GOOD (3 Pt); 31 Ashley Jones Assist (1 Asst)",
+            "Context": "",
+            "Id": "46+2EA1418F",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 315,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 8,
+                "VisitingTeam": 8
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haley",
+                    "LastName": "Strowbridge",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings LAYUP GOOD (2 Pt); 25 Haley Strowbridge Assist (1 Asst)",
+            "Context": "",
+            "Id": "48+2D3C25B1",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 300,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 10,
+                "VisitingTeam": 8
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott JUMPER MISS",
+            "Context": "",
+            "Id": "50+477B12AB",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 289,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haylee",
+                "LastName": "Hutzler",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Haylee Hutzler DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "51+ADFD20CB",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 289,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Madison",
+                    "LastName": "Hull",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge LAYUP GOOD (2 Pt); 10 Madison Hull Assist (1 Asst)",
+            "Context": "",
+            "Id": "52+319BA155",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 282,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 12,
+                "VisitingTeam": 8
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Courtney",
+                "LastName": "Carolan",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Courtney Carolan 3PTR MISS",
+            "Context": "",
+            "Id": "54+569BF6AD",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 252,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "55+D235895D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 252,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "56+5531245C",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 249,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Alexa",
+                "LastName": "Hinkley",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Alexa Hinkley STEAL (1 Stl)",
+            "Context": "",
+            "Id": "57+6D9644CD",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 1,
+            "ClockSeconds": 247,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "58+EB34C77",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 241,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings STEAL (1 Stl)",
+            "Context": "",
+            "Id": "59+C2C69500",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 1,
+            "ClockSeconds": 241,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "60+10EB9977",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 237,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haylee",
+                    "LastName": "Hutzler",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Cassidy",
+                    "LastName": "Posey",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Madison",
+                    "LastName": "Hull",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer IN; 11 Haylee Hutzler IN; 23 Cassidy Posey OUT; 10 Madison Hull OUT",
+            "Context": "",
+            "Id": "61+E405CA91",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 237,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Courtney",
+                "LastName": "Carolan",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Courtney Carolan 3PTR MISS",
+            "Context": "",
+            "Id": "65+93561DF5",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 215,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "66+C47EDFF1",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 215,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Matney",
+                "LastName": "Jamieson",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Hinkley",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "30 Matney Jamieson LAYUP MISS; 05 Alexa Hinkley BLOCK (2 Blk)",
+            "Context": "",
+            "Id": "67+9314BFD4",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 195,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ashley",
+                "LastName": "Jones",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "31 Ashley Jones DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "69+28595177",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 195,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Liana",
+                "LastName": "Tanaka",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Liana Tanaka LAYUP MISS",
+            "Context": "",
+            "Id": "70+F3872C07",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 184,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "71+65F28C6A",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 184,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer LAYUP GOOD (5 Pt)",
+            "Context": "",
+            "Id": "72+CBC3330B",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 178,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 14,
+                "VisitingTeam": 8
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott LAYUP MISS",
+            "Context": "",
+            "Id": "73+9B960977",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 171,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "74+29FF5608",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 171,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Spencer",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Emily Spencer TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "75+B87A50A9",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 152,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott STEAL (2 Stl)",
+            "Context": "",
+            "Id": "76+8A45DE6A",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 1,
+            "ClockSeconds": 152,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haylee",
+                "LastName": "Hutzler",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Haylee Hutzler FOUL (2 PF)",
+            "Context": "",
+            "Id": "77+B584FD66",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 152,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Megan",
+                "LastName": "Wesel",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Megan",
+                    "LastName": "Huynh",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Candice",
+                    "LastName": "Nkoy",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Hinkley",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Courtney",
+                    "LastName": "Carolan",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Jones",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Megan Wesel IN; 03 Megan Huynh IN; 11 Candice Nkoy IN; 05 Alexa Hinkley OUT; 21 Courtney Carolan OUT; 31 Ashley Jones OUT",
+            "Context": "",
+            "Id": "78+62E00916",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 152,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Holder",
+                "UniformNumber": "43",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hailey",
+                    "LastName": "Hartney",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kylin",
+                    "LastName": "Collman",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Madison",
+                    "LastName": "Hull",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haley",
+                    "LastName": "Strowbridge",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Matney",
+                    "LastName": "Jamieson",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tavin",
+                    "LastName": "Headings",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Haylee",
+                    "LastName": "Hutzler",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "43 Emily Holder IN; 24 Hailey Hartney IN; 04 Kylin Collman IN; 10 Madison Hull IN; 25 Haley Strowbridge OUT; 30 Matney Jamieson OUT; 22 Tavin Headings OUT; 11 Haylee Hutzler OUT",
+            "Context": "",
+            "Id": "84+4330C335",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 152,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Megan",
+                "LastName": "Wesel",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Megan Wesel JUMPER MISS",
+            "Context": "",
+            "Id": "92+F8C3D047",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 131,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Pacific (Ore.) REBOUND",
+            "Context": "",
+            "Id": "93+4B5EA516",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 131,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Hailey",
+                "LastName": "Hartney",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Hailey Hartney FOUL (1 PF)",
+            "Context": "",
+            "Id": "94+D8AB8E02",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 131,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Liana",
+                "LastName": "Tanaka",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Liana Tanaka 3PTR MISS",
+            "Context": "",
+            "Id": "95+BA65523B",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 117,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Megan",
+                "LastName": "Wesel",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Megan Wesel OFF. REBOUND (1 Reb, 1 Off)",
+            "Context": "",
+            "Id": "96+DCCF84EE",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 117,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott LAYUP GOOD (4 Pt)",
+            "Context": "",
+            "Id": "97+DF016F9E",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 93,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 14,
+                "VisitingTeam": 10
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "George Fox TIMEOUT Full (1st TO, 1st Full)",
+            "Context": "",
+            "Id": "98+43DC151",
+            "Type": "TEAM",
+            "Action": "TIMEOUT",
+            "Period": 1,
+            "ClockSeconds": 92,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Shelby",
+                "LastName": "Holman",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Candice",
+                    "LastName": "Nkoy",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Shelby Holman IN; 11 Candice Nkoy OUT",
+            "Context": "",
+            "Id": "99+4C7A6F7F",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 92,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Shelby",
+                "LastName": "Holman",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Shelby Holman FOUL (1 PF)",
+            "Context": "",
+            "Id": "101+EC173DCD",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kylin",
+                "LastName": "Collman",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Kylin Collman FT MISS",
+            "Context": "",
+            "Id": "102+53E69ADA",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "George Fox REBOUND",
+            "Context": "",
+            "Id": "103+AA61C9E5",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kylin",
+                "LastName": "Collman",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Kylin Collman FT MISS",
+            "Context": "",
+            "Id": "104+64CA48DC",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Megan",
+                "LastName": "Wesel",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Megan Wesel DEF. REBOUND (2 Reb, 1 Def)",
+            "Context": "",
+            "Id": "105+34675EC3",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Alexa",
+                "LastName": "Hinkley",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Shelby",
+                    "LastName": "Holman",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Alexa Hinkley IN; 14 Shelby Holman OUT",
+            "Context": "",
+            "Id": "106+6FFDDFB3",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kylin",
+                "LastName": "Collman",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Kylin Collman FOUL (1 PF)",
+            "Context": "",
+            "Id": "108+C849A9CA",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 61,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott FT GOOD (5 Pt)",
+            "Context": "",
+            "Id": "109+88BB8FB5",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 61,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 14,
+                "VisitingTeam": 11
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott FT GOOD (6 Pt)",
+            "Context": "",
+            "Id": "110+577CB3BA",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 61,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 14,
+                "VisitingTeam": 12
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ashley",
+                "LastName": "Jones",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Megan",
+                    "LastName": "Wesel",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "31 Ashley Jones IN; 23 Megan Wesel OUT",
+            "Context": "",
+            "Id": "111+62DF0447",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 61,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kylin",
+                    "LastName": "Collman",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings IN; 04 Kylin Collman OUT",
+            "Context": "",
+            "Id": "113+AC7588D9",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 61,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings 3PTR MISS",
+            "Context": "",
+            "Id": "115+30122250",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 47,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "116+BDDF343F",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 47,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Charli",
+                "LastName": "Elliott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tavin",
+                    "LastName": "Headings",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Charli Elliott LAYUP MISS; 22 Tavin Headings BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "117+135C9B87",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 21,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Pacific (Ore.) REBOUND",
+            "Context": "",
+            "Id": "119+D508DE5A",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 21,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Pacific (Ore.) TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "120+2E98D756",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 15,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Megan",
+                "LastName": "Huynh",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Megan Huynh FOUL (1 PF)",
+            "Context": "",
+            "Id": "121+17C8FA96",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 1,
+            "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings FT GOOD (3 Pt)",
+            "Context": "",
+            "Id": "122+DD3CFB00",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 15,
+                "VisitingTeam": 12
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Tavin",
+                "LastName": "Headings",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Tavin Headings FT GOOD (4 Pt)",
+            "Context": "",
+            "Id": "123+F693E7CD",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 1,
+            "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 16,
+                "VisitingTeam": 12
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Haley",
+                "LastName": "Strowbridge",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hailey",
+                    "LastName": "Hartney",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "25 Haley Strowbridge IN; 24 Hailey Hartney OUT",
+            "Context": "",
+            "Id": "124+E949098C",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Liana",
+                "LastName": "Tanaka",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Liana Tanaka TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "126+F4BF5285",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 1,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emily",
+                "LastName": "Holder",
+                "UniformNumber": "43",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "43 Emily Holder STEAL (1 Stl)",
+            "Context": "",
+            "Id": "127+39FE09D1",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 1,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        }
+    ]
+}

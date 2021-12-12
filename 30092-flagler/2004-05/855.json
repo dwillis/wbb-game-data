@@ -1,0 +1,530 @@
+{
+    "Game": {
+        "Type": "BasketballGame",
+        "HasStarted": false,
+        "IsComplete": true,
+        "Source": "statcrew",
+        "Date": "2/25/2005",
+        "DateUTC": null,
+        "StartTime": "",
+        "EndTime": "",
+        "NcaaGameId": "",
+        "Notes": [
+            "Florida Sun Conference Tournament Semifinal"
+        ],
+        "Location": "Lakes Wales, Fla.",
+        "GlobalSportShortname": null,
+        "BannerMessage": null,
+        "StadiumImage": null,
+        "SiteImage": null,
+        "ClientHostname": null,
+        "Officials": "",
+        "Attendance": 0,
+        "PeriodsRegulation": 2,
+        "Period": 2,
+        "ClockSeconds": 0,
+        "Context": "",
+        "Rules": {
+            "PeriodMinutes": 20,
+            "PeriodName": "Half",
+            "OTMinutes": 5,
+            "ShowExtraPeriodsAsOT": true,
+            "ClockDirection": "Down",
+            "ClockSegmentation": "Periods"
+        },
+        "HomeTeam": {
+            "Id": "WSW",
+            "Name": "Warner Southern",
+            "Score": 72,
+            "CurrentRecord": "",
+            "NcaaSchoolCode": "",
+            "Color": "#E8A824",
+            "TextColor": "#1A305C",
+            "Logo": "https://flaglerathletics.com/images/logos/Warner-Royals.png",
+            "Url": null,
+            "PeriodScores": [
+                0,
+                72
+            ],
+            "PeriodTimeouts": []
+        },
+        "VisitingTeam": {
+            "Id": "FCW",
+            "Name": "Flagler College",
+            "Score": 62,
+            "CurrentRecord": "",
+            "NcaaSchoolCode": "",
+            "Color": "#940207",
+            "TextColor": "#FEB624",
+            "Logo": "https://flaglerathletics.com/images/logos/site/site.png",
+            "Url": "https://flaglerathletics.com",
+            "PeriodScores": [
+                0,
+                62
+            ],
+            "PeriodTimeouts": []
+        },
+        "LastPlays": []
+    },
+    "Leaders": {
+        "VisitingTeam": {},
+        "HomeTeam": {}
+    },
+    "Stats": {
+        "HomeTeam": {
+            "TopPerformer": null,
+            "Players": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "April",
+                    "LastName": "Paraiso",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jennie",
+                    "LastName": "Benjamin",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Nikisha",
+                    "LastName": "Arrington",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Benjamin",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Katherine",
+                    "LastName": "Mack",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Juanita",
+                    "LastName": "Jurand",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Rene",
+                    "LastName": "Kennedy",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Melissa",
+                    "LastName": "Evans",
+                    "UniformNumber": "32",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lenise",
+                    "LastName": "Jones",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Andrea",
+                    "LastName": "Olsson",
+                    "UniformNumber": "34",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Monique",
+                    "LastName": "Ford",
+                    "UniformNumber": "35",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "PlayerGroups": {
+                "Players": {
+                    "Title": "Players",
+                    "Key": {
+                        "Uni": "Uni",
+                        "Name": "Name",
+                        "Position": "P",
+                        "CurrentlyInGame": "",
+                        "PersonId": "PersonId"
+                    },
+                    "Descriptions": {
+                        "Uni": "Uniform Number",
+                        "Name": "Name",
+                        "Position": "Position",
+                        "CurrentlyInGame": "Currently in game",
+                        "PersonId": "NCAA Person ID"
+                    },
+                    "Values": []
+                }
+            },
+            "Totals": {
+                "Key": {
+                    "Points": "Pts",
+                    "Fgam": "FG",
+                    "ShootingPercentage": "FG%",
+                    "Tpam": "3P",
+                    "Tppercentage": "3P%",
+                    "Ftma": "FT",
+                    "Ftp": "FT%",
+                    "TotalRebounds": "Reb",
+                    "OffensiveRebounds": "OReb",
+                    "DefensiveRebounds": "DReb",
+                    "Ties": "Tie",
+                    "Leads": "Lead",
+                    "TimeWithLead": "Lead",
+                    "PercentLead": "%Lead",
+                    "LastLeadScore": "LLead",
+                    "LastLeadTime": "LLeadT",
+                    "LargestLead": "LrgL",
+                    "LargestLeadScores": "LLS",
+                    "LargestLeadTime": "LLT",
+                    "Assists": "Ast",
+                    "Turnovers": "TO",
+                    "PointsFromBench": "BnP",
+                    "Blocks": "Blk",
+                    "PointsOnCourt": "CtPts",
+                    "PointsOffFastBreak": "FbP",
+                    "Steals": "Stl",
+                    "PointsOffTurnovers": "PoT",
+                    "PointsInPaint": "Paint",
+                    "PointsOffSecondChance": "SCP",
+                    "PersonalFouls": "PF",
+                    "TechnicalFouls": "TF",
+                    "Possession": "Pos",
+                    "AverageScoringPossession": "ST"
+                },
+                "FullKey": {
+                    "Points": "Points",
+                    "Fgam": "Field Goals: Made-Attempted",
+                    "ShootingPercentage": "Field Goal Percentage",
+                    "Tpam": "Three Point: Made-Attempted",
+                    "Tppercentage": "Three Point Percentage",
+                    "Ftma": "Free Throws: Made-Attempted",
+                    "Ftp": "Free Throw Percentage",
+                    "TotalRebounds": "Rebounds",
+                    "OffensiveRebounds": "Offensive Rebounds",
+                    "DefensiveRebounds": "Defensive Rebounds",
+                    "Ties": "Ties",
+                    "Leads": "Lead Changes",
+                    "TimeWithLead": "Time with Lead",
+                    "PercentLead": "Lead % of Game",
+                    "LastLeadScore": "Last Lead",
+                    "LastLeadTime": "Last Lead: Time",
+                    "LargestLead": "Largest Lead",
+                    "LargestLeadScores": "Largest Lead: Score",
+                    "LargestLeadTime": "Largest Lead: Time",
+                    "Assists": "Assists",
+                    "Turnovers": "Turnovers",
+                    "PointsFromBench": "Bench Points",
+                    "Blocks": "Blocks",
+                    "PointsOnCourt": "On Court Points",
+                    "PointsOffFastBreak": "Fastbreak Points",
+                    "Steals": "Steals",
+                    "PointsOffTurnovers": "Points off Turnovers",
+                    "PointsInPaint": "Points in the Paint",
+                    "PointsOffSecondChance": "Second Chance Points",
+                    "PersonalFouls": "Personal Fouls",
+                    "TechnicalFouls": "Technical Fouls",
+                    "Possession": "Possessions",
+                    "AverageScoringPossession": "Avg Scoring Poss Length"
+                },
+                "Values": {
+                    "Points": "0",
+                    "Fgam": "0-0",
+                    "ShootingPercentage": "0.0%",
+                    "Tpam": "0-0",
+                    "Tppercentage": "0.0%",
+                    "Ftma": "0-0",
+                    "Ftp": "0.0%",
+                    "TotalRebounds": "0",
+                    "OffensiveRebounds": "0",
+                    "DefensiveRebounds": "0",
+                    "Ties": "0",
+                    "Leads": "0",
+                    "TimeWithLead": "0:00",
+                    "PercentLead": "0.0%",
+                    "LastLeadScore": "-",
+                    "LastLeadTime": "-",
+                    "LargestLead": "0",
+                    "LargestLeadScores": "-",
+                    "LargestLeadTime": "-",
+                    "Assists": "0",
+                    "Turnovers": "0",
+                    "PointsFromBench": "0",
+                    "Blocks": "0",
+                    "PointsOnCourt": "0",
+                    "PointsOffFastBreak": "0",
+                    "Steals": "0",
+                    "PointsOffTurnovers": "0",
+                    "PointsInPaint": "0",
+                    "PointsOffSecondChance": "0",
+                    "PersonalFouls": "0",
+                    "TechnicalFouls": "0",
+                    "Possession": "0",
+                    "AverageScoringPossession": "-"
+                }
+            },
+            "PeriodStats": []
+        },
+        "VisitingTeam": {
+            "TopPerformer": null,
+            "Players": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Nicole",
+                    "LastName": "Barnes",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Brittney",
+                    "LastName": "Garmon",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alicia",
+                    "LastName": "Ramsdell",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alyssa",
+                    "LastName": "Camper",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Meredith",
+                    "LastName": "Tehan",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Caren",
+                    "LastName": "Fiorillo",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kalee",
+                    "LastName": "Smith",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jamie",
+                    "LastName": "Allenbaugh",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kivi",
+                    "LastName": "Hermans",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Rose",
+                    "LastName": "McFee",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Meghan",
+                    "LastName": "Iacobacci",
+                    "UniformNumber": "41",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Valeta",
+                    "LastName": "Cameron",
+                    "UniformNumber": "45",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "PlayerGroups": {
+                "Players": {
+                    "Title": "Players",
+                    "Key": {
+                        "Uni": "Uni",
+                        "Name": "Name",
+                        "Position": "P",
+                        "CurrentlyInGame": "",
+                        "PersonId": "PersonId"
+                    },
+                    "Descriptions": {
+                        "Uni": "Uniform Number",
+                        "Name": "Name",
+                        "Position": "Position",
+                        "CurrentlyInGame": "Currently in game",
+                        "PersonId": "NCAA Person ID"
+                    },
+                    "Values": []
+                }
+            },
+            "Totals": {
+                "Key": {
+                    "Points": "Pts",
+                    "Fgam": "FG",
+                    "ShootingPercentage": "FG%",
+                    "Tpam": "3P",
+                    "Tppercentage": "3P%",
+                    "Ftma": "FT",
+                    "Ftp": "FT%",
+                    "TotalRebounds": "Reb",
+                    "OffensiveRebounds": "OReb",
+                    "DefensiveRebounds": "DReb",
+                    "Ties": "Tie",
+                    "Leads": "Lead",
+                    "TimeWithLead": "Lead",
+                    "PercentLead": "%Lead",
+                    "LastLeadScore": "LLead",
+                    "LastLeadTime": "LLeadT",
+                    "LargestLead": "LrgL",
+                    "LargestLeadScores": "LLS",
+                    "LargestLeadTime": "LLT",
+                    "Assists": "Ast",
+                    "Turnovers": "TO",
+                    "PointsFromBench": "BnP",
+                    "Blocks": "Blk",
+                    "PointsOnCourt": "CtPts",
+                    "PointsOffFastBreak": "FbP",
+                    "Steals": "Stl",
+                    "PointsOffTurnovers": "PoT",
+                    "PointsInPaint": "Paint",
+                    "PointsOffSecondChance": "SCP",
+                    "PersonalFouls": "PF",
+                    "TechnicalFouls": "TF",
+                    "Possession": "Pos",
+                    "AverageScoringPossession": "ST"
+                },
+                "FullKey": {
+                    "Points": "Points",
+                    "Fgam": "Field Goals: Made-Attempted",
+                    "ShootingPercentage": "Field Goal Percentage",
+                    "Tpam": "Three Point: Made-Attempted",
+                    "Tppercentage": "Three Point Percentage",
+                    "Ftma": "Free Throws: Made-Attempted",
+                    "Ftp": "Free Throw Percentage",
+                    "TotalRebounds": "Rebounds",
+                    "OffensiveRebounds": "Offensive Rebounds",
+                    "DefensiveRebounds": "Defensive Rebounds",
+                    "Ties": "Ties",
+                    "Leads": "Lead Changes",
+                    "TimeWithLead": "Time with Lead",
+                    "PercentLead": "Lead % of Game",
+                    "LastLeadScore": "Last Lead",
+                    "LastLeadTime": "Last Lead: Time",
+                    "LargestLead": "Largest Lead",
+                    "LargestLeadScores": "Largest Lead: Score",
+                    "LargestLeadTime": "Largest Lead: Time",
+                    "Assists": "Assists",
+                    "Turnovers": "Turnovers",
+                    "PointsFromBench": "Bench Points",
+                    "Blocks": "Blocks",
+                    "PointsOnCourt": "On Court Points",
+                    "PointsOffFastBreak": "Fastbreak Points",
+                    "Steals": "Steals",
+                    "PointsOffTurnovers": "Points off Turnovers",
+                    "PointsInPaint": "Points in the Paint",
+                    "PointsOffSecondChance": "Second Chance Points",
+                    "PersonalFouls": "Personal Fouls",
+                    "TechnicalFouls": "Technical Fouls",
+                    "Possession": "Possessions",
+                    "AverageScoringPossession": "Avg Scoring Poss Length"
+                },
+                "Values": {
+                    "Points": "0",
+                    "Fgam": "0-0",
+                    "ShootingPercentage": "0.0%",
+                    "Tpam": "0-0",
+                    "Tppercentage": "0.0%",
+                    "Ftma": "0-0",
+                    "Ftp": "0.0%",
+                    "TotalRebounds": "0",
+                    "OffensiveRebounds": "0",
+                    "DefensiveRebounds": "0",
+                    "Ties": "0",
+                    "Leads": "0",
+                    "TimeWithLead": "0:00",
+                    "PercentLead": "0.0%",
+                    "LastLeadScore": "-",
+                    "LastLeadTime": "-",
+                    "LargestLead": "0",
+                    "LargestLeadScores": "-",
+                    "LargestLeadTime": "-",
+                    "Assists": "0",
+                    "Turnovers": "0",
+                    "PointsFromBench": "0",
+                    "Blocks": "0",
+                    "PointsOnCourt": "0",
+                    "PointsOffFastBreak": "0",
+                    "Steals": "0",
+                    "PointsOffTurnovers": "0",
+                    "PointsInPaint": "0",
+                    "PointsOffSecondChance": "0",
+                    "PersonalFouls": "0",
+                    "TechnicalFouls": "0",
+                    "Possession": "0",
+                    "AverageScoringPossession": "-"
+                }
+            },
+            "PeriodStats": []
+        }
+    },
+    "SeasonStats": {
+        "HomeTeam": null,
+        "VisitingTeam": null
+    },
+    "Plays": []
+}

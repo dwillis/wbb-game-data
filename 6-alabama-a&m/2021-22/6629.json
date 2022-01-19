@@ -3,14 +3,14 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "statcrew",
         "Date": "1/15/2022",
         "DateUTC": null,
-        "StartTime": "2:00 PM",
-        "EndTime": "",
+        "StartTime": "2:00 p.m.",
+        "EndTime": "3:55 p.m.",
         "NcaaGameId": "",
         "Notes": [],
-        "Location": "Dunn-Oliver Acadome, Montgomery, AL",
+        "Location": "Montgomery,  Ala.",
         "GlobalSportShortname": null,
         "BannerMessage": null,
         "StadiumImage": null,
@@ -19,8 +19,8 @@
         "Officials": "",
         "Attendance": 450,
         "PeriodsRegulation": 4,
-        "Period": 0,
-        "ClockSeconds": -1,
+        "Period": 4,
+        "ClockSeconds": 0,
         "Context": "",
         "Rules": {
             "PeriodMinutes": 10,
@@ -32,9 +32,9 @@
         },
         "HomeTeam": {
             "Id": "ALST",
-            "Name": "Alabama St.",
+            "Name": "Alabama State",
             "Score": 74,
-            "CurrentRecord": "5-9,3-1 SWAC",
+            "CurrentRecord": "5-9, 3-1 SWAC",
             "NcaaSchoolCode": "",
             "Color": "#E4B622",
             "TextColor": "#FFCC0C",
@@ -57,7 +57,7 @@
             "Id": "AAMU",
             "Name": "Alabama A&M",
             "Score": 69,
-            "CurrentRecord": "4-9,2-1 SWAC",
+            "CurrentRecord": "4-9, 2-1 SWAC",
             "NcaaSchoolCode": "",
             "Color": "#660000",
             "TextColor": "#FFFFFF",
@@ -81,9 +81,9 @@
                 "Player": null,
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
-                "Narrative": "Alabama St. REBOUND",
+                "Narrative": "Alabama State REBOUND",
                 "Context": "",
-                "Id": "571+F4773E3D",
+                "Id": "571+452AD247",
                 "Type": "DEF",
                 "Action": "REBOUND",
                 "Period": 4,
@@ -471,7 +471,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "36.76"
+                    "Value": "35.47"
                 },
                 {
                     "Player": {
@@ -482,7 +482,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "25.84"
+                    "Value": "24.39"
                 },
                 {
                     "Player": {
@@ -493,7 +493,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "16.56"
+                    "Value": "22.39"
                 },
                 {
                     "Player": {
@@ -504,7 +504,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "14.86"
+                    "Value": "14.85"
                 }
             ]
         },
@@ -824,24 +824,24 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Shmya",
-                        "LastName": "Ward",
-                        "UniformNumber": "21",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "45.82"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
                         "FirstName": "Jayla",
                         "LastName": "Crawford",
                         "UniformNumber": "03",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.32"
+                    "Value": "30.45"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Shmya",
+                        "LastName": "Ward",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "29.55"
                 },
                 {
                     "Player": {
@@ -852,7 +852,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.13"
+                    "Value": "21.12"
                 },
                 {
                     "Player": {
@@ -863,7 +863,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "20.89"
+                    "Value": "20.88"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
                             "Uni": "00",
                             "Name": "A. EMMANUEL",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "28",
                             "Fgam": "4-10",
                             "ShootingPercentage": "40.0%",
@@ -1072,7 +1072,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "11.0",
-                            "UsagePercentage": "21.13",
+                            "UsagePercentage": "21.12",
                             "PointsPerMinute": ".429",
                             "Points": "12",
                             "PersonId": ""
@@ -1081,7 +1081,7 @@
                             "Uni": "01",
                             "Name": "T. RUDOLPH",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "35",
                             "Fgam": "6-9",
                             "ShootingPercentage": "66.7%",
@@ -1099,7 +1099,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "23.0",
-                            "UsagePercentage": "17.51",
+                            "UsagePercentage": "17.50",
                             "PointsPerMinute": ".571",
                             "Points": "20",
                             "PersonId": ""
@@ -1109,7 +1109,7 @@
                             "Name": "D. SANDERS",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "18",
+                            "Minutes": "16",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "1-2",
@@ -1126,8 +1126,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "10.03",
-                            "PointsPerMinute": ".167",
+                            "UsagePercentage": "11.28",
+                            "PointsPerMinute": ".188",
                             "Points": "3",
                             "PersonId": ""
                         },
@@ -1135,7 +1135,7 @@
                             "Uni": "14",
                             "Name": "J. NNEJI",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "24",
                             "Fgam": "3-8",
                             "ShootingPercentage": "37.5%",
@@ -1153,7 +1153,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "20.89",
+                            "UsagePercentage": "20.88",
                             "PointsPerMinute": ".250",
                             "Points": "6",
                             "PersonId": ""
@@ -1162,8 +1162,8 @@
                             "Uni": "21",
                             "Name": "S. WARD",
                             "Position": "F",
-                            "CurrentlyInGame": "",
-                            "Minutes": "20",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "31",
                             "Fgam": "5-14",
                             "ShootingPercentage": "35.7%",
                             "Tpam": "0-0",
@@ -1180,8 +1180,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "10.0",
-                            "UsagePercentage": "45.82",
-                            "PointsPerMinute": ".800",
+                            "UsagePercentage": "29.55",
+                            "PointsPerMinute": ".516",
                             "Points": "16",
                             "PersonId": ""
                         },
@@ -1216,8 +1216,8 @@
                             "Uni": "03",
                             "Name": "J. CRAWFORD",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "20",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "14",
                             "Fgam": "1-7",
                             "ShootingPercentage": "14.3%",
                             "Tpam": "0-1",
@@ -1234,8 +1234,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "2.0",
-                            "UsagePercentage": "21.32",
-                            "PointsPerMinute": ".200",
+                            "UsagePercentage": "30.45",
+                            "PointsPerMinute": ".286",
                             "Points": "4",
                             "PersonId": ""
                         },
@@ -1244,7 +1244,7 @@
                             "Name": "T. STALLINGS",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "15",
+                            "Minutes": "14",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "0-0",
@@ -1261,8 +1261,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "7.0",
-                            "UsagePercentage": "9.22",
-                            "PointsPerMinute": ".267",
+                            "UsagePercentage": "9.88",
+                            "PointsPerMinute": ".286",
                             "Points": "4",
                             "PersonId": ""
                         },
@@ -1298,7 +1298,7 @@
                             "Name": "H. WHITE",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "21",
+                            "Minutes": "20",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "0-0",
@@ -1315,8 +1315,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "11.0",
-                            "UsagePercentage": "8.87",
-                            "PointsPerMinute": ".190",
+                            "UsagePercentage": "9.31",
+                            "PointsPerMinute": ".200",
                             "Points": "4",
                             "PersonId": ""
                         },
@@ -1325,7 +1325,7 @@
                             "Name": "T. THOMAS",
                             "Position": "C",
                             "CurrentlyInGame": "",
-                            "Minutes": "10",
+                            "Minutes": "9",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "0-0",
@@ -1432,9 +1432,9 @@
                     "TotalRebounds": "38",
                     "OffensiveRebounds": "13",
                     "DefensiveRebounds": "25",
-                    "Ties": "5",
-                    "Leads": "7",
-                    "TimeWithLead": "30:54",
+                    "Ties": "4",
+                    "Leads": "4",
+                    "TimeWithLead": "30:53",
                     "PercentLead": "77.2%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
@@ -1445,16 +1445,16 @@
                     "Turnovers": "12",
                     "PointsFromBench": "17",
                     "Blocks": "8",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "8",
+                    "PointsOnCourt": "58",
+                    "PointsOffFastBreak": "6",
                     "Steals": "4",
                     "PointsOffTurnovers": "19",
                     "PointsInPaint": "34",
                     "PointsOffSecondChance": "15",
                     "PersonalFouls": "24",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "71",
+                    "AverageScoringPossession": "0:12"
                 }
             },
             "PeriodStats": [
@@ -1541,7 +1541,7 @@
                         "OffensiveRebounds": "3",
                         "DefensiveRebounds": "7",
                         "Ties": "2",
-                        "Leads": "2",
+                        "Leads": "1",
                         "TimeWithLead": "7:28",
                         "PercentLead": "18.7%",
                         "LastLeadScore": "",
@@ -1553,7 +1553,7 @@
                         "Turnovers": "1",
                         "PointsFromBench": "0",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "58",
                         "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "2",
@@ -1561,8 +1561,8 @@
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "15",
+                        "AverageScoringPossession": "0:14"
                     }
                 },
                 {
@@ -1647,8 +1647,8 @@
                         "TotalRebounds": "9",
                         "OffensiveRebounds": "2",
                         "DefensiveRebounds": "7",
-                        "Ties": "3",
-                        "Leads": "5",
+                        "Ties": "2",
+                        "Leads": "3",
                         "TimeWithLead": "3:25",
                         "PercentLead": "8.5%",
                         "LastLeadScore": "",
@@ -1660,7 +1660,7 @@
                         "Turnovers": "3",
                         "PointsFromBench": "7",
                         "Blocks": "3",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "58",
                         "PointsOffFastBreak": "4",
                         "Steals": "1",
                         "PointsOffTurnovers": "5",
@@ -1668,8 +1668,8 @@
                         "PointsOffSecondChance": "5",
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "17",
+                        "AverageScoringPossession": "0:13"
                     }
                 },
                 {
@@ -1767,16 +1767,16 @@
                         "Turnovers": "3",
                         "PointsFromBench": "8",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "4",
+                        "PointsOnCourt": "58",
+                        "PointsOffFastBreak": "2",
                         "Steals": "1",
                         "PointsOffTurnovers": "6",
                         "PointsInPaint": "6",
                         "PointsOffSecondChance": "5",
                         "PersonalFouls": "8",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:12"
                     }
                 },
                 {
@@ -1874,7 +1874,7 @@
                         "Turnovers": "5",
                         "PointsFromBench": "2",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "58",
                         "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "6",
@@ -1882,8 +1882,8 @@
                         "PointsOffSecondChance": "3",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "20",
+                        "AverageScoringPossession": "0:11"
                     }
                 }
             ]
@@ -2097,7 +2097,7 @@
                             "Uni": "00",
                             "Name": "D. BURGIN",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "36",
                             "Fgam": "0-7",
                             "ShootingPercentage": "0.0%",
@@ -2115,7 +2115,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "14.86",
+                            "UsagePercentage": "14.85",
                             "PointsPerMinute": ".167",
                             "Points": "6",
                             "PersonId": ""
@@ -2124,8 +2124,8 @@
                             "Uni": "05",
                             "Name": "N. JONES",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "28",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "29",
                             "Fgam": "8-20",
                             "ShootingPercentage": "40.0%",
                             "Tpam": "2-6",
@@ -2142,8 +2142,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "36.76",
-                            "PointsPerMinute": ".714",
+                            "UsagePercentage": "35.47",
+                            "PointsPerMinute": ".690",
                             "Points": "20",
                             "PersonId": ""
                         },
@@ -2151,7 +2151,7 @@
                             "Uni": "15",
                             "Name": "J. HARRIS",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "38",
                             "Fgam": "1-5",
                             "ShootingPercentage": "20.0%",
@@ -2169,7 +2169,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "6.0",
-                            "UsagePercentage": "10.87",
+                            "UsagePercentage": "10.86",
                             "PointsPerMinute": ".132",
                             "Points": "5",
                             "PersonId": ""
@@ -2179,7 +2179,7 @@
                             "Name": "D. LEWIS",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "34",
+                            "Minutes": "36",
                             "Fgam": "6-16",
                             "ShootingPercentage": "37.5%",
                             "Tpam": "0-1",
@@ -2196,8 +2196,8 @@
                             "PersonalFouls": "5",
                             "TechnicalFouls": "0",
                             "Efficiency": "22.0",
-                            "UsagePercentage": "25.84",
-                            "PointsPerMinute": ".471",
+                            "UsagePercentage": "24.39",
+                            "PointsPerMinute": ".444",
                             "Points": "16",
                             "PersonId": ""
                         },
@@ -2205,8 +2205,8 @@
                             "Uni": "22",
                             "Name": "T. JETER",
                             "Position": "F",
-                            "CurrentlyInGame": "",
-                            "Minutes": "25",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "28",
                             "Fgam": "2-6",
                             "ShootingPercentage": "33.3%",
                             "Tpam": "0-0",
@@ -2223,8 +2223,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "13.34",
-                            "PointsPerMinute": ".200",
+                            "UsagePercentage": "11.90",
+                            "PointsPerMinute": ".179",
                             "Points": "5",
                             "PersonId": ""
                         },
@@ -2233,7 +2233,7 @@
                             "Name": "J. ALEXANDER",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "8",
+                            "Minutes": "9",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "0-0",
@@ -2260,7 +2260,7 @@
                             "Name": "L. SHAKESPEARE",
                             "Position": "C",
                             "CurrentlyInGame": "",
-                            "Minutes": "8",
+                            "Minutes": "7",
                             "Fgam": "0-3",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2286,8 +2286,8 @@
                             "Uni": "12",
                             "Name": "Z. SHANNON",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "23",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "17",
                             "Fgam": "5-9",
                             "ShootingPercentage": "55.6%",
                             "Tpam": "0-0",
@@ -2304,8 +2304,8 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "11.0",
-                            "UsagePercentage": "16.56",
-                            "PointsPerMinute": ".435",
+                            "UsagePercentage": "22.39",
+                            "PointsPerMinute": ".588",
                             "Points": "10",
                             "PersonId": ""
                         }
@@ -2394,8 +2394,8 @@
                     "TotalRebounds": "48",
                     "OffensiveRebounds": "22",
                     "DefensiveRebounds": "26",
-                    "Ties": "5",
-                    "Leads": "7",
+                    "Ties": "1",
+                    "Leads": "2",
                     "TimeWithLead": "7:02",
                     "PercentLead": "17.6%",
                     "LastLeadScore": "26-25",
@@ -2407,7 +2407,7 @@
                     "Turnovers": "16",
                     "PointsFromBench": "17",
                     "Blocks": "7",
-                    "PointsOnCourt": "0",
+                    "PointsOnCourt": "46",
                     "PointsOffFastBreak": "6",
                     "Steals": "4",
                     "PointsOffTurnovers": "9",
@@ -2415,8 +2415,8 @@
                     "PointsOffSecondChance": "15",
                     "PersonalFouls": "24",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "71",
+                    "AverageScoringPossession": "0:12"
                 }
             },
             "PeriodStats": [
@@ -2502,8 +2502,8 @@
                         "TotalRebounds": "14",
                         "OffensiveRebounds": "6",
                         "DefensiveRebounds": "8",
-                        "Ties": "2",
-                        "Leads": "2",
+                        "Ties": "0",
+                        "Leads": "1",
                         "TimeWithLead": "1:22",
                         "PercentLead": "3.4%",
                         "LastLeadScore": "15-13",
@@ -2515,7 +2515,7 @@
                         "Turnovers": "3",
                         "PointsFromBench": "2",
                         "Blocks": "3",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "46",
                         "PointsOffFastBreak": "0",
                         "Steals": "0",
                         "PointsOffTurnovers": "1",
@@ -2523,8 +2523,8 @@
                         "PointsOffSecondChance": "5",
                         "PersonalFouls": "4",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "16",
+                        "AverageScoringPossession": "0:15"
                     }
                 },
                 {
@@ -2609,8 +2609,8 @@
                         "TotalRebounds": "15",
                         "OffensiveRebounds": "8",
                         "DefensiveRebounds": "7",
-                        "Ties": "3",
-                        "Leads": "5",
+                        "Ties": "1",
+                        "Leads": "1",
                         "TimeWithLead": "5:40",
                         "PercentLead": "14.2%",
                         "LastLeadScore": "26-25",
@@ -2622,7 +2622,7 @@
                         "Turnovers": "5",
                         "PointsFromBench": "7",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "46",
                         "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "2",
@@ -2630,8 +2630,8 @@
                         "PointsOffSecondChance": "3",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "16",
+                        "AverageScoringPossession": "0:14"
                     }
                 },
                 {
@@ -2729,7 +2729,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "6",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "46",
                         "PointsOffFastBreak": "4",
                         "Steals": "1",
                         "PointsOffTurnovers": "0",
@@ -2737,8 +2737,8 @@
                         "PointsOffSecondChance": "5",
                         "PersonalFouls": "9",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:10"
                     }
                 },
                 {
@@ -2836,7 +2836,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "2",
                         "Blocks": "4",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "46",
                         "PointsOffFastBreak": "2",
                         "Steals": "2",
                         "PointsOffTurnovers": "6",
@@ -2844,8 +2844,8 @@
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "20",
+                        "AverageScoringPossession": "0:10"
                     }
                 }
             ]
@@ -2968,9 +2968,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "5+926DEC2D",
+            "Id": "5+23300057",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3012,9 +3012,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "8+8531E6A7",
+            "Id": "8+346C0ADD",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3026,9 +3026,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. TURNOVER (1 TO)",
+            "Narrative": "Alabama State TURNOVER (1 TO)",
             "Context": "",
-            "Id": "9+94C15217",
+            "Id": "9+B9B6B755",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 1,
@@ -3460,9 +3460,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "31+F9776675",
+            "Id": "31+482A8A0F",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3690,9 +3690,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "44+3692AC9D",
+            "Id": "44+87CF40E7",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 1,
@@ -4080,9 +4080,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "65+908AC9C7",
+            "Id": "65+21D725BD",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 1,
@@ -6818,9 +6818,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "226+7901A99A",
+            "Id": "226+C85C45E0",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 2,
@@ -6919,9 +6919,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "231+659C9E15",
+            "Id": "231+D4C1726F",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -8099,9 +8099,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "296+41E466CE",
+            "Id": "296+F0B98AB4",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 3,
@@ -8200,9 +8200,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "301+7BD0CFAE",
+            "Id": "301+CA8D23D4",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -9619,9 +9619,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. TIMEOUT Full (1st TO, 1st Full)",
+            "Narrative": "Alabama State TIMEOUT Full (1st TO, 1st Full)",
             "Context": "",
-            "Id": "380+39F4F618",
+            "Id": "380+40F78246",
             "Type": "TEAM",
             "Action": "TIMEOUT",
             "Period": 3,
@@ -10284,9 +10284,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "415+6035328B",
+            "Id": "415+D168DEF1",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 3,
@@ -10403,9 +10403,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "421+B64FD7F9",
+            "Id": "421+7123B83",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -11146,9 +11146,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "468+6CB121A1",
+            "Id": "468+DDECCDDB",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11400,9 +11400,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "482+8259D8F6",
+            "Id": "482+3304348C",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11645,9 +11645,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Narrative": "Alabama State TIMEOUT 30 Sec. (1st TO, 1st 30)",
             "Context": "",
-            "Id": "495+8DAE92A1",
+            "Id": "495+EB5C5EB3",
             "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
@@ -12624,9 +12624,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. TIMEOUT 30 Sec. (2nd TO, 2nd 30)",
+            "Narrative": "Alabama State TIMEOUT 30 Sec. (2nd TO, 2nd 30)",
             "Context": "",
-            "Id": "549+DD3CFF3E",
+            "Id": "549+10506AC",
             "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
@@ -13071,9 +13071,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alabama St. REBOUND",
+            "Narrative": "Alabama State REBOUND",
             "Context": "",
-            "Id": "571+F4773E3D",
+            "Id": "571+452AD247",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,

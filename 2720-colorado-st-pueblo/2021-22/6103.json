@@ -78,6 +78,57 @@
         },
         "LastPlays": [
             {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Anna",
+                    "LastName": "Combalia",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "14 Anna Combalia OFF. REBOUND (5 Reb, 1 Off)",
+                "Context": "",
+                "Id": "508+1F3FDA22",
+                "Type": "OFF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 1,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ryan",
+                    "LastName": "Weiss",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tomia",
+                        "LastName": "Johnson",
+                        "UniformNumber": "13",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "VisitingTeam",
+                "Narrative": "12 Ryan Weiss 3PTR MISS; 13 Tomia Johnson BLOCK (1 Blk)",
+                "Context": "",
+                "Id": "506+BF65D0FD",
+                "Type": "3PTR",
+                "Action": "MISS",
+                "Period": 4,
+                "ClockSeconds": 1,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
                 "Player": null,
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
@@ -137,50 +188,6 @@
                 "Id": "502+6CC3B8AF",
                 "Type": "SUBS",
                 "Action": "SUBS",
-                "Period": 4,
-                "ClockSeconds": 6,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jazzy",
-                    "LastName": "Hughes",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Kansas",
-                        "LastName": "Watts",
-                        "UniformNumber": "21",
-                        "Photo": null,
-                        "PersonId": ""
-                    }
-                ],
-                "Team": "HomeTeam",
-                "Narrative": "32 Jazzy Hughes OUT; 21 Kansas Watts IN",
-                "Context": "",
-                "Id": "500+EC417621",
-                "Type": "SUBS",
-                "Action": "SUBS",
-                "Period": 4,
-                "ClockSeconds": 6,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": null,
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "South Dakota Mines TIMEOUT Full (3rd TO, 1st Full)",
-                "Context": "",
-                "Id": "499+F69475F7",
-                "Type": "TEAM",
-                "Action": "TIMEOUT",
                 "Period": 4,
                 "ClockSeconds": 6,
                 "Coordinate": null,
@@ -262,9 +269,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Makenna",
-                        "LastName": "Bodette",
-                        "UniformNumber": "25",
+                        "FirstName": "Anna",
+                        "LastName": "Combalia",
+                        "UniformNumber": "14",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -273,13 +280,13 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Anna",
-                        "LastName": "Combalia",
-                        "UniformNumber": "14",
+                        "FirstName": "Makenna",
+                        "LastName": "Bodette",
+                        "UniformNumber": "25",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
+                    "Value": "5"
                 }
             ],
             "Assists": [
@@ -454,7 +461,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "14.0"
+                    "Value": "13.0"
                 },
                 {
                     "Player": {
@@ -489,7 +496,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "27.65"
+                    "Value": "29.23"
                 },
                 {
                     "Player": {
@@ -500,7 +507,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "23.37"
+                    "Value": "23.08"
                 },
                 {
                     "Player": {
@@ -511,7 +518,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "22.50"
+                    "Value": "22.22"
                 },
                 {
                     "Player": {
@@ -522,7 +529,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.99"
+                    "Value": "21.71"
                 }
             ]
         },
@@ -687,6 +694,17 @@
                         "PersonId": ""
                     },
                     "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Tomia",
+                        "LastName": "Johnson",
+                        "UniformNumber": "13",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
                 }
             ],
             "Steals": [
@@ -1112,11 +1130,11 @@
                             "DefensiveRebounds": "1",
                             "Assists": "2",
                             "Turnovers": "5",
-                            "Blocks": "0",
+                            "Blocks": "1",
                             "Steals": "2",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-3.0",
+                            "Efficiency": "-2.0",
                             "UsagePercentage": "30.62",
                             "PointsPerMinute": ".269",
                             "Points": "7",
@@ -1408,7 +1426,7 @@
                     "Assists": "11",
                     "Turnovers": "14",
                     "PointsFromBench": "21",
-                    "Blocks": "5",
+                    "Blocks": "6",
                     "PointsOnCourt": "0",
                     "PointsOffFastBreak": "14",
                     "Steals": "13",
@@ -1837,7 +1855,7 @@
                         "Assists": "3",
                         "Turnovers": "2",
                         "PointsFromBench": "4",
-                        "Blocks": "1",
+                        "Blocks": "2",
                         "PointsOnCourt": "0",
                         "PointsOffFastBreak": "6",
                         "Steals": "1",
@@ -2031,7 +2049,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "20.76",
+                            "UsagePercentage": "20.50",
                             "PointsPerMinute": ".361",
                             "Points": "13",
                             "PersonId": ""
@@ -2058,7 +2076,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "16.0",
-                            "UsagePercentage": "21.99",
+                            "UsagePercentage": "21.71",
                             "PointsPerMinute": ".514",
                             "Points": "18",
                             "PersonId": ""
@@ -2069,10 +2087,10 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "26",
-                            "Fgam": "3-8",
-                            "ShootingPercentage": "37.5%",
-                            "Tpam": "2-5",
-                            "Tppercentage": "40.0%",
+                            "Fgam": "3-9",
+                            "ShootingPercentage": "33.3%",
+                            "Tpam": "2-6",
+                            "Tppercentage": "33.3%",
                             "Ftma": "4-5",
                             "Ftp": "80.0%",
                             "TotalRebounds": "10",
@@ -2084,8 +2102,8 @@
                             "Steals": "1",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "14.0",
-                            "UsagePercentage": "27.65",
+                            "Efficiency": "13.0",
+                            "UsagePercentage": "29.23",
                             "PointsPerMinute": ".462",
                             "Points": "12",
                             "PersonId": ""
@@ -2102,8 +2120,8 @@
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "4",
-                            "OffensiveRebounds": "0",
+                            "TotalRebounds": "5",
+                            "OffensiveRebounds": "1",
                             "DefensiveRebounds": "4",
                             "Assists": "3",
                             "Turnovers": "2",
@@ -2111,8 +2129,8 @@
                             "Steals": "1",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "2.0",
-                            "UsagePercentage": "10.13",
+                            "Efficiency": "3.0",
+                            "UsagePercentage": "10.00",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2139,7 +2157,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "5.0",
-                            "UsagePercentage": "22.50",
+                            "UsagePercentage": "22.22",
                             "PointsPerMinute": ".111",
                             "Points": "2",
                             "PersonId": ""
@@ -2193,7 +2211,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "0.0",
-                            "UsagePercentage": "15.82",
+                            "UsagePercentage": "15.62",
                             "PointsPerMinute": ".188",
                             "Points": "3",
                             "PersonId": ""
@@ -2220,7 +2238,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "5.0",
-                            "UsagePercentage": "23.37",
+                            "UsagePercentage": "23.08",
                             "PointsPerMinute": ".308",
                             "Points": "4",
                             "PersonId": ""
@@ -2274,7 +2292,7 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "19.35",
+                            "UsagePercentage": "19.11",
                             "PointsPerMinute": ".444",
                             "Points": "8",
                             "PersonId": ""
@@ -2355,14 +2373,14 @@
                 },
                 "Values": {
                     "Points": "60",
-                    "Fgam": "21-53",
-                    "ShootingPercentage": "39.6%",
-                    "Tpam": "7-19",
-                    "Tppercentage": "36.8%",
+                    "Fgam": "21-54",
+                    "ShootingPercentage": "38.9%",
+                    "Tpam": "7-20",
+                    "Tppercentage": "35.0%",
                     "Ftma": "11-16",
                     "Ftp": "68.8%",
-                    "TotalRebounds": "40",
-                    "OffensiveRebounds": "9",
+                    "TotalRebounds": "41",
+                    "OffensiveRebounds": "10",
                     "DefensiveRebounds": "31",
                     "Ties": "3",
                     "Leads": "7",
@@ -2784,14 +2802,14 @@
                     },
                     "Values": {
                         "Points": "20",
-                        "Fgam": "8-17",
-                        "ShootingPercentage": "47.1%",
-                        "Tpam": "2-6",
-                        "Tppercentage": "33.3%",
+                        "Fgam": "8-18",
+                        "ShootingPercentage": "44.4%",
+                        "Tpam": "2-7",
+                        "Tppercentage": "28.6%",
                         "Ftma": "2-3",
                         "Ftp": "66.7%",
-                        "TotalRebounds": "9",
-                        "OffensiveRebounds": "1",
+                        "TotalRebounds": "10",
+                        "OffensiveRebounds": "2",
                         "DefensiveRebounds": "8",
                         "Ties": "0",
                         "Leads": "0",
@@ -11901,6 +11919,57 @@
             "Context": "",
             "Id": "505+77F5A7F2",
             "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 1,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ryan",
+                "LastName": "Weiss",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tomia",
+                    "LastName": "Johnson",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Ryan Weiss 3PTR MISS; 13 Tomia Johnson BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "506+BF65D0FD",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 1,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Anna",
+                "LastName": "Combalia",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Anna Combalia OFF. REBOUND (5 Reb, 1 Off)",
+            "Context": "",
+            "Id": "508+1F3FDA22",
+            "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
             "ClockSeconds": 1,

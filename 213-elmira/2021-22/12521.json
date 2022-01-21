@@ -3,7 +3,7 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "statcrew",
         "Date": "1/11/2022",
         "DateUTC": null,
         "StartTime": "5:30 PM",
@@ -50,7 +50,7 @@
                 0,
                 0,
                 0,
-                2
+                0
             ]
         },
         "VisitingTeam": {
@@ -70,10 +70,10 @@
                 13
             ],
             "PeriodTimeouts": [
-                1,
-                1,
                 0,
-                1
+                0,
+                0,
+                0
             ]
         },
         "LastPlays": [
@@ -240,7 +240,7 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "D&#39;Asia",
+                        "FirstName": "D'Asia",
                         "LastName": "Jones",
                         "UniformNumber": "25",
                         "Photo": null,
@@ -435,7 +435,7 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "D&#39;Asia",
+                        "FirstName": "D'Asia",
                         "LastName": "Jones",
                         "UniformNumber": "25",
                         "Photo": null,
@@ -470,7 +470,7 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "D&#39;Asia",
+                        "FirstName": "D'Asia",
                         "LastName": "Jones",
                         "UniformNumber": "25",
                         "Photo": null,
@@ -910,49 +910,17 @@
             "Players": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Samantha",
-                    "LastName": "Fischer",
-                    "UniformNumber": "00",
+                    "FirstName": "Felicia",
+                    "LastName": "Stewart",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Ralie",
-                    "LastName": "Velez-Hill",
-                    "UniformNumber": "2",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Rebecca",
-                    "LastName": "Jewett",
-                    "UniformNumber": "3",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "Rittenhouse",
-                    "UniformNumber": "4",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Yi",
-                    "LastName": "Chen",
-                    "UniformNumber": "5",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Karly",
-                    "LastName": "Welty",
-                    "UniformNumber": "10",
+                    "FirstName": "Gillian",
+                    "LastName": "Flint",
+                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -966,9 +934,9 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Anne",
-                    "LastName": "Spila",
-                    "UniformNumber": "12",
+                    "FirstName": "Rebecca",
+                    "LastName": "Jewett",
+                    "UniformNumber": "3",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -990,22 +958,6 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Gillian",
-                    "LastName": "Flint",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Felicia",
-                    "LastName": "Stewart",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Ana",
                     "LastName": "Ion",
                     "UniformNumber": "30",
@@ -1014,9 +966,57 @@
                 },
                 {
                     "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Rittenhouse",
+                    "UniformNumber": "4",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Samantha",
+                    "LastName": "Fischer",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Yi",
+                    "LastName": "Chen",
+                    "UniformNumber": "5",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
                     "FirstName": "Sarri",
                     "LastName": "Swanson",
                     "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ralie",
+                    "LastName": "Velez-Hill",
+                    "UniformNumber": "2",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Anne",
+                    "LastName": "Spila",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Karly",
+                    "LastName": "Welty",
+                    "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
                 }
@@ -1424,12 +1424,12 @@
                     "PointsOffFastBreak": "0",
                     "Steals": "17",
                     "PointsOffTurnovers": "32",
-                    "PointsInPaint": "22",
+                    "PointsInPaint": "0",
                     "PointsOffSecondChance": "15",
                     "PersonalFouls": "21",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "79",
+                    "AverageScoringPossession": "0:13"
                 }
             },
             "PeriodStats": [
@@ -1512,9 +1512,9 @@
                         "Tppercentage": "54.5%",
                         "Ftma": "2-2",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "7",
-                        "OffensiveRebounds": "6",
-                        "DefensiveRebounds": "1",
+                        "TotalRebounds": "11",
+                        "OffensiveRebounds": "8",
+                        "DefensiveRebounds": "3",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "9:12",
@@ -1532,12 +1532,12 @@
                         "PointsOffFastBreak": "0",
                         "Steals": "6",
                         "PointsOffTurnovers": "15",
-                        "PointsInPaint": "6",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "7",
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:341"
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:18"
                     }
                 },
                 {
@@ -1639,12 +1639,12 @@
                         "PointsOffFastBreak": "0",
                         "Steals": "6",
                         "PointsOffTurnovers": "13",
-                        "PointsInPaint": "6",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "3",
                         "PersonalFouls": "7",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:223"
+                        "Possession": "22",
+                        "AverageScoringPossession": "0:08"
                     }
                 },
                 {
@@ -1726,9 +1726,9 @@
                         "Tppercentage": "10.0%",
                         "Ftma": "2-4",
                         "Ftp": "50.0%",
-                        "TotalRebounds": "12",
+                        "TotalRebounds": "13",
                         "OffensiveRebounds": "3",
-                        "DefensiveRebounds": "9",
+                        "DefensiveRebounds": "10",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
@@ -1750,8 +1750,8 @@
                         "PointsOffSecondChance": "1",
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:308"
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:07"
                     }
                 },
                 {
@@ -1833,8 +1833,8 @@
                         "Tppercentage": "11.1%",
                         "Ftma": "5-5",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "11",
-                        "OffensiveRebounds": "5",
+                        "TotalRebounds": "12",
+                        "OffensiveRebounds": "6",
                         "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
@@ -1846,19 +1846,19 @@
                         "LargestLeadScores": "71-51",
                         "LargestLeadTime": "1:38 (4th)",
                         "Assists": "2",
-                        "Turnovers": "3",
+                        "Turnovers": "4",
                         "PointsFromBench": "7",
                         "Blocks": "1",
                         "PointsOnCourt": "27",
                         "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "4",
-                        "PointsInPaint": "10",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "4",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:339"
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:14"
                     }
                 }
             ]
@@ -1873,38 +1873,6 @@
                 "PersonId": ""
             },
             "Players": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Nevaeh",
-                    "LastName": "Winston",
-                    "UniformNumber": "1",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Alyssa",
-                    "LastName": "Waters",
-                    "UniformNumber": "2",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Taylor",
-                    "LastName": "Jung",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Taylor",
-                    "LastName": "Albrecht",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Alicia",
@@ -1923,9 +1891,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Ward",
-                    "UniformNumber": "22",
+                    "FirstName": "Taylor",
+                    "LastName": "Albrecht",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "D'Asia",
+                    "LastName": "Jones",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Nevaeh",
+                    "LastName": "Winston",
+                    "UniformNumber": "1",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1939,9 +1923,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "D&#39;Asia",
-                    "LastName": "Jones",
-                    "UniformNumber": "25",
+                    "FirstName": "Alyssa",
+                    "LastName": "Waters",
+                    "UniformNumber": "2",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1950,6 +1934,22 @@
                     "FirstName": "Victoria",
                     "LastName": "Rought",
                     "UniformNumber": "40",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Anna",
+                    "LastName": "Ward",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Jung",
+                    "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
                 }
@@ -2381,15 +2381,15 @@
                     "PointsFromBench": "4",
                     "Blocks": "3",
                     "PointsOnCourt": "10",
-                    "PointsOffFastBreak": "6",
+                    "PointsOffFastBreak": "0",
                     "Steals": "11",
                     "PointsOffTurnovers": "7",
-                    "PointsInPaint": "26",
-                    "PointsOffSecondChance": "15",
+                    "PointsInPaint": "0",
+                    "PointsOffSecondChance": "16",
                     "PersonalFouls": "21",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "79",
+                    "AverageScoringPossession": "0:15"
                 }
             },
             "PeriodStats": [
@@ -2472,9 +2472,9 @@
                         "Tppercentage": "50.0%",
                         "Ftma": "1-2",
                         "Ftp": "50.0%",
-                        "TotalRebounds": "4",
-                        "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "2",
+                        "TotalRebounds": "8",
+                        "OffensiveRebounds": "3",
+                        "DefensiveRebounds": "5",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -2489,15 +2489,15 @@
                         "PointsFromBench": "0",
                         "Blocks": "3",
                         "PointsOnCourt": "10",
-                        "PointsOffFastBreak": "2",
+                        "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "0",
-                        "PointsInPaint": "6",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "5",
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:285"
+                        "Possession": "20",
+                        "AverageScoringPossession": "0:13"
                     }
                 },
                 {
@@ -2579,9 +2579,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "6-8",
                         "Ftp": "75.0%",
-                        "TotalRebounds": "10",
-                        "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "8",
+                        "TotalRebounds": "14",
+                        "OffensiveRebounds": "4",
+                        "DefensiveRebounds": "10",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -2599,12 +2599,12 @@
                         "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "1",
-                        "PointsInPaint": "6",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "1",
                         "PersonalFouls": "8",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:329"
+                        "Possession": "23",
+                        "AverageScoringPossession": "0:13"
                     }
                 },
                 {
@@ -2686,9 +2686,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "2-3",
                         "Ftp": "66.7%",
-                        "TotalRebounds": "11",
+                        "TotalRebounds": "14",
                         "OffensiveRebounds": "3",
-                        "DefensiveRebounds": "8",
+                        "DefensiveRebounds": "11",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -2703,15 +2703,15 @@
                         "PointsFromBench": "0",
                         "Blocks": "0",
                         "PointsOnCourt": "10",
-                        "PointsOffFastBreak": "2",
+                        "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "4",
-                        "PointsInPaint": "8",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "3",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:335"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:12"
                     }
                 },
                 {
@@ -2793,9 +2793,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "5-10",
                         "Ftp": "50.0%",
-                        "TotalRebounds": "13",
+                        "TotalRebounds": "14",
                         "OffensiveRebounds": "8",
-                        "DefensiveRebounds": "5",
+                        "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -2810,15 +2810,15 @@
                         "PointsFromBench": "4",
                         "Blocks": "0",
                         "PointsOnCourt": "10",
-                        "PointsOffFastBreak": "2",
+                        "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "2",
-                        "PointsInPaint": "6",
-                        "PointsOffSecondChance": "6",
+                        "PointsInPaint": "0",
+                        "PointsOffSecondChance": "7",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:347"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:23"
                     }
                 }
             ]
@@ -3560,10 +3560,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Elmira TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "40+DAB78810",
-            "Type": "30SEC",
+            "Id": "40+F36CAB",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 1,
             "ClockSeconds": 373,
@@ -3870,18 +3870,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Rebecca",
-                "LastName": "Jewett",
-                "UniformNumber": "3",
+                "FirstName": "Samantha",
+                "LastName": "Fischer",
+                "UniformNumber": "00",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Samantha",
-                    "LastName": "Fischer",
-                    "UniformNumber": "00",
+                    "FirstName": "Rebecca",
+                    "LastName": "Jewett",
+                    "UniformNumber": "3",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -3903,9 +3903,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "3 Rebecca Jewett IN; 00 Samantha Fischer IN; 20 Gillian Flint OUT; 15 Leah Harkenrider OUT",
+            "Narrative": "00 Samantha Fischer IN; 3 Rebecca Jewett IN; 20 Gillian Flint OUT; 15 Leah Harkenrider OUT",
             "Context": "",
-            "Id": "57+76B6BA26",
+            "Id": "57+C5DC9C0A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4989,26 +4989,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Allison",
-                "LastName": "O'Toole",
-                "UniformNumber": "14",
+                "FirstName": "Gillian",
+                "LastName": "Flint",
+                "UniformNumber": "20",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Gillian",
-                    "LastName": "Flint",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ana",
-                    "LastName": "Ion",
-                    "UniformNumber": "30",
+                    "FirstName": "Allison",
+                    "LastName": "O'Toole",
+                    "UniformNumber": "14",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -5019,12 +5011,20 @@
                     "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ana",
+                    "LastName": "Ion",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "14 Allison O'Toole IN; 20 Gillian Flint IN; 30 Ana Ion OUT; 00 Samantha Fischer OUT",
+            "Narrative": "20 Gillian Flint IN; 14 Allison O'Toole IN; 00 Samantha Fischer OUT; 30 Ana Ion OUT",
             "Context": "",
-            "Id": "119+25BA5143",
+            "Id": "119+E58C36",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5035,7 +5035,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -5052,9 +5052,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones IN; 20 Alicia Johnson OUT",
+            "Narrative": "25 D'Asia Jones IN; 20 Alicia Johnson OUT",
             "Context": "",
-            "Id": "123+9857B9AD",
+            "Id": "123+7CCDC6D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5149,26 +5149,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Ayres",
-                "UniformNumber": "21",
+                "FirstName": "D'Asia",
+                "LastName": "Jones",
+                "UniformNumber": "25",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "D&#39;Asia",
-                    "LastName": "Jones",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Desiree",
-                    "LastName": "Roy",
-                    "UniformNumber": "24",
+                    "FirstName": "Olivia",
+                    "LastName": "Ayres",
+                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -5179,12 +5171,20 @@
                     "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Desiree",
+                    "LastName": "Roy",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "21 Olivia Ayres IN; 25 D&#39;Asia Jones IN; 24 Desiree Roy OUT; 20 Alicia Johnson OUT",
+            "Narrative": "25 D'Asia Jones IN; 21 Olivia Ayres IN; 20 Alicia Johnson OUT; 24 Desiree Roy OUT",
             "Context": "",
-            "Id": "129+1245FECE",
+            "Id": "129+418A41DC",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5370,7 +5370,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -5378,9 +5378,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones DEF. REBOUND (1 Reb, 1 Def)",
+            "Narrative": "25 D'Asia Jones DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "144+6CE7944B",
+            "Id": "144+D108380A",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5627,7 +5627,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -5635,9 +5635,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones DEF. REBOUND (2 Reb, 2 Def)",
+            "Narrative": "25 D'Asia Jones DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "157+8ED2041E",
+            "Id": "157+E6F12E85",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5857,7 +5857,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -5865,9 +5865,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones JUMPER MISS",
+            "Narrative": "25 D'Asia Jones JUMPER MISS",
             "Context": "",
-            "Id": "169+BA33E66B",
+            "Id": "169+3544931A",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 2,
@@ -6342,7 +6342,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -6350,9 +6350,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones JUMPER MISS",
+            "Narrative": "25 D'Asia Jones JUMPER MISS",
             "Context": "",
-            "Id": "194+27396877",
+            "Id": "194+A84E1D06",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 2,
@@ -6447,26 +6447,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Leah",
-                "LastName": "Harkenrider",
-                "UniformNumber": "15",
+                "FirstName": "Ana",
+                "LastName": "Ion",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Ana",
-                    "LastName": "Ion",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "Rittenhouse",
-                    "UniformNumber": "4",
+                    "FirstName": "Leah",
+                    "LastName": "Harkenrider",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -6477,12 +6469,20 @@
                     "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Rittenhouse",
+                    "UniformNumber": "4",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "15 Leah Harkenrider IN; 30 Ana Ion IN; 4 Grace Rittenhouse OUT; 20 Gillian Flint OUT",
+            "Narrative": "30 Ana Ion IN; 15 Leah Harkenrider IN; 20 Gillian Flint OUT; 4 Grace Rittenhouse OUT",
             "Context": "",
-            "Id": "199+40DA5",
+            "Id": "199+83F4E114",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6676,10 +6676,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Elmira TIMEOUT 30 Sec. (1st TO, 2nd 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "213+1EAAFFEA",
-            "Type": "30SEC",
+            "Id": "213+200BA524",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 2,
             "ClockSeconds": 236,
@@ -6778,7 +6778,7 @@
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "D&#39;Asia",
+                    "FirstName": "D'Asia",
                     "LastName": "Jones",
                     "UniformNumber": "25",
                     "Photo": null,
@@ -6786,9 +6786,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "10 Taylor Jung IN; 25 D&#39;Asia Jones OUT",
+            "Narrative": "10 Taylor Jung IN; 25 D'Asia Jones OUT",
             "Context": "",
-            "Id": "218+E141A1AD",
+            "Id": "218+BDE9260E",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -7823,7 +7823,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -7840,9 +7840,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones IN; 20 Alicia Johnson OUT",
+            "Narrative": "25 D'Asia Jones IN; 20 Alicia Johnson OUT",
             "Context": "",
-            "Id": "272+80B67BA6",
+            "Id": "272+1F2D1E66",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -7994,7 +7994,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -8002,9 +8002,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones OFF. REBOUND (3 Reb, 1 Off)",
+            "Narrative": "25 D'Asia Jones OFF. REBOUND (3 Reb, 1 Off)",
             "Context": "",
-            "Id": "281+AF93C563",
+            "Id": "281+7A198F57",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -8015,7 +8015,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -8023,9 +8023,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones TURNOVER (1 TO)",
+            "Narrative": "25 D'Asia Jones TURNOVER (1 TO)",
             "Context": "",
-            "Id": "282+591DA1D0",
+            "Id": "282+9C15719E",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -8790,18 +8790,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Allison",
-                "LastName": "O'Toole",
-                "UniformNumber": "14",
+                "FirstName": "Briana",
+                "LastName": "Broadwell",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Briana",
-                    "LastName": "Broadwell",
-                    "UniformNumber": "11",
+                    "FirstName": "Allison",
+                    "LastName": "O'Toole",
+                    "UniformNumber": "14",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -8823,9 +8823,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "14 Allison O'Toole IN; 11 Briana Broadwell IN; 3 Rebecca Jewett OUT; 30 Ana Ion OUT",
+            "Narrative": "11 Briana Broadwell IN; 14 Allison O'Toole IN; 3 Rebecca Jewett OUT; 30 Ana Ion OUT",
             "Context": "",
-            "Id": "321+7E52E7D6",
+            "Id": "321+B2E6AEB1",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9311,7 +9311,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -9328,9 +9328,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones IN; 13 Taylor Albrecht OUT",
+            "Narrative": "25 D'Asia Jones IN; 13 Taylor Albrecht OUT",
             "Context": "",
-            "Id": "349+7535347D",
+            "Id": "349+4E370F87",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9358,25 +9358,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "Rittenhouse",
-                    "UniformNumber": "4",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Leah",
                     "LastName": "Harkenrider",
                     "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Rittenhouse",
+                    "UniformNumber": "4",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "3 Rebecca Jewett IN; 00 Samantha Fischer IN; 4 Grace Rittenhouse OUT; 15 Leah Harkenrider OUT",
+            "Narrative": "3 Rebecca Jewett IN; 00 Samantha Fischer IN; 15 Leah Harkenrider OUT; 4 Grace Rittenhouse OUT",
             "Context": "",
-            "Id": "351+E15C5350",
+            "Id": "351+773915AF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9495,7 +9495,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -9503,9 +9503,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones DEF. REBOUND (4 Reb, 3 Def)",
+            "Narrative": "25 D'Asia Jones DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "360+B033F1A0",
+            "Id": "360+FC1065F3",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -9668,7 +9668,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -9676,9 +9676,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones DEF. REBOUND (5 Reb, 4 Def)",
+            "Narrative": "25 D'Asia Jones DEF. REBOUND (5 Reb, 4 Def)",
             "Context": "",
-            "Id": "369+84E8FD71",
+            "Id": "369+E65CE678",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -9731,7 +9731,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -9739,9 +9739,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones JUMPER MISS",
+            "Narrative": "25 D'Asia Jones JUMPER MISS",
             "Context": "",
-            "Id": "372+59F0EF66",
+            "Id": "372+D6879A17",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
@@ -9794,7 +9794,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -9802,9 +9802,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones DEF. REBOUND (6 Reb, 5 Def)",
+            "Narrative": "25 D'Asia Jones DEF. REBOUND (6 Reb, 5 Def)",
             "Context": "",
-            "Id": "375+F16F3D90",
+            "Id": "375+1DBC1843",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -9875,17 +9875,17 @@
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Leah",
-                    "LastName": "Harkenrider",
-                    "UniformNumber": "15",
+                    "FirstName": "Ana",
+                    "LastName": "Ion",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Ana",
-                    "LastName": "Ion",
-                    "UniformNumber": "30",
+                    "FirstName": "Leah",
+                    "LastName": "Harkenrider",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -9915,9 +9915,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "4 Grace Rittenhouse IN; 15 Leah Harkenrider IN; 30 Ana Ion IN; 23 Felicia Stewart OUT; 11 Briana Broadwell OUT; 00 Samantha Fischer OUT",
+            "Narrative": "4 Grace Rittenhouse IN; 30 Ana Ion IN; 15 Leah Harkenrider IN; 23 Felicia Stewart OUT; 11 Briana Broadwell OUT; 00 Samantha Fischer OUT",
             "Context": "",
-            "Id": "379+59DD8213",
+            "Id": "379+DDA127E0",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -10509,18 +10509,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
-                "LastName": "Jones",
-                "UniformNumber": "25",
+                "FirstName": "Olivia",
+                "LastName": "Ayres",
+                "UniformNumber": "21",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Ayres",
-                    "UniformNumber": "21",
+                    "FirstName": "D'Asia",
+                    "LastName": "Jones",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -10542,9 +10542,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones IN; 21 Olivia Ayres IN; 20 Alicia Johnson OUT; 1 Nevaeh Winston OUT",
+            "Narrative": "21 Olivia Ayres IN; 25 D'Asia Jones IN; 20 Alicia Johnson OUT; 1 Nevaeh Winston OUT",
             "Context": "",
-            "Id": "416+317937B8",
+            "Id": "416+FA84B7A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10714,7 +10714,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -10722,9 +10722,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones FOUL (1 PF)",
+            "Narrative": "25 D'Asia Jones FOUL (1 PF)",
             "Context": "",
-            "Id": "428+F579235E",
+            "Id": "428+1101D650",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10846,7 +10846,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -10854,9 +10854,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones OFF. REBOUND (7 Reb, 2 Off)",
+            "Narrative": "25 D'Asia Jones OFF. REBOUND (7 Reb, 2 Off)",
             "Context": "",
-            "Id": "434+A5C45347",
+            "Id": "434+998C0223",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10888,7 +10888,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -10896,9 +10896,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones FT GOOD (1 Pt)",
+            "Narrative": "25 D'Asia Jones FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "436+C443CD3C",
+            "Id": "436+D3A5C3D6",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10912,7 +10912,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -10920,9 +10920,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones FT GOOD (2 Pt)",
+            "Narrative": "25 D'Asia Jones FT GOOD (2 Pt)",
             "Context": "",
-            "Id": "437+C5FCDDB1",
+            "Id": "437+D5C2D35B",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11002,10 +11002,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alfred TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "442+573BAD20",
-            "Type": "30SEC",
+            "Id": "442+E8A4B4B7",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 482,
@@ -11144,7 +11144,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -11152,9 +11152,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones TURNOVER (2 TO)",
+            "Narrative": "25 D'Asia Jones TURNOVER (2 TO)",
             "Context": "",
-            "Id": "450+5C10E21A",
+            "Id": "450+C9E0F818",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -11186,7 +11186,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -11194,9 +11194,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones FOUL (2 PF)",
+            "Narrative": "25 D'Asia Jones FOUL (2 PF)",
             "Context": "",
-            "Id": "452+746578FC",
+            "Id": "452+1553CF70",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -11395,7 +11395,7 @@
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "D&#39;Asia",
+                    "FirstName": "D'Asia",
                     "LastName": "Jones",
                     "UniformNumber": "25",
                     "Photo": null,
@@ -11403,9 +11403,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "24 Desiree Roy JUMPER GOOD (8 Pt); 25 D&#39;Asia Jones Assist (1 Asst)",
+            "Narrative": "24 Desiree Roy JUMPER GOOD (8 Pt); 25 D'Asia Jones Assist (1 Asst)",
             "Context": "",
-            "Id": "463+980EC0D5",
+            "Id": "463+7B7DB6D0",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
@@ -11512,7 +11512,7 @@
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "D&#39;Asia",
+                    "FirstName": "D'Asia",
                     "LastName": "Jones",
                     "UniformNumber": "25",
                     "Photo": null,
@@ -11520,9 +11520,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "21 Olivia Ayres IN; 25 D&#39;Asia Jones OUT",
+            "Narrative": "21 Olivia Ayres IN; 25 D'Asia Jones OUT",
             "Context": "",
-            "Id": "469+24FBA7CD",
+            "Id": "469+A6224A0",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11783,10 +11783,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Elmira TIMEOUT 30 Sec. (1st TO, 3rd 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "483+805D6D4F",
-            "Type": "30SEC",
+            "Id": "483+BE783726",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 334,
@@ -12128,7 +12128,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -12145,9 +12145,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones IN; 13 Taylor Albrecht OUT",
+            "Narrative": "25 D'Asia Jones IN; 13 Taylor Albrecht OUT",
             "Context": "",
-            "Id": "501+B3B39F38",
+            "Id": "501+88B1A4C2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -12179,7 +12179,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -12187,9 +12187,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones STEAL (1 Stl)",
+            "Narrative": "25 D'Asia Jones STEAL (1 Stl)",
             "Context": "",
-            "Id": "504+477079AF",
+            "Id": "504+957A5729",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -12243,10 +12243,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Alfred TIMEOUT 30 Sec. (2nd TO, 2nd 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "507+917CE70E",
-            "Type": "30SEC",
+            "Id": "507+96EC0723",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 243,
@@ -12636,7 +12636,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -12644,9 +12644,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones JUMPER MISS",
+            "Narrative": "25 D'Asia Jones JUMPER MISS",
             "Context": "",
-            "Id": "527+EB88152B",
+            "Id": "527+64FF605A",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -12699,7 +12699,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -12707,9 +12707,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones OFF. REBOUND (8 Reb, 3 Off)",
+            "Narrative": "25 D'Asia Jones OFF. REBOUND (8 Reb, 3 Off)",
             "Context": "",
-            "Id": "530+12813339",
+            "Id": "530+EFCAAF35",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -12720,7 +12720,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -12728,9 +12728,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones LAYUP GOOD (4 Pt)",
+            "Narrative": "25 D'Asia Jones LAYUP GOOD (4 Pt)",
             "Context": "",
-            "Id": "531+E4D0A7D6",
+            "Id": "531+58618379",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -12828,7 +12828,7 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "D&#39;Asia",
+                "FirstName": "D'Asia",
                 "LastName": "Jones",
                 "UniformNumber": "25",
                 "Photo": null,
@@ -12836,9 +12836,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "25 D&#39;Asia Jones FOUL (3 PF)",
+            "Narrative": "25 D'Asia Jones FOUL (3 PF)",
             "Context": "",
-            "Id": "537+CD217E27",
+            "Id": "537+21066BDD",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -12873,26 +12873,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Victoria",
-                "LastName": "Rought",
-                "UniformNumber": "40",
+                "FirstName": "Anna",
+                "LastName": "Ward",
+                "UniformNumber": "22",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Ward",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Desiree",
-                    "LastName": "Roy",
-                    "UniformNumber": "24",
+                    "FirstName": "Victoria",
+                    "LastName": "Rought",
+                    "UniformNumber": "40",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -12903,12 +12895,20 @@
                     "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Desiree",
+                    "LastName": "Roy",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "40 Victoria Rought IN; 22 Anna Ward IN; 24 Desiree Roy OUT; 21 Olivia Ayres OUT",
+            "Narrative": "22 Anna Ward IN; 40 Victoria Rought IN; 21 Olivia Ayres OUT; 24 Desiree Roy OUT",
             "Context": "",
-            "Id": "539+C8371173",
+            "Id": "539+66D321E3",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -12952,22 +12952,6 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "Rittenhouse",
-                    "UniformNumber": "4",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Rebecca",
-                    "LastName": "Jewett",
-                    "UniformNumber": "3",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Gillian",
                     "LastName": "Flint",
                     "UniformNumber": "20",
@@ -12981,12 +12965,28 @@
                     "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Rittenhouse",
+                    "UniformNumber": "4",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Rebecca",
+                    "LastName": "Jewett",
+                    "UniformNumber": "3",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "23 Felicia Stewart IN; 11 Briana Broadwell IN; 00 Samantha Fischer IN; 30 Ana Ion IN; 4 Grace Rittenhouse OUT; 3 Rebecca Jewett OUT; 20 Gillian Flint OUT; 15 Leah Harkenrider OUT",
+            "Narrative": "23 Felicia Stewart IN; 11 Briana Broadwell IN; 00 Samantha Fischer IN; 30 Ana Ion IN; 20 Gillian Flint OUT; 15 Leah Harkenrider OUT; 4 Grace Rittenhouse OUT; 3 Rebecca Jewett OUT",
             "Context": "",
-            "Id": "543+6B4CFBC5",
+            "Id": "543+BB507065",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,

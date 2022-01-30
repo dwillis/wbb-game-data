@@ -46,7 +46,12 @@
                 18,
                 10
             ],
-            "PeriodTimeouts": []
+            "PeriodTimeouts": [
+                0,
+                0,
+                0,
+                3
+            ]
         },
         "VisitingTeam": {
             "Id": "Camer",
@@ -67,10 +72,25 @@
             "PeriodTimeouts": [
                 0,
                 0,
-                0
+                0,
+                3
             ]
         },
         "LastPlays": [
+            {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "Texas Woman's REBOUND",
+                "Context": "",
+                "Id": "390+44F1EEC3",
+                "Type": "DEF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 0,
+                "Coordinate": null,
+                "Score": null
+            },
             {
                 "Player": {
                     "Team": "VisitingTeam",
@@ -82,108 +102,84 @@
                 },
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "23 Korie Allensworth 3PTR GOOD (4 Pt)",
+                "Narrative": "23 Korie Allensworth 3PTR MISS",
                 "Context": "",
-                "Id": "307+E4C49D1D",
+                "Id": "389+2D031775",
                 "Type": "3PTR",
-                "Action": "GOOD",
-                "Period": 4,
-                "ClockSeconds": 452,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 59,
-                    "VisitingTeam": 48
-                }
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Sadie",
-                    "LastName": "Moyer",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "14 Sadie Moyer JUMPER GOOD (6 Pt)",
-                "Context": "",
-                "Id": "306+4ED6EE65",
-                "Type": "JUMPER",
-                "Action": "GOOD",
-                "Period": 4,
-                "ClockSeconds": 468,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 59,
-                    "VisitingTeam": 45
-                }
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Ingram",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "35 Ashley Ingram DEF. REBOUND (8 Reb, 7 Def)",
-                "Context": "",
-                "Id": "305+69533059",
-                "Type": "DEF",
-                "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 493,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Stephanie",
-                    "LastName": "Peterson",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "03 Stephanie Peterson FT MISS",
-                "Context": "",
-                "Id": "304+2CF19C4B",
-                "Type": "FT",
                 "Action": "MISS",
                 "Period": 4,
-                "ClockSeconds": 494,
+                "ClockSeconds": 0,
                 "Coordinate": null,
                 "Score": null
             },
             {
                 "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Brielle",
+                    "LastName": "Woods",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "15 Brielle Woods FT GOOD (9 Pt)",
+                "Context": "",
+                "Id": "388+DDB40860",
+                "Type": "FT",
+                "Action": "GOOD",
+                "Period": 4,
+                "ClockSeconds": 1,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 65,
+                    "VisitingTeam": 61
+                }
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Brielle",
+                    "LastName": "Woods",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "15 Brielle Woods FT GOOD (8 Pt)",
+                "Context": "",
+                "Id": "387+C802B242",
+                "Type": "FT",
+                "Action": "GOOD",
+                "Period": 4,
+                "ClockSeconds": 1,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 64,
+                    "VisitingTeam": 61
+                }
+            },
+            {
+                "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Stephanie",
-                    "LastName": "Peterson",
-                    "UniformNumber": "03",
+                    "FirstName": "Maighan",
+                    "LastName": "Hedge",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "03 Stephanie Peterson FT GOOD (13 Pt)",
+                "Narrative": "04 Maighan Hedge FOUL (3 PF)",
                 "Context": "",
-                "Id": "303+954B3D6B",
-                "Type": "FT",
-                "Action": "GOOD",
+                "Id": "386+822B5BCA",
+                "Type": "FOUL",
+                "Action": "FOUL",
                 "Period": 4,
-                "ClockSeconds": 495,
+                "ClockSeconds": 1,
                 "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 57,
-                    "VisitingTeam": 45
-                }
+                "Score": null
             }
         ]
     },
@@ -1345,8 +1341,8 @@
                     "DefensiveRebounds": "31",
                     "Ties": "2",
                     "Leads": "0",
-                    "TimeWithLead": "39:32",
-                    "PercentLead": "98.8%",
+                    "TimeWithLead": "38:43",
+                    "PercentLead": "96.8%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
                     "LargestLead": "19",
@@ -1774,8 +1770,8 @@
                         "DefensiveRebounds": "6",
                         "Ties": "2",
                         "Leads": "0",
-                        "TimeWithLead": "10:00",
-                        "PercentLead": "25.0%",
+                        "TimeWithLead": "9:11",
+                        "PercentLead": "22.9%",
                         "LastLeadScore": "",
                         "LastLeadTime": "",
                         "LargestLead": "14",
@@ -8548,11 +8544,20 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Maighan",
+                    "LastName": "Hedge",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "VisitingTeam",
-            "Narrative": "23 Korie Allensworth 3PTR GOOD (4 Pt)",
+            "Narrative": "23 Korie Allensworth 3PTR GOOD (4 Pt); 04 Maighan Hedge Assist (4 Asst)",
             "Context": "",
-            "Id": "307+E4C49D1D",
+            "Id": "307+C9507D8B",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
@@ -8562,6 +8567,1577 @@
                 "HomeTeam": 59,
                 "VisitingTeam": 48
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "35 Ashley Ingram TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "309+146B1C0",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ma'K'La",
+                    "LastName": "Woods",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "35 Ashley Ingram OUT; 20 Ma'K'La Woods IN",
+            "Context": "",
+            "Id": "310+9BE332ED",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 430,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Stephanie",
+                "LastName": "Peterson",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Stephanie Peterson 3PTR MISS",
+            "Context": "",
+            "Id": "312+6E1BDD27",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 405,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King OFF. REBOUND (2 Reb, 1 Off)",
+            "Context": "",
+            "Id": "313+3E96DEA6",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 402,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King JUMPER GOOD (7 Pt)",
+            "Context": "",
+            "Id": "314+25ECCC10",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 401,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 50
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Agang",
+                "LastName": "Tac",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Agang Tac TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "315+7F4B10B2",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 392,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Stephanie",
+                "LastName": "Peterson",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Stephanie Peterson STEAL (1 Stl)",
+            "Context": "",
+            "Id": "316+3837C3E1",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 392,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Maighan",
+                "LastName": "Hedge",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Maighan Hedge JUMPER GOOD (15 Pt)",
+            "Context": "",
+            "Id": "317+88DA4486",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 383,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 52
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Texas Woman's TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Context": "",
+            "Id": "318+A98FEE80",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 380,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Agang",
+                    "LastName": "Tac",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "35 Ashley Ingram IN; 23 Agang Tac OUT",
+            "Context": "",
+            "Id": "319+83A6094B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 380,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "35 Ashley Ingram TURNOVER (4 TO)",
+            "Context": "",
+            "Id": "321+15E99450",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 359,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King STEAL (1 Stl)",
+            "Context": "",
+            "Id": "322+D4AF0BA2",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 359,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Stephanie",
+                "LastName": "Peterson",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Stephanie Peterson JUMPER MISS",
+            "Context": "",
+            "Id": "323+4FBB14B2",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 347,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ma'K'La",
+                "LastName": "Woods",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Ma'K'La Woods DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "324+E3013D8A",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 344,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "325+C1045983",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 344,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kayla",
+                "LastName": "Glover",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Brielle",
+                    "LastName": "Woods",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "33 Kayla Glover OUT; 15 Brielle Woods IN",
+            "Context": "",
+            "Id": "326+23617CA9",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 344,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods FOUL (2 PF)",
+            "Context": "",
+            "Id": "328+47C8E88D",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 342,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Maighan",
+                "LastName": "Hedge",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Maighan Hedge FT GOOD (16 Pt)",
+            "Context": "",
+            "Id": "329+90B84983",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 330,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 53
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Maighan",
+                "LastName": "Hedge",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Maighan Hedge FT GOOD (17 Pt)",
+            "Context": "",
+            "Id": "330+51A3BD9B",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 330,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King 3PTR MISS",
+            "Context": "",
+            "Id": "331+93E56168",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 310,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King OFF. REBOUND (6 Reb, 2 Off)",
+            "Context": "",
+            "Id": "332+8143DF3B",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 306,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King FOUL (2 PF)",
+            "Context": "",
+            "Id": "333+5CBE17D",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 291,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "334+270E8FA6",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 291,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Cameron TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Context": "",
+            "Id": "335+5731F33C",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 289,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Ingram",
+                    "UniformNumber": "35",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Scout",
+                    "LastName": "Huffman",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kayla",
+                    "LastName": "Glover",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King OUT; 35 Ashley Ingram OUT; 25 Scout Huffman IN; 33 Kayla Glover IN",
+            "Context": "",
+            "Id": "336+FBC7869B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 289,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King FOUL (3 PF)",
+            "Context": "",
+            "Id": "340+5E6D2060",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 271,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "341+1065502F",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 271,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Sadie",
+                "LastName": "Moyer",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Sadie Moyer JUMPER MISS",
+            "Context": "",
+            "Id": "342+6C8E28A",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 257,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Stephanie",
+                "LastName": "Peterson",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Stephanie Peterson DEF. REBOUND (12 Reb, 12 Def)",
+            "Context": "",
+            "Id": "343+C914D1E1",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 254,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Korie",
+                "LastName": "Allensworth",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Korie Allensworth 3PTR MISS",
+            "Context": "",
+            "Id": "344+2BE466DA",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 246,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Scout Huffman DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "345+6FE6C508",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 241,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Sadie",
+                "LastName": "Moyer",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Keslyn",
+                    "LastName": "King",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "14 Sadie Moyer OUT; 02 Keslyn King IN",
+            "Context": "",
+            "Id": "346+FD496065",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 236,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods JUMPER MISS",
+            "Context": "",
+            "Id": "348+1BC83FEB",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 224,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Scout Huffman OFF. REBOUND (3 Reb, 1 Off)",
+            "Context": "",
+            "Id": "349+5B5E98FF",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 220,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kayla",
+                "LastName": "Glover",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "33 Kayla Glover TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "350+ED8D878",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 219,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King STEAL (2 Stl)",
+            "Context": "",
+            "Id": "351+8FAFE32",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 219,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Korie",
+                "LastName": "Allensworth",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Korie Allensworth TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "352+23B9474E",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 216,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Ingram",
+                    "UniformNumber": "35",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "25 Scout Huffman OUT; 35 Ashley Ingram IN",
+            "Context": "",
+            "Id": "353+70CA7542",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 206,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ma'K'La",
+                "LastName": "Woods",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Ma'K'La Woods TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "355+22A03378",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 184,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Whitney",
+                "LastName": "Outon",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "33 Whitney Outon 3PTR MISS",
+            "Context": "",
+            "Id": "356+41D4DFD7",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 170,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods DEF. REBOUND (5 Reb, 4 Def)",
+            "Context": "",
+            "Id": "357+30013BAE",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 165,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ma'K'La",
+                "LastName": "Woods",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Ma'K'La Woods TURNOVER (4 TO)",
+            "Context": "",
+            "Id": "358+20683B2F",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 145,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Stephanie",
+                "LastName": "Peterson",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Stephanie Peterson STEAL (2 Stl)",
+            "Context": "",
+            "Id": "359+CD1379C2",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 145,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Maighan",
+                "LastName": "Hedge",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Stephanie",
+                    "LastName": "Peterson",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Maighan Hedge 3PTR GOOD (20 Pt); 03 Stephanie Peterson Assist (2 Asst)",
+            "Context": "",
+            "Id": "360+26CA4FDA",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 132,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 57
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Keslyn King JUMPER MISS",
+            "Context": "",
+            "Id": "362+2EA0C6E8",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 105,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ma'K'La",
+                "LastName": "Woods",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Agang",
+                    "LastName": "Tac",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "20 Ma'K'La Woods OUT; 23 Agang Tac IN",
+            "Context": "",
+            "Id": "363+9A8E2AF3",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 102,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Cameron REBOUND",
+            "Context": "",
+            "Id": "365+5F90EB0F",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 99,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Agang",
+                "LastName": "Tac",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Agang Tac FOUL (3 PF)",
+            "Context": "",
+            "Id": "366+33313234",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 90,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Korie",
+                "LastName": "Allensworth",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Korie Allensworth FT GOOD (5 Pt)",
+            "Context": "",
+            "Id": "367+E9D019DD",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 90,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 58
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Korie",
+                "LastName": "Allensworth",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Korie Allensworth FT GOOD (6 Pt)",
+            "Context": "",
+            "Id": "368+D17EC0B",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 90,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 59,
+                "VisitingTeam": 59
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Cameron TIMEOUT 30 Sec. (2nd TO, 2nd 30)",
+            "Context": "",
+            "Id": "369+7F8CCC91",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 90,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods LAYUP MISS",
+            "Context": "",
+            "Id": "370+69D1314C",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 63,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Agang",
+                "LastName": "Tac",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Agang Tac OFF. REBOUND (6 Reb, 3 Off)",
+            "Context": "",
+            "Id": "371+DB4CB513",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 54,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Agang",
+                "LastName": "Tac",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Agang Tac LAYUP GOOD (8 Pt)",
+            "Context": "",
+            "Id": "372+1A278579",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 54,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 61,
+                "VisitingTeam": 59
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Korie",
+                "LastName": "Allensworth",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Korie Allensworth JUMPER GOOD (8 Pt)",
+            "Context": "",
+            "Id": "373+276320B0",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 61,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Texas Woman's TIMEOUT Full (2nd TO, 1st Full)",
+            "Context": "",
+            "Id": "374+8440F740",
+            "Type": "TEAM",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King FOUL (4 PF)",
+            "Context": "",
+            "Id": "375+D1F8B206",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Stephanie",
+                "LastName": "Peterson",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Stephanie Peterson FOUL (3 PF)",
+            "Context": "",
+            "Id": "376+E62E8977",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 18,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "35 Ashley Ingram FT GOOD (20 Pt)",
+            "Context": "",
+            "Id": "377+4E6F5BD8",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 18,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 62,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "35 Ashley Ingram FT GOOD (21 Pt)",
+            "Context": "",
+            "Id": "378+826A0208",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 18,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 63,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Cameron TIMEOUT Full (3rd TO, 1st Full)",
+            "Context": "",
+            "Id": "379+D4B2A5B3",
+            "Type": "TEAM",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 18,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Maighan",
+                "LastName": "Hedge",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Maighan Hedge TURNOVER (5 TO)",
+            "Context": "",
+            "Id": "380+30804BCF",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 8,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods STEAL (3 Stl)",
+            "Context": "",
+            "Id": "381+4D22FC7",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 8,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Texas Woman's TIMEOUT 30 Sec. (3rd TO, 2nd 30)",
+            "Context": "",
+            "Id": "382+80CDB430",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 5,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King FOUL (5 PF)",
+            "Context": "",
+            "Id": "383+F3242FCD",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Katie",
+                "LastName": "King",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Logan",
+                    "LastName": "Collyer",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Katie King OUT; 01 Logan Collyer IN",
+            "Context": "",
+            "Id": "384+19FEAEC4",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Maighan",
+                "LastName": "Hedge",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Maighan Hedge FOUL (3 PF)",
+            "Context": "",
+            "Id": "386+822B5BCA",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 1,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods FT GOOD (8 Pt)",
+            "Context": "",
+            "Id": "387+C802B242",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 1,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 64,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods FT GOOD (9 Pt)",
+            "Context": "",
+            "Id": "388+DDB40860",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 1,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 65,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Korie",
+                "LastName": "Allensworth",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Korie Allensworth 3PTR MISS",
+            "Context": "",
+            "Id": "389+2D031775",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 0,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Texas Woman's REBOUND",
+            "Context": "",
+            "Id": "390+44F1EEC3",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 0,
+            "Coordinate": null,
+            "Score": null
         }
     ]
 }

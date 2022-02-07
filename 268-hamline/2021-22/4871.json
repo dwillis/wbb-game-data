@@ -3,7 +3,7 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "statcrew",
+        "Source": "",
         "Date": "2/5/2022",
         "DateUTC": null,
         "StartTime": "1:00 PM",
@@ -48,9 +48,9 @@
             ],
             "PeriodTimeouts": [
                 0,
-                0,
-                0,
-                0
+                1,
+                1,
+                1
             ]
         },
         "VisitingTeam": {
@@ -70,10 +70,10 @@
                 19
             ],
             "PeriodTimeouts": [
+                1,
                 0,
                 0,
-                0,
-                0
+                1
             ]
         },
         "LastPlays": [
@@ -146,10 +146,10 @@
                 "Player": null,
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
-                "Narrative": "Timeout",
+                "Narrative": "Concordia-M'head TIMEOUT 30 Sec. (1st TO, 3rd 30)",
                 "Context": "",
-                "Id": "480+D2DBEF28",
-                "Type": "30S",
+                "Id": "480+6F388E03",
+                "Type": "30SEC",
                 "Action": "TIMEOUT",
                 "Period": 4,
                 "ClockSeconds": 6,
@@ -937,65 +937,9 @@
             "Players": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Emily",
-                    "LastName": "Beseman",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Symone",
-                    "LastName": "Beld",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Makayla",
-                    "LastName": "Anderson",
-                    "UniformNumber": "42",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jennie",
-                    "LastName": "Sem",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jordyn",
-                    "LastName": "Kahler",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Sophia",
-                    "LastName": "Tobin",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Taviahna",
-                    "LastName": "Tanin",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Mary",
-                    "LastName": "Sem",
-                    "UniformNumber": "30",
+                    "FirstName": "Autumn",
+                    "LastName": "Thompson",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1009,9 +953,17 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Vanessa",
-                    "LastName": "Kedl",
-                    "UniformNumber": "22",
+                    "FirstName": "Jennie",
+                    "LastName": "Sem",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mataya",
+                    "LastName": "Hoelscher",
+                    "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1033,17 +985,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Autumn",
-                    "LastName": "Thompson",
-                    "UniformNumber": "03",
+                    "FirstName": "Taviahna",
+                    "LastName": "Tanin",
+                    "UniformNumber": "14",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mataya",
-                    "LastName": "Hoelscher",
-                    "UniformNumber": "10",
+                    "FirstName": "Emily",
+                    "LastName": "Beseman",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Vanessa",
+                    "LastName": "Kedl",
+                    "UniformNumber": "22",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1052,6 +1012,22 @@
                     "FirstName": "McKenna",
                     "LastName": "Becher",
                     "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jordyn",
+                    "LastName": "Kahler",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mary",
+                    "LastName": "Sem",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1068,6 +1044,30 @@
                     "FirstName": "Elizabeth",
                     "LastName": "Salmen",
                     "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Sophia",
+                    "LastName": "Tobin",
+                    "UniformNumber": "34",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Makayla",
+                    "LastName": "Anderson",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Symone",
+                    "LastName": "Beld",
+                    "UniformNumber": "44",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1339,7 +1339,7 @@
                             "Uni": "23",
                             "Name": "M. BECHER",
                             "Position": "",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "4",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
@@ -1393,7 +1393,7 @@
                             "Uni": "34",
                             "Name": "S. TOBIN",
                             "Position": "",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "8",
                             "Fgam": "0-1",
                             "ShootingPercentage": "0.0%",
@@ -1541,7 +1541,7 @@
                     "Turnovers": "18",
                     "PointsFromBench": "25",
                     "Blocks": "5",
-                    "PointsOnCourt": "56",
+                    "PointsOnCourt": "57",
                     "PointsOffFastBreak": "6",
                     "Steals": "10",
                     "PointsOffTurnovers": "8",
@@ -1549,8 +1549,8 @@
                     "PointsOffSecondChance": "2",
                     "PersonalFouls": "19",
                     "TechnicalFouls": "0",
-                    "Possession": "74",
-                    "AverageScoringPossession": "0:17"
+                    "Possession": "0",
+                    "AverageScoringPossession": "-"
                 }
             },
             "PeriodStats": [
@@ -1648,8 +1648,8 @@
                         "Assists": "5",
                         "Turnovers": "2",
                         "PointsFromBench": "2",
-                        "Blocks": "3",
-                        "PointsOnCourt": "56",
+                        "Blocks": "2",
+                        "PointsOnCourt": "57",
                         "PointsOffFastBreak": "4",
                         "Steals": "4",
                         "PointsOffTurnovers": "4",
@@ -1657,8 +1657,8 @@
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
-                        "Possession": "21",
-                        "AverageScoringPossession": "0:14"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:334"
                     }
                 },
                 {
@@ -1753,10 +1753,10 @@
                         "LargestLeadScores": "29-20",
                         "LargestLeadTime": "5:11 (2nd)",
                         "Assists": "2",
-                        "Turnovers": "7",
+                        "Turnovers": "6",
                         "PointsFromBench": "3",
-                        "Blocks": "1",
-                        "PointsOnCourt": "56",
+                        "Blocks": "0",
+                        "PointsOnCourt": "57",
                         "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "0",
@@ -1764,8 +1764,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "8",
                         "TechnicalFouls": "0",
-                        "Possession": "17",
-                        "AverageScoringPossession": "0:20"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:360"
                     }
                 },
                 {
@@ -1863,7 +1863,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "11",
                         "Blocks": "3",
-                        "PointsOnCourt": "56",
+                        "PointsOnCourt": "57",
                         "PointsOffFastBreak": "2",
                         "Steals": "1",
                         "PointsOffTurnovers": "2",
@@ -1871,8 +1871,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "0",
                         "TechnicalFouls": "0",
-                        "Possession": "17",
-                        "AverageScoringPossession": "0:18"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:278"
                     }
                 },
                 {
@@ -1969,8 +1969,8 @@
                         "Assists": "2",
                         "Turnovers": "5",
                         "PointsFromBench": "9",
-                        "Blocks": "1",
-                        "PointsOnCourt": "56",
+                        "Blocks": "0",
+                        "PointsOnCourt": "57",
                         "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "2",
@@ -1978,8 +1978,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "19",
-                        "AverageScoringPossession": "0:18"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:348"
                     }
                 }
             ]
@@ -2004,6 +2004,22 @@
                 },
                 {
                     "Team": "VisitingTeam",
+                    "FirstName": "Alyssa",
+                    "LastName": "Williamson",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Makayla",
+                    "LastName": "Harris",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
                     "FirstName": "Gabby",
                     "LastName": "Robinson",
                     "UniformNumber": "04",
@@ -2012,9 +2028,65 @@
                 },
                 {
                     "Team": "VisitingTeam",
+                    "FirstName": "Brittney",
+                    "LastName": "Draeger",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Aliyah",
+                    "LastName": "Wensel",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Iyanna",
+                    "LastName": "Wieland",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Michaela",
+                    "LastName": "Stamer",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ally",
+                    "LastName": "Thompson",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Paige",
+                    "LastName": "Condie",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
                     "FirstName": "Lydia",
                     "LastName": "Lecher",
                     "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kate",
+                    "LastName": "Van helden",
+                    "UniformNumber": "22",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -2044,14 +2116,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Brittney",
-                    "LastName": "Draeger",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Lindsey",
                     "LastName": "Bernardy",
                     "UniformNumber": "32",
@@ -2060,9 +2124,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Tanya",
-                    "LastName": "Barakat",
-                    "UniformNumber": "55",
+                    "FirstName": "Katie",
+                    "LastName": "Vaske",
+                    "UniformNumber": "33",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -2076,22 +2140,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Michaela",
-                    "LastName": "Stamer",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Paige",
-                    "LastName": "Condie",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Sarah",
                     "LastName": "Loken",
                     "UniformNumber": "52",
@@ -2100,57 +2148,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Iyanna",
-                    "LastName": "Wieland",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Makayla",
-                    "LastName": "Harris",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Alyssa",
-                    "LastName": "Williamson",
-                    "UniformNumber": "01",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Aliyah",
-                    "LastName": "Wensel",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Ally",
-                    "LastName": "Thompson",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kate",
-                    "LastName": "Van helden",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Katie",
-                    "LastName": "Vaske",
-                    "UniformNumber": "33",
+                    "FirstName": "Tanya",
+                    "LastName": "Barakat",
+                    "UniformNumber": "55",
                     "Photo": null,
                     "PersonId": ""
                 }
@@ -2325,7 +2325,7 @@
                             "Uni": "25",
                             "Name": "T. HAUER",
                             "Position": "*",
-                            "CurrentlyInGame": "*",
+                            "CurrentlyInGame": "",
                             "Minutes": "30",
                             "Fgam": "5-9",
                             "ShootingPercentage": "55.6%",
@@ -2406,7 +2406,7 @@
                             "Uni": "12",
                             "Name": "M. STAMER",
                             "Position": "",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "10",
                             "Fgam": "2-5",
                             "ShootingPercentage": "40.0%",
@@ -2460,7 +2460,7 @@
                             "Uni": "52",
                             "Name": "S. LOKEN",
                             "Position": "",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "9",
                             "Fgam": "0-3",
                             "ShootingPercentage": "0.0%",
@@ -2581,7 +2581,7 @@
                     "Turnovers": "14",
                     "PointsFromBench": "21",
                     "Blocks": "7",
-                    "PointsOnCourt": "34",
+                    "PointsOnCourt": "28",
                     "PointsOffFastBreak": "0",
                     "Steals": "14",
                     "PointsOffTurnovers": "19",
@@ -2589,8 +2589,8 @@
                     "PointsOffSecondChance": "8",
                     "PersonalFouls": "11",
                     "TechnicalFouls": "0",
-                    "Possession": "76",
-                    "AverageScoringPossession": "0:14"
+                    "Possession": "0",
+                    "AverageScoringPossession": "-"
                 }
             },
             "PeriodStats": [
@@ -2688,8 +2688,8 @@
                         "Assists": "1",
                         "Turnovers": "4",
                         "PointsFromBench": "1",
-                        "Blocks": "4",
-                        "PointsOnCourt": "34",
+                        "Blocks": "2",
+                        "PointsOnCourt": "28",
                         "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "2",
@@ -2697,8 +2697,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "1",
                         "TechnicalFouls": "0",
-                        "Possession": "22",
-                        "AverageScoringPossession": "0:15"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:348"
                     }
                 },
                 {
@@ -2796,7 +2796,7 @@
                         "Turnovers": "3",
                         "PointsFromBench": "12",
                         "Blocks": "1",
-                        "PointsOnCourt": "34",
+                        "PointsOnCourt": "28",
                         "PointsOffFastBreak": "0",
                         "Steals": "4",
                         "PointsOffTurnovers": "9",
@@ -2804,8 +2804,8 @@
                         "PointsOffSecondChance": "6",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "17",
-                        "AverageScoringPossession": "0:14"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:270"
                     }
                 },
                 {
@@ -2903,7 +2903,7 @@
                         "Turnovers": "1",
                         "PointsFromBench": "5",
                         "Blocks": "1",
-                        "PointsOnCourt": "34",
+                        "PointsOnCourt": "28",
                         "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "4",
@@ -2911,8 +2911,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "18",
-                        "AverageScoringPossession": "0:16"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:391"
                     }
                 },
                 {
@@ -3009,8 +3009,8 @@
                         "Assists": "2",
                         "Turnovers": "6",
                         "PointsFromBench": "3",
-                        "Blocks": "6",
-                        "PointsOnCourt": "34",
+                        "Blocks": "3",
+                        "PointsOnCourt": "28",
                         "PointsOffFastBreak": "0",
                         "Steals": "5",
                         "PointsOffTurnovers": "4",
@@ -3018,8 +3018,8 @@
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
-                        "Possession": "19",
-                        "AverageScoringPossession": "0:11"
+                        "Possession": "0",
+                        "AverageScoringPossession": "0:286"
                     }
                 }
             ]
@@ -3720,9 +3720,9 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Alyssa",
-                "LastName": "Williamson",
-                "UniformNumber": "01",
+                "FirstName": "Michaela",
+                "LastName": "Stamer",
+                "UniformNumber": "12",
                 "Photo": null,
                 "PersonId": ""
             },
@@ -3737,17 +3737,17 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Michaela",
-                    "LastName": "Stamer",
-                    "UniformNumber": "12",
+                    "FirstName": "Alyssa",
+                    "LastName": "Williamson",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Chan'el",
-                    "LastName": "Anderson-Man",
-                    "UniformNumber": "00",
+                    "FirstName": "Sophie",
+                    "LastName": "Findell",
+                    "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -3761,17 +3761,17 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sophie",
-                    "LastName": "Findell",
-                    "UniformNumber": "24",
+                    "FirstName": "Chan'el",
+                    "LastName": "Anderson-Man",
+                    "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "01 Alyssa Williamson IN; 23 Larisa O'Neil IN; 12 Michaela Stamer IN; 00 Chan'el Anderson-Man OUT; 21 Lydia Lecher OUT; 24 Sophie Findell OUT",
+            "Narrative": "12 Michaela Stamer IN; 23 Larisa O'Neil IN; 01 Alyssa Williamson IN; 24 Sophie Findell OUT; 21 Lydia Lecher OUT; 00 Chan'el Anderson-Man OUT",
             "Context": "",
-            "Id": "34+115272D",
+            "Id": "34+93B6754D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3782,18 +3782,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Makayla",
-                "LastName": "Anderson",
-                "UniformNumber": "42",
+                "FirstName": "Jordyn",
+                "LastName": "Kahler",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Jordyn",
-                    "LastName": "Kahler",
-                    "UniformNumber": "24",
+                    "FirstName": "Makayla",
+                    "LastName": "Anderson",
+                    "UniformNumber": "42",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -3815,9 +3815,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "42 Makayla Anderson IN; 24 Jordyn Kahler IN; 44 Symone Beld OUT; 05 Jennie Sem OUT",
+            "Narrative": "24 Jordyn Kahler IN; 42 Makayla Anderson IN; 44 Symone Beld OUT; 05 Jennie Sem OUT",
             "Context": "",
-            "Id": "40+52C535CF",
+            "Id": "40+66D99DBF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4000,10 +4000,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Timeout",
+            "Narrative": "Hamline TIMEOUT 30 Sec. (1st TO, 1st 30)",
             "Context": "",
-            "Id": "53+2F3F86DE",
-            "Type": "30S",
+            "Id": "53+8532EE9F",
+            "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 1,
             "ClockSeconds": 312,
@@ -4013,26 +4013,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Lydia",
-                "LastName": "Lecher",
-                "UniformNumber": "21",
+                "FirstName": "Sarah",
+                "LastName": "Loken",
+                "UniformNumber": "52",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Loken",
-                    "UniformNumber": "52",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Gabby",
-                    "LastName": "Robinson",
-                    "UniformNumber": "04",
+                    "FirstName": "Lydia",
+                    "LastName": "Lecher",
+                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -4043,12 +4035,20 @@
                     "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Gabby",
+                    "LastName": "Robinson",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "21 Lydia Lecher IN; 52 Sarah Loken IN; 04 Gabby Robinson OUT; 25 Tess Hauer OUT",
+            "Narrative": "52 Sarah Loken IN; 21 Lydia Lecher IN; 25 Tess Hauer OUT; 04 Gabby Robinson OUT",
             "Context": "",
-            "Id": "54+C13A7A7F",
+            "Id": "54+CC14C247",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4553,21 +4553,13 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Sophie",
-                "LastName": "Findell",
-                "UniformNumber": "24",
+                "FirstName": "Gabby",
+                "LastName": "Robinson",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Tess",
-                    "LastName": "Hauer",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Iyanna",
@@ -4578,17 +4570,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Gabby",
-                    "LastName": "Robinson",
-                    "UniformNumber": "04",
+                    "FirstName": "Tess",
+                    "LastName": "Hauer",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Lydia",
-                    "LastName": "Lecher",
-                    "UniformNumber": "21",
+                    "FirstName": "Sophie",
+                    "LastName": "Findell",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Sarah",
+                    "LastName": "Loken",
+                    "UniformNumber": "52",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -4602,25 +4602,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Michaela",
-                    "LastName": "Stamer",
-                    "UniformNumber": "12",
+                    "FirstName": "Lydia",
+                    "LastName": "Lecher",
+                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Loken",
-                    "UniformNumber": "52",
+                    "FirstName": "Michaela",
+                    "LastName": "Stamer",
+                    "UniformNumber": "12",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "24 Sophie Findell IN; 25 Tess Hauer IN; 11 Iyanna Wieland IN; 04 Gabby Robinson IN; 21 Lydia Lecher OUT; 23 Larisa O'Neil OUT; 12 Michaela Stamer OUT; 52 Sarah Loken OUT",
+            "Narrative": "04 Gabby Robinson IN; 11 Iyanna Wieland IN; 25 Tess Hauer IN; 24 Sophie Findell IN; 52 Sarah Loken OUT; 23 Larisa O'Neil OUT; 21 Lydia Lecher OUT; 12 Michaela Stamer OUT",
             "Context": "",
-            "Id": "82+693F2DA1",
+            "Id": "82+A48A5EFD",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4759,18 +4759,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Symone",
-                "LastName": "Beld",
-                "UniformNumber": "44",
+                "FirstName": "Mary",
+                "LastName": "Sem",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mary",
-                    "LastName": "Sem",
-                    "UniformNumber": "30",
+                    "FirstName": "Symone",
+                    "LastName": "Beld",
+                    "UniformNumber": "44",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -4792,9 +4792,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "44 Symone Beld IN; 30 Mary Sem IN; 42 Makayla Anderson OUT; 34 Sophia Tobin OUT",
+            "Narrative": "30 Mary Sem IN; 44 Symone Beld IN; 42 Makayla Anderson OUT; 34 Sophia Tobin OUT",
             "Context": "",
-            "Id": "97+D5E34E58",
+            "Id": "97+CD61C5FC",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5163,25 +5163,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Emily",
-                    "LastName": "Beseman",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Symone",
                     "LastName": "Beld",
                     "UniformNumber": "44",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Beseman",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "34 Sophia Tobin IN; 23 McKenna Becher IN; 20 Emily Beseman OUT; 44 Symone Beld OUT",
+            "Narrative": "34 Sophia Tobin IN; 23 McKenna Becher IN; 44 Symone Beld OUT; 20 Emily Beseman OUT",
             "Context": "",
-            "Id": "119+31F9C3E3",
+            "Id": "119+52149D43",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5344,34 +5344,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Jordyn",
-                "LastName": "Kahler",
-                "UniformNumber": "24",
+                "FirstName": "Sophia",
+                "LastName": "Tobin",
+                "UniformNumber": "34",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
+                    "FirstName": "Jordyn",
+                    "LastName": "Kahler",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
                     "FirstName": "McKenna",
                     "LastName": "Becher",
                     "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Sophia",
-                    "LastName": "Tobin",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Emily",
-                    "LastName": "Beseman",
-                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -5385,6 +5377,14 @@
                 },
                 {
                     "Team": "HomeTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Beseman",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
                     "FirstName": "Jennie",
                     "LastName": "Sem",
                     "UniformNumber": "05",
@@ -5393,9 +5393,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "24 Jordyn Kahler IN; 23 McKenna Becher IN; 34 Sophia Tobin IN; 20 Emily Beseman OUT; 44 Symone Beld OUT; 05 Jennie Sem OUT",
+            "Narrative": "34 Sophia Tobin IN; 24 Jordyn Kahler IN; 23 McKenna Becher IN; 44 Symone Beld OUT; 20 Emily Beseman OUT; 05 Jennie Sem OUT",
             "Context": "",
-            "Id": "131+E028380B",
+            "Id": "131+C5A90DDF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5847,26 +5847,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Alyssa",
-                "LastName": "Williamson",
-                "UniformNumber": "01",
+                "FirstName": "Sarah",
+                "LastName": "Loken",
+                "UniformNumber": "52",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Loken",
-                    "UniformNumber": "52",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Chan'el",
-                    "LastName": "Anderson-Man",
-                    "UniformNumber": "00",
+                    "FirstName": "Alyssa",
+                    "LastName": "Williamson",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -5877,12 +5869,20 @@
                     "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Chan'el",
+                    "LastName": "Anderson-Man",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "01 Alyssa Williamson IN; 52 Sarah Loken IN; 00 Chan'el Anderson-Man OUT; 25 Tess Hauer OUT",
+            "Narrative": "52 Sarah Loken IN; 01 Alyssa Williamson IN; 25 Tess Hauer OUT; 00 Chan'el Anderson-Man OUT",
             "Context": "",
-            "Id": "159+5D8A74F0",
+            "Id": "159+E0E1EB74",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5893,18 +5893,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Emily",
-                "LastName": "Beseman",
-                "UniformNumber": "20",
+                "FirstName": "Taviahna",
+                "LastName": "Tanin",
+                "UniformNumber": "14",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Taviahna",
-                    "LastName": "Tanin",
-                    "UniformNumber": "14",
+                    "FirstName": "Emily",
+                    "LastName": "Beseman",
+                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -5926,9 +5926,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "20 Emily Beseman IN; 14 Taviahna Tanin IN; 24 Jordyn Kahler OUT; 23 McKenna Becher OUT",
+            "Narrative": "14 Taviahna Tanin IN; 20 Emily Beseman IN; 24 Jordyn Kahler OUT; 23 McKenna Becher OUT",
             "Context": "",
-            "Id": "163+51FD23FA",
+            "Id": "163+1E3FDDFE",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6143,10 +6143,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Timeout",
+            "Narrative": "Concordia-M'head TIMEOUT 30 Sec. (1st TO, 1st 30)",
             "Context": "",
-            "Id": "178+E23B74F0",
-            "Type": "30S",
+            "Id": "178+6FF412C2",
+            "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 2,
             "ClockSeconds": 434,
@@ -6397,26 +6397,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Chan'el",
-                "LastName": "Anderson-Man",
-                "UniformNumber": "00",
+                "FirstName": "Michaela",
+                "LastName": "Stamer",
+                "UniformNumber": "12",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Michaela",
-                    "LastName": "Stamer",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Gabby",
-                    "LastName": "Robinson",
-                    "UniformNumber": "04",
+                    "FirstName": "Chan'el",
+                    "LastName": "Anderson-Man",
+                    "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -6427,12 +6419,20 @@
                     "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Gabby",
+                    "LastName": "Robinson",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "00 Chan'el Anderson-Man IN; 12 Michaela Stamer IN; 04 Gabby Robinson OUT; 24 Sophie Findell OUT",
+            "Narrative": "12 Michaela Stamer IN; 00 Chan'el Anderson-Man IN; 24 Sophie Findell OUT; 04 Gabby Robinson OUT",
             "Context": "",
-            "Id": "192+327928AE",
+            "Id": "192+5584D9BE",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6566,18 +6566,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Taylor",
-                "LastName": "Jordan",
-                "UniformNumber": "12",
+                "FirstName": "Mary",
+                "LastName": "Sem",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mary",
-                    "LastName": "Sem",
-                    "UniformNumber": "30",
+                    "FirstName": "Taylor",
+                    "LastName": "Jordan",
+                    "UniformNumber": "12",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -6599,9 +6599,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "12 Taylor Jordan IN; 30 Mary Sem IN; 44 Symone Beld OUT; 04 Maddie Guler OUT",
+            "Narrative": "30 Mary Sem IN; 12 Taylor Jordan IN; 44 Symone Beld OUT; 04 Maddie Guler OUT",
             "Context": "",
-            "Id": "202+41DB46E6",
+            "Id": "202+6177AE52",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6744,9 +6744,9 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Tess",
-                "LastName": "Hauer",
-                "UniformNumber": "25",
+                "FirstName": "Larisa",
+                "LastName": "O'Neil",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
@@ -6761,17 +6761,17 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Larisa",
-                    "LastName": "O'Neil",
-                    "UniformNumber": "23",
+                    "FirstName": "Tess",
+                    "LastName": "Hauer",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Alyssa",
-                    "LastName": "Williamson",
-                    "UniformNumber": "01",
+                    "FirstName": "Sarah",
+                    "LastName": "Loken",
+                    "UniformNumber": "52",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -6785,17 +6785,17 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Loken",
-                    "UniformNumber": "52",
+                    "FirstName": "Alyssa",
+                    "LastName": "Williamson",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "25 Tess Hauer IN; 21 Lydia Lecher IN; 23 Larisa O'Neil IN; 01 Alyssa Williamson OUT; 11 Iyanna Wieland OUT; 52 Sarah Loken OUT",
+            "Narrative": "23 Larisa O'Neil IN; 21 Lydia Lecher IN; 25 Tess Hauer IN; 52 Sarah Loken OUT; 11 Iyanna Wieland OUT; 01 Alyssa Williamson OUT",
             "Context": "",
-            "Id": "212+2FCEFAEF",
+            "Id": "212+1BE35CE7",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -7629,26 +7629,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Alyssa",
-                "LastName": "Williamson",
-                "UniformNumber": "01",
+                "FirstName": "Gabby",
+                "LastName": "Robinson",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Gabby",
-                    "LastName": "Robinson",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Chan'el",
-                    "LastName": "Anderson-Man",
-                    "UniformNumber": "00",
+                    "FirstName": "Alyssa",
+                    "LastName": "Williamson",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -7659,12 +7651,20 @@
                     "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Chan'el",
+                    "LastName": "Anderson-Man",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "01 Alyssa Williamson IN; 04 Gabby Robinson IN; 00 Chan'el Anderson-Man OUT; 21 Lydia Lecher OUT",
+            "Narrative": "04 Gabby Robinson IN; 01 Alyssa Williamson IN; 21 Lydia Lecher OUT; 00 Chan'el Anderson-Man OUT",
             "Context": "",
-            "Id": "259+65DFB41",
+            "Id": "259+5136C7D5",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -8120,10 +8120,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Timeout",
+            "Narrative": "Concordia-M'head TIMEOUT 30 Sec. (1st TO, 2nd 30)",
             "Context": "",
-            "Id": "285+53D9DAC6",
-            "Type": "30S",
+            "Id": "285+E85C37CE",
+            "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 3,
             "ClockSeconds": 482,
@@ -8718,18 +8718,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Loken",
-                "UniformNumber": "52",
+                "FirstName": "Gabby",
+                "LastName": "Robinson",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Gabby",
-                    "LastName": "Robinson",
-                    "UniformNumber": "04",
+                    "FirstName": "Sarah",
+                    "LastName": "Loken",
+                    "UniformNumber": "52",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -8738,6 +8738,14 @@
                     "FirstName": "Alyssa",
                     "LastName": "Williamson",
                     "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Tess",
+                    "LastName": "Hauer",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -8756,20 +8764,12 @@
                     "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Tess",
-                    "LastName": "Hauer",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "52 Sarah Loken IN; 04 Gabby Robinson IN; 01 Alyssa Williamson IN; 24 Sophie Findell OUT; 21 Lydia Lecher OUT; 25 Tess Hauer OUT",
+            "Narrative": "04 Gabby Robinson IN; 52 Sarah Loken IN; 01 Alyssa Williamson IN; 25 Tess Hauer OUT; 24 Sophie Findell OUT; 21 Lydia Lecher OUT",
             "Context": "",
-            "Id": "319+1BBDD2C8",
+            "Id": "319+553CADB8",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9948,25 +9948,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Larisa",
-                    "LastName": "O'Neil",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Sophie",
                     "LastName": "Findell",
                     "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Larisa",
+                    "LastName": "O'Neil",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "04 Gabby Robinson IN; 01 Alyssa Williamson IN; 23 Larisa O'Neil OUT; 24 Sophie Findell OUT",
+            "Narrative": "04 Gabby Robinson IN; 01 Alyssa Williamson IN; 24 Sophie Findell OUT; 23 Larisa O'Neil OUT",
             "Context": "",
-            "Id": "388+CB2BC262",
+            "Id": "388+1CBE21F2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10191,25 +10191,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Chan'el",
-                    "LastName": "Anderson-Man",
-                    "UniformNumber": "00",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Alyssa",
                     "LastName": "Williamson",
                     "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Chan'el",
+                    "LastName": "Anderson-Man",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "24 Sophie Findell IN; 23 Larisa O'Neil IN; 00 Chan'el Anderson-Man OUT; 01 Alyssa Williamson OUT",
+            "Narrative": "24 Sophie Findell IN; 23 Larisa O'Neil IN; 01 Alyssa Williamson OUT; 00 Chan'el Anderson-Man OUT",
             "Context": "",
-            "Id": "403+6DD1FE33",
+            "Id": "403+E10CB863",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10506,26 +10506,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Gabby",
-                "LastName": "Robinson",
-                "UniformNumber": "04",
+                "FirstName": "Chan'el",
+                "LastName": "Anderson-Man",
+                "UniformNumber": "00",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Chan'el",
-                    "LastName": "Anderson-Man",
-                    "UniformNumber": "00",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Alyssa",
-                    "LastName": "Williamson",
-                    "UniformNumber": "01",
+                    "FirstName": "Gabby",
+                    "LastName": "Robinson",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -10536,12 +10528,20 @@
                     "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alyssa",
+                    "LastName": "Williamson",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "04 Gabby Robinson IN; 00 Chan'el Anderson-Man IN; 01 Alyssa Williamson OUT; 23 Larisa O'Neil OUT",
+            "Narrative": "00 Chan'el Anderson-Man IN; 04 Gabby Robinson IN; 23 Larisa O'Neil OUT; 01 Alyssa Williamson OUT",
             "Context": "",
-            "Id": "424+3DCF1DAD",
+            "Id": "424+6F604D4D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11044,10 +11044,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Timeout",
+            "Narrative": "Hamline TIMEOUT 30 Sec. (1st TO, 2nd 30)",
             "Context": "",
-            "Id": "453+4F2A1008",
-            "Type": "30S",
+            "Id": "453+3588BEF9",
+            "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 135,
@@ -11532,10 +11532,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Timeout",
+            "Narrative": "Concordia-M'head TIMEOUT 30 Sec. (1st TO, 3rd 30)",
             "Context": "",
-            "Id": "480+D2DBEF28",
-            "Type": "30S",
+            "Id": "480+6F388E03",
+            "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 6,

@@ -73,6 +73,50 @@
         },
         "LastPlays": [
             {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "Portland REBOUND",
+                "Context": "",
+                "Id": "465+C53116D0",
+                "Type": "DEF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 3,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Gabriela",
+                    "LastName": "Bosquez",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Chance",
+                        "LastName": "Bucher",
+                        "UniformNumber": "14",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "VisitingTeam",
+                "Narrative": "00 Gabriela Bosquez 3PTR MISS; 14 Chance Bucher BLOCK (1 Blk)",
+                "Context": "",
+                "Id": "463+A47AF740",
+                "Type": "3PTR",
+                "Action": "MISS",
+                "Period": 4,
+                "ClockSeconds": 3,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
                 "Player": {
                     "Team": "HomeTeam",
                     "FirstName": "Emily",
@@ -85,11 +129,11 @@
                 "Team": "HomeTeam",
                 "Narrative": "21 Emily Sewell FOUL (2 PF)",
                 "Context": "",
-                "Id": "462+FBAAB065",
+                "Id": "462+FBA84454",
                 "Type": "FOUL",
                 "Action": "FOUL",
                 "Period": 4,
-                "ClockSeconds": 2,
+                "ClockSeconds": 3,
                 "Coordinate": null,
                 "Score": null
             },
@@ -106,11 +150,11 @@
                 "Team": "VisitingTeam",
                 "Narrative": "21 Heather Hamson LAYUP GOOD (2 Pt)",
                 "Context": "",
-                "Id": "461+13E7094C",
+                "Id": "461+13E5658D",
                 "Type": "LAYUP",
                 "Action": "GOOD",
                 "Period": 4,
-                "ClockSeconds": 2,
+                "ClockSeconds": 3,
                 "Coordinate": null,
                 "Score": {
                     "HomeTeam": 67,
@@ -130,53 +174,11 @@
                 "Team": "VisitingTeam",
                 "Narrative": "21 Heather Hamson OFF. REBOUND (1 Reb, 1 Off)",
                 "Context": "",
-                "Id": "460+97F9225C",
+                "Id": "460+97FB9E4D",
                 "Type": "OFF",
                 "Action": "REBOUND",
                 "Period": 4,
-                "ClockSeconds": 2,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Gabriela",
-                    "LastName": "Bosquez",
-                    "UniformNumber": "00",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "00 Gabriela Bosquez 3PTR MISS",
-                "Context": "",
-                "Id": "459+66CAD61B",
-                "Type": "3PTR",
-                "Action": "MISS",
-                "Period": 4,
-                "ClockSeconds": 5,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Calvert",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "25 Emma Calvert DEF. REBOUND (8 Reb, 4 Def)",
-                "Context": "",
-                "Id": "458+EA1A2E07",
-                "Type": "DEF",
-                "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 29,
+                "ClockSeconds": 3,
                 "Coordinate": null,
                 "Score": null
             }
@@ -494,7 +496,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "26.25"
+                    "Value": "25.93"
                 },
                 {
                     "Player": {
@@ -505,7 +507,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "23.67"
+                    "Value": "23.39"
                 },
                 {
                     "Player": {
@@ -516,7 +518,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.96"
+                    "Value": "21.69"
                 },
                 {
                     "Player": {
@@ -527,7 +529,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "19.71"
+                    "Value": "19.47"
                 }
             ]
         },
@@ -681,6 +683,17 @@
                         "PersonId": ""
                     },
                     "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Chance",
+                        "LastName": "Bucher",
+                        "UniformNumber": "14",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
                 }
             ],
             "Steals": [
@@ -1311,11 +1324,11 @@
                             "DefensiveRebounds": "0",
                             "Assists": "0",
                             "Turnovers": "0",
-                            "Blocks": "0",
+                            "Blocks": "1",
                             "Steals": "0",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-1.0",
+                            "Efficiency": "0.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
@@ -1457,9 +1470,9 @@
                     "Tppercentage": "33.3%",
                     "Ftma": "5-7",
                     "Ftp": "71.4%",
-                    "TotalRebounds": "36",
+                    "TotalRebounds": "37",
                     "OffensiveRebounds": "10",
-                    "DefensiveRebounds": "26",
+                    "DefensiveRebounds": "27",
                     "Ties": "3",
                     "Leads": "2",
                     "TimeWithLead": "33:23",
@@ -1472,7 +1485,7 @@
                     "Assists": "15",
                     "Turnovers": "12",
                     "PointsFromBench": "13",
-                    "Blocks": "2",
+                    "Blocks": "3",
                     "PointsOnCourt": "0",
                     "PointsOffFastBreak": "8",
                     "Steals": "11",
@@ -1886,9 +1899,9 @@
                         "Tppercentage": "37.5%",
                         "Ftma": "0-1",
                         "Ftp": "0.0%",
-                        "TotalRebounds": "9",
+                        "TotalRebounds": "10",
                         "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "7",
+                        "DefensiveRebounds": "8",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
@@ -1901,7 +1914,7 @@
                         "Assists": "4",
                         "Turnovers": "4",
                         "PointsFromBench": "5",
-                        "Blocks": "2",
+                        "Blocks": "3",
                         "PointsOnCourt": "0",
                         "PointsOffFastBreak": "3",
                         "Steals": "2",
@@ -2135,7 +2148,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "4.0",
-                            "UsagePercentage": "23.67",
+                            "UsagePercentage": "23.39",
                             "PointsPerMinute": ".182",
                             "Points": "6",
                             "PersonId": ""
@@ -2162,7 +2175,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "-2.0",
-                            "UsagePercentage": "6.10",
+                            "UsagePercentage": "6.03",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2189,7 +2202,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "21.96",
+                            "UsagePercentage": "21.69",
                             "PointsPerMinute": ".189",
                             "Points": "7",
                             "PersonId": ""
@@ -2216,7 +2229,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "4.0",
-                            "UsagePercentage": "19.71",
+                            "UsagePercentage": "19.47",
                             "PointsPerMinute": ".318",
                             "Points": "7",
                             "PersonId": ""
@@ -2243,7 +2256,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "17.0",
-                            "UsagePercentage": "26.25",
+                            "UsagePercentage": "25.93",
                             "PointsPerMinute": ".520",
                             "Points": "13",
                             "PersonId": ""
@@ -2254,9 +2267,9 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "9",
-                            "Fgam": "0-4",
+                            "Fgam": "0-5",
                             "ShootingPercentage": "0.0%",
-                            "Tpam": "0-1",
+                            "Tpam": "0-2",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
@@ -2269,7 +2282,7 @@
                             "Steals": "1",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-1.0",
+                            "Efficiency": "-2.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
@@ -2297,7 +2310,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "-1.0",
-                            "UsagePercentage": "13.02",
+                            "UsagePercentage": "12.86",
                             "PointsPerMinute": ".133",
                             "Points": "2",
                             "PersonId": ""
@@ -2324,7 +2337,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "5.0",
-                            "UsagePercentage": "14.80",
+                            "UsagePercentage": "14.62",
                             "PointsPerMinute": ".242",
                             "Points": "8",
                             "PersonId": ""
@@ -2459,10 +2472,10 @@
                 },
                 "Values": {
                     "Points": "45",
-                    "Fgam": "18-58",
-                    "ShootingPercentage": "31.0%",
-                    "Tpam": "2-9",
-                    "Tppercentage": "22.2%",
+                    "Fgam": "18-59",
+                    "ShootingPercentage": "30.5%",
+                    "Tpam": "2-10",
+                    "Tppercentage": "20.0%",
                     "Ftma": "7-9",
                     "Ftp": "77.8%",
                     "TotalRebounds": "38",
@@ -2888,10 +2901,10 @@
                     },
                     "Values": {
                         "Points": "14",
-                        "Fgam": "6-19",
-                        "ShootingPercentage": "31.6%",
-                        "Tpam": "1-3",
-                        "Tppercentage": "33.3%",
+                        "Fgam": "6-20",
+                        "ShootingPercentage": "30.0%",
+                        "Tpam": "1-4",
+                        "Tppercentage": "25.0%",
                         "Ftma": "1-1",
                         "Ftp": "100.0%",
                         "TotalRebounds": "12",
@@ -11097,11 +11110,11 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Heather Hamson OFF. REBOUND (1 Reb, 1 Off)",
             "Context": "",
-            "Id": "460+97F9225C",
+            "Id": "460+97FB9E4D",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 2,
+            "ClockSeconds": 3,
             "Coordinate": null,
             "Score": null
         },
@@ -11118,11 +11131,11 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Heather Hamson LAYUP GOOD (2 Pt)",
             "Context": "",
-            "Id": "461+13E7094C",
+            "Id": "461+13E5658D",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 2,
+            "ClockSeconds": 3,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 67,
@@ -11142,11 +11155,55 @@
             "Team": "HomeTeam",
             "Narrative": "21 Emily Sewell FOUL (2 PF)",
             "Context": "",
-            "Id": "462+FBAAB065",
+            "Id": "462+FBA84454",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
-            "ClockSeconds": 2,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Gabriela",
+                "LastName": "Bosquez",
+                "UniformNumber": "00",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Chance",
+                    "LastName": "Bucher",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "00 Gabriela Bosquez 3PTR MISS; 14 Chance Bucher BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "463+A47AF740",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Portland REBOUND",
+            "Context": "",
+            "Id": "465+C53116D0",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 3,
             "Coordinate": null,
             "Score": null
         }

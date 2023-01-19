@@ -78,41 +78,6 @@
         },
         "LastPlays": [
             {
-                "Player": null,
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "Oral Roberts REBOUND",
-                "Context": "",
-                "Id": "479+961D2FA6",
-                "Type": "OFF",
-                "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 0,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Delaney",
-                    "LastName": "Nix",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "14 Delaney Nix 3PTR MISS",
-                "Context": "",
-                "Id": "478+78FC747A",
-                "Type": "3PTR",
-                "Action": "MISS",
-                "Period": 4,
-                "ClockSeconds": 0,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
                 "Player": {
                     "Team": "VisitingTeam",
                     "FirstName": "Ruthie",
@@ -183,6 +148,53 @@
                 "ClockSeconds": 4,
                 "Coordinate": null,
                 "Score": null
+            },
+            {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "Oral Roberts TIMEOUT 30 Sec. (4th TO, 3rd 30)",
+                "Context": "",
+                "Id": "473+EA6EEE5E",
+                "Type": "30SEC",
+                "Action": "TIMEOUT",
+                "Period": 4,
+                "ClockSeconds": 4,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Delaney",
+                    "LastName": "Nix",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Ruthie",
+                        "LastName": "Udoumoh",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "VisitingTeam",
+                "Narrative": "14 Delaney Nix 3PTR GOOD (27 Pt); 22 Ruthie Udoumoh Assist (1 Asst)",
+                "Context": "",
+                "Id": "471+A7EBB377",
+                "Type": "3PTR",
+                "Action": "GOOD",
+                "Period": 4,
+                "ClockSeconds": 4,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 76,
+                    "VisitingTeam": 75
+                }
             }
         ]
     },
@@ -452,7 +464,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.0"
+                    "Value": "25.0"
                 },
                 {
                     "Player": {
@@ -498,7 +510,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "40.55"
+                    "Value": "41.02"
                 },
                 {
                     "Player": {
@@ -509,7 +521,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.06"
+                    "Value": "20.14"
                 },
                 {
                     "Player": {
@@ -520,7 +532,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "16.34"
+                    "Value": "16.53"
                 },
                 {
                     "Player": {
@@ -531,7 +543,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "15.33"
+                    "Value": "15.50"
                 }
             ]
         },
@@ -2045,7 +2057,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "22.0",
-                            "UsagePercentage": "40.55",
+                            "UsagePercentage": "41.02",
                             "PointsPerMinute": ".825",
                             "Points": "33",
                             "PersonId": ""
@@ -2072,7 +2084,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "14.15",
+                            "UsagePercentage": "14.31",
                             "PointsPerMinute": ".308",
                             "Points": "8",
                             "PersonId": ""
@@ -2083,10 +2095,10 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "40",
-                            "Fgam": "9-16",
-                            "ShootingPercentage": "56.3%",
-                            "Tpam": "6-11",
-                            "Tppercentage": "54.5%",
+                            "Fgam": "9-15",
+                            "ShootingPercentage": "60.0%",
+                            "Tpam": "6-10",
+                            "Tppercentage": "60.0%",
                             "Ftma": "3-3",
                             "Ftp": "100.0%",
                             "TotalRebounds": "1",
@@ -2098,8 +2110,8 @@
                             "Steals": "1",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "24.0",
-                            "UsagePercentage": "21.06",
+                            "Efficiency": "25.0",
+                            "UsagePercentage": "20.14",
                             "PointsPerMinute": ".675",
                             "Points": "27",
                             "PersonId": ""
@@ -2126,7 +2138,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "11.0",
-                            "UsagePercentage": "16.34",
+                            "UsagePercentage": "16.53",
                             "PointsPerMinute": ".143",
                             "Points": "5",
                             "PersonId": ""
@@ -2153,7 +2165,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "0.0",
-                            "UsagePercentage": "10.82",
+                            "UsagePercentage": "10.94",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2180,7 +2192,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "0.0",
-                            "UsagePercentage": "12.54",
+                            "UsagePercentage": "12.68",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2207,7 +2219,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "6.0",
-                            "UsagePercentage": "15.33",
+                            "UsagePercentage": "15.50",
                             "PointsPerMinute": ".167",
                             "Points": "2",
                             "PersonId": ""
@@ -2234,7 +2246,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "4.84",
+                            "UsagePercentage": "4.90",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2315,14 +2327,14 @@
                 },
                 "Values": {
                     "Points": "75",
-                    "Fgam": "27-63",
-                    "ShootingPercentage": "42.9%",
-                    "Tpam": "8-20",
-                    "Tppercentage": "40.0%",
+                    "Fgam": "27-62",
+                    "ShootingPercentage": "43.5%",
+                    "Tpam": "8-19",
+                    "Tppercentage": "42.1%",
                     "Ftma": "13-16",
                     "Ftp": "81.3%",
-                    "TotalRebounds": "40",
-                    "OffensiveRebounds": "9",
+                    "TotalRebounds": "39",
+                    "OffensiveRebounds": "8",
                     "DefensiveRebounds": "31",
                     "Ties": "3",
                     "Leads": "2",
@@ -2744,14 +2756,14 @@
                     },
                     "Values": {
                         "Points": "25",
-                        "Fgam": "8-13",
-                        "ShootingPercentage": "61.5%",
-                        "Tpam": "2-6",
-                        "Tppercentage": "33.3%",
+                        "Fgam": "8-12",
+                        "ShootingPercentage": "66.7%",
+                        "Tpam": "2-5",
+                        "Tppercentage": "40.0%",
                         "Ftma": "7-8",
                         "Ftp": "87.5%",
-                        "TotalRebounds": "10",
-                        "OffensiveRebounds": "3",
+                        "TotalRebounds": "9",
+                        "OffensiveRebounds": "2",
                         "DefensiveRebounds": "7",
                         "Ties": "2",
                         "Leads": "2",
@@ -11705,41 +11717,6 @@
             "Id": "477+28253373",
             "Type": "STEAL",
             "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 0,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Delaney",
-                "LastName": "Nix",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "14 Delaney Nix 3PTR MISS",
-            "Context": "",
-            "Id": "478+78FC747A",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 0,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Oral Roberts REBOUND",
-            "Context": "",
-            "Id": "479+961D2FA6",
-            "Type": "OFF",
-            "Action": "REBOUND",
             "Period": 4,
             "ClockSeconds": 0,
             "Coordinate": null,

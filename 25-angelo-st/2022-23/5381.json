@@ -17,7 +17,7 @@
         "SiteImage": null,
         "ClientHostname": null,
         "Officials": "Travis Clark,  Chet Martin,  Jennifer White",
-        "Attendance": 0,
+        "Attendance": 7,
         "PeriodsRegulation": 4,
         "Period": 0,
         "ClockSeconds": -1,
@@ -66,8 +66,8 @@
             "PeriodScores": [
                 14,
                 10,
-                13,
-                26
+                15,
+                24
             ],
             "PeriodTimeouts": [
                 0,
@@ -79,19 +79,19 @@
         "LastPlays": [
             {
                 "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Madeline",
-                    "LastName": "Stephens",
-                    "UniformNumber": "12",
+                    "Team": "HomeTeam",
+                    "FirstName": "Scout",
+                    "LastName": "Huffman",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "12 Madeline Stephens DEF. REBOUND (5 Reb, 5 Def)",
+                "Team": "HomeTeam",
+                "Narrative": "25 Scout Huffman OFF. REBOUND (6 Reb, 3 Off)",
                 "Context": "",
-                "Id": "429+9E23C301",
-                "Type": "DEF",
+                "Id": "444+15900BAF",
+                "Type": "OFF",
                 "Action": "REBOUND",
                 "Period": 4,
                 "ClockSeconds": 0,
@@ -101,26 +101,26 @@
             {
                 "Player": {
                     "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Ingram",
-                    "UniformNumber": "30",
+                    "FirstName": "Scout",
+                    "LastName": "Huffman",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [
                     {
                         "Team": "VisitingTeam",
-                        "FirstName": "Olivia",
-                        "LastName": "Pedigo",
-                        "UniformNumber": "22",
+                        "FirstName": "Madeline",
+                        "LastName": "Stephens",
+                        "UniformNumber": "12",
                         "Photo": null,
                         "PersonId": ""
                     }
                 ],
                 "Team": "HomeTeam",
-                "Narrative": "30 Ashley Ingram JUMPER MISS; 22 Olivia Pedigo BLOCK (1 Blk)",
+                "Narrative": "25 Scout Huffman JUMPER MISS; 12 Madeline Stephens BLOCK (3 Blk)",
                 "Context": "",
-                "Id": "427+BFEF5053",
+                "Id": "442+30D3BB31",
                 "Type": "JUMPER",
                 "Action": "MISS",
                 "Period": 4,
@@ -134,7 +134,7 @@
                 "Team": "HomeTeam",
                 "Narrative": "Texas Woman's REBOUND",
                 "Context": "",
-                "Id": "426+FC992875",
+                "Id": "441+AC03BDBA",
                 "Type": "DEF",
                 "Action": "REBOUND",
                 "Period": 4,
@@ -146,10 +146,10 @@
                 "Player": null,
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
-                "Narrative": "Texas Woman's TIMEOUT 30 Sec. (3rd TO, 2nd 30)",
+                "Narrative": "Texas Woman's TIMEOUT Full (3rd TO, 1st Full)",
                 "Context": "",
-                "Id": "425+8CB302F4",
-                "Type": "30SEC",
+                "Id": "440+CB0A3A38",
+                "Type": "TEAM",
                 "Action": "TIMEOUT",
                 "Period": 4,
                 "ClockSeconds": 2,
@@ -159,17 +159,17 @@
             {
                 "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Madeline",
-                    "LastName": "Stephens",
-                    "UniformNumber": "12",
+                    "FirstName": "Landry",
+                    "LastName": "Morrow",
+                    "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "12 Madeline Stephens FT MISS",
+                "Narrative": "00 Landry Morrow FT MISS",
                 "Context": "",
-                "Id": "424+BB9D9127",
+                "Id": "439+7C9A136",
                 "Type": "FT",
                 "Action": "MISS",
                 "Period": 4,
@@ -191,7 +191,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24"
+                    "Value": "25"
                 },
                 {
                     "Player": {
@@ -202,7 +202,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "14"
+                    "Value": "12"
                 },
                 {
                     "Player": {
@@ -224,7 +224,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "7"
+                    "Value": "8"
                 }
             ],
             "Rebounds": [
@@ -242,17 +242,6 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Madeline",
-                        "LastName": "Stephens",
-                        "UniformNumber": "12",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "5"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
                         "FirstName": "Aicha",
                         "LastName": "Ndir",
                         "UniformNumber": "30",
@@ -260,30 +249,6 @@
                         "PersonId": ""
                     },
                     "Value": "5"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Tayjanna",
-                        "LastName": "McGhee-Pleasant",
-                        "UniformNumber": "32",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "4"
-                }
-            ],
-            "Assists": [
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Sawyer",
-                        "LastName": "Lloyd",
-                        "UniformNumber": "10",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "6"
                 },
                 {
                     "Player": {
@@ -294,6 +259,41 @@
                         "Photo": null,
                         "PersonId": ""
                     },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Madeline",
+                        "LastName": "Stephens",
+                        "UniformNumber": "12",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                }
+            ],
+            "Assists": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Landry",
+                        "LastName": "Morrow",
+                        "UniformNumber": "00",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "6"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Sawyer",
+                        "LastName": "Lloyd",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
                     "Value": "5"
                 },
                 {
@@ -310,9 +310,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Madisen",
-                        "LastName": "Honea",
-                        "UniformNumber": "01",
+                        "FirstName": "Tayjanna",
+                        "LastName": "McGhee-Pleasant",
+                        "UniformNumber": "32",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -323,9 +323,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Aicha",
-                        "LastName": "Ndir",
-                        "UniformNumber": "30",
+                        "FirstName": "Madeline",
+                        "LastName": "Stephens",
+                        "UniformNumber": "12",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -334,33 +334,22 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Madeline",
-                        "LastName": "Stephens",
-                        "UniformNumber": "12",
+                        "FirstName": "Aicha",
+                        "LastName": "Ndir",
+                        "UniformNumber": "30",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "2"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Olivia",
-                        "LastName": "Pedigo",
-                        "UniformNumber": "22",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "1"
+                    "Value": "3"
                 }
             ],
             "Steals": [
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Madeline",
-                        "LastName": "Stephens",
-                        "UniformNumber": "12",
+                        "FirstName": "Sawyer",
+                        "LastName": "Lloyd",
+                        "UniformNumber": "10",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -369,9 +358,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Sawyer",
-                        "LastName": "Lloyd",
-                        "UniformNumber": "10",
+                        "FirstName": "Madeline",
+                        "LastName": "Stephens",
+                        "UniformNumber": "12",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -415,9 +404,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Sawyer",
-                        "LastName": "Lloyd",
-                        "UniformNumber": "10",
+                        "FirstName": "Tayjanna",
+                        "LastName": "McGhee-Pleasant",
+                        "UniformNumber": "32",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -426,13 +415,13 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Tayjanna",
-                        "LastName": "McGhee-Pleasant",
-                        "UniformNumber": "32",
+                        "FirstName": "Sawyer",
+                        "LastName": "Lloyd",
+                        "UniformNumber": "10",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
+                    "Value": "3"
                 }
             ],
             "Efficiency": [
@@ -445,18 +434,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "28.0"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Sawyer",
-                        "LastName": "Lloyd",
-                        "UniformNumber": "10",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "14.0"
+                    "Value": "29.0"
                 },
                 {
                     "Player": {
@@ -467,7 +445,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "10.0"
+                    "Value": "12.0"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Sawyer",
+                        "LastName": "Lloyd",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "12.0"
                 },
                 {
                     "Player": {
@@ -491,7 +480,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "33.22"
+                    "Value": "33.03"
                 },
                 {
                     "Player": {
@@ -502,7 +491,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "28.92"
+                    "Value": "27.43"
                 },
                 {
                     "Player": {
@@ -513,7 +502,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "23.08"
+                    "Value": "23.81"
                 },
                 {
                     "Player": {
@@ -524,7 +513,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.62"
+                    "Value": "21.49"
                 }
             ]
         },
@@ -585,7 +574,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "11"
+                    "Value": "10"
                 },
                 {
                     "Player": {
@@ -607,18 +596,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "5"
+                    "Value": "6"
                 },
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Brielle",
-                        "LastName": "Woods",
-                        "UniformNumber": "15",
+                        "FirstName": "Scout",
+                        "LastName": "Huffman",
+                        "UniformNumber": "25",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
+                    "Value": "6"
                 }
             ],
             "Assists": [
@@ -636,13 +625,13 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Jada",
-                        "LastName": "Celsur",
-                        "UniformNumber": "23",
+                        "FirstName": "Keslyn",
+                        "LastName": "King",
+                        "UniformNumber": "13",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "3"
+                    "Value": "2"
                 },
                 {
                     "Player": {
@@ -677,7 +666,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "2"
+                    "Value": "3"
                 },
                 {
                     "Player": {
@@ -719,6 +708,17 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
+                        "FirstName": "Brielle",
+                        "LastName": "Woods",
+                        "UniformNumber": "15",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
                         "FirstName": "Scout",
                         "LastName": "Huffman",
                         "UniformNumber": "25",
@@ -730,20 +730,9 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Ashley",
-                        "LastName": "Ingram",
-                        "UniformNumber": "30",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "3"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Keslyn",
-                        "LastName": "King",
-                        "UniformNumber": "13",
+                        "FirstName": "Sadie",
+                        "LastName": "Moyer",
+                        "UniformNumber": "14",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -752,9 +741,9 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Sadie",
-                        "LastName": "Moyer",
-                        "UniformNumber": "14",
+                        "FirstName": "Ashley",
+                        "LastName": "Ingram",
+                        "UniformNumber": "30",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -771,7 +760,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "26.0"
+                    "Value": "27.0"
                 },
                 {
                     "Player": {
@@ -782,7 +771,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "13.0"
+                    "Value": "12.0"
                 },
                 {
                     "Player": {
@@ -793,42 +782,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "10.0"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Ngozi",
-                        "LastName": "Obineke",
-                        "UniformNumber": "01",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "8.0"
-                }
-            ],
-            "Usage Percentage": [
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Ashley",
-                        "LastName": "Ingram",
-                        "UniformNumber": "30",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "32.19"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Ngozi",
-                        "LastName": "Obineke",
-                        "UniformNumber": "01",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "28.48"
+                    "Value": "11.0"
                 },
                 {
                     "Player": {
@@ -839,7 +793,42 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "20.37"
+                    "Value": "9.0"
+                }
+            ],
+            "Usage Percentage": [
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Ngozi",
+                        "LastName": "Obineke",
+                        "UniformNumber": "01",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "31.05"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Ashley",
+                        "LastName": "Ingram",
+                        "UniformNumber": "30",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "29.82"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Keslyn",
+                        "LastName": "King",
+                        "UniformNumber": "13",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "19.87"
                 },
                 {
                     "Player": {
@@ -850,7 +839,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "16.56"
+                    "Value": "16.68"
                 }
             ]
         }
@@ -1027,23 +1016,23 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "40",
-                            "Fgam": "4-12",
-                            "ShootingPercentage": "33.3%",
-                            "Tpam": "0-3",
+                            "Fgam": "4-11",
+                            "ShootingPercentage": "36.4%",
+                            "Tpam": "0-1",
                             "Tppercentage": "0.0%",
                             "Ftma": "4-5",
                             "Ftp": "80.0%",
-                            "TotalRebounds": "5",
-                            "OffensiveRebounds": "4",
+                            "TotalRebounds": "6",
+                            "OffensiveRebounds": "5",
                             "DefensiveRebounds": "1",
-                            "Assists": "1",
-                            "Turnovers": "2",
+                            "Assists": "2",
+                            "Turnovers": "3",
                             "Blocks": "0",
                             "Steals": "0",
-                            "PersonalFouls": "2",
+                            "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "7.0",
-                            "UsagePercentage": "20.37",
+                            "Efficiency": "9.0",
+                            "UsagePercentage": "19.87",
                             "PointsPerMinute": ".300",
                             "Points": "12",
                             "PersonId": ""
@@ -1054,10 +1043,10 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "40",
-                            "Fgam": "4-8",
-                            "ShootingPercentage": "50.0%",
-                            "Tpam": "1-2",
-                            "Tppercentage": "50.0%",
+                            "Fgam": "4-9",
+                            "ShootingPercentage": "44.4%",
+                            "Tpam": "1-3",
+                            "Tppercentage": "33.3%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
                             "TotalRebounds": "7",
@@ -1069,8 +1058,8 @@
                             "Steals": "2",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "13.0",
-                            "UsagePercentage": "13.83",
+                            "Efficiency": "12.0",
+                            "UsagePercentage": "14.72",
                             "PointsPerMinute": ".225",
                             "Points": "9",
                             "PersonId": ""
@@ -1080,7 +1069,7 @@
                             "Name": "B. WOODS",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "18",
+                            "Minutes": "19",
                             "Fgam": "0-2",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-2",
@@ -1094,10 +1083,10 @@
                             "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "0",
-                            "PersonalFouls": "2",
+                            "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "8.38",
+                            "UsagePercentage": "7.75",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -1107,25 +1096,25 @@
                             "Name": "S. HUFFMAN",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "30",
-                            "Fgam": "3-8",
-                            "ShootingPercentage": "37.5%",
+                            "Minutes": "32",
+                            "Fgam": "3-9",
+                            "ShootingPercentage": "33.3%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "2-2",
                             "Ftp": "100.0%",
-                            "TotalRebounds": "4",
-                            "OffensiveRebounds": "2",
-                            "DefensiveRebounds": "2",
+                            "TotalRebounds": "6",
+                            "OffensiveRebounds": "3",
+                            "DefensiveRebounds": "3",
                             "Assists": "3",
                             "Turnovers": "1",
                             "Blocks": "1",
                             "Steals": "0",
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
-                            "Efficiency": "10.0",
-                            "UsagePercentage": "16.56",
-                            "PointsPerMinute": ".267",
+                            "Efficiency": "11.0",
+                            "UsagePercentage": "16.68",
+                            "PointsPerMinute": ".250",
                             "Points": "8",
                             "PersonId": ""
                         },
@@ -1135,23 +1124,23 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "31",
-                            "Fgam": "6-12",
-                            "ShootingPercentage": "50.0%",
+                            "Fgam": "6-11",
+                            "ShootingPercentage": "54.5%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "10-11",
                             "Ftp": "90.9%",
-                            "TotalRebounds": "11",
+                            "TotalRebounds": "10",
                             "OffensiveRebounds": "2",
-                            "DefensiveRebounds": "9",
+                            "DefensiveRebounds": "8",
                             "Assists": "1",
                             "Turnovers": "3",
-                            "Blocks": "2",
+                            "Blocks": "3",
                             "Steals": "0",
-                            "PersonalFouls": "3",
+                            "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "26.0",
-                            "UsagePercentage": "32.19",
+                            "Efficiency": "27.0",
+                            "UsagePercentage": "29.82",
                             "PointsPerMinute": ".710",
                             "Points": "22",
                             "PersonId": ""
@@ -1161,7 +1150,7 @@
                             "Name": "N. OBINEKE",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "19",
+                            "Minutes": "17",
                             "Fgam": "3-7",
                             "ShootingPercentage": "42.9%",
                             "Tpam": "0-0",
@@ -1178,8 +1167,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "28.48",
-                            "PointsPerMinute": ".526",
+                            "UsagePercentage": "31.05",
+                            "PointsPerMinute": ".588",
                             "Points": "10",
                             "PersonId": ""
                         },
@@ -1188,25 +1177,25 @@
                             "Name": "J. CELSUR",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "22",
+                            "Minutes": "21",
                             "Fgam": "0-3",
                             "ShootingPercentage": "0.0%",
-                            "Tpam": "0-2",
+                            "Tpam": "0-1",
                             "Tppercentage": "0.0%",
                             "Ftma": "1-2",
                             "Ftp": "50.0%",
                             "TotalRebounds": "3",
                             "OffensiveRebounds": "1",
                             "DefensiveRebounds": "2",
-                            "Assists": "3",
-                            "Turnovers": "2",
+                            "Assists": "2",
+                            "Turnovers": "3",
                             "Blocks": "0",
                             "Steals": "1",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "2.0",
-                            "UsagePercentage": "13.44",
-                            "PointsPerMinute": ".045",
+                            "Efficiency": "0.0",
+                            "UsagePercentage": "16.07",
+                            "PointsPerMinute": ".048",
                             "Points": "1",
                             "PersonId": ""
                         }
@@ -1288,26 +1277,26 @@
                     "Points": "62",
                     "Fgam": "20-52",
                     "ShootingPercentage": "38.5%",
-                    "Tpam": "1-9",
-                    "Tppercentage": "11.1%",
+                    "Tpam": "1-7",
+                    "Tppercentage": "14.3%",
                     "Ftma": "21-24",
                     "Ftp": "87.5%",
-                    "TotalRebounds": "39",
-                    "OffensiveRebounds": "11",
+                    "TotalRebounds": "42",
+                    "OffensiveRebounds": "14",
                     "DefensiveRebounds": "28",
                     "Ties": "3",
                     "Leads": "8",
-                    "TimeWithLead": "29:36",
-                    "PercentLead": "74.0%",
+                    "TimeWithLead": "29:32",
+                    "PercentLead": "73.8%",
                     "LastLeadScore": "62-60",
-                    "LastLeadTime": "0:40 (4th)",
+                    "LastLeadTime": "0:41 (4th)",
                     "LargestLead": "15",
                     "LargestLeadScores": "40-25",
                     "LargestLeadTime": "7:06 (3rd)",
                     "Assists": "12",
-                    "Turnovers": "17",
+                    "Turnovers": "19",
                     "PointsFromBench": "11",
-                    "Blocks": "3",
+                    "Blocks": "4",
                     "PointsOnCourt": "0",
                     "PointsOffFastBreak": "4",
                     "Steals": "3",
@@ -1614,22 +1603,22 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "5-6",
                         "Ftp": "83.3%",
-                        "TotalRebounds": "9",
-                        "OffensiveRebounds": "3",
+                        "TotalRebounds": "11",
+                        "OffensiveRebounds": "5",
                         "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
                         "PercentLead": "25.0%",
-                        "LastLeadScore": "45-37",
+                        "LastLeadScore": "45-39",
                         "LastLeadTime": "0:02 (3rd)",
                         "LargestLead": "15",
                         "LargestLeadScores": "40-25",
                         "LargestLeadTime": "7:06 (3rd)",
                         "Assists": "1",
-                        "Turnovers": "3",
+                        "Turnovers": "4",
                         "PointsFromBench": "3",
-                        "Blocks": "1",
+                        "Blocks": "2",
                         "PointsOnCourt": "0",
                         "PointsOffFastBreak": "0",
                         "Steals": "0",
@@ -1717,24 +1706,24 @@
                         "Points": "17",
                         "Fgam": "5-14",
                         "ShootingPercentage": "35.7%",
-                        "Tpam": "0-4",
+                        "Tpam": "0-2",
                         "Tppercentage": "0.0%",
                         "Ftma": "7-9",
                         "Ftp": "77.8%",
-                        "TotalRebounds": "8",
-                        "OffensiveRebounds": "2",
+                        "TotalRebounds": "9",
+                        "OffensiveRebounds": "3",
                         "DefensiveRebounds": "6",
                         "Ties": "1",
                         "Leads": "3",
-                        "TimeWithLead": "7:35",
-                        "PercentLead": "19.0%",
+                        "TimeWithLead": "7:31",
+                        "PercentLead": "18.8%",
                         "LastLeadScore": "62-60",
-                        "LastLeadTime": "0:40 (4th)",
-                        "LargestLead": "9",
-                        "LargestLeadScores": "48-39",
-                        "LargestLeadTime": "8:36 (4th)",
+                        "LastLeadTime": "0:41 (4th)",
+                        "LargestLead": "6",
+                        "LargestLeadScores": "58-52",
+                        "LargestLeadTime": "3:22 (4th)",
                         "Assists": "3",
-                        "Turnovers": "2",
+                        "Turnovers": "3",
                         "PointsFromBench": "2",
                         "Blocks": "0",
                         "PointsOnCourt": "0",
@@ -1934,21 +1923,21 @@
                             "ShootingPercentage": "40.0%",
                             "Tpam": "1-1",
                             "Tppercentage": "100.0%",
-                            "Ftma": "2-2",
-                            "Ftp": "100.0%",
-                            "TotalRebounds": "3",
-                            "OffensiveRebounds": "1",
+                            "Ftma": "3-4",
+                            "Ftp": "75.0%",
+                            "TotalRebounds": "4",
+                            "OffensiveRebounds": "2",
                             "DefensiveRebounds": "2",
-                            "Assists": "5",
+                            "Assists": "6",
                             "Turnovers": "2",
                             "Blocks": "0",
                             "Steals": "0",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "10.0",
-                            "UsagePercentage": "10.47",
-                            "PointsPerMinute": ".175",
-                            "Points": "7",
+                            "Efficiency": "12.0",
+                            "UsagePercentage": "11.57",
+                            "PointsPerMinute": ".200",
+                            "Points": "8",
                             "PersonId": ""
                         },
                         {
@@ -1957,8 +1946,8 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "40",
-                            "Fgam": "5-18",
-                            "ShootingPercentage": "27.8%",
+                            "Fgam": "4-17",
+                            "ShootingPercentage": "23.5%",
                             "Tpam": "0-2",
                             "Tppercentage": "0.0%",
                             "Ftma": "4-4",
@@ -1966,16 +1955,16 @@
                             "TotalRebounds": "8",
                             "OffensiveRebounds": "1",
                             "DefensiveRebounds": "7",
-                            "Assists": "6",
+                            "Assists": "5",
                             "Turnovers": "2",
                             "Blocks": "0",
-                            "Steals": "1",
-                            "PersonalFouls": "4",
+                            "Steals": "2",
+                            "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "14.0",
-                            "UsagePercentage": "28.92",
-                            "PointsPerMinute": ".350",
-                            "Points": "14",
+                            "Efficiency": "12.0",
+                            "UsagePercentage": "27.43",
+                            "PointsPerMinute": ".300",
+                            "Points": "12",
                             "PersonId": ""
                         },
                         {
@@ -1984,25 +1973,25 @@
                             "Position": "F",
                             "CurrentlyInGame": "",
                             "Minutes": "34",
-                            "Fgam": "10-13",
-                            "ShootingPercentage": "76.9%",
+                            "Fgam": "10-14",
+                            "ShootingPercentage": "71.4%",
                             "Tpam": "3-3",
                             "Tppercentage": "100.0%",
-                            "Ftma": "1-4",
-                            "Ftp": "25.0%",
-                            "TotalRebounds": "5",
+                            "Ftma": "2-3",
+                            "Ftp": "66.7%",
+                            "TotalRebounds": "4",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "5",
+                            "DefensiveRebounds": "4",
                             "Assists": "1",
                             "Turnovers": "0",
-                            "Blocks": "2",
-                            "Steals": "2",
-                            "PersonalFouls": "2",
+                            "Blocks": "3",
+                            "Steals": "1",
+                            "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "28.0",
-                            "UsagePercentage": "23.08",
-                            "PointsPerMinute": ".706",
-                            "Points": "24",
+                            "Efficiency": "29.0",
+                            "UsagePercentage": "23.81",
+                            "PointsPerMinute": ".735",
+                            "Points": "25",
                             "PersonId": ""
                         },
                         {
@@ -2027,7 +2016,7 @@
                             "PersonalFouls": "5",
                             "TechnicalFouls": "0",
                             "Efficiency": "4.0",
-                            "UsagePercentage": "21.62",
+                            "UsagePercentage": "21.49",
                             "PointsPerMinute": ".083",
                             "Points": "1",
                             "PersonId": ""
@@ -2047,14 +2036,14 @@
                             "TotalRebounds": "4",
                             "OffensiveRebounds": "2",
                             "DefensiveRebounds": "2",
-                            "Assists": "0",
+                            "Assists": "1",
                             "Turnovers": "3",
                             "Blocks": "0",
                             "Steals": "0",
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
-                            "Efficiency": "2.0",
-                            "UsagePercentage": "33.22",
+                            "Efficiency": "3.0",
+                            "UsagePercentage": "33.03",
                             "PointsPerMinute": ".375",
                             "Points": "9",
                             "PersonId": ""
@@ -2081,7 +2070,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "4.0",
-                            "UsagePercentage": "12.00",
+                            "UsagePercentage": "11.93",
                             "PointsPerMinute": ".194",
                             "Points": "6",
                             "PersonId": ""
@@ -2130,11 +2119,11 @@
                             "DefensiveRebounds": "1",
                             "Assists": "0",
                             "Turnovers": "0",
-                            "Blocks": "1",
+                            "Blocks": "0",
                             "Steals": "0",
-                            "PersonalFouls": "3",
+                            "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "1.0",
+                            "Efficiency": "0.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
@@ -2243,35 +2232,35 @@
                 },
                 "Values": {
                     "Points": "63",
-                    "Fgam": "25-61",
-                    "ShootingPercentage": "41.0%",
+                    "Fgam": "24-61",
+                    "ShootingPercentage": "39.3%",
                     "Tpam": "5-12",
                     "Tppercentage": "41.7%",
-                    "Ftma": "8-12",
-                    "Ftp": "66.7%",
-                    "TotalRebounds": "26",
-                    "OffensiveRebounds": "6",
-                    "DefensiveRebounds": "20",
+                    "Ftma": "10-13",
+                    "Ftp": "76.9%",
+                    "TotalRebounds": "27",
+                    "OffensiveRebounds": "8",
+                    "DefensiveRebounds": "19",
                     "Ties": "3",
                     "Leads": "8",
-                    "TimeWithLead": "9:26",
-                    "PercentLead": "23.6%",
+                    "TimeWithLead": "9:29",
+                    "PercentLead": "23.7%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
                     "LargestLead": "6",
                     "LargestLeadScores": "8-2",
                     "LargestLeadTime": "5:57 (1st)",
-                    "Assists": "13",
+                    "Assists": "14",
                     "Turnovers": "9",
                     "PointsFromBench": "8",
                     "Blocks": "6",
                     "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "4",
+                    "PointsOffFastBreak": "7",
                     "Steals": "4",
-                    "PointsOffTurnovers": "10",
-                    "PointsInPaint": "28",
+                    "PointsOffTurnovers": "12",
+                    "PointsInPaint": "24",
                     "PointsOffSecondChance": "6",
-                    "PersonalFouls": "27",
+                    "PersonalFouls": "26",
                     "TechnicalFouls": "0",
                     "Possession": "0",
                     "AverageScoringPossession": "-"
@@ -2564,15 +2553,15 @@
                         "AverageScoringPossession": "Avg Scoring Poss Length"
                     },
                     "Values": {
-                        "Points": "13",
-                        "Fgam": "6-16",
-                        "ShootingPercentage": "37.5%",
+                        "Points": "15",
+                        "Fgam": "6-17",
+                        "ShootingPercentage": "35.3%",
                         "Tpam": "0-1",
                         "Tppercentage": "0.0%",
-                        "Ftma": "1-4",
-                        "Ftp": "25.0%",
-                        "TotalRebounds": "8",
-                        "OffensiveRebounds": "2",
+                        "Ftma": "3-5",
+                        "Ftp": "60.0%",
+                        "TotalRebounds": "10",
+                        "OffensiveRebounds": "4",
                         "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
@@ -2583,7 +2572,7 @@
                         "LargestLead": "0",
                         "LargestLeadScores": "-",
                         "LargestLeadTime": "-",
-                        "Assists": "3",
+                        "Assists": "4",
                         "Turnovers": "1",
                         "PointsFromBench": "0",
                         "Blocks": "4",
@@ -2671,36 +2660,36 @@
                         "AverageScoringPossession": "Avg Scoring Poss Length"
                     },
                     "Values": {
-                        "Points": "26",
-                        "Fgam": "10-15",
-                        "ShootingPercentage": "66.7%",
+                        "Points": "24",
+                        "Fgam": "9-14",
+                        "ShootingPercentage": "64.3%",
                         "Tpam": "3-3",
                         "Tppercentage": "100.0%",
                         "Ftma": "3-4",
                         "Ftp": "75.0%",
-                        "TotalRebounds": "8",
+                        "TotalRebounds": "7",
                         "OffensiveRebounds": "0",
-                        "DefensiveRebounds": "8",
+                        "DefensiveRebounds": "7",
                         "Ties": "1",
                         "Leads": "3",
-                        "TimeWithLead": "1:47",
-                        "PercentLead": "4.5%",
+                        "TimeWithLead": "1:50",
+                        "PercentLead": "4.6%",
                         "LastLeadScore": "",
                         "LastLeadTime": "",
                         "LargestLead": "2",
                         "LargestLeadScores": "52-50",
-                        "LargestLeadTime": "6:26 (4th)",
+                        "LargestLeadTime": "6:28 (4th)",
                         "Assists": "6",
                         "Turnovers": "2",
                         "PointsFromBench": "4",
                         "Blocks": "2",
                         "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "2",
+                        "PointsOffFastBreak": "5",
                         "Steals": "2",
-                        "PointsOffTurnovers": "2",
-                        "PointsInPaint": "12",
+                        "PointsOffTurnovers": "4",
+                        "PointsInPaint": "8",
                         "PointsOffSecondChance": "0",
-                        "PersonalFouls": "8",
+                        "PersonalFouls": "7",
                         "TechnicalFouls": "0",
                         "Possession": "0",
                         "AverageScoringPossession": "-"
@@ -8048,11 +8037,20 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Ingram",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "VisitingTeam",
-            "Narrative": "32 Tayjanna McGhee-Pleasant LAYUP MISS",
+            "Narrative": "32 Tayjanna McGhee-Pleasant LAYUP MISS; 30 Ashley Ingram BLOCK (3 Blk)",
             "Context": "",
-            "Id": "289+4164497A",
+            "Id": "289+F07891F0",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8073,32 +8071,74 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant OFF. REBOUND (3 Reb, 2 Off)",
             "Context": "",
-            "Id": "290+831C756F",
+            "Id": "290+80E88A10",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
-            "ClockSeconds": 146,
+            "ClockSeconds": 149,
             "Coordinate": null,
             "Score": null
         },
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Ingram",
-                "UniformNumber": "30",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "30 Ashley Ingram FOUL (3 PF)",
+            "Narrative": "15 Brielle Woods FOUL (3 PF)",
             "Context": "",
-            "Id": "291+12312D3F",
+            "Id": "292+82996242",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
             "ClockSeconds": 145,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Sawyer Lloyd JUMPER MISS",
+            "Context": "",
+            "Id": "293+D6242B33",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 141,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Landry",
+                "LastName": "Morrow",
+                "UniformNumber": "00",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "00 Landry Morrow OFF. REBOUND (4 Reb, 2 Off)",
+            "Context": "",
+            "Id": "294+3561F492",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 141,
             "Coordinate": null,
             "Score": null
         },
@@ -8115,11 +8155,11 @@
             "Team": "VisitingTeam",
             "Narrative": "00 Landry Morrow LAYUP GOOD (7 Pt)",
             "Context": "",
-            "Id": "292+DC3B36CA",
+            "Id": "295+D3FF172E",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
-            "ClockSeconds": 126,
+            "ClockSeconds": 133,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 42,
@@ -8139,7 +8179,7 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant FOUL (4 PF)",
             "Context": "",
-            "Id": "293+9727E0CE",
+            "Id": "296+82D8B307",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -8169,7 +8209,7 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant OUT; 22 Olivia Pedigo IN",
             "Context": "",
-            "Id": "294+2CF823BC",
+            "Id": "297+32484317",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8190,7 +8230,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram FT GOOD (14 Pt)",
             "Context": "",
-            "Id": "296+F53895ED",
+            "Id": "299+F96D43BA",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -8214,7 +8254,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram FT GOOD (15 Pt)",
             "Context": "",
-            "Id": "297+E05FD2D",
+            "Id": "300+35FE1A64",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -8263,7 +8303,7 @@
             "Team": "HomeTeam",
             "Narrative": "15 Brielle Woods OUT; 30 Ashley Ingram OUT; 01 Ngozi Obineke IN; 23 Jada Celsur IN",
             "Context": "",
-            "Id": "298+FCD6A904",
+            "Id": "301+C43349DF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8284,7 +8324,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman FOUL (2 PF)",
             "Context": "",
-            "Id": "302+58D823E3",
+            "Id": "305+BA225D98",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -8314,7 +8354,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman OUT; 30 Ashley Ingram IN",
             "Context": "",
-            "Id": "303+421011A2",
+            "Id": "306+D7A2B8CB",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8333,15 +8373,18 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens FT MISS",
+            "Narrative": "12 Madeline Stephens FT GOOD (10 Pt)",
             "Context": "",
-            "Id": "305+8C3DFE67",
+            "Id": "308+3BFAFD81",
             "Type": "FT",
-            "Action": "MISS",
+            "Action": "GOOD",
             "Period": 3,
             "ClockSeconds": 76,
             "Coordinate": null,
-            "Score": null
+            "Score": {
+                "HomeTeam": 44,
+                "VisitingTeam": 36
+            }
         },
         {
             "Player": {
@@ -8356,7 +8399,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Madeline Stephens FT MISS",
             "Context": "",
-            "Id": "306+F893F030",
+            "Id": "309+9C0862DB",
             "Type": "FT",
             "Action": "MISS",
             "Period": 3,
@@ -8370,22 +8413,8 @@
             "Team": "VisitingTeam",
             "Narrative": "Angelo St. REBOUND",
             "Context": "",
-            "Id": "307+EF5D32FD",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 76,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Angelo St. REBOUND",
-            "Context": "",
-            "Id": "308+9B12A741",
-            "Type": "DEADB",
+            "Id": "310+92D5566B",
+            "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
             "ClockSeconds": 75,
@@ -8403,13 +8432,13 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "00 Landry Morrow LAYUP MISS",
+            "Narrative": "00 Landry Morrow JUMPER MISS",
             "Context": "",
-            "Id": "309+F0725AF7",
-            "Type": "LAYUP",
+            "Id": "311+E6881C1A",
+            "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
-            "ClockSeconds": 67,
+            "ClockSeconds": 68,
             "Coordinate": null,
             "Score": null
         },
@@ -8426,7 +8455,7 @@
             "Team": "HomeTeam",
             "Narrative": "01 Ngozi Obineke DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "310+5D4F3CBE",
+            "Id": "312+472AE6E8",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8456,7 +8485,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram LAYUP MISS; 12 Madeline Stephens BLOCK (1 Blk)",
             "Context": "",
-            "Id": "311+E4A63E38",
+            "Id": "313+CEB02526",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8470,8 +8499,8 @@
             "Team": "HomeTeam",
             "Narrative": "Texas Woman's REBOUND",
             "Context": "",
-            "Id": "313+F2D9A921",
-            "Type": "DEADB",
+            "Id": "315+CBBAB64B",
+            "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
             "ClockSeconds": 50,
@@ -8500,7 +8529,7 @@
             "Team": "HomeTeam",
             "Narrative": "01 Ngozi Obineke OUT; 25 Scout Huffman IN",
             "Context": "",
-            "Id": "314+9518A7FF",
+            "Id": "316+AC46DA91",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8521,11 +8550,53 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman JUMPER MISS",
             "Context": "",
-            "Id": "316+5CCDF1B1",
+            "Id": "318+548075FA",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
-            "ClockSeconds": 40,
+            "ClockSeconds": 41,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Keslyn King OFF. REBOUND (5 Reb, 4 Off)",
+            "Context": "",
+            "Id": "319+E7980D0D",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 41,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Keslyn King TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "320+EF17FDA4",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 39,
             "Coordinate": null,
             "Score": null
         },
@@ -8542,11 +8613,11 @@
             "Team": "VisitingTeam",
             "Narrative": "10 Sawyer Lloyd JUMPER MISS",
             "Context": "",
-            "Id": "317+3751B550",
+            "Id": "321+5E56BBFB",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
-            "ClockSeconds": 38,
+            "ClockSeconds": 33,
             "Coordinate": null,
             "Score": null
         },
@@ -8563,32 +8634,32 @@
             "Team": "HomeTeam",
             "Narrative": "23 Jada Celsur DEF. REBOUND (2 Reb, 1 Def)",
             "Context": "",
-            "Id": "318+D603535F",
+            "Id": "322+499FC94D",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
-            "ClockSeconds": 38,
+            "ClockSeconds": 32,
             "Coordinate": null,
             "Score": null
         },
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
+                "FirstName": "Madeline",
+                "LastName": "Stephens",
+                "UniformNumber": "12",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd FOUL (1 PF)",
+            "Narrative": "12 Madeline Stephens FOUL (3 PF)",
             "Context": "",
-            "Id": "319+DAA1E5CF",
+            "Id": "323+E78E003B",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
-            "ClockSeconds": 36,
+            "ClockSeconds": 30,
             "Coordinate": null,
             "Score": null
         },
@@ -8605,15 +8676,15 @@
             "Team": "HomeTeam",
             "Narrative": "23 Jada Celsur FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "320+8F65A378",
+            "Id": "324+9EA563A6",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
-            "ClockSeconds": 36,
+            "ClockSeconds": 30,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 45,
-                "VisitingTeam": 35
+                "VisitingTeam": 36
             }
         },
         {
@@ -8629,11 +8700,11 @@
             "Team": "HomeTeam",
             "Narrative": "23 Jada Celsur FT MISS",
             "Context": "",
-            "Id": "321+AAE57818",
+            "Id": "325+B9F8CDDE",
             "Type": "FT",
             "Action": "MISS",
             "Period": 3,
-            "ClockSeconds": 36,
+            "ClockSeconds": 30,
             "Coordinate": null,
             "Score": null
         },
@@ -8650,11 +8721,11 @@
             "Team": "VisitingTeam",
             "Narrative": "22 Olivia Pedigo DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "322+D9C753EF",
+            "Id": "326+28841071",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
-            "ClockSeconds": 36,
+            "ClockSeconds": 30,
             "Coordinate": null,
             "Score": null
         },
@@ -8667,11 +8738,20 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Landry",
+                    "LastName": "Morrow",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens LAYUP GOOD (11 Pt)",
+            "Narrative": "12 Madeline Stephens LAYUP GOOD (12 Pt); 00 Landry Morrow Assist (5 Asst)",
             "Context": "",
-            "Id": "323+7622B84A",
+            "Id": "327+345E75B2",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -8679,7 +8759,7 @@
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 45,
-                "VisitingTeam": 37
+                "VisitingTeam": 38
             }
         },
         {
@@ -8695,11 +8775,239 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman FOUL (3 PF)",
             "Context": "",
-            "Id": "324+7AD20C72",
+            "Id": "329+4C74C983",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
             "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Madeline",
+                "LastName": "Stephens",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Madeline Stephens FT GOOD (13 Pt)",
+            "Context": "",
+            "Id": "330+DF76BB74",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 45,
+                "VisitingTeam": 39
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "25 Scout Huffman JUMPER MISS",
+            "Context": "",
+            "Id": "331+1153CB1C",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 589,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Sawyer Lloyd DEF. REBOUND (6 Reb, 5 Def)",
+            "Context": "",
+            "Id": "332+2C1E3392",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 589,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods FOUL (4 PF)",
+            "Context": "",
+            "Id": "333+81A28545",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 589,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jada",
+                "LastName": "Celsur",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Brielle",
+                    "LastName": "Woods",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Jada Celsur OUT; 15 Brielle Woods IN",
+            "Context": "",
+            "Id": "334+2088EB68",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 589,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Sawyer Lloyd LAYUP GOOD (10 Pt)",
+            "Context": "",
+            "Id": "336+5D5BF890",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 561,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 45,
+                "VisitingTeam": 41
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Olivia",
+                "LastName": "Pedigo",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "22 Olivia Pedigo FOUL (1 PF)",
+            "Context": "",
+            "Id": "337+85D09085",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 543,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "30 Ashley Ingram FT GOOD (16 Pt)",
+            "Context": "",
+            "Id": "338+B7F8E988",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 543,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 46,
+                "VisitingTeam": 41
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Ingram",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "30 Ashley Ingram FT MISS",
+            "Context": "",
+            "Id": "339+C4683774",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 543,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Madeline",
+                "LastName": "Stephens",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Madeline Stephens DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "340+AE87E2CB",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 543,
             "Coordinate": null,
             "Score": null
         },
@@ -8725,362 +9033,11 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman OUT; 01 Ngozi Obineke IN",
             "Context": "",
-            "Id": "325+34F17155",
+            "Id": "341+F1AF7EC2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Scout",
-                "LastName": "Huffman",
-                "UniformNumber": "25",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "25 Scout Huffman JUMPER MISS",
-            "Context": "",
-            "Id": "327+3AD28967",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 586,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd DEF. REBOUND (6 Reb, 5 Def)",
-            "Context": "",
-            "Id": "328+26AF369",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 586,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd LAYUP GOOD (10 Pt)",
-            "Context": "",
-            "Id": "329+BA66CEE5",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 569,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 45,
-                "VisitingTeam": 39
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Pedigo",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "22 Olivia Pedigo FOUL (1 PF)",
-            "Context": "",
-            "Id": "330+57C6C7CD",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 544,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Ingram",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "30 Ashley Ingram FT GOOD (16 Pt)",
-            "Context": "",
-            "Id": "331+2E7ABDDA",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 544,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 46,
-                "VisitingTeam": 39
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Ingram",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "30 Ashley Ingram FT MISS",
-            "Context": "",
-            "Id": "332+4FD160D0",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 544,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Madeline",
-                "LastName": "Stephens",
-                "UniformNumber": "12",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens DEF. REBOUND (2 Reb, 2 Def)",
-            "Context": "",
-            "Id": "333+51E57C01",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 544,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd FOUL (2 PF)",
-            "Context": "",
-            "Id": "334+90F926FA",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 516,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Keslyn",
-                "LastName": "King",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King FT GOOD (7 Pt)",
-            "Context": "",
-            "Id": "335+F31ACFF6",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 516,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 47,
-                "VisitingTeam": 39
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Keslyn",
-                "LastName": "King",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King FT GOOD (8 Pt)",
-            "Context": "",
-            "Id": "336+1836D48A",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 516,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 48,
-                "VisitingTeam": 39
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd FOUL (3 PF)",
-            "Context": "",
-            "Id": "337+7120B63F",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 507,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "338+BF325D6A",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 507,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Keslyn",
-                "LastName": "King",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King FOUL (2 PF)",
-            "Context": "",
-            "Id": "339+CD0975B1",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 499,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd LAYUP GOOD (12 Pt)",
-            "Context": "",
-            "Id": "340+24CB4510",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 499,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 48,
-                "VisitingTeam": 41
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Pedigo",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "22 Olivia Pedigo FOUL (2 PF)",
-            "Context": "",
-            "Id": "341+A9283A6E",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 499,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jada",
-                "LastName": "Celsur",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "23 Jada Celsur FOUL (1 PF)",
-            "Context": "",
-            "Id": "342+7BAA225B",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 499,
+            "ClockSeconds": 543,
             "Coordinate": null,
             "Score": null
         },
@@ -9104,18 +9061,247 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens JUMPER GOOD (13 Pt); 01 Madisen Honea Assist (1 Asst)",
+            "Narrative": "12 Madeline Stephens JUMPER GOOD (15 Pt); 01 Madisen Honea Assist (1 Asst)",
             "Context": "",
-            "Id": "343+CCBB40C2",
+            "Id": "343+E666060C",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 499,
+            "ClockSeconds": 535,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 46,
+                "VisitingTeam": 43
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Sawyer Lloyd FOUL (1 PF)",
+            "Context": "",
+            "Id": "345+59FCA9EA",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 516,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Keslyn King FT GOOD (7 Pt)",
+            "Context": "",
+            "Id": "346+DF4ECD7",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 516,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 47,
+                "VisitingTeam": 43
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Keslyn",
+                "LastName": "King",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Keslyn King FT GOOD (8 Pt)",
+            "Context": "",
+            "Id": "347+3201A86D",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 516,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 48,
                 "VisitingTeam": 43
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brielle",
+                "LastName": "Woods",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jada",
+                    "LastName": "Celsur",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ngozi",
+                    "LastName": "Obineke",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Scout",
+                    "LastName": "Huffman",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "15 Brielle Woods OUT; 23 Jada Celsur IN; 01 Ngozi Obineke OUT; 25 Scout Huffman IN",
+            "Context": "",
+            "Id": "348+516AF437",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 516,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Sawyer Lloyd FOUL (2 PF)",
+            "Context": "",
+            "Id": "352+33D4F7AB",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 507,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Sawyer Lloyd TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "353+EFEC2A25",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 507,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jada",
+                "LastName": "Celsur",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Jada Celsur FOUL (1 PF)",
+            "Context": "",
+            "Id": "354+2ABA5FBB",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 495,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jada",
+                "LastName": "Celsur",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Jada Celsur TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "355+EED91826",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 495,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ngozi",
+                    "LastName": "Obineke",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "25 Scout Huffman OUT; 01 Ngozi Obineke IN",
+            "Context": "",
+            "Id": "356+B2B13B8F",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 495,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -9137,13 +9323,13 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens JUMPER GOOD (15 Pt); 00 Landry Morrow Assist (5 Asst)",
+            "Narrative": "12 Madeline Stephens JUMPER GOOD (17 Pt); 00 Landry Morrow Assist (6 Asst)",
             "Context": "",
-            "Id": "345+E5709889",
+            "Id": "358+C49C36F9",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 487,
+            "ClockSeconds": 481,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 48,
@@ -9161,9 +9347,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "22 Olivia Pedigo FOUL (3 PF)",
+            "Narrative": "22 Olivia Pedigo FOUL (2 PF)",
             "Context": "",
-            "Id": "347+AB5793C0",
+            "Id": "360+D9411322",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9193,7 +9379,7 @@
             "Team": "HomeTeam",
             "Narrative": "01 Ngozi Obineke LAYUP GOOD (10 Pt); 23 Jada Celsur Assist (2 Asst)",
             "Context": "",
-            "Id": "348+742E77BD",
+            "Id": "361+3470CDB4",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9217,11 +9403,11 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Madisen Honea JUMPER GOOD (4 Pt)",
             "Context": "",
-            "Id": "350+5C25764C",
+            "Id": "363+15EA8066",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 453,
+            "ClockSeconds": 454,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 50,
@@ -9241,11 +9427,11 @@
             "Team": "HomeTeam",
             "Narrative": "01 Ngozi Obineke TURNOVER (2 TO)",
             "Context": "",
-            "Id": "351+A89DCF70",
+            "Id": "364+EBE59A26",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
-            "ClockSeconds": 442,
+            "ClockSeconds": 443,
             "Coordinate": null,
             "Score": null
         },
@@ -9262,11 +9448,11 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Madisen Honea STEAL (1 Stl)",
             "Context": "",
-            "Id": "352+D5E7E866",
+            "Id": "365+E760C74E",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
-            "ClockSeconds": 442,
+            "ClockSeconds": 443,
             "Coordinate": null,
             "Score": null
         },
@@ -9283,11 +9469,11 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Madisen Honea JUMPER GOOD (6 Pt)",
             "Context": "",
-            "Id": "353+22719341",
+            "Id": "366+1CF514D8",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 437,
+            "ClockSeconds": 439,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 50,
@@ -9300,7 +9486,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Media Timeout",
             "Context": "",
-            "Id": "354+2EFF06D",
+            "Id": "367+3093B3E4",
             "Type": "MEDIA",
             "Action": "TIMEOUT",
             "Period": 4,
@@ -9330,7 +9516,7 @@
             "Team": "HomeTeam",
             "Narrative": "01 Ngozi Obineke OUT; 25 Scout Huffman IN",
             "Context": "",
-            "Id": "355+497CEA76",
+            "Id": "368+8CAFFA89",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9351,32 +9537,32 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram TURNOVER (3 TO)",
             "Context": "",
-            "Id": "357+93CD91BF",
+            "Id": "370+7BB9FD47",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
-            "ClockSeconds": 426,
+            "ClockSeconds": 425,
             "Coordinate": null,
             "Score": null
         },
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Madeline",
-                "LastName": "Stephens",
-                "UniformNumber": "12",
+                "FirstName": "Sawyer",
+                "LastName": "Lloyd",
+                "UniformNumber": "10",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens STEAL (2 Stl)",
+            "Narrative": "10 Sawyer Lloyd STEAL (2 Stl)",
             "Context": "",
-            "Id": "358+993A7318",
+            "Id": "371+6673FF88",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
-            "ClockSeconds": 426,
+            "ClockSeconds": 425,
             "Coordinate": null,
             "Score": null
         },
@@ -9393,7 +9579,7 @@
             "Team": "VisitingTeam",
             "Narrative": "10 Sawyer Lloyd TURNOVER (2 TO)",
             "Context": "",
-            "Id": "359+ED0F89C3",
+            "Id": "372+276031E4",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9414,11 +9600,11 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram LAYUP MISS",
             "Context": "",
-            "Id": "360+3109FE6",
+            "Id": "373+C812AAE8",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 403,
+            "ClockSeconds": 404,
             "Coordinate": null,
             "Score": null
         },
@@ -9435,11 +9621,11 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram OFF. REBOUND (9 Reb, 2 Off)",
             "Context": "",
-            "Id": "361+54A1DEAB",
+            "Id": "374+BC877D74",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 400,
+            "ClockSeconds": 404,
             "Coordinate": null,
             "Score": null
         },
@@ -9465,11 +9651,11 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram LAYUP MISS; 12 Madeline Stephens BLOCK (2 Blk)",
             "Context": "",
-            "Id": "362+39CA8A8B",
+            "Id": "375+F87B32DD",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 398,
+            "ClockSeconds": 401,
             "Coordinate": null,
             "Score": null
         },
@@ -9484,13 +9670,13 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King OFF. REBOUND (5 Reb, 4 Off)",
+            "Narrative": "13 Keslyn King OFF. REBOUND (6 Reb, 5 Off)",
             "Context": "",
-            "Id": "364+37CF8AA9",
+            "Id": "377+C9B5DCA2",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 393,
+            "ClockSeconds": 401,
             "Coordinate": null,
             "Score": null
         },
@@ -9507,11 +9693,11 @@
             "Team": "HomeTeam",
             "Narrative": "13 Keslyn King LAYUP MISS",
             "Context": "",
-            "Id": "365+D4BF86DE",
+            "Id": "378+11C7D72",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 392,
+            "ClockSeconds": 399,
             "Coordinate": null,
             "Score": null
         },
@@ -9528,11 +9714,11 @@
             "Team": "VisitingTeam",
             "Narrative": "10 Sawyer Lloyd DEF. REBOUND (7 Reb, 6 Def)",
             "Context": "",
-            "Id": "366+1FDAC53F",
+            "Id": "379+D9DE902F",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 390,
+            "ClockSeconds": 399,
             "Coordinate": null,
             "Score": null
         },
@@ -9556,13 +9742,13 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens 3PTR GOOD (18 Pt); 10 Sawyer Lloyd Assist (3 Asst)",
+            "Narrative": "12 Madeline Stephens 3PTR GOOD (20 Pt); 10 Sawyer Lloyd Assist (3 Asst)",
             "Context": "",
-            "Id": "367+BA919B7F",
+            "Id": "380+DDBAC461",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 386,
+            "ClockSeconds": 388,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 50,
@@ -9575,8 +9761,22 @@
             "Team": "HomeTeam",
             "Narrative": "Texas Woman's TIMEOUT 30 Sec. (1st TO, 1st 30)",
             "Context": "",
-            "Id": "369+9D8783D9",
+            "Id": "382+BC46F232",
             "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 382,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Media Timeout",
+            "Context": "",
+            "Id": "383+FD6CD31F",
+            "Type": "MEDIA",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 382,
@@ -9596,7 +9796,7 @@
             "Team": "HomeTeam",
             "Narrative": "14 Sadie Moyer 3PTR MISS",
             "Context": "",
-            "Id": "370+C43D93D",
+            "Id": "384+8C95F317",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -9617,28 +9817,28 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Madeline Stephens DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "371+B6E5467E",
+            "Id": "385+36ECDAD9",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 357,
+            "ClockSeconds": 360,
             "Coordinate": null,
             "Score": null
         },
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Sawyer",
-                "LastName": "Lloyd",
-                "UniformNumber": "10",
+                "FirstName": "Madeline",
+                "LastName": "Stephens",
+                "UniformNumber": "12",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd LAYUP MISS",
+            "Narrative": "12 Madeline Stephens LAYUP MISS",
             "Context": "",
-            "Id": "372+3142899F",
+            "Id": "386+A4841BAF",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -9659,11 +9859,11 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman DEF. REBOUND (3 Reb, 1 Def)",
             "Context": "",
-            "Id": "373+FBF84D2",
+            "Id": "387+A25BB376",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 329,
+            "ClockSeconds": 339,
             "Coordinate": null,
             "Score": null
         },
@@ -9680,7 +9880,7 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Madisen Honea FOUL (1 PF)",
             "Context": "",
-            "Id": "374+7A09045F",
+            "Id": "388+C1D493E5",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9699,18 +9899,29 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King FT GOOD (9 Pt)",
+            "Narrative": "13 Keslyn King FT MISS",
             "Context": "",
-            "Id": "375+8ADA29FB",
+            "Id": "389+24E108B6",
             "Type": "FT",
-            "Action": "GOOD",
+            "Action": "MISS",
             "Period": 4,
             "ClockSeconds": 319,
             "Coordinate": null,
-            "Score": {
-                "HomeTeam": 51,
-                "VisitingTeam": 52
-            }
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Texas Woman's REBOUND",
+            "Context": "",
+            "Id": "390+4B19B93C",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 319,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -9723,15 +9934,18 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King FT MISS",
+            "Narrative": "13 Keslyn King FT GOOD (9 Pt)",
             "Context": "",
-            "Id": "376+8A0B30DF",
+            "Id": "391+834124B",
             "Type": "FT",
-            "Action": "MISS",
+            "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 319,
             "Coordinate": null,
-            "Score": null
+            "Score": {
+                "HomeTeam": 51,
+                "VisitingTeam": 52
+            }
         },
         {
             "Player": {
@@ -9746,11 +9960,11 @@
             "Team": "VisitingTeam",
             "Narrative": "22 Olivia Pedigo LAYUP MISS",
             "Context": "",
-            "Id": "377+3502B02D",
+            "Id": "392+B5B8980C",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 300,
+            "ClockSeconds": 296,
             "Coordinate": null,
             "Score": null
         },
@@ -9767,11 +9981,11 @@
             "Team": "HomeTeam",
             "Narrative": "23 Jada Celsur DEF. REBOUND (3 Reb, 2 Def)",
             "Context": "",
-            "Id": "378+70E57F4A",
+            "Id": "393+F7001497",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 298,
+            "ClockSeconds": 296,
             "Coordinate": null,
             "Score": null
         },
@@ -9787,21 +10001,21 @@
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Jada",
-                    "LastName": "Celsur",
-                    "UniformNumber": "23",
+                    "FirstName": "Keslyn",
+                    "LastName": "King",
+                    "UniformNumber": "13",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "30 Ashley Ingram JUMPER GOOD (18 Pt); 23 Jada Celsur Assist (3 Asst)",
+            "Narrative": "30 Ashley Ingram JUMPER GOOD (18 Pt); 13 Keslyn King Assist (2 Asst)",
             "Context": "",
-            "Id": "379+BBDCD01C",
+            "Id": "394+38FE0B9F",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 281,
+            "ClockSeconds": 280,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 53,
@@ -9821,11 +10035,11 @@
             "Team": "VisitingTeam",
             "Narrative": "10 Sawyer Lloyd JUMPER MISS",
             "Context": "",
-            "Id": "381+26F870C5",
+            "Id": "396+A635BCAB",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 264,
+            "ClockSeconds": 267,
             "Coordinate": null,
             "Score": null
         },
@@ -9842,11 +10056,11 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram DEF. REBOUND (10 Reb, 8 Def)",
             "Context": "",
-            "Id": "382+71437E9F",
+            "Id": "397+FF6BEB82",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 257,
+            "ClockSeconds": 267,
             "Coordinate": null,
             "Score": null
         },
@@ -9863,11 +10077,11 @@
             "Team": "HomeTeam",
             "Narrative": "13 Keslyn King LAYUP GOOD (11 Pt)",
             "Context": "",
-            "Id": "383+2572D8C1",
+            "Id": "398+A8A6B503",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 241,
+            "ClockSeconds": 238,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 55,
@@ -9885,13 +10099,13 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd FOUL (4 PF)",
+            "Narrative": "10 Sawyer Lloyd FOUL (3 PF)",
             "Context": "",
-            "Id": "384+70B1F32F",
+            "Id": "399+4B10FEFC",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
-            "ClockSeconds": 241,
+            "ClockSeconds": 238,
             "Coordinate": null,
             "Score": null
         },
@@ -9917,11 +10131,11 @@
             "Team": "VisitingTeam",
             "Narrative": "22 Olivia Pedigo OUT; 32 Tayjanna McGhee-Pleasant IN",
             "Context": "",
-            "Id": "385+5AF320A4",
+            "Id": "400+1CAB49EE",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
-            "ClockSeconds": 241,
+            "ClockSeconds": 238,
             "Coordinate": null,
             "Score": null
         },
@@ -9938,11 +10152,11 @@
             "Team": "HomeTeam",
             "Narrative": "13 Keslyn King FT GOOD (12 Pt)",
             "Context": "",
-            "Id": "387+8A75E351",
+            "Id": "402+CC8E687B",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 241,
+            "ClockSeconds": 238,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 56,
@@ -9962,7 +10176,7 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant LAYUP MISS",
             "Context": "",
-            "Id": "388+DE069787",
+            "Id": "403+AEECA934",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -9983,7 +10197,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman DEF. REBOUND (4 Reb, 2 Def)",
             "Context": "",
-            "Id": "389+1202E293",
+            "Id": "404+579DF6CE",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10013,11 +10227,11 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram LAYUP GOOD (20 Pt); 25 Scout Huffman Assist (3 Asst)",
             "Context": "",
-            "Id": "390+40F14261",
+            "Id": "405+310E6D15",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 201,
+            "ClockSeconds": 202,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 58,
@@ -10046,11 +10260,11 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant 3PTR GOOD (9 Pt); 10 Sawyer Lloyd Assist (4 Asst)",
             "Context": "",
-            "Id": "392+653EB0A3",
+            "Id": "407+16A5E441",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 187,
+            "ClockSeconds": 186,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 58,
@@ -10070,7 +10284,7 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Madisen Honea FOUL (2 PF)",
             "Context": "",
-            "Id": "394+B645F219",
+            "Id": "409+E34EB9C6",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10091,7 +10305,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram FT GOOD (21 Pt)",
             "Context": "",
-            "Id": "395+D42A1838",
+            "Id": "410+97D2948D",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10115,7 +10329,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram FT GOOD (22 Pt)",
             "Context": "",
-            "Id": "396+488ECA16",
+            "Id": "411+1948BE35",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10148,7 +10362,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Ashley Ingram OUT; 01 Ngozi Obineke IN",
             "Context": "",
-            "Id": "397+D254E1F6",
+            "Id": "412+9303C74B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10168,21 +10382,21 @@
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sawyer",
-                    "LastName": "Lloyd",
-                    "UniformNumber": "10",
+                    "FirstName": "Tayjanna",
+                    "LastName": "McGhee-Pleasant",
+                    "UniformNumber": "32",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens 3PTR GOOD (21 Pt); 10 Sawyer Lloyd Assist (5 Asst)",
+            "Narrative": "12 Madeline Stephens 3PTR GOOD (23 Pt); 32 Tayjanna McGhee-Pleasant Assist (1 Asst)",
             "Context": "",
-            "Id": "399+D4B92955",
+            "Id": "414+77567415",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 160,
+            "ClockSeconds": 166,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 60,
@@ -10202,11 +10416,11 @@
             "Team": "HomeTeam",
             "Narrative": "14 Sadie Moyer JUMPER GOOD (9 Pt)",
             "Context": "",
-            "Id": "401+EB297A76",
+            "Id": "416+243D83ED",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 135,
+            "ClockSeconds": 137,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 62,
@@ -10226,7 +10440,7 @@
             "Team": "HomeTeam",
             "Narrative": "23 Jada Celsur FOUL (2 PF)",
             "Context": "",
-            "Id": "402+24901476",
+            "Id": "417+F4CC8FA9",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10256,7 +10470,7 @@
             "Team": "HomeTeam",
             "Narrative": "01 Ngozi Obineke OUT; 30 Ashley Ingram IN",
             "Context": "",
-            "Id": "403+5B9AE99",
+            "Id": "418+DBC12D7C",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10275,9 +10489,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd FT GOOD (13 Pt)",
+            "Narrative": "10 Sawyer Lloyd FT GOOD (11 Pt)",
             "Context": "",
-            "Id": "405+9B1F40C7",
+            "Id": "420+5B3699D8",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10299,9 +10513,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "10 Sawyer Lloyd FT GOOD (14 Pt)",
+            "Narrative": "10 Sawyer Lloyd FT GOOD (12 Pt)",
             "Context": "",
-            "Id": "406+A6995EE7",
+            "Id": "421+54EC4C36",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10315,21 +10529,21 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Keslyn",
-                "LastName": "King",
-                "UniformNumber": "13",
+                "FirstName": "Sadie",
+                "LastName": "Moyer",
+                "UniformNumber": "14",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King 3PTR MISS",
+            "Narrative": "14 Sadie Moyer 3PTR MISS",
             "Context": "",
-            "Id": "407+5CE66A1F",
+            "Id": "422+1F2E412B",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 87,
+            "ClockSeconds": 98,
             "Coordinate": null,
             "Score": null
         },
@@ -10346,11 +10560,11 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant DEF. REBOUND (4 Reb, 2 Def)",
             "Context": "",
-            "Id": "408+59BDB40C",
+            "Id": "423+8B872BFA",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 87,
+            "ClockSeconds": 98,
             "Coordinate": null,
             "Score": null
         },
@@ -10367,32 +10581,32 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant LAYUP MISS",
             "Context": "",
-            "Id": "409+8A2594B5",
+            "Id": "424+48E49067",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 81,
+            "ClockSeconds": 86,
             "Coordinate": null,
             "Score": null
         },
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Ingram",
-                "UniformNumber": "30",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "30 Ashley Ingram DEF. REBOUND (11 Reb, 9 Def)",
+            "Narrative": "25 Scout Huffman DEF. REBOUND (5 Reb, 3 Def)",
             "Context": "",
-            "Id": "410+C8FB6BE1",
+            "Id": "425+E28F94D",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 79,
+            "ClockSeconds": 86,
             "Coordinate": null,
             "Score": null
         },
@@ -10407,13 +10621,13 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "13 Keslyn King 3PTR MISS",
+            "Narrative": "13 Keslyn King JUMPER MISS",
             "Context": "",
-            "Id": "411+6EC2E10E",
-            "Type": "3PTR",
+            "Id": "426+23572662",
+            "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 58,
+            "ClockSeconds": 57,
             "Coordinate": null,
             "Score": null
         },
@@ -10430,11 +10644,11 @@
             "Team": "VisitingTeam",
             "Narrative": "10 Sawyer Lloyd DEF. REBOUND (8 Reb, 7 Def)",
             "Context": "",
-            "Id": "412+12541419",
+            "Id": "427+A05D3C55",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 54,
+            "ClockSeconds": 57,
             "Coordinate": null,
             "Score": null
         },
@@ -10451,7 +10665,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Scout Huffman FOUL (4 PF)",
             "Context": "",
-            "Id": "413+2D32C50C",
+            "Id": "428+6B8C2401",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10479,13 +10693,13 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens JUMPER GOOD (23 Pt); 10 Sawyer Lloyd Assist (6 Asst)",
+            "Narrative": "12 Madeline Stephens JUMPER GOOD (25 Pt); 10 Sawyer Lloyd Assist (5 Asst)",
             "Context": "",
-            "Id": "414+9DEB1015",
+            "Id": "429+BBEDFA86",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 40,
+            "ClockSeconds": 41,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 62,
@@ -10496,13 +10710,13 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Texas Woman's TIMEOUT Full (2nd TO, 1st Full)",
+            "Narrative": "Texas Woman's TIMEOUT 30 Sec. (2nd TO, 2nd 30)",
             "Context": "",
-            "Id": "416+8BBF66EF",
-            "Type": "TEAM",
+            "Id": "431+BF0F0738",
+            "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
-            "ClockSeconds": 38,
+            "ClockSeconds": 41,
             "Coordinate": null,
             "Score": null
         },
@@ -10517,13 +10731,13 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "23 Jada Celsur 3PTR MISS",
+            "Narrative": "23 Jada Celsur JUMPER MISS",
             "Context": "",
-            "Id": "417+2FB37918",
-            "Type": "3PTR",
+            "Id": "432+18BB720C",
+            "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 22,
+            "ClockSeconds": 25,
             "Coordinate": null,
             "Score": null
         },
@@ -10540,11 +10754,11 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Madeline Stephens DEF. REBOUND (4 Reb, 4 Def)",
             "Context": "",
-            "Id": "418+FE470340",
+            "Id": "433+8EE92DA0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 22,
+            "ClockSeconds": 25,
             "Coordinate": null,
             "Score": null
         },
@@ -10554,11 +10768,11 @@
             "Team": "VisitingTeam",
             "Narrative": "Angelo St. TIMEOUT 30 Sec. (1st TO, 1st 30)",
             "Context": "",
-            "Id": "419+C8110EC1",
+            "Id": "434+899EFBD7",
             "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
-            "ClockSeconds": 22,
+            "ClockSeconds": 21,
             "Coordinate": null,
             "Score": null
         },
@@ -10575,7 +10789,7 @@
             "Team": "HomeTeam",
             "Narrative": "14 Sadie Moyer FOUL (2 PF)",
             "Context": "",
-            "Id": "420+1E05F68F",
+            "Id": "435+61DDDAFC",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10605,7 +10819,7 @@
             "Team": "VisitingTeam",
             "Narrative": "32 Tayjanna McGhee-Pleasant OUT; 22 Olivia Pedigo IN",
             "Context": "",
-            "Id": "421+C434C53F",
+            "Id": "436+859E16C2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10616,17 +10830,17 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Madeline",
-                "LastName": "Stephens",
-                "UniformNumber": "12",
+                "FirstName": "Landry",
+                "LastName": "Morrow",
+                "UniformNumber": "00",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens FT GOOD (24 Pt)",
+            "Narrative": "00 Landry Morrow FT GOOD (8 Pt)",
             "Context": "",
-            "Id": "423+7DDD4660",
+            "Id": "438+4D23123",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10640,17 +10854,17 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Madeline",
-                "LastName": "Stephens",
-                "UniformNumber": "12",
+                "FirstName": "Landry",
+                "LastName": "Morrow",
+                "UniformNumber": "00",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens FT MISS",
+            "Narrative": "00 Landry Morrow FT MISS",
             "Context": "",
-            "Id": "424+BB9D9127",
+            "Id": "439+7C9A136",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -10662,10 +10876,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Texas Woman's TIMEOUT 30 Sec. (3rd TO, 2nd 30)",
+            "Narrative": "Texas Woman's TIMEOUT Full (3rd TO, 1st Full)",
             "Context": "",
-            "Id": "425+8CB302F4",
-            "Type": "30SEC",
+            "Id": "440+CB0A3A38",
+            "Type": "TEAM",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 2,
@@ -10678,7 +10892,7 @@
             "Team": "HomeTeam",
             "Narrative": "Texas Woman's REBOUND",
             "Context": "",
-            "Id": "426+FC992875",
+            "Id": "441+AC03BDBA",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10689,26 +10903,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Ingram",
-                "UniformNumber": "30",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Pedigo",
-                    "UniformNumber": "22",
+                    "FirstName": "Madeline",
+                    "LastName": "Stephens",
+                    "UniformNumber": "12",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "30 Ashley Ingram JUMPER MISS; 22 Olivia Pedigo BLOCK (1 Blk)",
+            "Narrative": "25 Scout Huffman JUMPER MISS; 12 Madeline Stephens BLOCK (3 Blk)",
             "Context": "",
-            "Id": "427+BFEF5053",
+            "Id": "442+30D3BB31",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -10718,19 +10932,19 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Madeline",
-                "LastName": "Stephens",
-                "UniformNumber": "12",
+                "Team": "HomeTeam",
+                "FirstName": "Scout",
+                "LastName": "Huffman",
+                "UniformNumber": "25",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "12 Madeline Stephens DEF. REBOUND (5 Reb, 5 Def)",
+            "Team": "HomeTeam",
+            "Narrative": "25 Scout Huffman OFF. REBOUND (6 Reb, 3 Off)",
             "Context": "",
-            "Id": "429+9E23C301",
-            "Type": "DEF",
+            "Id": "444+15900BAF",
+            "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
             "ClockSeconds": 0,

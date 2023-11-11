@@ -78,6 +78,20 @@
         },
         "LastPlays": [
             {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "Linfield REBOUND",
+                "Context": "",
+                "Id": "457+775B1FB8",
+                "Type": "DEF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 0,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
                 "Player": {
                     "Team": "VisitingTeam",
                     "FirstName": "Savannah",
@@ -152,27 +166,6 @@
                 "Id": "453+63B737E4",
                 "Type": "DEADB",
                 "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 12,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Marin",
-                    "LastName": "Abe",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "02 Marin Abe FT MISS",
-                "Context": "",
-                "Id": "452+7FBB2446",
-                "Type": "FT",
-                "Action": "MISS",
                 "Period": 4,
                 "ClockSeconds": 12,
                 "Coordinate": null,
@@ -481,7 +474,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "29.64"
+                    "Value": "30.51"
                 },
                 {
                     "Player": {
@@ -492,7 +485,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "27.92"
+                    "Value": "27.08"
                 },
                 {
                     "Player": {
@@ -508,13 +501,13 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Mia",
-                        "LastName": "Martineau",
-                        "UniformNumber": "23",
+                        "FirstName": "Jaelyn",
+                        "LastName": "Brainard",
+                        "UniformNumber": "05",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "19.99"
+                    "Value": "19.18"
                 }
             ]
         },
@@ -1402,9 +1395,9 @@
                     "Tppercentage": "17.2%",
                     "Ftma": "26-34",
                     "Ftp": "76.5%",
-                    "TotalRebounds": "40",
+                    "TotalRebounds": "41",
                     "OffensiveRebounds": "12",
-                    "DefensiveRebounds": "28",
+                    "DefensiveRebounds": "29",
                     "Ties": "1",
                     "Leads": "1",
                     "TimeWithLead": "17:40",
@@ -1831,9 +1824,9 @@
                         "Tppercentage": "20.0%",
                         "Ftma": "8-13",
                         "Ftp": "61.5%",
-                        "TotalRebounds": "14",
+                        "TotalRebounds": "15",
                         "OffensiveRebounds": "5",
-                        "DefensiveRebounds": "9",
+                        "DefensiveRebounds": "10",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -2023,7 +2016,7 @@
                             "Name": "S. HUERTA",
                             "Position": "G",
                             "CurrentlyInGame": "*",
-                            "Minutes": "35",
+                            "Minutes": "34",
                             "Fgam": "8-18",
                             "ShootingPercentage": "44.4%",
                             "Tpam": "4-10",
@@ -2040,8 +2033,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "21.0",
-                            "UsagePercentage": "29.64",
-                            "PointsPerMinute": ".743",
+                            "UsagePercentage": "30.51",
+                            "PointsPerMinute": ".765",
                             "Points": "26",
                             "PersonId": ""
                         },
@@ -2050,7 +2043,7 @@
                             "Name": "M. ABE",
                             "Position": "G",
                             "CurrentlyInGame": "*",
-                            "Minutes": "32",
+                            "Minutes": "33",
                             "Fgam": "5-11",
                             "ShootingPercentage": "45.5%",
                             "Tpam": "2-6",
@@ -2067,8 +2060,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "27.92",
-                            "PointsPerMinute": ".500",
+                            "UsagePercentage": "27.08",
+                            "PointsPerMinute": ".485",
                             "Points": "16",
                             "PersonId": ""
                         },
@@ -2077,7 +2070,7 @@
                             "Name": "J. BRAINARD",
                             "Position": "F",
                             "CurrentlyInGame": "*",
-                            "Minutes": "32",
+                            "Minutes": "33",
                             "Fgam": "4-10",
                             "ShootingPercentage": "40.0%",
                             "Tpam": "0-0",
@@ -2094,8 +2087,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "19.77",
-                            "PointsPerMinute": ".344",
+                            "UsagePercentage": "19.18",
+                            "PointsPerMinute": ".333",
                             "Points": "11",
                             "PersonId": ""
                         },
@@ -2130,8 +2123,8 @@
                             "Uni": "23",
                             "Name": "M. MARTINEAU",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "33",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "39",
                             "Fgam": "5-10",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "2-3",
@@ -2148,8 +2141,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "16.0",
-                            "UsagePercentage": "19.99",
-                            "PointsPerMinute": ".485",
+                            "UsagePercentage": "16.91",
+                            "PointsPerMinute": ".410",
                             "Points": "16",
                             "PersonId": ""
                         },
@@ -2185,7 +2178,7 @@
                             "Name": "I. RAHSCH",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "5",
+                            "Minutes": "8",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2212,7 +2205,7 @@
                             "Name": "G. BROWNING",
                             "Position": "",
                             "CurrentlyInGame": "*",
-                            "Minutes": "0",
+                            "Minutes": "2",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2332,7 +2325,7 @@
                     "Turnovers": "10",
                     "PointsFromBench": "8",
                     "Blocks": "1",
-                    "PointsOnCourt": "53",
+                    "PointsOnCourt": "69",
                     "PointsOffFastBreak": "0",
                     "Steals": "6",
                     "PointsOffTurnovers": "13",
@@ -2340,7 +2333,7 @@
                     "PointsOffSecondChance": "2",
                     "PersonalFouls": "29",
                     "TechnicalFouls": "0",
-                    "Possession": "80",
+                    "Possession": "81",
                     "AverageScoringPossession": "0:15"
                 }
             },
@@ -2440,7 +2433,7 @@
                         "Turnovers": "0",
                         "PointsFromBench": "2",
                         "Blocks": "0",
-                        "PointsOnCourt": "53",
+                        "PointsOnCourt": "69",
                         "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "0",
@@ -2547,7 +2540,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "1",
                         "Blocks": "0",
-                        "PointsOnCourt": "53",
+                        "PointsOnCourt": "69",
                         "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "0",
@@ -2654,7 +2647,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "0",
                         "Blocks": "1",
-                        "PointsOnCourt": "53",
+                        "PointsOnCourt": "69",
                         "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "7",
@@ -2761,7 +2754,7 @@
                         "Turnovers": "2",
                         "PointsFromBench": "5",
                         "Blocks": "0",
-                        "PointsOnCourt": "53",
+                        "PointsOnCourt": "69",
                         "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "6",
@@ -2769,7 +2762,7 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "10",
                         "TechnicalFouls": "0",
-                        "Possession": "23",
+                        "Possession": "24",
                         "AverageScoringPossession": "0:09"
                     }
                 }
@@ -11766,6 +11759,20 @@
             "Action": "REBOUND",
             "Period": 4,
             "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Linfield REBOUND",
+            "Context": "",
+            "Id": "457+775B1FB8",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 0,
             "Coordinate": null,
             "Score": null
         }

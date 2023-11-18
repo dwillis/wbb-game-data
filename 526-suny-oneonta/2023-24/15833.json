@@ -17,7 +17,7 @@
         "SiteImage": null,
         "ClientHostname": null,
         "Officials": "",
-        "Attendance": 50,
+        "Attendance": 175,
         "PeriodsRegulation": 4,
         "Period": 0,
         "ClockSeconds": -1,
@@ -44,7 +44,7 @@
                 8,
                 10,
                 5,
-                7
+                9
             ],
             "PeriodTimeouts": [
                 1,
@@ -823,24 +823,35 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
+                        "FirstName": "Sophia",
+                        "LastName": "Wakin",
+                        "UniformNumber": "11",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "25.19"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
                         "FirstName": "Molly",
                         "LastName": "Stephens",
                         "UniformNumber": "12",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "38.56"
+                    "Value": "24.35"
                 },
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Emma",
-                        "LastName": "Schwarzbeck",
-                        "UniformNumber": "22",
+                        "FirstName": "Amanda",
+                        "LastName": "Zuntag",
+                        "UniformNumber": "02",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "30.24"
+                    "Value": "21.42"
                 },
                 {
                     "Player": {
@@ -851,18 +862,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "29.38"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Nadia",
-                        "LastName": "Brown",
-                        "UniformNumber": "01",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "22.35"
+                    "Value": "20.56"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
                             "Name": "N. BROWN",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "23",
+                            "Minutes": "26",
                             "Fgam": "2-9",
                             "ShootingPercentage": "22.2%",
                             "Tpam": "1-5",
@@ -1071,8 +1071,8 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "-2.0",
-                            "UsagePercentage": "22.35",
-                            "PointsPerMinute": ".217",
+                            "UsagePercentage": "19.77",
+                            "PointsPerMinute": ".192",
                             "Points": "5",
                             "PersonId": ""
                         },
@@ -1081,7 +1081,7 @@
                             "Name": "A. ZUNTAG",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "8",
+                            "Minutes": "12",
                             "Fgam": "2-5",
                             "ShootingPercentage": "40.0%",
                             "Tpam": "0-1",
@@ -1098,8 +1098,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "-",
-                            "PointsPerMinute": "-",
+                            "UsagePercentage": "21.42",
+                            "PointsPerMinute": ".333",
                             "Points": "4",
                             "PersonId": ""
                         },
@@ -1108,7 +1108,7 @@
                             "Name": "M. STEPHENS",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "12",
+                            "Minutes": "19",
                             "Fgam": "0-8",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-4",
@@ -1125,7 +1125,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "-6.0",
-                            "UsagePercentage": "38.56",
+                            "UsagePercentage": "24.35",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -1135,7 +1135,7 @@
                             "Name": "J. HARCLERODE",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "21",
+                            "Minutes": "30",
                             "Fgam": "4-11",
                             "ShootingPercentage": "36.4%",
                             "Tpam": "1-4",
@@ -1152,8 +1152,8 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "29.38",
-                            "PointsPerMinute": ".429",
+                            "UsagePercentage": "20.56",
+                            "PointsPerMinute": ".300",
                             "Points": "9",
                             "PersonId": ""
                         },
@@ -1162,7 +1162,7 @@
                             "Name": "E. SCHWARZBECK",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "17",
+                            "Minutes": "25",
                             "Fgam": "1-10",
                             "ShootingPercentage": "10.0%",
                             "Tpam": "0-4",
@@ -1179,8 +1179,8 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "-1.0",
-                            "UsagePercentage": "30.24",
-                            "PointsPerMinute": ".118",
+                            "UsagePercentage": "20.56",
+                            "PointsPerMinute": ".080",
                             "Points": "2",
                             "PersonId": ""
                         },
@@ -1189,7 +1189,7 @@
                             "Name": "L. BOUCHER",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "8",
+                            "Minutes": "10",
                             "Fgam": "1-6",
                             "ShootingPercentage": "16.7%",
                             "Tpam": "0-1",
@@ -1216,7 +1216,7 @@
                             "Name": "M. DESRATS",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "17",
+                            "Minutes": "24",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "1-1",
@@ -1233,8 +1233,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "8.71",
-                            "PointsPerMinute": ".294",
+                            "UsagePercentage": "6.17",
+                            "PointsPerMinute": ".208",
                             "Points": "5",
                             "PersonId": ""
                         },
@@ -1243,7 +1243,7 @@
                             "Name": "S. WAKIN",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "10",
+                            "Minutes": "12",
                             "Fgam": "1-5",
                             "ShootingPercentage": "20.0%",
                             "Tpam": "0-1",
@@ -1260,8 +1260,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "-1.0",
-                            "UsagePercentage": "-",
-                            "PointsPerMinute": "-",
+                            "UsagePercentage": "25.19",
+                            "PointsPerMinute": ".167",
                             "Points": "2",
                             "PersonId": ""
                         },
@@ -1270,7 +1270,7 @@
                             "Name": "C. YOUNG",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "16",
+                            "Minutes": "23",
                             "Fgam": "0-5",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-4",
@@ -1287,8 +1287,8 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "-1.0",
-                            "UsagePercentage": "18.89",
-                            "PointsPerMinute": ".063",
+                            "UsagePercentage": "13.14",
+                            "PointsPerMinute": ".043",
                             "Points": "1",
                             "PersonId": ""
                         },
@@ -1324,7 +1324,7 @@
                             "Name": "M. COYNE",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "8",
+                            "Minutes": "9",
                             "Fgam": "0-2",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -1904,9 +1904,9 @@
                         "AverageScoringPossession": "Avg Scoring Poss Length"
                     },
                     "Values": {
-                        "Points": "7",
-                        "Fgam": "1-15",
-                        "ShootingPercentage": "6.7%",
+                        "Points": "9",
+                        "Fgam": "2-16",
+                        "ShootingPercentage": "12.5%",
                         "Tpam": "1-5",
                         "Tppercentage": "20.0%",
                         "Ftma": "4-6",
@@ -1924,14 +1924,14 @@
                         "LargestLeadScores": "-",
                         "LargestLeadTime": "-",
                         "Assists": "0",
-                        "Turnovers": "4",
+                        "Turnovers": "3",
                         "PointsFromBench": "4",
                         "Blocks": "1",
                         "PointsOnCourt": "0",
                         "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "4",
-                        "PointsInPaint": "0",
+                        "PointsInPaint": "2",
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
@@ -2921,8 +2921,8 @@
                         "PercentLead": "25.0%",
                         "LastLeadScore": "",
                         "LastLeadTime": "",
-                        "LargestLead": "30",
-                        "LargestLeadScores": "53-23",
+                        "LargestLead": "32",
+                        "LargestLeadScores": "53-21",
                         "LargestLeadTime": "1:55 (3rd)",
                         "Assists": "4",
                         "Turnovers": "1",
@@ -7912,30 +7912,6 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "12 Molly Stephens LAYUP GOOD (2 Pt)",
-            "Context": "",
-            "Id": "271+C166B866",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 188,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 20,
-                "VisitingTeam": 46
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Molly",
-                "LastName": "Stephens",
-                "UniformNumber": "12",
-                "Photo": null,
-                "PersonId": ""
-            },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
@@ -7965,7 +7941,7 @@
             "Team": "HomeTeam",
             "Narrative": "12 Molly Stephens OUT; 23 Molly Coyne OUT; 14 Jenna Harclerode IN; 22 Emma Schwarzbeck IN",
             "Context": "",
-            "Id": "272+F9DAA75E",
+            "Id": "271+505A866D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8011,9 +7987,23 @@
             "Team": "VisitingTeam",
             "Narrative": "10 Becca Horger OUT; 21 Cassie Davidson OUT; 22 Sarah Chambers IN; 32 Andi Levitz IN",
             "Context": "",
-            "Id": "276+20C0E529",
+            "Id": "275+521B277A",
             "Type": "SUBS",
             "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 180,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "SUNY Oneonta TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "279+FE170C98",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
             "Period": 3,
             "ClockSeconds": 180,
             "Coordinate": null,
@@ -8234,7 +8224,7 @@
             "ClockSeconds": 131,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 20,
+                "HomeTeam": 18,
                 "VisitingTeam": 48
             }
         },
@@ -8309,7 +8299,7 @@
             "ClockSeconds": 115,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 21,
+                "HomeTeam": 19,
                 "VisitingTeam": 48
             }
         },
@@ -8375,7 +8365,7 @@
             "ClockSeconds": 115,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 21,
+                "HomeTeam": 19,
                 "VisitingTeam": 50
             }
         },
@@ -8408,7 +8398,7 @@
             "ClockSeconds": 115,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 23,
+                "HomeTeam": 21,
                 "VisitingTeam": 50
             }
         },
@@ -8441,7 +8431,7 @@
             "ClockSeconds": 115,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 23,
+                "HomeTeam": 21,
                 "VisitingTeam": 53
             }
         },
@@ -8474,7 +8464,7 @@
             "ClockSeconds": 41,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 25,
+                "HomeTeam": 23,
                 "VisitingTeam": 53
             }
         },
@@ -8950,7 +8940,7 @@
             "ClockSeconds": 508,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 26,
+                "HomeTeam": 24,
                 "VisitingTeam": 53
             }
         },
@@ -8974,7 +8964,7 @@
             "ClockSeconds": 508,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 27,
+                "HomeTeam": 25,
                 "VisitingTeam": 53
             }
         },
@@ -9040,7 +9030,7 @@
             "ClockSeconds": 480,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 30,
+                "HomeTeam": 28,
                 "VisitingTeam": 53
             }
         },
@@ -9548,18 +9538,28 @@
             "Score": null
         },
         {
-            "Player": null,
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jenna",
+                "LastName": "Harclerode",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "SUNY Oneonta TURNOVER (1 TO)",
+            "Narrative": "14 Jenna Harclerode JUMPER GOOD (9 Pt)",
             "Context": "",
-            "Id": "369+6D5D191A",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
+            "Id": "369+139896F5",
+            "Type": "JUMPER",
+            "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 371,
             "Coordinate": null,
-            "Score": null
+            "Score": {
+                "HomeTeam": 30,
+                "VisitingTeam": 53
+            }
         },
         {
             "Player": {

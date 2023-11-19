@@ -3,13 +3,15 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "statcrew",
         "Date": "11/17/2023",
         "DateUTC": null,
         "StartTime": "7:30 PM",
         "EndTime": "8:59 PM",
         "NcaaGameId": "",
-        "Notes": [],
+        "Notes": [
+            "First round, Westfield Gas & Electric Tournament hosted by Westfield State U."
+        ],
         "Location": "Westfield, Mass. / Woodward Center",
         "GlobalSportShortname": null,
         "BannerMessage": null,
@@ -17,7 +19,7 @@
         "SiteImage": null,
         "ClientHostname": null,
         "Officials": "Jerry Burgess,  Andy Rogers,  Claud Salomao",
-        "Attendance": 130,
+        "Attendance": 150,
         "PeriodsRegulation": 4,
         "Period": 4,
         "ClockSeconds": 0,
@@ -31,8 +33,8 @@
             "ClockSegmentation": "Periods"
         },
         "HomeTeam": {
-            "Id": "EASTERN",
-            "Name": "Eastern Conn. St.",
+            "Id": "ECSUWB",
+            "Name": "Eastern Connecticut",
             "Score": 48,
             "CurrentRecord": "1-1",
             "NcaaSchoolCode": "",
@@ -48,9 +50,9 @@
             ],
             "PeriodTimeouts": [
                 0,
-                1,
                 0,
-                1
+                0,
+                0
             ]
         },
         "VisitingTeam": {
@@ -81,9 +83,9 @@
                 "Player": null,
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
-                "Narrative": "Eastern Conn. St. REBOUND",
+                "Narrative": "Eastern Connecticut REBOUND",
                 "Context": "",
-                "Id": "436+BEC79FA7",
+                "Id": "436+66295CB",
                 "Type": "DEADB",
                 "Action": "REBOUND",
                 "Period": 4,
@@ -757,7 +759,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "9.0"
+                    "Value": "10.0"
                 },
                 {
                     "Player": {
@@ -1067,8 +1069,8 @@
                             "Tppercentage": "0.0%",
                             "Ftma": "2-2",
                             "Ftp": "100.0%",
-                            "TotalRebounds": "1",
-                            "OffensiveRebounds": "1",
+                            "TotalRebounds": "2",
+                            "OffensiveRebounds": "2",
                             "DefensiveRebounds": "0",
                             "Assists": "0",
                             "Turnovers": "0",
@@ -1076,7 +1078,7 @@
                             "Steals": "0",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "9.0",
+                            "Efficiency": "10.0",
                             "UsagePercentage": "19.38",
                             "PointsPerMinute": ".400",
                             "Points": "12",
@@ -1297,33 +1299,6 @@
                             "PointsPerMinute": "-",
                             "Points": "2",
                             "PersonId": ""
-                        },
-                        {
-                            "Uni": "5",
-                            "Name": "E. COMELLA",
-                            "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "0",
-                            "Fgam": "0-0",
-                            "ShootingPercentage": "0.0%",
-                            "Tpam": "0-0",
-                            "Tppercentage": "0.0%",
-                            "Ftma": "0-0",
-                            "Ftp": "0.0%",
-                            "TotalRebounds": "1",
-                            "OffensiveRebounds": "1",
-                            "DefensiveRebounds": "0",
-                            "Assists": "0",
-                            "Turnovers": "0",
-                            "Blocks": "0",
-                            "Steals": "0",
-                            "PersonalFouls": "0",
-                            "TechnicalFouls": "0",
-                            "Efficiency": "1.0",
-                            "UsagePercentage": "-",
-                            "PointsPerMinute": "-",
-                            "Points": "0",
-                            "PersonId": ""
                         }
                     ]
                 }
@@ -1431,8 +1406,8 @@
                     "PointsOffSecondChance": "5",
                     "PersonalFouls": "13",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "67",
+                    "AverageScoringPossession": "0:19"
                 }
             },
             "PeriodStats": [
@@ -1515,9 +1490,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "3-4",
                         "Ftp": "75.0%",
-                        "TotalRebounds": "8",
-                        "OffensiveRebounds": "1",
-                        "DefensiveRebounds": "7",
+                        "TotalRebounds": "10",
+                        "OffensiveRebounds": "2",
+                        "DefensiveRebounds": "8",
                         "Ties": "1",
                         "Leads": "2",
                         "TimeWithLead": "2:33",
@@ -1539,8 +1514,8 @@
                         "PointsOffSecondChance": "1",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:296"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:21"
                     }
                 },
                 {
@@ -1622,9 +1597,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "1-1",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "4",
+                        "TotalRebounds": "5",
                         "OffensiveRebounds": "0",
-                        "DefensiveRebounds": "4",
+                        "DefensiveRebounds": "5",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -1646,8 +1621,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:298"
+                        "Possession": "16",
+                        "AverageScoringPossession": "0:17"
                     }
                 },
                 {
@@ -1729,9 +1704,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "2-4",
                         "Ftp": "50.0%",
-                        "TotalRebounds": "14",
+                        "TotalRebounds": "15",
                         "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "12",
+                        "DefensiveRebounds": "13",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -1753,8 +1728,8 @@
                         "PointsOffSecondChance": "4",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:319"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:20"
                     }
                 },
                 {
@@ -1860,8 +1835,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:339"
+                        "Possession": "15",
+                        "AverageScoringPossession": "0:18"
                     }
                 }
             ]
@@ -2388,8 +2363,8 @@
                     "PointsOffSecondChance": "5",
                     "PersonalFouls": "11",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "68",
+                    "AverageScoringPossession": "0:17"
                 }
             },
             "PeriodStats": [
@@ -2496,8 +2471,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:286"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:15"
                     }
                 },
                 {
@@ -2579,9 +2554,9 @@
                         "Tppercentage": "40.0%",
                         "Ftma": "0-0",
                         "Ftp": "0.0%",
-                        "TotalRebounds": "8",
-                        "OffensiveRebounds": "3",
-                        "DefensiveRebounds": "5",
+                        "TotalRebounds": "10",
+                        "OffensiveRebounds": "4",
+                        "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
@@ -2603,8 +2578,8 @@
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:386"
+                        "Possession": "17",
+                        "AverageScoringPossession": "0:22"
                     }
                 },
                 {
@@ -2686,9 +2661,9 @@
                         "Tppercentage": "25.0%",
                         "Ftma": "1-3",
                         "Ftp": "33.3%",
-                        "TotalRebounds": "6",
+                        "TotalRebounds": "9",
                         "OffensiveRebounds": "4",
-                        "DefensiveRebounds": "2",
+                        "DefensiveRebounds": "5",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
@@ -2710,8 +2685,8 @@
                         "PointsOffSecondChance": "3",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:303"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:17"
                     }
                 },
                 {
@@ -2793,8 +2768,8 @@
                         "Tppercentage": "50.0%",
                         "Ftma": "1-2",
                         "Ftp": "50.0%",
-                        "TotalRebounds": "6",
-                        "OffensiveRebounds": "0",
+                        "TotalRebounds": "8",
+                        "OffensiveRebounds": "2",
                         "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
@@ -2806,7 +2781,7 @@
                         "LargestLeadScores": "49-38",
                         "LargestLeadTime": "7:31 (4th)",
                         "Assists": "3",
-                        "Turnovers": "2",
+                        "Turnovers": "3",
                         "PointsFromBench": "1",
                         "Blocks": "0",
                         "PointsOnCourt": "49",
@@ -2817,8 +2792,8 @@
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "0:304"
+                        "Possession": "15",
+                        "AverageScoringPossession": "0:14"
                     }
                 }
             ]
@@ -2854,9 +2829,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "1+AAF13BE3",
+            "Id": "1+1254318F",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3631,25 +3606,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Alyssa",
-                    "LastName": "Paquette",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Kya",
                     "LastName": "Mayo",
                     "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alyssa",
+                    "LastName": "Paquette",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "2 Shania Lewis IN; 22 Emily Jeamel IN; 23 Alyssa Paquette OUT; 21 Kya Mayo OUT",
+            "Narrative": "2 Shania Lewis IN; 22 Emily Jeamel IN; 21 Kya Mayo OUT; 23 Alyssa Paquette OUT",
             "Context": "",
-            "Id": "38+A9D99DD8",
+            "Id": "38+EDD8FB68",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3862,9 +3837,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "52+F1BD93",
+            "Id": "52+B854B7FF",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3896,26 +3871,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Alyssa",
-                "LastName": "Paquette",
-                "UniformNumber": "23",
+                "FirstName": "Riley",
+                "LastName": "Griffin",
+                "UniformNumber": "25",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Griffin",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Taylor",
-                    "LastName": "Salato",
-                    "UniformNumber": "33",
+                    "FirstName": "Alyssa",
+                    "LastName": "Paquette",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -3926,12 +3893,20 @@
                     "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Salato",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "23 Alyssa Paquette IN; 25 Riley Griffin IN; 33 Taylor Salato OUT; 24 Nevaeh Clark OUT",
+            "Narrative": "25 Riley Griffin IN; 23 Alyssa Paquette IN; 24 Nevaeh Clark OUT; 33 Taylor Salato OUT",
             "Context": "",
-            "Id": "54+EF20673E",
+            "Id": "54+5D68DCFA",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4020,18 +3995,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Avery",
-                "LastName": "McNulty",
-                "UniformNumber": "00",
+                "FirstName": "Megan",
+                "LastName": "Winters",
+                "UniformNumber": "3",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Megan",
-                    "LastName": "Winters",
-                    "UniformNumber": "3",
+                    "FirstName": "Avery",
+                    "LastName": "McNulty",
+                    "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -4053,9 +4028,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "00 Avery McNulty IN; 3 Megan Winters IN; 2 Rachel Saxton OUT; 15 Jenna Stockfeder OUT",
+            "Narrative": "3 Megan Winters IN; 00 Avery McNulty IN; 2 Rachel Saxton OUT; 15 Jenna Stockfeder OUT",
             "Context": "",
-            "Id": "62+BF3A8AF1",
+            "Id": "62+26DBEC95",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4129,26 +4104,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Riley",
-                "LastName": "Cassidy",
-                "UniformNumber": "5",
+                "FirstName": "Katie",
+                "LastName": "McGrath",
+                "UniformNumber": "4",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Katie",
-                    "LastName": "McGrath",
-                    "UniformNumber": "4",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "Unger",
-                    "UniformNumber": "30",
+                    "FirstName": "Riley",
+                    "LastName": "Cassidy",
+                    "UniformNumber": "5",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -4159,12 +4126,20 @@
                     "UniformNumber": "13",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Unger",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "5 Riley Cassidy IN; 4 Katie McGrath IN; 30 Emily Unger OUT; 13 Ava Connolly OUT",
+            "Narrative": "4 Katie McGrath IN; 5 Riley Cassidy IN; 13 Ava Connolly OUT; 30 Emily Unger OUT",
             "Context": "",
-            "Id": "69+240461EB",
+            "Id": "69+F5E72BBF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4445,25 +4420,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Griffin",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Cara",
                     "LastName": "McGettigan",
                     "UniformNumber": "1",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Riley",
+                    "LastName": "Griffin",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "24 Nevaeh Clark IN; 21 Kya Mayo IN; 25 Riley Griffin OUT; 1 Cara McGettigan OUT",
+            "Narrative": "24 Nevaeh Clark IN; 21 Kya Mayo IN; 1 Cara McGettigan OUT; 25 Riley Griffin OUT",
             "Context": "",
-            "Id": "88+C6758511",
+            "Id": "88+962530E9",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4787,14 +4762,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Cassidy",
-                    "UniformNumber": "5",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Megan",
                     "LastName": "Winters",
                     "UniformNumber": "3",
@@ -4808,12 +4775,20 @@
                     "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Riley",
+                    "LastName": "Cassidy",
+                    "UniformNumber": "5",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "30 Emily Unger IN; 23 Caroline Horst IN; 13 Ava Connolly IN; 5 Riley Cassidy OUT; 3 Megan Winters OUT; 00 Avery McNulty OUT",
+            "Narrative": "30 Emily Unger IN; 23 Caroline Horst IN; 13 Ava Connolly IN; 3 Megan Winters OUT; 00 Avery McNulty OUT; 5 Riley Cassidy OUT",
             "Context": "",
-            "Id": "106+9FCF56C1",
+            "Id": "106+50535353",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5127,10 +5102,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "128+6690971A",
-            "Type": "30SEC",
+            "Id": "128+AEC3AC2E",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 2,
             "ClockSeconds": 502,
@@ -5550,18 +5525,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Avery",
-                "LastName": "McNulty",
-                "UniformNumber": "00",
+                "FirstName": "Katie",
+                "LastName": "McGrath",
+                "UniformNumber": "4",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Katie",
-                    "LastName": "McGrath",
-                    "UniformNumber": "4",
+                    "FirstName": "Avery",
+                    "LastName": "McNulty",
+                    "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -5583,9 +5558,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "00 Avery McNulty IN; 4 Katie McGrath IN; 2 Rachel Saxton OUT; 23 Caroline Horst OUT",
+            "Narrative": "4 Katie McGrath IN; 00 Avery McNulty IN; 2 Rachel Saxton OUT; 23 Caroline Horst OUT",
             "Context": "",
-            "Id": "151+F5AF174E",
+            "Id": "151+FCA645C6",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5874,25 +5849,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Shania",
-                    "LastName": "Lewis",
-                    "UniformNumber": "2",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Kya",
                     "LastName": "Mayo",
                     "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Shania",
+                    "LastName": "Lewis",
+                    "UniformNumber": "2",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "15 Julia Knowles IN; 24 Nevaeh Clark IN; 2 Shania Lewis OUT; 21 Kya Mayo OUT",
+            "Narrative": "15 Julia Knowles IN; 24 Nevaeh Clark IN; 21 Kya Mayo OUT; 2 Shania Lewis OUT",
             "Context": "",
-            "Id": "168+79450F47",
+            "Id": "168+E0585033",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6224,26 +6199,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Emily",
-                "LastName": "Jeamel",
-                "UniformNumber": "22",
+                "FirstName": "Riley",
+                "LastName": "Griffin",
+                "UniformNumber": "25",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Griffin",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Nevaeh",
-                    "LastName": "Clark",
-                    "UniformNumber": "24",
+                    "FirstName": "Emily",
+                    "LastName": "Jeamel",
+                    "UniformNumber": "22",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -6254,12 +6221,20 @@
                     "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Nevaeh",
+                    "LastName": "Clark",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "22 Emily Jeamel IN; 25 Riley Griffin IN; 24 Nevaeh Clark OUT; 23 Alyssa Paquette OUT",
+            "Narrative": "25 Riley Griffin IN; 22 Emily Jeamel IN; 23 Alyssa Paquette OUT; 24 Nevaeh Clark OUT",
             "Context": "",
-            "Id": "191+A513BC48",
+            "Id": "191+772EFBC8",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6292,9 +6267,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "196+A646D663",
+            "Id": "196+1EE3DC0F",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6622,26 +6597,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Kya",
-                "LastName": "Mayo",
-                "UniformNumber": "21",
+                "FirstName": "Alyssa",
+                "LastName": "Paquette",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Alyssa",
-                    "LastName": "Paquette",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Taylor",
-                    "LastName": "Salato",
-                    "UniformNumber": "33",
+                    "FirstName": "Kya",
+                    "LastName": "Mayo",
+                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -6652,12 +6619,20 @@
                     "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Salato",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "21 Kya Mayo IN; 23 Alyssa Paquette IN; 33 Taylor Salato OUT; 25 Riley Griffin OUT",
+            "Narrative": "23 Alyssa Paquette IN; 21 Kya Mayo IN; 25 Riley Griffin OUT; 33 Taylor Salato OUT",
             "Context": "",
-            "Id": "216+121AB812",
+            "Id": "216+40C596FA",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6947,9 +6922,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "234+55FA92DF",
+            "Id": "234+ED5F98B3",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 3,
@@ -7390,9 +7365,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "256+7AD283C3",
+            "Id": "256+C27789AF",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7744,18 +7719,18 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Riley",
-                "LastName": "Cassidy",
-                "UniformNumber": "5",
+                "FirstName": "Megan",
+                "LastName": "Winters",
+                "UniformNumber": "3",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Megan",
-                    "LastName": "Winters",
-                    "UniformNumber": "3",
+                    "FirstName": "Riley",
+                    "LastName": "Cassidy",
+                    "UniformNumber": "5",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -7777,9 +7752,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Caroline",
-                    "LastName": "Horst",
-                    "UniformNumber": "23",
+                    "FirstName": "Rachel",
+                    "LastName": "Saxton",
+                    "UniformNumber": "2",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -7793,25 +7768,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "Unger",
-                    "UniformNumber": "30",
+                    "FirstName": "Caroline",
+                    "LastName": "Horst",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Rachel",
-                    "LastName": "Saxton",
-                    "UniformNumber": "2",
+                    "FirstName": "Emily",
+                    "LastName": "Unger",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "5 Riley Cassidy IN; 3 Megan Winters IN; 00 Avery McNulty IN; 4 Katie McGrath IN; 23 Caroline Horst OUT; 13 Ava Connolly OUT; 30 Emily Unger OUT; 2 Rachel Saxton OUT",
+            "Narrative": "3 Megan Winters IN; 5 Riley Cassidy IN; 00 Avery McNulty IN; 4 Katie McGrath IN; 2 Rachel Saxton OUT; 13 Ava Connolly OUT; 23 Caroline Horst OUT; 30 Emily Unger OUT",
             "Context": "",
-            "Id": "274+CDB0A544",
+            "Id": "274+2A89F650",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7950,17 +7925,17 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Elayna",
-                "LastName": "Comella",
-                "UniformNumber": "5",
+                "FirstName": "Kya",
+                "LastName": "Mayo",
+                "UniformNumber": "21",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "5 Elayna Comella OFF. REBOUND (1 Reb, 1 Off)",
+            "Narrative": "21 Kya Mayo OFF. REBOUND (2 Reb, 2 Off)",
             "Context": "",
-            "Id": "289+2E81BA09",
+            "Id": "289+C6985AF5",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8166,26 +8141,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Emily",
-                "LastName": "Unger",
-                "UniformNumber": "30",
+                "FirstName": "Rachel",
+                "LastName": "Saxton",
+                "UniformNumber": "2",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Rachel",
-                    "LastName": "Saxton",
-                    "UniformNumber": "2",
+                    "FirstName": "Ava",
+                    "LastName": "Connolly",
+                    "UniformNumber": "13",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Ava",
-                    "LastName": "Connolly",
-                    "UniformNumber": "13",
+                    "FirstName": "Emily",
+                    "LastName": "Unger",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -8199,25 +8174,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Katie",
-                    "LastName": "McGrath",
-                    "UniformNumber": "4",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Avery",
                     "LastName": "McNulty",
                     "UniformNumber": "00",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Katie",
+                    "LastName": "McGrath",
+                    "UniformNumber": "4",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "30 Emily Unger IN; 2 Rachel Saxton IN; 13 Ava Connolly IN; 5 Riley Cassidy OUT; 4 Katie McGrath OUT; 00 Avery McNulty OUT",
+            "Narrative": "2 Rachel Saxton IN; 13 Ava Connolly IN; 30 Emily Unger IN; 5 Riley Cassidy OUT; 00 Avery McNulty OUT; 4 Katie McGrath OUT",
             "Context": "",
-            "Id": "301+D8CA0C0E",
+            "Id": "301+D5357DBA",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8245,25 +8220,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Taylor",
-                    "LastName": "Salato",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Kya",
                     "LastName": "Mayo",
                     "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Salato",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "23 Alyssa Paquette IN; 25 Riley Griffin IN; 33 Taylor Salato OUT; 21 Kya Mayo OUT",
+            "Narrative": "23 Alyssa Paquette IN; 25 Riley Griffin IN; 21 Kya Mayo OUT; 33 Taylor Salato OUT",
             "Context": "",
-            "Id": "307+793777EB",
+            "Id": "307+156762BB",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8634,9 +8609,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "330+8C58F1E4",
+            "Id": "330+34FDFB88",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 3,
@@ -8773,26 +8748,18 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Julia",
-                "LastName": "Knowles",
-                "UniformNumber": "15",
+                "FirstName": "Shania",
+                "LastName": "Lewis",
+                "UniformNumber": "2",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Shania",
-                    "LastName": "Lewis",
-                    "UniformNumber": "2",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Nevaeh",
-                    "LastName": "Clark",
-                    "UniformNumber": "24",
+                    "FirstName": "Julia",
+                    "LastName": "Knowles",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -8803,12 +8770,20 @@
                     "UniformNumber": "1",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Nevaeh",
+                    "LastName": "Clark",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "15 Julia Knowles IN; 2 Shania Lewis IN; 24 Nevaeh Clark OUT; 1 Cara McGettigan OUT",
+            "Narrative": "2 Shania Lewis IN; 15 Julia Knowles IN; 1 Cara McGettigan OUT; 24 Nevaeh Clark OUT",
             "Context": "",
-            "Id": "338+AD79EDDE",
+            "Id": "338+A400CA4C",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10058,10 +10033,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. TIMEOUT 30 Sec. (1st TO, 2nd 30)",
+            "Narrative": "Timeout",
             "Context": "",
-            "Id": "410+5D88980",
-            "Type": "30SEC",
+            "Id": "410+123010C2",
+            "Type": "30S",
             "Action": "TIMEOUT",
             "Period": 4,
             "ClockSeconds": 94,
@@ -10217,21 +10192,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Grace",
-                "LastName": "Smith",
-                "UniformNumber": "42",
+                "FirstName": "Emily",
+                "LastName": "Jeamel",
+                "UniformNumber": "22",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Emily",
-                    "LastName": "Jeamel",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Cara",
@@ -10242,9 +10209,17 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Taylor",
-                    "LastName": "Salato",
-                    "UniformNumber": "33",
+                    "FirstName": "Grace",
+                    "LastName": "Smith",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kya",
+                    "LastName": "Mayo",
+                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -10258,17 +10233,17 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kya",
-                    "LastName": "Mayo",
-                    "UniformNumber": "21",
+                    "FirstName": "Taylor",
+                    "LastName": "Salato",
+                    "UniformNumber": "33",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "42 Grace Smith IN; 22 Emily Jeamel IN; 1 Cara McGettigan IN; 33 Taylor Salato OUT; 23 Alyssa Paquette OUT; 21 Kya Mayo OUT",
+            "Narrative": "22 Emily Jeamel IN; 1 Cara McGettigan IN; 42 Grace Smith IN; 21 Kya Mayo OUT; 23 Alyssa Paquette OUT; 33 Taylor Salato OUT",
             "Context": "",
-            "Id": "420+B9E3FB1A",
+            "Id": "420+4F3E87F0",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10464,9 +10439,9 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Eastern Conn. St. REBOUND",
+            "Narrative": "Eastern Connecticut REBOUND",
             "Context": "",
-            "Id": "436+BEC79FA7",
+            "Id": "436+66295CB",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 4,

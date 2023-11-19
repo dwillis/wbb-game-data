@@ -21,7 +21,7 @@
         "PeriodsRegulation": 4,
         "Period": 0,
         "ClockSeconds": -1,
-        "Context": "",
+        "Context": "NSU BONUS",
         "Rules": {
             "PeriodMinutes": 10,
             "PeriodName": "Quarter",
@@ -33,7 +33,7 @@
         "HomeTeam": {
             "Id": "SDSMT",
             "Name": "South Dakota Mines",
-            "Score": 66,
+            "Score": 64,
             "CurrentRecord": "0-3,0-0 RMAC",
             "NcaaSchoolCode": "",
             "Color": "#071D49",
@@ -44,7 +44,7 @@
                 16,
                 19,
                 7,
-                24
+                22
             ],
             "PeriodTimeouts": [
                 1,
@@ -55,7 +55,7 @@
         "VisitingTeam": {
             "Id": "NSU",
             "Name": "Northern St.",
-            "Score": 75,
+            "Score": 77,
             "CurrentRecord": "2-1,0-0 NSIC",
             "NcaaSchoolCode": "",
             "Color": "#98002E",
@@ -66,7 +66,7 @@
                 14,
                 21,
                 25,
-                15
+                17
             ],
             "PeriodTimeouts": [
                 0,
@@ -85,19 +85,28 @@
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [],
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Savea",
+                        "LastName": "Mansfield",
+                        "UniformNumber": "03",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
                 "Team": "HomeTeam",
-                "Narrative": "33 Lauren Herman 3PTR GOOD (5 Pt)",
+                "Narrative": "33 Lauren Herman 3PTR GOOD (5 Pt); 03 Savea Mansfield Assist (1 Asst)",
                 "Context": "",
-                "Id": "426+D852CAC5",
+                "Id": "430+ABD5E793",
                 "Type": "3PTR",
                 "Action": "GOOD",
                 "Period": 4,
-                "ClockSeconds": 24,
+                "ClockSeconds": 7,
                 "Coordinate": null,
                 "Score": {
-                    "HomeTeam": 75,
-                    "VisitingTeam": 66
+                    "HomeTeam": 77,
+                    "VisitingTeam": 64
                 }
             },
             {
@@ -113,11 +122,11 @@
                 "Team": "HomeTeam",
                 "Narrative": "21 Piper Bauer DEF. REBOUND (5 Reb, 4 Def)",
                 "Context": "",
-                "Id": "425+16A6EB63",
+                "Id": "429+E7F0E47A",
                 "Type": "DEF",
                 "Action": "REBOUND",
                 "Period": 4,
-                "ClockSeconds": 29,
+                "ClockSeconds": 16,
                 "Coordinate": null,
                 "Score": null
             },
@@ -134,11 +143,11 @@
                 "Team": "VisitingTeam",
                 "Narrative": "01 Gracie Traphagen JUMPER MISS",
                 "Context": "",
-                "Id": "424+C2EFC397",
+                "Id": "428+3062909A",
                 "Type": "JUMPER",
                 "Action": "MISS",
                 "Period": 4,
-                "ClockSeconds": 35,
+                "ClockSeconds": 18,
                 "Coordinate": null,
                 "Score": null
             },
@@ -155,15 +164,15 @@
                 "Team": "HomeTeam",
                 "Narrative": "03 Savea Mansfield FT GOOD (11 Pt)",
                 "Context": "",
-                "Id": "423+73EE7C53",
+                "Id": "427+62D364AF",
                 "Type": "FT",
                 "Action": "GOOD",
                 "Period": 4,
                 "ClockSeconds": 35,
                 "Coordinate": null,
                 "Score": {
-                    "HomeTeam": 75,
-                    "VisitingTeam": 63
+                    "HomeTeam": 77,
+                    "VisitingTeam": 61
                 }
             },
             {
@@ -179,15 +188,15 @@
                 "Team": "HomeTeam",
                 "Narrative": "03 Savea Mansfield FT GOOD (10 Pt)",
                 "Context": "",
-                "Id": "422+B5BC29B9",
+                "Id": "426+84A951CD",
                 "Type": "FT",
                 "Action": "GOOD",
                 "Period": 4,
                 "ClockSeconds": 35,
                 "Coordinate": null,
                 "Score": {
-                    "HomeTeam": 75,
-                    "VisitingTeam": 62
+                    "HomeTeam": 77,
+                    "VisitingTeam": 60
                 }
             }
         ]
@@ -220,20 +229,20 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Decontee",
-                        "LastName": "Smith",
-                        "UniformNumber": "05",
+                        "FirstName": "Brylie",
+                        "LastName": "Schultz",
+                        "UniformNumber": "24",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "9"
+                    "Value": "11"
                 },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Brylie",
-                        "LastName": "Schultz",
-                        "UniformNumber": "24",
+                        "FirstName": "Decontee",
+                        "LastName": "Smith",
+                        "UniformNumber": "05",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -283,7 +292,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
+                    "Value": "3"
                 }
             ],
             "Assists": [
@@ -485,13 +494,13 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Morgan",
-                        "LastName": "Fiedler",
-                        "UniformNumber": "04",
+                        "FirstName": "Gracie",
+                        "LastName": "Traphagen",
+                        "UniformNumber": "01",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "9.0"
+                    "Value": "10.0"
                 }
             ],
             "Usage Percentage": [
@@ -504,18 +513,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "39.94"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Rianna",
-                        "LastName": "Fillipi",
-                        "UniformNumber": "03",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "25.77"
+                    "Value": "40.00"
                 },
                 {
                     "Player": {
@@ -526,7 +524,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.66"
+                    "Value": "27.00"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Rianna",
+                        "LastName": "Fillipi",
+                        "UniformNumber": "03",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "25.81"
                 },
                 {
                     "Player": {
@@ -537,7 +546,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.05"
+                    "Value": "21.08"
                 }
             ]
         },
@@ -609,7 +618,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "6"
+                    "Value": "7"
                 },
                 {
                     "Player": {
@@ -663,6 +672,17 @@
                         "FirstName": "Piper",
                         "LastName": "Bauer",
                         "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Savea",
+                        "LastName": "Mansfield",
+                        "UniformNumber": "03",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -754,6 +774,17 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
+                        "FirstName": "Lauren",
+                        "LastName": "Herman",
+                        "UniformNumber": "33",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "3"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
                         "FirstName": "Emily",
                         "LastName": "Thomas",
                         "UniformNumber": "02",
@@ -772,17 +803,6 @@
                         "PersonId": ""
                     },
                     "Value": "2"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Savea",
-                        "LastName": "Mansfield",
-                        "UniformNumber": "03",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "2"
                 }
             ],
             "Efficiency": [
@@ -795,7 +815,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "26.0"
+                    "Value": "25.0"
                 },
                 {
                     "Player": {
@@ -817,7 +837,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "10.0"
+                    "Value": "11.0"
                 },
                 {
                     "Player": {
@@ -835,24 +855,24 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Madelyn",
-                        "LastName": "Heiser",
-                        "UniformNumber": "04",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "24.93"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
                         "FirstName": "Sydnee",
                         "LastName": "Durtsche",
                         "UniformNumber": "05",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.26"
+                    "Value": "28.78"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Madelyn",
+                        "LastName": "Heiser",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "24.90"
                 },
                 {
                     "Player": {
@@ -863,7 +883,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "23.18"
+                    "Value": "24.83"
                 },
                 {
                     "Player": {
@@ -874,7 +894,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "18.83"
+                    "Value": "18.81"
                 }
             ]
         }
@@ -1091,10 +1111,10 @@
                             "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "1",
-                            "PersonalFouls": "0",
+                            "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "-3.0",
-                            "UsagePercentage": "24.93",
+                            "UsagePercentage": "24.90",
                             "PointsPerMinute": ".200",
                             "Points": "5",
                             "PersonId": ""
@@ -1104,11 +1124,11 @@
                             "Name": "S. DURTSCHE",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "36",
-                            "Fgam": "8-14",
-                            "ShootingPercentage": "57.1%",
-                            "Tpam": "2-4",
-                            "Tppercentage": "50.0%",
+                            "Minutes": "32",
+                            "Fgam": "8-15",
+                            "ShootingPercentage": "53.3%",
+                            "Tpam": "2-5",
+                            "Tppercentage": "40.0%",
                             "Ftma": "2-2",
                             "Ftp": "100.0%",
                             "TotalRebounds": "9",
@@ -1120,9 +1140,9 @@
                             "Steals": "3",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "26.0",
-                            "UsagePercentage": "24.26",
-                            "PointsPerMinute": ".556",
+                            "Efficiency": "25.0",
+                            "UsagePercentage": "28.78",
+                            "PointsPerMinute": ".625",
                             "Points": "20",
                             "PersonId": ""
                         },
@@ -1148,7 +1168,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "17.0",
-                            "UsagePercentage": "18.83",
+                            "UsagePercentage": "18.81",
                             "PointsPerMinute": ".500",
                             "Points": "18",
                             "PersonId": ""
@@ -1163,8 +1183,8 @@
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-2",
                             "Tppercentage": "0.0%",
-                            "Ftma": "3-4",
-                            "Ftp": "75.0%",
+                            "Ftma": "1-2",
+                            "Ftp": "50.0%",
                             "TotalRebounds": "3",
                             "OffensiveRebounds": "1",
                             "DefensiveRebounds": "2",
@@ -1174,10 +1194,10 @@
                             "Steals": "0",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-1.0",
+                            "Efficiency": "-3.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
-                            "Points": "3",
+                            "Points": "1",
                             "PersonId": ""
                         },
                         {
@@ -1186,23 +1206,23 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "29",
-                            "Fgam": "3-10",
-                            "ShootingPercentage": "30.0%",
+                            "Fgam": "3-11",
+                            "ShootingPercentage": "27.3%",
                             "Tpam": "1-3",
                             "Tppercentage": "33.3%",
                             "Ftma": "4-4",
                             "Ftp": "100.0%",
-                            "TotalRebounds": "6",
-                            "OffensiveRebounds": "2",
+                            "TotalRebounds": "7",
+                            "OffensiveRebounds": "3",
                             "DefensiveRebounds": "4",
-                            "Assists": "0",
+                            "Assists": "1",
                             "Turnovers": "2",
                             "Blocks": "2",
                             "Steals": "0",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "10.0",
-                            "UsagePercentage": "23.18",
+                            "Efficiency": "11.0",
+                            "UsagePercentage": "24.83",
                             "PointsPerMinute": ".379",
                             "Points": "11",
                             "PersonId": ""
@@ -1239,10 +1259,10 @@
                             "Name": "M. SPOTTED BEAR",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "6",
+                            "Minutes": "10",
                             "Fgam": "1-4",
                             "ShootingPercentage": "25.0%",
-                            "Tpam": "0-1",
+                            "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
@@ -1250,12 +1270,12 @@
                             "OffensiveRebounds": "2",
                             "DefensiveRebounds": "0",
                             "Assists": "0",
-                            "Turnovers": "0",
+                            "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "1",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "2.0",
+                            "Efficiency": "1.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "2",
@@ -1267,8 +1287,8 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "15",
-                            "Fgam": "1-3",
-                            "ShootingPercentage": "33.3%",
+                            "Fgam": "1-2",
+                            "ShootingPercentage": "50.0%",
                             "Tpam": "1-2",
                             "Tppercentage": "50.0%",
                             "Ftma": "2-2",
@@ -1280,10 +1300,10 @@
                             "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "0",
-                            "PersonalFouls": "2",
+                            "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "3.0",
-                            "UsagePercentage": "15.89",
+                            "Efficiency": "4.0",
+                            "UsagePercentage": "12.62",
                             "PointsPerMinute": ".333",
                             "Points": "5",
                             "PersonId": ""
@@ -1390,36 +1410,36 @@
                     "AverageScoringPossession": "Avg Scoring Poss Length"
                 },
                 "Values": {
-                    "Points": "66",
-                    "Fgam": "22-63",
-                    "ShootingPercentage": "34.9%",
+                    "Points": "64",
+                    "Fgam": "22-64",
+                    "ShootingPercentage": "34.4%",
                     "Tpam": "8-20",
                     "Tppercentage": "40.0%",
-                    "Ftma": "14-18",
-                    "Ftp": "77.8%",
-                    "TotalRebounds": "37",
-                    "OffensiveRebounds": "14",
+                    "Ftma": "12-16",
+                    "Ftp": "75.0%",
+                    "TotalRebounds": "38",
+                    "OffensiveRebounds": "15",
                     "DefensiveRebounds": "23",
                     "Ties": "4",
                     "Leads": "4",
                     "TimeWithLead": "29:13",
                     "PercentLead": "73.0%",
-                    "LastLeadScore": "75-66",
-                    "LastLeadTime": "0:24 (4th)",
+                    "LastLeadScore": "77-64",
+                    "LastLeadTime": "0:07 (4th)",
                     "LargestLead": "20",
                     "LargestLeadScores": "62-42",
                     "LargestLeadTime": "9:37 (4th)",
-                    "Assists": "5",
+                    "Assists": "6",
                     "Turnovers": "11",
                     "PointsFromBench": "18",
                     "Blocks": "3",
                     "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "2",
+                    "PointsOffFastBreak": "0",
                     "Steals": "6",
                     "PointsOffTurnovers": "10",
                     "PointsInPaint": "22",
-                    "PointsOffSecondChance": "11",
-                    "PersonalFouls": "15",
+                    "PointsOffSecondChance": "13",
+                    "PersonalFouls": "17",
                     "TechnicalFouls": "0",
                     "Possession": "0",
                     "AverageScoringPossession": "-"
@@ -1819,36 +1839,36 @@
                         "AverageScoringPossession": "Avg Scoring Poss Length"
                     },
                     "Values": {
-                        "Points": "24",
-                        "Fgam": "8-14",
-                        "ShootingPercentage": "57.1%",
+                        "Points": "22",
+                        "Fgam": "8-15",
+                        "ShootingPercentage": "53.3%",
                         "Tpam": "2-5",
                         "Tppercentage": "40.0%",
-                        "Ftma": "6-6",
+                        "Ftma": "4-4",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "10",
-                        "OffensiveRebounds": "2",
+                        "TotalRebounds": "11",
+                        "OffensiveRebounds": "3",
                         "DefensiveRebounds": "8",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "9:37",
                         "PercentLead": "24.0%",
-                        "LastLeadScore": "75-66",
-                        "LastLeadTime": "0:24 (4th)",
+                        "LastLeadScore": "77-64",
+                        "LastLeadTime": "0:07 (4th)",
                         "LargestLead": "20",
                         "LargestLeadScores": "62-42",
                         "LargestLeadTime": "9:37 (4th)",
-                        "Assists": "0",
+                        "Assists": "1",
                         "Turnovers": "4",
                         "PointsFromBench": "11",
                         "Blocks": "2",
                         "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "2",
+                        "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "2",
                         "PointsInPaint": "10",
-                        "PointsOffSecondChance": "4",
-                        "PersonalFouls": "5",
+                        "PointsOffSecondChance": "6",
+                        "PersonalFouls": "7",
                         "TechnicalFouls": "0",
                         "Possession": "0",
                         "AverageScoringPossession": "-"
@@ -2059,7 +2079,7 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "25.0",
-                            "UsagePercentage": "39.94",
+                            "UsagePercentage": "40.00",
                             "PointsPerMinute": "1.167",
                             "Points": "21",
                             "PersonId": ""
@@ -2086,7 +2106,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "10.0",
-                            "UsagePercentage": "25.77",
+                            "UsagePercentage": "25.81",
                             "PointsPerMinute": ".417",
                             "Points": "15",
                             "PersonId": ""
@@ -2103,17 +2123,17 @@
                             "Tppercentage": "66.7%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "4",
+                            "TotalRebounds": "3",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "4",
+                            "DefensiveRebounds": "3",
                             "Assists": "2",
                             "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "0",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "9.0",
-                            "UsagePercentage": "8.16",
+                            "Efficiency": "8.0",
+                            "UsagePercentage": "8.18",
                             "PointsPerMinute": ".188",
                             "Points": "6",
                             "PersonId": ""
@@ -2123,7 +2143,7 @@
                             "Name": "D. SMITH",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "32",
+                            "Minutes": "31",
                             "Fgam": "3-8",
                             "ShootingPercentage": "37.5%",
                             "Tpam": "1-3",
@@ -2140,8 +2160,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "16.13",
-                            "PointsPerMinute": ".281",
+                            "UsagePercentage": "16.68",
+                            "PointsPerMinute": ".290",
                             "Points": "9",
                             "PersonId": ""
                         },
@@ -2167,7 +2187,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "21.05",
+                            "UsagePercentage": "21.08",
                             "PointsPerMinute": ".259",
                             "Points": "7",
                             "PersonId": ""
@@ -2184,17 +2204,17 @@
                             "Tppercentage": "100.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "1",
+                            "TotalRebounds": "3",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "1",
+                            "DefensiveRebounds": "3",
                             "Assists": "0",
                             "Turnovers": "0",
                             "Blocks": "0",
                             "Steals": "1",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "8.0",
-                            "UsagePercentage": "13.93",
+                            "Efficiency": "10.0",
+                            "UsagePercentage": "13.95",
                             "PointsPerMinute": ".467",
                             "Points": "7",
                             "PersonId": ""
@@ -2204,7 +2224,7 @@
                             "Name": "O. HANSON",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "2",
+                            "Minutes": "3",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2317,7 +2337,7 @@
                             "ShootingPercentage": "57.1%",
                             "Tpam": "0-1",
                             "Tppercentage": "0.0%",
-                            "Ftma": "1-1",
+                            "Ftma": "3-3",
                             "Ftp": "100.0%",
                             "TotalRebounds": "3",
                             "OffensiveRebounds": "0",
@@ -2328,10 +2348,10 @@
                             "Steals": "0",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "8.0",
-                            "UsagePercentage": "24.66",
-                            "PointsPerMinute": ".450",
-                            "Points": "9",
+                            "Efficiency": "10.0",
+                            "UsagePercentage": "27.00",
+                            "PointsPerMinute": ".550",
+                            "Points": "11",
                             "PersonId": ""
                         },
                         {
@@ -2350,12 +2370,12 @@
                             "OffensiveRebounds": "0",
                             "DefensiveRebounds": "0",
                             "Assists": "0",
-                            "Turnovers": "0",
+                            "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "0",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-1.0",
+                            "Efficiency": "-2.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
@@ -2436,16 +2456,16 @@
                     "AverageScoringPossession": "Avg Scoring Poss Length"
                 },
                 "Values": {
-                    "Points": "75",
+                    "Points": "77",
                     "Fgam": "29-58",
                     "ShootingPercentage": "50.0%",
                     "Tpam": "5-18",
                     "Tppercentage": "27.8%",
-                    "Ftma": "12-15",
-                    "Ftp": "80.0%",
-                    "TotalRebounds": "37",
+                    "Ftma": "14-17",
+                    "Ftp": "82.4%",
+                    "TotalRebounds": "36",
                     "OffensiveRebounds": "8",
-                    "DefensiveRebounds": "29",
+                    "DefensiveRebounds": "28",
                     "Ties": "4",
                     "Leads": "4",
                     "TimeWithLead": "8:07",
@@ -2456,8 +2476,8 @@
                     "LargestLeadScores": "15-8",
                     "LargestLeadTime": "2:00 (1st)",
                     "Assists": "8",
-                    "Turnovers": "12",
-                    "PointsFromBench": "17",
+                    "Turnovers": "11",
+                    "PointsFromBench": "19",
                     "Blocks": "4",
                     "PointsOnCourt": "0",
                     "PointsOffFastBreak": "2",
@@ -2465,7 +2485,7 @@
                     "PointsOffTurnovers": "16",
                     "PointsInPaint": "38",
                     "PointsOffSecondChance": "5",
-                    "PersonalFouls": "17",
+                    "PersonalFouls": "16",
                     "TechnicalFouls": "0",
                     "Possession": "0",
                     "AverageScoringPossession": "-"
@@ -2765,9 +2785,9 @@
                         "Tppercentage": "66.7%",
                         "Ftma": "1-1",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "12",
+                        "TotalRebounds": "11",
                         "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "10",
+                        "DefensiveRebounds": "9",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -2865,13 +2885,13 @@
                         "AverageScoringPossession": "Avg Scoring Poss Length"
                     },
                     "Values": {
-                        "Points": "15",
+                        "Points": "17",
                         "Fgam": "6-13",
                         "ShootingPercentage": "46.2%",
                         "Tpam": "1-3",
                         "Tppercentage": "33.3%",
-                        "Ftma": "2-4",
-                        "Ftp": "50.0%",
+                        "Ftma": "4-6",
+                        "Ftp": "66.7%",
                         "TotalRebounds": "4",
                         "OffensiveRebounds": "0",
                         "DefensiveRebounds": "4",
@@ -2885,8 +2905,8 @@
                         "LargestLeadScores": "-",
                         "LargestLeadTime": "-",
                         "Assists": "0",
-                        "Turnovers": "4",
-                        "PointsFromBench": "4",
+                        "Turnovers": "3",
+                        "PointsFromBench": "6",
                         "Blocks": "0",
                         "PointsOnCourt": "0",
                         "PointsOffFastBreak": "0",
@@ -2894,7 +2914,7 @@
                         "PointsOffTurnovers": "9",
                         "PointsInPaint": "8",
                         "PointsOffSecondChance": "0",
-                        "PersonalFouls": "4",
+                        "PersonalFouls": "3",
                         "TechnicalFouls": "0",
                         "Possession": "0",
                         "AverageScoringPossession": "-"
@@ -8851,28 +8871,14 @@
         {
             "Player": null,
             "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Northern St. REBOUND",
+            "Team": "HomeTeam",
+            "Narrative": "South Dakota Mines REBOUND",
             "Context": "",
-            "Id": "322+A6EE2174",
-            "Type": "DEF",
+            "Id": "322+F35CE70C",
+            "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 3,
             "ClockSeconds": 0,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Northern St. TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "323+63D06622",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 599,
             "Coordinate": null,
             "Score": null
         },
@@ -8889,7 +8895,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg LAYUP GOOD (19 Pt)",
             "Context": "",
-            "Id": "324+F5D1D87A",
+            "Id": "323+E6588B19",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -8913,7 +8919,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Lauren Herman TURNOVER (1 TO)",
             "Context": "",
-            "Id": "325+BE4B5DD9",
+            "Id": "324+B2914C24",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -8934,11 +8940,74 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Gracie Traphagen STEAL (1 Stl)",
             "Context": "",
-            "Id": "326+A6709732",
+            "Id": "325+AC6834A5",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
             "ClockSeconds": 577,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Madelyn",
+                "LastName": "Heiser",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Madelyn Heiser FOUL (1 PF)",
+            "Context": "",
+            "Id": "326+EF7161BC",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 577,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Sydnee",
+                "LastName": "Durtsche",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "05 Sydnee Durtsche 3PTR MISS",
+            "Context": "",
+            "Id": "327+9BA41CD8",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 560,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lauren",
+                "LastName": "Herman",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "33 Lauren Herman OFF. REBOUND (1 Reb, 1 Off)",
+            "Context": "",
+            "Id": "328+46BDC350",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 558,
             "Coordinate": null,
             "Score": null
         },
@@ -8955,7 +9024,7 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Gracie Traphagen FOUL (2 PF)",
             "Context": "",
-            "Id": "327+12B2F5F2",
+            "Id": "329+31C98D84",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9001,7 +9070,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Rianna Fillipi OUT; 05 Decontee Smith OUT; 23 Alayna Benike IN; 25 Brynn Alfson IN",
             "Context": "",
-            "Id": "328+90546C73",
+            "Id": "330+98856BD9",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9031,7 +9100,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Madelyn Heiser OUT; 21 Piper Bauer IN",
             "Context": "",
-            "Id": "332+2D46FF9C",
+            "Id": "334+3440EC06",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9052,7 +9121,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Lauren Herman FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "334+7132A4FF",
+            "Id": "336+9001F6F1",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9076,7 +9145,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Lauren Herman FT GOOD (2 Pt)",
             "Context": "",
-            "Id": "335+7B96FECF",
+            "Id": "337+9BE83879",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9109,7 +9178,7 @@
             "Team": "VisitingTeam",
             "Narrative": "25 Brynn Alfson LAYUP MISS; 03 Savea Mansfield BLOCK (1 Blk)",
             "Context": "",
-            "Id": "336+781B62CE",
+            "Id": "338+F11EA34",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -9130,7 +9199,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Emily Thomas DEF. REBOUND (3 Reb, 1 Def)",
             "Context": "",
-            "Id": "338+24EC0231",
+            "Id": "340+4E5FCA97",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9151,7 +9220,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche JUMPER GOOD (14 Pt)",
             "Context": "",
-            "Id": "339+42D6A8F7",
+            "Id": "341+22B33119",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
@@ -9175,7 +9244,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg JUMPER MISS",
             "Context": "",
-            "Id": "340+32D5DE3",
+            "Id": "342+57EFE49",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -9189,7 +9258,7 @@
             "Team": "HomeTeam",
             "Narrative": "South Dakota Mines REBOUND",
             "Context": "",
-            "Id": "341+D29B8C91",
+            "Id": "343+C62EA6EB",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9210,7 +9279,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche JUMPER MISS",
             "Context": "",
-            "Id": "342+A0FE0BDA",
+            "Id": "344+90B3FAE4",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -9219,12 +9288,19 @@
             "Score": null
         },
         {
-            "Player": null,
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Gracie",
+                "LastName": "Traphagen",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Northern St. REBOUND",
+            "Narrative": "01 Gracie Traphagen DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "343+939C6093",
+            "Id": "345+8C77549E",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9245,7 +9321,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Morgan Fiedler 3PTR MISS",
             "Context": "",
-            "Id": "344+F3FE0F0F",
+            "Id": "346+F1974805",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -9266,7 +9342,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche DEF. REBOUND (9 Reb, 5 Def)",
             "Context": "",
-            "Id": "345+33ECA0FE",
+            "Id": "347+3E5689F4",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9287,7 +9363,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche LAYUP GOOD (16 Pt)",
             "Context": "",
-            "Id": "346+20DBBA12",
+            "Id": "348+FDB4CA4",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9336,7 +9412,7 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Gracie Traphagen OUT; 04 Morgan Fiedler OUT; 03 Rianna Fillipi IN; 30 Abbey Holmes IN",
             "Context": "",
-            "Id": "347+487EEAF4",
+            "Id": "349+5BEFABDA",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9357,7 +9433,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Rianna Fillipi JUMPER MISS",
             "Context": "",
-            "Id": "351+23321223",
+            "Id": "353+44C9A1B5",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -9378,7 +9454,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Emily Thomas DEF. REBOUND (4 Reb, 2 Def)",
             "Context": "",
-            "Id": "352+70DC0982",
+            "Id": "354+7C1B5D58",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9399,7 +9475,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Lauren Herman FOUL (2 PF)",
             "Context": "",
-            "Id": "353+F86AAE53",
+            "Id": "355+E290B729",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9408,12 +9484,19 @@
             "Score": null
         },
         {
-            "Player": null,
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Abbey",
+                "LastName": "Holmes",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Northern St. TURNOVER (2 TO)",
+            "Narrative": "30 Abbey Holmes TURNOVER (1 TO)",
             "Context": "",
-            "Id": "354+154A73FB",
+            "Id": "356+9C726325",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9434,7 +9517,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche LAYUP GOOD (18 Pt)",
             "Context": "",
-            "Id": "355+76F150CB",
+            "Id": "357+5D3E51A5",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9458,7 +9541,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg LAYUP GOOD (21 Pt)",
             "Context": "",
-            "Id": "356+1A28E526",
+            "Id": "358+1639268C",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9482,7 +9565,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Piper Bauer 3PTR MISS",
             "Context": "",
-            "Id": "357+A0508C4C",
+            "Id": "359+9463E8D6",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -9503,7 +9586,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg DEF. REBOUND (5 Reb, 3 Def)",
             "Context": "",
-            "Id": "358+AFB7A002",
+            "Id": "360+91A91B7C",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9524,7 +9607,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg TURNOVER (1 TO)",
             "Context": "",
-            "Id": "359+25B73A98",
+            "Id": "361+1F7788AE",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9545,7 +9628,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche STEAL (3 Stl)",
             "Context": "",
-            "Id": "360+6BA25233",
+            "Id": "362+5F939299",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -9566,7 +9649,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg FOUL (4 PF)",
             "Context": "",
-            "Id": "361+DDB3F75D",
+            "Id": "363+D13A28F7",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9596,7 +9679,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Alayna Benike OUT; 05 Decontee Smith IN",
             "Context": "",
-            "Id": "362+AF6CED52",
+            "Id": "364+862E82B4",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9617,7 +9700,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche TURNOVER (2 TO)",
             "Context": "",
-            "Id": "364+DD7E3F20",
+            "Id": "366+C40E607A",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9638,7 +9721,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Rianna Fillipi STEAL (1 Stl)",
             "Context": "",
-            "Id": "365+15756452",
+            "Id": "367+1992CEF8",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -9659,7 +9742,7 @@
             "Team": "VisitingTeam",
             "Narrative": "05 Decontee Smith LAYUP GOOD (9 Pt)",
             "Context": "",
-            "Id": "366+58FFFB5",
+            "Id": "368+E603B49B",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9683,7 +9766,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche LAYUP GOOD (20 Pt)",
             "Context": "",
-            "Id": "367+7C4B9799",
+            "Id": "369+9ECA546F",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9700,7 +9783,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Northern St. TIMEOUT 30 Sec. (1st TO, 1st 30)",
             "Context": "",
-            "Id": "368+EF5CD9BC",
+            "Id": "370+E94897A6",
             "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
@@ -9714,7 +9797,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Media Timeout",
             "Context": "",
-            "Id": "369+D0002B63",
+            "Id": "371+CE0C6179",
             "Type": "MEDIA",
             "Action": "TIMEOUT",
             "Period": 4,
@@ -9760,7 +9843,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Madelyn Bragg OUT; 30 Abbey Holmes OUT; 04 Morgan Fiedler IN; 24 Brylie Schultz IN",
             "Context": "",
-            "Id": "370+51A63EC6",
+            "Id": "372+474BB810",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9790,7 +9873,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Rianna Fillipi JUMPER MISS; 03 Savea Mansfield BLOCK (2 Blk)",
             "Context": "",
-            "Id": "374+1932437C",
+            "Id": "376+3376BA42",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -9811,7 +9894,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Savea Mansfield DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "376+ADB652AE",
+            "Id": "378+B473C9A4",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9832,7 +9915,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche TURNOVER (3 TO)",
             "Context": "",
-            "Id": "377+AA2C3D2E",
+            "Id": "379+A8565424",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9853,7 +9936,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Emily Thomas FOUL (2 PF)",
             "Context": "",
-            "Id": "378+AE0EBAE3",
+            "Id": "380+B4C9DBC5",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9874,7 +9957,7 @@
             "Team": "VisitingTeam",
             "Narrative": "25 Brynn Alfson LAYUP GOOD (7 Pt)",
             "Context": "",
-            "Id": "379+26061D38",
+            "Id": "381+33090BF6",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9898,7 +9981,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sydnee Durtsche FOUL (2 PF)",
             "Context": "",
-            "Id": "380+698BDDAC",
+            "Id": "382+608DCF36",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9919,7 +10002,7 @@
             "Team": "VisitingTeam",
             "Narrative": "25 Brynn Alfson FT MISS",
             "Context": "",
-            "Id": "381+A4881E20",
+            "Id": "383+A3962DAA",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -9933,7 +10016,7 @@
             "Team": "HomeTeam",
             "Narrative": "South Dakota Mines REBOUND",
             "Context": "",
-            "Id": "382+7FFBC3B6",
+            "Id": "384+C549F998",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9954,7 +10037,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Piper Bauer 3PTR GOOD (18 Pt)",
             "Context": "",
-            "Id": "383+EA129F8D",
+            "Id": "385+41B1125B",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
@@ -9967,84 +10050,52 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Grace",
-                "LastName": "Miller",
-                "UniformNumber": "33",
+                "Team": "HomeTeam",
+                "FirstName": "Sydnee",
+                "LastName": "Durtsche",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Grace Miller FOUL (1 PF)",
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Morning Grace",
+                    "LastName": "Spotted Bear",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "05 Sydnee Durtsche OUT; 23 Morning Grace Spotted Bear IN",
             "Context": "",
-            "Id": "384+3147F866",
-            "Type": "FOUL",
-            "Action": "FOUL",
+            "Id": "386+BC603237",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 4,
-            "ClockSeconds": 252,
+            "ClockSeconds": 253,
             "Coordinate": null,
             "Score": null
         },
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Naomi",
-                "LastName": "Hidalgo",
-                "UniformNumber": "24",
+                "FirstName": "Lauren",
+                "LastName": "Herman",
+                "UniformNumber": "33",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "24 Naomi Hidalgo FT GOOD (2 Pt)",
+            "Narrative": "33 Lauren Herman FOUL (3 PF)",
             "Context": "",
-            "Id": "385+89A04212",
-            "Type": "FT",
-            "Action": "GOOD",
+            "Id": "388+2679769C",
+            "Type": "FOUL",
+            "Action": "FOUL",
             "Period": 4,
-            "ClockSeconds": 252,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 68,
-                "VisitingTeam": 56
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Naomi",
-                "LastName": "Hidalgo",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "24 Naomi Hidalgo FT GOOD (3 Pt)",
-            "Context": "",
-            "Id": "386+9C8B058E",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 252,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 68,
-                "VisitingTeam": 57
-            }
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "South Dakota Mines TURNOVER (3 TO)",
-            "Context": "",
-            "Id": "387+80CABB4E",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 191,
+            "ClockSeconds": 235,
             "Coordinate": null,
             "Score": null
         },
@@ -10059,17 +10110,86 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "24 Brylie Schultz JUMPER GOOD (8 Pt)",
+            "Narrative": "24 Brylie Schultz FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "388+896E59C1",
+            "Id": "389+4FE21BA8",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 235,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 69,
+                "VisitingTeam": 55
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brylie",
+                "LastName": "Schultz",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Brylie Schultz FT GOOD (8 Pt)",
+            "Context": "",
+            "Id": "390+2B792A6C",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 235,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 70,
+                "VisitingTeam": 55
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Morning Grace",
+                "LastName": "Spotted Bear",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Morning Grace Spotted Bear TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "391+F3170352",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 218,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brylie",
+                "LastName": "Schultz",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Brylie Schultz JUMPER GOOD (10 Pt)",
+            "Context": "",
+            "Id": "392+B9DBB02A",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 191,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 70,
-                "VisitingTeam": 57
+                "HomeTeam": 72,
+                "VisitingTeam": 55
             }
         },
         {
@@ -10085,7 +10205,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Piper Bauer FOUL (1 PF)",
             "Context": "",
-            "Id": "389+ADC36549",
+            "Id": "393+BC9E5CE5",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10104,18 +10224,48 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "24 Brylie Schultz FT GOOD (9 Pt)",
+            "Narrative": "24 Brylie Schultz FT GOOD (11 Pt)",
             "Context": "",
-            "Id": "390+F00A4C85",
+            "Id": "394+BCEAF94",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 191,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 71,
-                "VisitingTeam": 57
+                "HomeTeam": 73,
+                "VisitingTeam": 55
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Decontee",
+                "LastName": "Smith",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Olivia",
+                    "LastName": "Hanson",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Decontee Smith OUT; 10 Olivia Hanson IN",
+            "Context": "",
+            "Id": "395+B9C6ACAE",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 191,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -10128,10 +10278,10 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "23 Morning Grace Spotted Bear 3PTR MISS",
+            "Narrative": "23 Morning Grace Spotted Bear JUMPER MISS",
             "Context": "",
-            "Id": "391+590ECD16",
-            "Type": "3PTR",
+            "Id": "397+898F5B20",
+            "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
             "ClockSeconds": 181,
@@ -10151,7 +10301,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Savea Mansfield OFF. REBOUND (5 Reb, 2 Off)",
             "Context": "",
-            "Id": "392+26459200",
+            "Id": "398+3E2A5616",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10172,15 +10322,15 @@
             "Team": "HomeTeam",
             "Narrative": "03 Savea Mansfield LAYUP GOOD (9 Pt)",
             "Context": "",
-            "Id": "393+E83458C0",
+            "Id": "399+EF0376BE",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 172,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 71,
-                "VisitingTeam": 59
+                "HomeTeam": 73,
+                "VisitingTeam": 57
             }
         },
         {
@@ -10196,15 +10346,15 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Morgan Fiedler 3PTR GOOD (6 Pt)",
             "Context": "",
-            "Id": "394+E7249513",
+            "Id": "400+95393D61",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 148,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 74,
-                "VisitingTeam": 59
+                "HomeTeam": 76,
+                "VisitingTeam": 57
             }
         },
         {
@@ -10220,7 +10370,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Piper Bauer JUMPER MISS",
             "Context": "",
-            "Id": "395+F81F8AC1",
+            "Id": "401+86065053",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -10241,7 +10391,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Brylie Schultz DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "396+82ED2977",
+            "Id": "402+F4A78359",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10252,21 +10402,13 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Decontee",
-                "LastName": "Smith",
-                "UniformNumber": "05",
+                "FirstName": "Brylie",
+                "LastName": "Schultz",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Brylie",
-                    "LastName": "Schultz",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Brynn",
@@ -10285,14 +10427,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Hanson",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Halle",
                     "LastName": "Heinz",
                     "UniformNumber": "22",
@@ -10301,9 +10435,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "05 Decontee Smith OUT; 24 Brylie Schultz OUT; 25 Brynn Alfson OUT; 01 Gracie Traphagen IN; 10 Olivia Hanson IN; 22 Halle Heinz IN",
+            "Narrative": "24 Brylie Schultz OUT; 25 Brynn Alfson OUT; 01 Gracie Traphagen IN; 22 Halle Heinz IN",
             "Context": "",
-            "Id": "397+5F4FB2AC",
+            "Id": "403+215A9C2A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10317,7 +10451,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Northern St. TIMEOUT 30 Sec. (2nd TO, 2nd 30)",
             "Context": "",
-            "Id": "403+5EDD387F",
+            "Id": "407+4F4966EB",
             "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 4,
@@ -10338,7 +10472,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Rianna Fillipi TURNOVER (1 TO)",
             "Context": "",
-            "Id": "404+F302E591",
+            "Id": "408+E0AEE685",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -10359,7 +10493,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Piper Bauer STEAL (1 Stl)",
             "Context": "",
-            "Id": "405+4C92DA4B",
+            "Id": "409+5E36B787",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -10380,7 +10514,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Lauren Herman 3PTR MISS",
             "Context": "",
-            "Id": "406+17043CC3",
+            "Id": "410+22AA6F77",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -10391,17 +10525,17 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Morgan",
-                "LastName": "Fiedler",
-                "UniformNumber": "04",
+                "FirstName": "Gracie",
+                "LastName": "Traphagen",
+                "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "04 Morgan Fiedler DEF. REBOUND (4 Reb, 4 Def)",
+            "Narrative": "01 Gracie Traphagen DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "407+B62F492",
+            "Id": "411+80D3FE63",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10447,7 +10581,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Rianna Fillipi OUT; 04 Morgan Fiedler OUT; 12 Mykell Heidlebaugh IN; 30 Abbey Holmes IN",
             "Context": "",
-            "Id": "408+7598BE2B",
+            "Id": "412+5EA9CB7",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10468,7 +10602,7 @@
             "Team": "VisitingTeam",
             "Narrative": "30 Abbey Holmes 3PTR MISS",
             "Context": "",
-            "Id": "412+B75EBA9A",
+            "Id": "416+2EDE529E",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -10489,7 +10623,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Savea Mansfield DEF. REBOUND (6 Reb, 4 Def)",
             "Context": "",
-            "Id": "413+57DB1319",
+            "Id": "417+C87A2DF5",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10510,15 +10644,15 @@
             "Team": "HomeTeam",
             "Narrative": "23 Morning Grace Spotted Bear JUMPER GOOD (2 Pt)",
             "Context": "",
-            "Id": "414+4A5EEADE",
+            "Id": "418+A314EDDA",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 56,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 74,
-                "VisitingTeam": 61
+                "HomeTeam": 76,
+                "VisitingTeam": 59
             }
         },
         {
@@ -10534,7 +10668,7 @@
             "Team": "HomeTeam",
             "Narrative": "23 Morning Grace Spotted Bear FOUL (1 PF)",
             "Context": "",
-            "Id": "415+F5452CB",
+            "Id": "419+E6401327",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10555,7 +10689,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Mykell Heidlebaugh FT MISS",
             "Context": "",
-            "Id": "416+2360D179",
+            "Id": "420+12628425",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -10569,7 +10703,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Northern St. REBOUND",
             "Context": "",
-            "Id": "417+125F6BF",
+            "Id": "421+3767C61B",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 4,
@@ -10590,31 +10724,31 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Mykell Heidlebaugh FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "418+1346534E",
+            "Id": "422+1DB82582",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 39,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 75,
-                "VisitingTeam": 61
+                "HomeTeam": 77,
+                "VisitingTeam": 59
             }
         },
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Lauren",
-                "LastName": "Herman",
-                "UniformNumber": "33",
+                "FirstName": "Savea",
+                "LastName": "Mansfield",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "33 Lauren Herman LAYUP MISS",
+            "Narrative": "03 Savea Mansfield LAYUP MISS",
             "Context": "",
-            "Id": "419+422B4FA0",
+            "Id": "423+6B80C95C",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -10625,17 +10759,17 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Lauren",
-                "LastName": "Herman",
-                "UniformNumber": "33",
+                "FirstName": "Savea",
+                "LastName": "Mansfield",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "33 Lauren Herman OFF. REBOUND (1 Reb, 1 Off)",
+            "Narrative": "03 Savea Mansfield OFF. REBOUND (7 Reb, 3 Off)",
             "Context": "",
-            "Id": "420+3C710C19",
+            "Id": "424+F170A175",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10656,7 +10790,7 @@
             "Team": "VisitingTeam",
             "Narrative": "22 Halle Heinz FOUL (1 PF)",
             "Context": "",
-            "Id": "421+6836245",
+            "Id": "425+15966A29",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10677,15 +10811,15 @@
             "Team": "HomeTeam",
             "Narrative": "03 Savea Mansfield FT GOOD (10 Pt)",
             "Context": "",
-            "Id": "422+B5BC29B9",
+            "Id": "426+84A951CD",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 35,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 75,
-                "VisitingTeam": 62
+                "HomeTeam": 77,
+                "VisitingTeam": 60
             }
         },
         {
@@ -10701,15 +10835,15 @@
             "Team": "HomeTeam",
             "Narrative": "03 Savea Mansfield FT GOOD (11 Pt)",
             "Context": "",
-            "Id": "423+73EE7C53",
+            "Id": "427+62D364AF",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
             "ClockSeconds": 35,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 75,
-                "VisitingTeam": 63
+                "HomeTeam": 77,
+                "VisitingTeam": 61
             }
         },
         {
@@ -10725,11 +10859,11 @@
             "Team": "VisitingTeam",
             "Narrative": "01 Gracie Traphagen JUMPER MISS",
             "Context": "",
-            "Id": "424+C2EFC397",
+            "Id": "428+3062909A",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 35,
+            "ClockSeconds": 18,
             "Coordinate": null,
             "Score": null
         },
@@ -10746,11 +10880,11 @@
             "Team": "HomeTeam",
             "Narrative": "21 Piper Bauer DEF. REBOUND (5 Reb, 4 Def)",
             "Context": "",
-            "Id": "425+16A6EB63",
+            "Id": "429+E7F0E47A",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 29,
+            "ClockSeconds": 16,
             "Coordinate": null,
             "Score": null
         },
@@ -10763,19 +10897,28 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Savea",
+                    "LastName": "Mansfield",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "HomeTeam",
-            "Narrative": "33 Lauren Herman 3PTR GOOD (5 Pt)",
+            "Narrative": "33 Lauren Herman 3PTR GOOD (5 Pt); 03 Savea Mansfield Assist (1 Asst)",
             "Context": "",
-            "Id": "426+D852CAC5",
+            "Id": "430+ABD5E793",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 24,
+            "ClockSeconds": 7,
             "Coordinate": null,
             "Score": {
-                "HomeTeam": 75,
-                "VisitingTeam": 66
+                "HomeTeam": 77,
+                "VisitingTeam": 64
             }
         }
     ]

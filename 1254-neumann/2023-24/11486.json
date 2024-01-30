@@ -56,7 +56,7 @@
         "VisitingTeam": {
             "Id": "GM",
             "Name": "Gwynedd Mercy",
-            "Score": 62,
+            "Score": 64,
             "CurrentRecord": "7-13,0-6 Atlantic East",
             "NcaaSchoolCode": "",
             "Color": "#483030",
@@ -67,7 +67,7 @@
                 14,
                 21,
                 15,
-                12
+                14
             ],
             "PeriodTimeouts": [
                 0,
@@ -79,27 +79,6 @@
         "LastPlays": [
             {
                 "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Aubrie",
-                    "LastName": "Breisblatt",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "34 Aubrie Breisblatt DEF. REBOUND (7 Reb, 3 Def)",
-                "Context": "",
-                "Id": "464+A890B269",
-                "Type": "DEF",
-                "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 0,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
                     "Team": "VisitingTeam",
                     "FirstName": "Lynzie",
                     "LastName": "Eggers",
@@ -107,26 +86,20 @@
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Terea",
-                        "LastName": "Hunt",
-                        "UniformNumber": "25",
-                        "Photo": null,
-                        "PersonId": ""
-                    }
-                ],
+                "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "11 Lynzie Eggers LAYUP MISS; 25 Terea Hunt BLOCK (2 Blk)",
+                "Narrative": "11 Lynzie Eggers LAYUP GOOD (25 Pt)",
                 "Context": "",
-                "Id": "463+EEDF9F84",
+                "Id": "463+6A70BF3F",
                 "Type": "LAYUP",
-                "Action": "MISS",
+                "Action": "GOOD",
                 "Period": 4,
-                "ClockSeconds": 0,
+                "ClockSeconds": 3,
                 "Coordinate": null,
-                "Score": null
+                "Score": {
+                    "HomeTeam": 69,
+                    "VisitingTeam": 64
+                }
             },
             {
                 "Player": {
@@ -158,11 +131,20 @@
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [],
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Terea",
+                        "LastName": "Hunt",
+                        "UniformNumber": "25",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
                 "Team": "VisitingTeam",
-                "Narrative": "20 Natalie O'Neill 3PTR MISS",
+                "Narrative": "20 Natalie O'Neill 3PTR MISS; 25 Terea Hunt BLOCK (2 Blk)",
                 "Context": "",
-                "Id": "460+D10B3388",
+                "Id": "460+E1C3DD85",
                 "Type": "3PTR",
                 "Action": "MISS",
                 "Period": 4,
@@ -193,6 +175,20 @@
                     "HomeTeam": 69,
                     "VisitingTeam": 62
                 }
+            },
+            {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "Neumann REBOUND",
+                "Context": "",
+                "Id": "458+A2B5019C",
+                "Type": "DEADB",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 16,
+                "Coordinate": null,
+                "Score": null
             }
         ]
     },
@@ -208,7 +204,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "23"
+                    "Value": "25"
                 },
                 {
                     "Player": {
@@ -462,7 +458,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "18.0"
+                    "Value": "21.0"
                 },
                 {
                     "Player": {
@@ -635,7 +631,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "7"
+                    "Value": "6"
                 }
             ],
             "Assists": [
@@ -854,7 +850,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "12.0"
+                    "Value": "11.0"
                 }
             ],
             "Usage Percentage": [
@@ -1199,16 +1195,16 @@
                             "Tppercentage": "0.0%",
                             "Ftma": "5-6",
                             "Ftp": "83.3%",
-                            "TotalRebounds": "7",
+                            "TotalRebounds": "6",
                             "OffensiveRebounds": "4",
-                            "DefensiveRebounds": "3",
+                            "DefensiveRebounds": "2",
                             "Assists": "2",
                             "Turnovers": "3",
                             "Blocks": "0",
                             "Steals": "1",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "12.0",
+                            "Efficiency": "11.0",
                             "UsagePercentage": "16.33",
                             "PointsPerMinute": ".273",
                             "Points": "9",
@@ -1350,9 +1346,9 @@
                     "Tppercentage": "33.3%",
                     "Ftma": "17-25",
                     "Ftp": "68.0%",
-                    "TotalRebounds": "37",
+                    "TotalRebounds": "36",
                     "OffensiveRebounds": "11",
-                    "DefensiveRebounds": "26",
+                    "DefensiveRebounds": "25",
                     "Ties": "3",
                     "Leads": "5",
                     "TimeWithLead": "9:06",
@@ -1779,9 +1775,9 @@
                         "Tppercentage": "25.0%",
                         "Ftma": "9-12",
                         "Ftp": "75.0%",
-                        "TotalRebounds": "12",
+                        "TotalRebounds": "11",
                         "OffensiveRebounds": "3",
-                        "DefensiveRebounds": "9",
+                        "DefensiveRebounds": "8",
                         "Ties": "1",
                         "Leads": "1",
                         "TimeWithLead": "8:06",
@@ -1972,8 +1968,8 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "39",
-                            "Fgam": "8-17",
-                            "ShootingPercentage": "47.1%",
+                            "Fgam": "9-17",
+                            "ShootingPercentage": "52.9%",
                             "Tpam": "1-1",
                             "Tppercentage": "100.0%",
                             "Ftma": "6-6",
@@ -1987,10 +1983,10 @@
                             "Steals": "1",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "18.0",
+                            "Efficiency": "21.0",
                             "UsagePercentage": "24.58",
-                            "PointsPerMinute": ".590",
-                            "Points": "23",
+                            "PointsPerMinute": ".641",
+                            "Points": "25",
                             "PersonId": ""
                         },
                         {
@@ -2284,9 +2280,9 @@
                     "AverageScoringPossession": "Avg Scoring Poss Length"
                 },
                 "Values": {
-                    "Points": "62",
-                    "Fgam": "24-65",
-                    "ShootingPercentage": "36.9%",
+                    "Points": "64",
+                    "Fgam": "25-65",
+                    "ShootingPercentage": "38.5%",
                     "Tpam": "4-12",
                     "Tppercentage": "33.3%",
                     "Ftma": "10-14",
@@ -2311,8 +2307,8 @@
                     "PointsOffFastBreak": "4",
                     "Steals": "6",
                     "PointsOffTurnovers": "10",
-                    "PointsInPaint": "32",
-                    "PointsOffSecondChance": "5",
+                    "PointsInPaint": "34",
+                    "PointsOffSecondChance": "7",
                     "PersonalFouls": "21",
                     "TechnicalFouls": "0",
                     "Possession": "0",
@@ -2713,9 +2709,9 @@
                         "AverageScoringPossession": "Avg Scoring Poss Length"
                     },
                     "Values": {
-                        "Points": "12",
-                        "Fgam": "4-19",
-                        "ShootingPercentage": "21.1%",
+                        "Points": "14",
+                        "Fgam": "5-19",
+                        "ShootingPercentage": "26.3%",
                         "Tpam": "0-5",
                         "Tppercentage": "0.0%",
                         "Ftma": "4-4",
@@ -2740,8 +2736,8 @@
                         "PointsOffFastBreak": "2",
                         "Steals": "2",
                         "PointsOffTurnovers": "2",
-                        "PointsInPaint": "6",
-                        "PointsOffSecondChance": "2",
+                        "PointsInPaint": "8",
+                        "PointsOffSecondChance": "4",
                         "PersonalFouls": "8",
                         "TechnicalFouls": "0",
                         "Possession": "0",
@@ -11364,11 +11360,20 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Terea",
+                    "LastName": "Hunt",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "VisitingTeam",
-            "Narrative": "20 Natalie O'Neill 3PTR MISS",
+            "Narrative": "20 Natalie O'Neill 3PTR MISS; 25 Terea Hunt BLOCK (2 Blk)",
             "Context": "",
-            "Id": "460+D10B3388",
+            "Id": "460+E1C3DD85",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -11406,47 +11411,20 @@
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Terea",
-                    "LastName": "Hunt",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Lynzie Eggers LAYUP MISS; 25 Terea Hunt BLOCK (2 Blk)",
-            "Context": "",
-            "Id": "463+EEDF9F84",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 0,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Aubrie",
-                "LastName": "Breisblatt",
-                "UniformNumber": "34",
-                "Photo": null,
-                "PersonId": ""
-            },
             "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "34 Aubrie Breisblatt DEF. REBOUND (7 Reb, 3 Def)",
+            "Team": "VisitingTeam",
+            "Narrative": "11 Lynzie Eggers LAYUP GOOD (25 Pt)",
             "Context": "",
-            "Id": "464+A890B269",
-            "Type": "DEF",
-            "Action": "REBOUND",
+            "Id": "463+6A70BF3F",
+            "Type": "LAYUP",
+            "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 0,
+            "ClockSeconds": 3,
             "Coordinate": null,
-            "Score": null
+            "Score": {
+                "HomeTeam": 69,
+                "VisitingTeam": 64
+            }
         }
     ]
 }

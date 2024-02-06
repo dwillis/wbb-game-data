@@ -9,18 +9,20 @@
         "StartTime": "2:00 PM",
         "EndTime": "",
         "NcaaGameId": "",
-        "Notes": [],
-        "Location": "Jim and John Vlogianitis Gym, Brockport, NY",
+        "Notes": [
+            "2023-24 Women's Basketball. Round: 0. SUNY Brockport vs Plattsburgh St.. Playe"
+        ],
+        "Location": "Brockport, NY",
         "GlobalSportShortname": null,
         "BannerMessage": null,
         "StadiumImage": null,
         "SiteImage": null,
         "ClientHostname": null,
-        "Officials": "",
+        "Officials": ", , ",
         "Attendance": 55,
         "PeriodsRegulation": 4,
-        "Period": 0,
-        "ClockSeconds": -1,
+        "Period": 4,
+        "ClockSeconds": 0,
         "Context": "",
         "Rules": {
             "PeriodMinutes": 10,
@@ -34,7 +36,7 @@
             "Id": "Brock",
             "Name": "SUNY Brockport",
             "Score": 44,
-            "CurrentRecord": "9-10,5-7 SUNYAC",
+            "CurrentRecord": "9-10, 5-7 SUNYAC",
             "NcaaSchoolCode": "",
             "Color": "#084D17",
             "TextColor": "#FFCD38",
@@ -57,7 +59,7 @@
             "Id": "Platt",
             "Name": "Plattsburgh St.",
             "Score": 52,
-            "CurrentRecord": "7-10,4-7 SUNYAC",
+            "CurrentRecord": "7-10, 4-7 SUNYAC",
             "NcaaSchoolCode": "",
             "Color": "#D02030",
             "TextColor": "#FEE01A",
@@ -70,9 +72,9 @@
                 16
             ],
             "PeriodTimeouts": [
-                0,
-                0,
                 1,
+                1,
+                2,
                 1
             ]
         },
@@ -114,58 +116,40 @@
             },
             {
                 "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
+                    "Team": "HomeTeam",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "11 Jaden Wilson FT GOOD (5 Pt)",
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Zairea",
+                        "LastName": "Hannah",
+                        "UniformNumber": "30",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "HomeTeam",
+                "Narrative": "05 Hali Lucia IN; 30 Zairea Hannah OUT",
                 "Context": "",
-                "Id": "535+B9D34565",
-                "Type": "FT",
-                "Action": "GOOD",
+                "Id": "536+92400CFD",
+                "Type": "SUBS",
+                "Action": "SUBS",
                 "Period": 4,
                 "ClockSeconds": 6,
                 "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 44,
-                    "VisitingTeam": 52
-                }
+                "Score": null
             },
             {
                 "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "11 Jaden Wilson FT GOOD (4 Pt)",
-                "Context": "",
-                "Id": "534+E3C3B47",
-                "Type": "FT",
-                "Action": "GOOD",
-                "Period": 4,
-                "ClockSeconds": 6,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 44,
-                    "VisitingTeam": 51
-                }
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Julia",
-                    "LastName": "Greek",
-                    "UniformNumber": "02",
+                    "FirstName": "Kathy",
+                    "LastName": "Peterson-Ross",
+                    "UniformNumber": "32",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -188,23 +172,47 @@
                     },
                     {
                         "Team": "VisitingTeam",
-                        "FirstName": "Kathy",
-                        "LastName": "Peterson-Ross",
-                        "UniformNumber": "32",
+                        "FirstName": "Julia",
+                        "LastName": "Greek",
+                        "UniformNumber": "02",
                         "Photo": null,
                         "PersonId": ""
                     }
                 ],
                 "Team": "VisitingTeam",
-                "Narrative": "02 Julia Greek OUT; 23 Imani Walcott IN; 11 Jaden Wilson OUT; 32 Kathy Peterson-Ross IN",
+                "Narrative": "32 Kathy Peterson-Ross IN; 23 Imani Walcott IN; 11 Jaden Wilson OUT; 02 Julia Greek OUT",
                 "Context": "",
-                "Id": "532+42C364DC",
+                "Id": "532+B6E10254",
                 "Type": "SUBS",
                 "Action": "SUBS",
                 "Period": 4,
                 "ClockSeconds": 6,
                 "Coordinate": null,
                 "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jaden",
+                    "LastName": "Wilson",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "11 Jaden Wilson FT GOOD (5 Pt)",
+                "Context": "",
+                "Id": "531+AA0B6991",
+                "Type": "FT",
+                "Action": "GOOD",
+                "Period": 4,
+                "ClockSeconds": 6,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 44,
+                    "VisitingTeam": 52
+                }
             }
         ]
     },
@@ -260,24 +268,24 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Payton",
-                        "LastName": "Couture",
-                        "UniformNumber": "33",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "10"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
                         "FirstName": "Imani",
                         "LastName": "Walcott",
                         "UniformNumber": "23",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "9"
+                    "Value": "11"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Payton",
+                        "LastName": "Couture",
+                        "UniformNumber": "33",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "8"
                 },
                 {
                     "Player": {
@@ -474,7 +482,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "33.0"
+                    "Value": "35.0"
                 },
                 {
                     "Player": {
@@ -490,17 +498,6 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Payton",
-                        "LastName": "Couture",
-                        "UniformNumber": "33",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "8.0"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
                         "FirstName": "Mya",
                         "LastName": "Smith",
                         "UniformNumber": "03",
@@ -508,9 +505,7 @@
                         "PersonId": ""
                     },
                     "Value": "7.0"
-                }
-            ],
-            "Usage Percentage": [
+                },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
@@ -520,18 +515,31 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "31.76"
+                    "Value": "6.0"
+                }
+            ],
+            "Usage Percentage": [
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Julia",
+                        "LastName": "Greek",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "43.56"
                 },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Mya",
-                        "LastName": "Smith",
-                        "UniformNumber": "03",
+                        "FirstName": "Payton",
+                        "LastName": "Couture",
+                        "UniformNumber": "33",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "25.31"
+                    "Value": "31.75"
                 },
                 {
                     "Player": {
@@ -542,18 +550,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "25.11"
+                    "Value": "23.01"
                 },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Julia",
-                        "LastName": "Greek",
-                        "UniformNumber": "02",
+                        "FirstName": "Mya",
+                        "LastName": "Smith",
+                        "UniformNumber": "03",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "20.84"
+                    "Value": "17.64"
                 }
             ]
         },
@@ -563,7 +571,7 @@
                     "Player": {
                         "Team": "HomeTeam",
                         "FirstName": "Stephanie",
-                        "LastName": "Jean-Baptiste",
+                        "LastName": "Jean-Bapti",
                         "UniformNumber": "01",
                         "Photo": null,
                         "PersonId": ""
@@ -631,7 +639,7 @@
                     "Player": {
                         "Team": "HomeTeam",
                         "FirstName": "Stephanie",
-                        "LastName": "Jean-Baptiste",
+                        "LastName": "Jean-Bapti",
                         "UniformNumber": "01",
                         "Photo": null,
                         "PersonId": ""
@@ -758,7 +766,7 @@
                     "Player": {
                         "Team": "HomeTeam",
                         "FirstName": "Stephanie",
-                        "LastName": "Jean-Baptiste",
+                        "LastName": "Jean-Bapti",
                         "UniformNumber": "01",
                         "Photo": null,
                         "PersonId": ""
@@ -890,18 +898,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "34.86"
+                    "Value": "39.59"
                 },
                 {
                     "Player": {
                         "Team": "HomeTeam",
                         "FirstName": "Stephanie",
-                        "LastName": "Jean-Baptiste",
+                        "LastName": "Jean-Bapti",
                         "UniformNumber": "01",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "28.90"
+                    "Value": "29.72"
                 },
                 {
                     "Player": {
@@ -912,7 +920,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.69"
+                    "Value": "24.68"
                 },
                 {
                     "Player": {
@@ -923,7 +931,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "18.57"
+                    "Value": "18.56"
                 }
             ]
         }
@@ -942,7 +950,7 @@
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Stephanie",
-                    "LastName": "Jean-Baptiste",
+                    "LastName": "Jean-Bapti",
                     "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
@@ -973,14 +981,6 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Madison",
-                    "LastName": "Misser",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Mallory",
                     "LastName": "Turner",
                     "UniformNumber": "13",
@@ -989,25 +989,9 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Shasha",
-                    "LastName": "Cooper",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Zoe",
                     "LastName": "Zutes",
                     "UniformNumber": "15",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Mackenzie",
-                    "LastName": "Higby",
-                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1088,10 +1072,10 @@
                     "Values": [
                         {
                             "Uni": "01",
-                            "Name": "S. JEAN-BAPTISTE",
-                            "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "36",
+                            "Name": "S. JEAN-BAPTI",
+                            "Position": "*",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "35",
                             "Fgam": "5-20",
                             "ShootingPercentage": "25.0%",
                             "Tpam": "0-6",
@@ -1108,8 +1092,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "0.0",
-                            "UsagePercentage": "28.90",
-                            "PointsPerMinute": ".333",
+                            "UsagePercentage": "29.72",
+                            "PointsPerMinute": ".343",
                             "Points": "12",
                             "PersonId": ""
                         },
@@ -1117,8 +1101,8 @@
                             "Uni": "05",
                             "Name": "H. LUCIA",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "25",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "28",
                             "Fgam": "1-3",
                             "ShootingPercentage": "33.3%",
                             "Tpam": "0-0",
@@ -1135,8 +1119,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "6.0",
-                            "UsagePercentage": "6.97",
-                            "PointsPerMinute": ".080",
+                            "UsagePercentage": "6.22",
+                            "PointsPerMinute": ".071",
                             "Points": "2",
                             "PersonId": ""
                         },
@@ -1144,7 +1128,7 @@
                             "Uni": "15",
                             "Name": "Z. ZUTES",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "36",
                             "Fgam": "1-5",
                             "ShootingPercentage": "20.0%",
@@ -1171,7 +1155,7 @@
                             "Uni": "24",
                             "Name": "A. LEE",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "32",
                             "Fgam": "3-9",
                             "ShootingPercentage": "33.3%",
@@ -1189,7 +1173,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "18.57",
+                            "UsagePercentage": "18.56",
                             "PointsPerMinute": ".344",
                             "Points": "11",
                             "PersonId": ""
@@ -1197,7 +1181,7 @@
                         {
                             "Uni": "30",
                             "Name": "Z. HANNAH",
-                            "Position": "",
+                            "Position": "*",
                             "CurrentlyInGame": "",
                             "Minutes": "30",
                             "Fgam": "4-12",
@@ -1216,7 +1200,7 @@
                             "PersonalFouls": "5",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "24.69",
+                            "UsagePercentage": "24.68",
                             "PointsPerMinute": ".267",
                             "Points": "8",
                             "PersonId": ""
@@ -1225,8 +1209,8 @@
                             "Uni": "03",
                             "Name": "M. BRINK",
                             "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "25",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "22",
                             "Fgam": "3-19",
                             "ShootingPercentage": "15.8%",
                             "Tpam": "0-4",
@@ -1243,8 +1227,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "-5.0",
-                            "UsagePercentage": "34.86",
-                            "PointsPerMinute": ".240",
+                            "UsagePercentage": "39.59",
+                            "PointsPerMinute": ".273",
                             "Points": "6",
                             "PersonId": ""
                         },
@@ -1387,8 +1371,8 @@
                     "TotalRebounds": "51",
                     "OffensiveRebounds": "20",
                     "DefensiveRebounds": "31",
-                    "Ties": "6",
-                    "Leads": "6",
+                    "Ties": "4",
+                    "Leads": "3",
                     "TimeWithLead": "1:26",
                     "PercentLead": "3.6%",
                     "LastLeadScore": "20-19",
@@ -1400,8 +1384,8 @@
                     "Turnovers": "15",
                     "PointsFromBench": "6",
                     "Blocks": "7",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "4",
+                    "PointsOnCourt": "36",
+                    "PointsOffFastBreak": "2",
                     "Steals": "7",
                     "PointsOffTurnovers": "14",
                     "PointsInPaint": "22",
@@ -1492,11 +1476,11 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "4-6",
                         "Ftp": "66.7%",
-                        "TotalRebounds": "15",
+                        "TotalRebounds": "13",
                         "OffensiveRebounds": "5",
-                        "DefensiveRebounds": "10",
-                        "Ties": "3",
-                        "Leads": "4",
+                        "DefensiveRebounds": "8",
+                        "Ties": "2",
+                        "Leads": "2",
                         "TimeWithLead": "0:35",
                         "PercentLead": "1.5%",
                         "LastLeadScore": "10-9",
@@ -1508,8 +1492,8 @@
                         "Turnovers": "4",
                         "PointsFromBench": "2",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "2",
+                        "PointsOnCourt": "36",
+                        "PointsOffFastBreak": "0",
                         "Steals": "0",
                         "PointsOffTurnovers": "6",
                         "PointsInPaint": "2",
@@ -1517,7 +1501,7 @@
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:195"
                     }
                 },
                 {
@@ -1599,11 +1583,11 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "4-4",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "14",
+                        "TotalRebounds": "12",
                         "OffensiveRebounds": "3",
-                        "DefensiveRebounds": "11",
-                        "Ties": "3",
-                        "Leads": "2",
+                        "DefensiveRebounds": "9",
+                        "Ties": "2",
+                        "Leads": "1",
                         "TimeWithLead": "0:51",
                         "PercentLead": "2.1%",
                         "LastLeadScore": "20-19",
@@ -1615,7 +1599,7 @@
                         "Turnovers": "3",
                         "PointsFromBench": "2",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "36",
                         "PointsOffFastBreak": "0",
                         "Steals": "0",
                         "PointsOffTurnovers": "0",
@@ -1624,7 +1608,7 @@
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:293"
                     }
                 },
                 {
@@ -1706,9 +1690,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "0-0",
                         "Ftp": "0.0%",
-                        "TotalRebounds": "11",
-                        "OffensiveRebounds": "4",
-                        "DefensiveRebounds": "7",
+                        "TotalRebounds": "8",
+                        "OffensiveRebounds": "3",
+                        "DefensiveRebounds": "5",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -1719,10 +1703,10 @@
                         "LargestLeadScores": "-",
                         "LargestLeadTime": "-",
                         "Assists": "1",
-                        "Turnovers": "4",
+                        "Turnovers": "3",
                         "PointsFromBench": "2",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "36",
                         "PointsOffFastBreak": "2",
                         "Steals": "3",
                         "PointsOffTurnovers": "4",
@@ -1731,7 +1715,7 @@
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:100"
                     }
                 },
                 {
@@ -1813,8 +1797,8 @@
                         "Tppercentage": "16.7%",
                         "Ftma": "1-1",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "11",
-                        "OffensiveRebounds": "8",
+                        "TotalRebounds": "8",
+                        "OffensiveRebounds": "5",
                         "DefensiveRebounds": "3",
                         "Ties": "0",
                         "Leads": "0",
@@ -1829,7 +1813,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "0",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "36",
                         "PointsOffFastBreak": "0",
                         "Steals": "4",
                         "PointsOffTurnovers": "4",
@@ -1838,7 +1822,7 @@
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:281"
                     }
                 }
             ]
@@ -1887,22 +1871,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Kortney",
-                    "LastName": "McCarthy",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kassidy",
-                    "LastName": "Flayter",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Jaden",
                     "LastName": "Wilson",
                     "UniformNumber": "11",
@@ -1911,33 +1879,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Ady",
-                    "LastName": "Darnold",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Felicia",
-                    "LastName": "Caarls",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Imani",
                     "LastName": "Walcott",
                     "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Ella",
-                    "LastName": "Franklin",
-                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1954,14 +1898,6 @@
                     "FirstName": "Payton",
                     "LastName": "Couture",
                     "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Lauren",
-                    "LastName": "LaFountain",
-                    "UniformNumber": "34",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -2036,8 +1972,8 @@
                             "Uni": "03",
                             "Name": "M. SMITH",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "23",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "33",
                             "Fgam": "2-9",
                             "ShootingPercentage": "22.2%",
                             "Tpam": "1-4",
@@ -2054,8 +1990,8 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "7.0",
-                            "UsagePercentage": "25.31",
-                            "PointsPerMinute": ".217",
+                            "UsagePercentage": "17.64",
+                            "PointsPerMinute": ".152",
                             "Points": "5",
                             "PersonId": ""
                         },
@@ -2063,8 +1999,8 @@
                             "Uni": "04",
                             "Name": "S. DEISZ",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "36",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "38",
                             "Fgam": "2-10",
                             "ShootingPercentage": "20.0%",
                             "Tpam": "1-6",
@@ -2081,8 +2017,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "17.52",
-                            "PointsPerMinute": ".139",
+                            "UsagePercentage": "16.59",
+                            "PointsPerMinute": ".132",
                             "Points": "5",
                             "PersonId": ""
                         },
@@ -2090,26 +2026,26 @@
                             "Uni": "23",
                             "Name": "I. WALCOTT",
                             "Position": "F",
-                            "CurrentlyInGame": "",
-                            "Minutes": "33",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "36",
                             "Fgam": "8-13",
                             "ShootingPercentage": "61.5%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "5-7",
                             "Ftp": "71.4%",
-                            "TotalRebounds": "9",
+                            "TotalRebounds": "11",
                             "OffensiveRebounds": "5",
-                            "DefensiveRebounds": "4",
+                            "DefensiveRebounds": "6",
                             "Assists": "0",
                             "Turnovers": "1",
                             "Blocks": "11",
                             "Steals": "0",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "33.0",
-                            "UsagePercentage": "25.11",
-                            "PointsPerMinute": ".636",
+                            "Efficiency": "35.0",
+                            "UsagePercentage": "23.01",
+                            "PointsPerMinute": ".583",
                             "Points": "21",
                             "PersonId": ""
                         },
@@ -2117,8 +2053,8 @@
                             "Uni": "32",
                             "Name": "K. PETERSON-ROSS",
                             "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "25",
+                            "CurrentlyInGame": "*",
+                            "Minutes": "26",
                             "Fgam": "0-2",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-2",
@@ -2135,7 +2071,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "1.0",
-                            "UsagePercentage": "7.76",
+                            "UsagePercentage": "7.46",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2144,7 +2080,7 @@
                             "Uni": "33",
                             "Name": "P. COUTURE",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "30",
                             "Fgam": "2-12",
                             "ShootingPercentage": "16.7%",
@@ -2152,17 +2088,17 @@
                             "Tppercentage": "33.3%",
                             "Ftma": "5-6",
                             "Ftp": "83.3%",
-                            "TotalRebounds": "10",
+                            "TotalRebounds": "8",
                             "OffensiveRebounds": "2",
-                            "DefensiveRebounds": "8",
+                            "DefensiveRebounds": "6",
                             "Assists": "1",
                             "Turnovers": "5",
                             "Blocks": "2",
                             "Steals": "1",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "8.0",
-                            "UsagePercentage": "31.76",
+                            "Efficiency": "6.0",
+                            "UsagePercentage": "31.75",
                             "PointsPerMinute": ".333",
                             "Points": "10",
                             "PersonId": ""
@@ -2170,7 +2106,7 @@
                         {
                             "Uni": "01",
                             "Name": "R. SCULCO",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "2",
                             "Fgam": "0-0",
@@ -2197,9 +2133,9 @@
                         {
                             "Uni": "02",
                             "Name": "J. GREEK",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "23",
+                            "Minutes": "11",
                             "Fgam": "2-9",
                             "ShootingPercentage": "22.2%",
                             "Tpam": "1-6",
@@ -2216,15 +2152,15 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "0.0",
-                            "UsagePercentage": "20.84",
-                            "PointsPerMinute": ".261",
+                            "UsagePercentage": "43.56",
+                            "PointsPerMinute": ".545",
                             "Points": "6",
                             "PersonId": ""
                         },
                         {
                             "Uni": "11",
                             "Name": "J. WILSON",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "21",
                             "Fgam": "1-2",
@@ -2251,9 +2187,9 @@
                         {
                             "Uni": "44",
                             "Name": "B. BROUSSEAU",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "7",
+                            "Minutes": "4",
                             "Fgam": "0-1",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2360,9 +2296,9 @@
                     "TotalRebounds": "47",
                     "OffensiveRebounds": "13",
                     "DefensiveRebounds": "34",
-                    "Ties": "6",
-                    "Leads": "6",
-                    "TimeWithLead": "36:51",
+                    "Ties": "2",
+                    "Leads": "3",
+                    "TimeWithLead": "36:50",
                     "PercentLead": "92.1%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
@@ -2373,10 +2309,10 @@
                     "Turnovers": "17",
                     "PointsFromBench": "11",
                     "Blocks": "13",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "9",
+                    "PointsOnCourt": "41",
+                    "PointsOffFastBreak": "6",
                     "Steals": "8",
-                    "PointsOffTurnovers": "11",
+                    "PointsOffTurnovers": "14",
                     "PointsInPaint": "20",
                     "PointsOffSecondChance": "15",
                     "PersonalFouls": "16",
@@ -2465,11 +2401,11 @@
                         "Tppercentage": "33.3%",
                         "Ftma": "2-2",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "11",
+                        "TotalRebounds": "10",
                         "OffensiveRebounds": "1",
-                        "DefensiveRebounds": "10",
-                        "Ties": "3",
-                        "Leads": "4",
+                        "DefensiveRebounds": "9",
+                        "Ties": "1",
+                        "Leads": "2",
                         "TimeWithLead": "9:01",
                         "PercentLead": "22.5%",
                         "LastLeadScore": "",
@@ -2481,7 +2417,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "3",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "41",
                         "PointsOffFastBreak": "2",
                         "Steals": "2",
                         "PointsOffTurnovers": "3",
@@ -2490,7 +2426,7 @@
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:359"
                     }
                 },
                 {
@@ -2572,11 +2508,11 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "3-4",
                         "Ftp": "75.0%",
-                        "TotalRebounds": "10",
-                        "OffensiveRebounds": "3",
+                        "TotalRebounds": "9",
+                        "OffensiveRebounds": "2",
                         "DefensiveRebounds": "7",
-                        "Ties": "3",
-                        "Leads": "2",
+                        "Ties": "1",
+                        "Leads": "1",
                         "TimeWithLead": "7:49",
                         "PercentLead": "19.5%",
                         "LastLeadScore": "",
@@ -2588,7 +2524,7 @@
                         "Turnovers": "0",
                         "PointsFromBench": "2",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "41",
                         "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "0",
@@ -2597,7 +2533,7 @@
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:275"
                     }
                 },
                 {
@@ -2679,9 +2615,9 @@
                         "Tppercentage": "14.3%",
                         "Ftma": "4-4",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "13",
+                        "TotalRebounds": "12",
                         "OffensiveRebounds": "4",
-                        "DefensiveRebounds": "9",
+                        "DefensiveRebounds": "8",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
@@ -2695,7 +2631,7 @@
                         "Turnovers": "5",
                         "PointsFromBench": "3",
                         "Blocks": "3",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "41",
                         "PointsOffFastBreak": "4",
                         "Steals": "2",
                         "PointsOffTurnovers": "2",
@@ -2704,7 +2640,7 @@
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:341"
                     }
                 },
                 {
@@ -2786,8 +2722,8 @@
                         "Tppercentage": "40.0%",
                         "Ftma": "4-7",
                         "Ftp": "57.1%",
-                        "TotalRebounds": "13",
-                        "OffensiveRebounds": "5",
+                        "TotalRebounds": "11",
+                        "OffensiveRebounds": "3",
                         "DefensiveRebounds": "8",
                         "Ties": "0",
                         "Leads": "0",
@@ -2802,16 +2738,16 @@
                         "Turnovers": "8",
                         "PointsFromBench": "3",
                         "Blocks": "7",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "3",
+                        "PointsOnCourt": "41",
+                        "PointsOffFastBreak": "0",
                         "Steals": "3",
-                        "PointsOffTurnovers": "6",
+                        "PointsOffTurnovers": "9",
                         "PointsInPaint": "6",
                         "PointsOffSecondChance": "4",
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:161"
                     }
                 }
             ]
@@ -3107,26 +3043,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Anna",
-                "LastName": "Lee",
-                "UniformNumber": "24",
+                "FirstName": "Mandy",
+                "LastName": "Brink",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
+                    "FirstName": "Anna",
+                    "LastName": "Lee",
+                    "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "24 Anna Lee OUT; 03 Mandy Brink IN",
+            "Narrative": "03 Mandy Brink IN; 24 Anna Lee OUT",
             "Context": "",
-            "Id": "14+9C39C0D9",
+            "Id": "14+72CC3783",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3138,16 +3074,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER MISS",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER MISS",
             "Context": "",
-            "Id": "16+CE8CB957",
+            "Id": "16+45B2C06F",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 1,
@@ -3256,26 +3192,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Zairea",
-                "LastName": "Hannah",
-                "UniformNumber": "30",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "FirstName": "Zairea",
+                    "LastName": "Hannah",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "30 Zairea Hannah OUT; 04 Kelsey Morgans IN",
+            "Narrative": "04 Kelsey Morgans IN; 30 Zairea Hannah OUT",
             "Context": "",
-            "Id": "22+3A11F952",
+            "Id": "22+C08D5792",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3308,16 +3244,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste DEF. REBOUND (1 Reb, 1 Def)",
+            "Narrative": "01 Stephanie Jean-Bapti DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "25+B7038114",
+            "Id": "25+B4FC35B0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3329,16 +3265,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER MISS",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER MISS",
             "Context": "",
-            "Id": "26+25D8D08E",
+            "Id": "26+AEE6A9B6",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 1,
@@ -3493,17 +3429,17 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Payton",
-                "LastName": "Couture",
-                "UniformNumber": "33",
+                "FirstName": "Imani",
+                "LastName": "Walcott",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (1 Reb, 1 Def)",
+            "Narrative": "23 Imani Walcott DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "35+DFFD1547",
+            "Id": "35+71DEC3F6",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 1,
@@ -3558,21 +3494,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
-                "UniformNumber": "01",
+                "FirstName": "Zairea",
+                "LastName": "Hannah",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Anna",
@@ -3583,17 +3511,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
+                    "FirstName": "Zoe",
+                    "LastName": "Zutes",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Stephanie",
+                    "LastName": "Jean-Bapti",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste OUT; 15 Zoe Zutes OUT; 24 Anna Lee IN; 30 Zairea Hannah IN",
+            "Narrative": "30 Zairea Hannah IN; 24 Anna Lee IN; 15 Zoe Zutes OUT; 01 Stephanie Jean-Bapti OUT",
             "Context": "",
-            "Id": "39+70D9AC4",
+            "Id": "39+7BD1C006",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3624,52 +3560,6 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mya",
-                "LastName": "Smith",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kathy",
-                    "LastName": "Peterson-Ross",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Julia",
-                    "LastName": "Greek",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "03 Mya Smith OUT; 32 Kathy Peterson-Ross OUT; 02 Julia Greek IN; 11 Jaden Wilson IN",
-            "Context": "",
-            "Id": "44+88B66C74",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 347,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Anna",
                 "LastName": "Lee",
@@ -3681,7 +3571,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Anna Lee FT GOOD (3 Pt)",
             "Context": "",
-            "Id": "48+41C739DE",
+            "Id": "44+29E76332",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -3705,9 +3595,55 @@
             "Team": "HomeTeam",
             "Narrative": "24 Anna Lee FT MISS",
             "Context": "",
-            "Id": "49+B67A3E00",
+            "Id": "45+C09428C4",
             "Type": "FT",
             "Action": "MISS",
+            "Period": 1,
+            "ClockSeconds": 347,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jaden",
+                "LastName": "Wilson",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Julia",
+                    "LastName": "Greek",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kathy",
+                    "LastName": "Peterson-Ross",
+                    "UniformNumber": "32",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Mya",
+                    "LastName": "Smith",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "11 Jaden Wilson IN; 02 Julia Greek IN; 32 Kathy Peterson-Ross OUT; 03 Mya Smith OUT",
+            "Context": "",
+            "Id": "46+9043119A",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 1,
             "ClockSeconds": 347,
             "Coordinate": null,
@@ -3841,22 +3777,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "Team": "VisitingTeam",
+                "FirstName": "Bri",
+                "LastName": "Brousseau",
+                "UniformNumber": "44",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Imani",
+                    "LastName": "Walcott",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "44 Bri Brousseau IN; 23 Imani Walcott OUT",
+            "Context": "",
+            "Id": "56+945DC3EE",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 303,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Zoe",
+                "LastName": "Zutes",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Mallory",
@@ -3867,47 +3825,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 04 Kelsey Morgans OUT; 13 Mallory Turner IN; 15 Zoe Zutes IN",
+            "Narrative": "15 Zoe Zutes IN; 13 Mallory Turner IN; 04 Kelsey Morgans OUT; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "56+C70E2AB3",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 303,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Imani",
-                "LastName": "Walcott",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Brousseau",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OUT; 44 Bri Brousseau IN",
-            "Context": "",
-            "Id": "60+52269DBA",
+            "Id": "58+151C4E5",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3991,10 +3927,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
+            "Narrative": "Plattsburgh St. TIMEOUT 20 Sec. (1st TO, 1st 20)",
             "Context": "",
-            "Id": "66+BFDC5D5A",
-            "Type": "MEDIA",
+            "Id": "66+5F5DEC06",
+            "Type": "20SEC",
             "Action": "TIMEOUT",
             "Period": 1,
             "ClockSeconds": 283,
@@ -4004,26 +3940,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Hali",
-                "LastName": "Lucia",
-                "UniformNumber": "05",
+                "FirstName": "Stephanie",
+                "LastName": "Jean-Bapti",
+                "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Stephanie",
-                    "LastName": "Jean-Baptiste",
-                    "UniformNumber": "01",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Hali Lucia OUT; 01 Stephanie Jean-Baptiste IN",
+            "Narrative": "01 Stephanie Jean-Bapti IN; 05 Hali Lucia OUT",
             "Context": "",
-            "Id": "67+367B6EC9",
+            "Id": "67+76D40373",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4035,16 +3971,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER GOOD (2 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER GOOD (2 Pt)",
             "Context": "",
-            "Id": "69+BD896C4F",
+            "Id": "69+47338A8B",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 1,
@@ -4163,66 +4099,6 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mallory",
-                "LastName": "Turner",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "13 Mallory Turner OUT; 05 Hali Lucia IN",
-            "Context": "",
-            "Id": "75+7853B9F1",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 227,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Payton",
-                "LastName": "Couture",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kathy",
-                    "LastName": "Peterson-Ross",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture OUT; 32 Kathy Peterson-Ross IN",
-            "Context": "",
-            "Id": "77+595041AE",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 227,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
                 "FirstName": "Anna",
                 "LastName": "Lee",
                 "UniformNumber": "24",
@@ -4233,7 +4109,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Anna Lee FT MISS",
             "Context": "",
-            "Id": "79+41BCEC76",
+            "Id": "75+52326D8A",
             "Type": "FT",
             "Action": "MISS",
             "Period": 1,
@@ -4247,7 +4123,7 @@
             "Team": "HomeTeam",
             "Narrative": "SUNY Brockport REBOUND",
             "Context": "",
-            "Id": "80+A69675CF",
+            "Id": "76+DFF6D653",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 1,
@@ -4268,7 +4144,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Anna Lee FT GOOD (4 Pt)",
             "Context": "",
-            "Id": "81+CA91CFC8",
+            "Id": "77+BF0E9D5C",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -4278,6 +4154,66 @@
                 "HomeTeam": 6,
                 "VisitingTeam": 7
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Kathy",
+                "LastName": "Peterson-Ross",
+                "UniformNumber": "32",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Payton",
+                    "LastName": "Couture",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "32 Kathy Peterson-Ross IN; 33 Payton Couture OUT",
+            "Context": "",
+            "Id": "78+23C6FC2B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 227,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Hali",
+                "LastName": "Lucia",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mallory",
+                    "LastName": "Turner",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "05 Hali Lucia IN; 13 Mallory Turner OUT",
+            "Context": "",
+            "Id": "80+29B5FBB6",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 227,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -4387,26 +4323,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Bri",
-                "LastName": "Brousseau",
-                "UniformNumber": "44",
+                "FirstName": "Imani",
+                "LastName": "Walcott",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Imani",
-                    "LastName": "Walcott",
-                    "UniformNumber": "23",
+                    "FirstName": "Bri",
+                    "LastName": "Brousseau",
+                    "UniformNumber": "44",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "44 Bri Brousseau OUT; 23 Imani Walcott IN",
+            "Narrative": "23 Imani Walcott IN; 44 Bri Brousseau OUT",
             "Context": "",
-            "Id": "87+BF60B6C9",
+            "Id": "87+15192009",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4586,16 +4522,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste 3PTR MISS",
+            "Narrative": "01 Stephanie Jean-Bapti 3PTR MISS",
             "Context": "",
-            "Id": "97+C88A817E",
+            "Id": "97+F51CC75A",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 1,
@@ -4647,22 +4583,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Hali",
-                "LastName": "Lucia",
-                "UniformNumber": "05",
+                "Team": "VisitingTeam",
+                "FirstName": "Payton",
+                "LastName": "Couture",
+                "UniformNumber": "33",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Selma",
+                    "LastName": "Deisz",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "33 Payton Couture IN; 04 Selma Deisz OUT",
+            "Context": "",
+            "Id": "100+4BC844CB",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 116,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Mandy",
@@ -4673,47 +4631,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "FirstName": "Zairea",
+                    "LastName": "Hannah",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Hali Lucia OUT; 30 Zairea Hannah OUT; 03 Mandy Brink IN; 04 Kelsey Morgans IN",
+            "Narrative": "04 Kelsey Morgans IN; 03 Mandy Brink IN; 30 Zairea Hannah OUT; 05 Hali Lucia OUT",
             "Context": "",
-            "Id": "100+777B6619",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 116,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Selma",
-                "LastName": "Deisz",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Payton",
-                    "LastName": "Couture",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Selma Deisz OUT; 33 Payton Couture IN",
-            "Context": "",
-            "Id": "104+496496E7",
+            "Id": "102+EBCE26FF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4852,26 +4788,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "FirstName": "Hali",
+                "LastName": "Lucia",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 05 Hali Lucia IN",
+            "Narrative": "05 Hali Lucia IN; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "112+8682CB8A",
+            "Id": "112+BD350B6A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5007,36 +4943,6 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Imani",
-                "LastName": "Walcott",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Brousseau",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OUT; 44 Bri Brousseau IN; 44 Bri Brousseau OUT; 23 Imani Walcott IN; 23 Imani Walcott OUT; 44 Bri Brousseau IN",
-            "Context": "",
-            "Id": "120+CB38E2EA",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 31,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Anna",
                 "LastName": "Lee",
@@ -5048,7 +4954,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Anna Lee FT GOOD (5 Pt)",
             "Context": "",
-            "Id": "122+8B59ED36",
+            "Id": "120+932A435C",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -5072,7 +4978,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Anna Lee FT GOOD (6 Pt)",
             "Context": "",
-            "Id": "123+BF00074",
+            "Id": "121+CF8B4AE",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -5082,6 +4988,36 @@
                 "HomeTeam": 10,
                 "VisitingTeam": 9
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Bri",
+                "LastName": "Brousseau",
+                "UniformNumber": "44",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Imani",
+                    "LastName": "Walcott",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "44 Bri Brousseau IN; 23 Imani Walcott IN; 44 Bri Brousseau IN; 23 Imani Walcott OUT; 44 Bri Brousseau OUT; 23 Imani Walcott OUT",
+            "Context": "",
+            "Id": "122+DBED8BA0",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -5160,27 +5096,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
+                "Team": "VisitingTeam",
+                "FirstName": "Selma",
+                "LastName": "Deisz",
                 "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jaden",
+                    "LastName": "Wilson",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 30 Zairea Hannah IN",
+            "Team": "VisitingTeam",
+            "Narrative": "04 Selma Deisz IN; 11 Jaden Wilson OUT",
             "Context": "",
-            "Id": "132+CBAE614C",
+            "Id": "132+9D05AF0A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5190,27 +5126,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jaden",
-                "LastName": "Wilson",
-                "UniformNumber": "11",
+                "Team": "HomeTeam",
+                "FirstName": "Zairea",
+                "LastName": "Hannah",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Selma",
-                    "LastName": "Deisz",
+                    "Team": "HomeTeam",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
                     "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Jaden Wilson OUT; 04 Selma Deisz IN",
+            "Team": "HomeTeam",
+            "Narrative": "30 Zairea Hannah IN; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "134+5571AE04",
+            "Id": "134+D5A7FFD6",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5322,26 +5258,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Kathy",
-                "LastName": "Peterson-Ross",
-                "UniformNumber": "32",
+                "FirstName": "Jaden",
+                "LastName": "Wilson",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
+                    "FirstName": "Kathy",
+                    "LastName": "Peterson-Ross",
+                    "UniformNumber": "32",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "32 Kathy Peterson-Ross OUT; 11 Jaden Wilson IN",
+            "Narrative": "11 Jaden Wilson IN; 32 Kathy Peterson-Ross OUT",
             "Context": "",
-            "Id": "141+7436F1AB",
+            "Id": "141+D8F0E02B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5481,21 +5417,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Hali",
-                "LastName": "Lucia",
-                "UniformNumber": "05",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Mandy",
@@ -5506,17 +5434,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "FirstName": "Anna",
+                    "LastName": "Lee",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Hali Lucia OUT; 24 Anna Lee OUT; 03 Mandy Brink IN; 04 Kelsey Morgans IN",
+            "Narrative": "04 Kelsey Morgans IN; 03 Mandy Brink IN; 24 Anna Lee OUT; 05 Hali Lucia OUT",
             "Context": "",
-            "Id": "149+3790FA15",
+            "Id": "149+42BAE949",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5648,80 +5584,18 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jaden",
-                "LastName": "Wilson",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Payton",
-                    "LastName": "Couture",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Brousseau",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Rosie",
-                    "LastName": "Sculco",
-                    "UniformNumber": "01",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Imani",
-                    "LastName": "Walcott",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kathy",
-                    "LastName": "Peterson-Ross",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Jaden Wilson OUT; 33 Payton Couture OUT; 44 Bri Brousseau OUT; 01 Rosie Sculco IN; 23 Imani Walcott IN; 32 Kathy Peterson-Ross IN",
-            "Context": "",
-            "Id": "159+E2E836AB",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 416,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste FT GOOD (3 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti FT GOOD (3 Pt)",
             "Context": "",
-            "Id": "165+2EA4CA16",
+            "Id": "159+BDE918EC",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -5736,16 +5610,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste FT GOOD (4 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti FT GOOD (4 Pt)",
             "Context": "",
-            "Id": "166+369BC698",
+            "Id": "160+95C719EC",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -5755,6 +5629,68 @@
                 "HomeTeam": 14,
                 "VisitingTeam": 16
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Kathy",
+                "LastName": "Peterson-Ross",
+                "UniformNumber": "32",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Imani",
+                    "LastName": "Walcott",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Rosie",
+                    "LastName": "Sculco",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Bri",
+                    "LastName": "Brousseau",
+                    "UniformNumber": "44",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Payton",
+                    "LastName": "Couture",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jaden",
+                    "LastName": "Wilson",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "32 Kathy Peterson-Ross IN; 23 Imani Walcott IN; 01 Rosie Sculco IN; 44 Bri Brousseau OUT; 33 Payton Couture OUT; 11 Jaden Wilson OUT",
+            "Context": "",
+            "Id": "161+FA055D51",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 416,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -5950,9 +5886,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott DEF. REBOUND (2 Reb, 2 Def)",
+            "Narrative": "23 Imani Walcott DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "176+A9B98B09",
+            "Id": "176+71E6F3",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6004,27 +5940,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "Team": "VisitingTeam",
+                "FirstName": "Payton",
+                "LastName": "Couture",
+                "UniformNumber": "33",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Rosie",
+                    "LastName": "Sculco",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 24 Anna Lee IN",
+            "Team": "VisitingTeam",
+            "Narrative": "33 Payton Couture IN; 01 Rosie Sculco OUT",
             "Context": "",
-            "Id": "179+A12BE057",
+            "Id": "179+7D1A5CBB",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6034,27 +5970,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Rosie",
-                "LastName": "Sculco",
-                "UniformNumber": "01",
+                "Team": "HomeTeam",
+                "FirstName": "Anna",
+                "LastName": "Lee",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Payton",
-                    "LastName": "Couture",
-                    "UniformNumber": "33",
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "01 Rosie Sculco OUT; 33 Payton Couture IN",
+            "Team": "HomeTeam",
+            "Narrative": "24 Anna Lee IN; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "181+DE88F7AD",
+            "Id": "181+DA1759A9",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6066,16 +6002,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste TURNOVER (1 TO)",
+            "Narrative": "01 Stephanie Jean-Bapti TURNOVER (1 TO)",
             "Context": "",
-            "Id": "183+A406C357",
+            "Id": "183+268B4595",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -6152,10 +6088,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
+            "Narrative": "Plattsburgh St. TIMEOUT 20 Sec. (1st TO, 2nd 20)",
             "Context": "",
-            "Id": "188+D316283",
-            "Type": "MEDIA",
+            "Id": "188+48B6E6A5",
+            "Type": "20SEC",
             "Action": "TIMEOUT",
             "Period": 2,
             "ClockSeconds": 283,
@@ -6165,26 +6101,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
-                "UniformNumber": "01",
+                "FirstName": "Hali",
+                "LastName": "Lucia",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
+                    "FirstName": "Stephanie",
+                    "LastName": "Jean-Bapti",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste OUT; 05 Hali Lucia IN",
+            "Narrative": "05 Hali Lucia IN; 01 Stephanie Jean-Bapti OUT",
             "Context": "",
-            "Id": "189+380C5C51",
+            "Id": "189+F7861FC3",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6296,9 +6232,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (2 Reb, 2 Def)",
+            "Narrative": "33 Payton Couture DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "196+E11D75E1",
+            "Id": "196+579ECC89",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6330,13 +6266,21 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
+                "FirstName": "Mandy",
+                "LastName": "Brink",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Stephanie",
+                    "LastName": "Jean-Bapti",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Anna",
@@ -6347,25 +6291,17 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Stephanie",
-                    "LastName": "Jean-Baptiste",
-                    "UniformNumber": "01",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 24 Anna Lee OUT; 01 Stephanie Jean-Baptiste IN; 03 Mandy Brink IN",
+            "Narrative": "03 Mandy Brink IN; 01 Stephanie Jean-Bapti IN; 24 Anna Lee OUT; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "198+AA54CED1",
+            "Id": "198+A73970CF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6397,17 +6333,17 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Payton",
-                "LastName": "Couture",
-                "UniformNumber": "33",
+                "FirstName": "Imani",
+                "LastName": "Walcott",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (3 Reb, 3 Def)",
+            "Narrative": "23 Imani Walcott DEF. REBOUND (4 Reb, 4 Def)",
             "Context": "",
-            "Id": "203+D4BFB10C",
+            "Id": "203+BAB038C1",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6536,16 +6472,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste 3PTR MISS",
+            "Narrative": "01 Stephanie Jean-Bapti 3PTR MISS",
             "Context": "",
-            "Id": "210+FD94FB0E",
+            "Id": "210+C002BD2A",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -6564,9 +6500,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (4 Reb, 4 Def)",
+            "Narrative": "33 Payton Couture DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "211+64A71A23",
+            "Id": "211+3560BD77",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6640,36 +6576,6 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Zairea",
-                "LastName": "Hannah",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Zairea Hannah OUT; 24 Anna Lee IN",
-            "Context": "",
-            "Id": "215+3BA3E505",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 86,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
                 "FirstName": "Zoe",
                 "LastName": "Zutes",
                 "UniformNumber": "15",
@@ -6680,7 +6586,7 @@
             "Team": "HomeTeam",
             "Narrative": "15 Zoe Zutes FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "217+E86C4C6",
+            "Id": "215+F7F7D170",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -6704,7 +6610,7 @@
             "Team": "HomeTeam",
             "Narrative": "15 Zoe Zutes FT GOOD (2 Pt)",
             "Context": "",
-            "Id": "218+3DCF114",
+            "Id": "216+A07D3CE",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -6714,6 +6620,36 @@
                 "HomeTeam": 20,
                 "VisitingTeam": 18
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Anna",
+                "LastName": "Lee",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Zairea",
+                    "LastName": "Hannah",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Anna Lee IN; 30 Zairea Hannah OUT",
+            "Context": "",
+            "Id": "217+151695B3",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 86,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -6827,16 +6763,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste OFF. REBOUND (2 Reb, 1 Off)",
+            "Narrative": "01 Stephanie Jean-Bapti OFF. REBOUND (2 Reb, 1 Off)",
             "Context": "",
-            "Id": "224+29D865B3",
+            "Id": "224+30358321",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6848,16 +6784,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste LAYUP MISS",
+            "Narrative": "01 Stephanie Jean-Bapti LAYUP MISS",
             "Context": "",
-            "Id": "225+FEB51A41",
+            "Id": "225+F3705AD1",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -6876,9 +6812,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (5 Reb, 5 Def)",
+            "Narrative": "33 Payton Couture DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "226+3DDF654C",
+            "Id": "226+33381E00",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6918,9 +6854,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OFF. REBOUND (3 Reb, 1 Off)",
+            "Narrative": "23 Imani Walcott OFF. REBOUND (5 Reb, 1 Off)",
             "Context": "",
-            "Id": "228+6556EF6C",
+            "Id": "228+D56B2F0E",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6951,36 +6887,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Zoe",
-                "LastName": "Zutes",
-                "UniformNumber": "15",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "15 Zoe Zutes OUT; 30 Zairea Hannah IN",
-            "Context": "",
-            "Id": "230+9B86CD54",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 35,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Imani",
                 "LastName": "Walcott",
@@ -6992,7 +6898,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Imani Walcott FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "232+693BE56",
+            "Id": "230+7CCC9028",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -7016,7 +6922,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Imani Walcott FT GOOD (8 Pt)",
             "Context": "",
-            "Id": "233+5BFB988",
+            "Id": "231+7072BDBE",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -7026,6 +6932,36 @@
                 "HomeTeam": 20,
                 "VisitingTeam": 21
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Zairea",
+                "LastName": "Hannah",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Zoe",
+                    "LastName": "Zutes",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "30 Zairea Hannah IN; 15 Zoe Zutes OUT",
+            "Context": "",
+            "Id": "232+56B04D5A",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 35,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -7080,9 +7016,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OFF. REBOUND (4 Reb, 2 Off)",
+            "Narrative": "23 Imani Walcott OFF. REBOUND (6 Reb, 2 Off)",
             "Context": "",
-            "Id": "236+5F020280",
+            "Id": "236+77A7B156",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -7115,16 +7051,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste DEF. REBOUND (3 Reb, 2 Def)",
+            "Narrative": "01 Stephanie Jean-Bapti DEF. REBOUND (3 Reb, 2 Def)",
             "Context": "",
-            "Id": "238+593F9C82",
+            "Id": "238+22417A08",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -7136,16 +7072,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste 3PTR MISS",
+            "Narrative": "01 Stephanie Jean-Bapti 3PTR MISS",
             "Context": "",
-            "Id": "239+C97899CE",
+            "Id": "239+F4EEDFEA",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -7169,27 +7105,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
+                "Team": "VisitingTeam",
+                "FirstName": "Mya",
+                "LastName": "Smith",
                 "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Julia",
+                    "LastName": "Greek",
+                    "UniformNumber": "02",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 15 Zoe Zutes IN",
+            "Team": "VisitingTeam",
+            "Narrative": "03 Mya Smith IN; 02 Julia Greek OUT",
             "Context": "",
-            "Id": "241+44766334",
+            "Id": "241+FC7FDB9B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7199,27 +7135,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Julia",
-                "LastName": "Greek",
-                "UniformNumber": "02",
+                "Team": "HomeTeam",
+                "FirstName": "Zoe",
+                "LastName": "Zutes",
+                "UniformNumber": "15",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mya",
-                    "LastName": "Smith",
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
                     "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Julia Greek OUT; 03 Mya Smith IN",
+            "Team": "HomeTeam",
+            "Narrative": "15 Zoe Zutes IN; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "243+119D8D6D",
+            "Id": "243+16916682",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7294,9 +7230,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott DEF. REBOUND (5 Reb, 3 Def)",
+            "Narrative": "23 Imani Walcott DEF. REBOUND (7 Reb, 5 Def)",
             "Context": "",
-            "Id": "248+745D011",
+            "Id": "248+27C527E1",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7329,7 +7265,7 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
@@ -7345,9 +7281,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste LAYUP MISS; 23 Imani Walcott BLOCK (3 Blk)",
+            "Narrative": "01 Stephanie Jean-Bapti LAYUP MISS; 23 Imani Walcott BLOCK (3 Blk)",
             "Context": "",
-            "Id": "250+CF24E2C1",
+            "Id": "250+51C4E46D",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -7428,26 +7364,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
-                "UniformNumber": "01",
+                "FirstName": "Mandy",
+                "LastName": "Brink",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
+                    "FirstName": "Stephanie",
+                    "LastName": "Jean-Bapti",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste OUT; 03 Mandy Brink IN",
+            "Narrative": "03 Mandy Brink IN; 01 Stephanie Jean-Bapti OUT",
             "Context": "",
-            "Id": "256+5EB001B6",
+            "Id": "256+D38D62F4",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7570,26 +7506,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Zairea",
-                "LastName": "Hannah",
-                "UniformNumber": "30",
+                "FirstName": "Mallory",
+                "LastName": "Turner",
+                "UniformNumber": "13",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mallory",
-                    "LastName": "Turner",
-                    "UniformNumber": "13",
+                    "FirstName": "Zairea",
+                    "LastName": "Hannah",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "30 Zairea Hannah OUT; 13 Mallory Turner IN",
+            "Narrative": "13 Mallory Turner IN; 30 Zairea Hannah OUT",
             "Context": "",
-            "Id": "264+125F8036",
+            "Id": "264+83F7C276",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7896,18 +7832,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Hali",
-                "LastName": "Lucia",
-                "UniformNumber": "05",
+                "FirstName": "Zairea",
+                "LastName": "Hannah",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Stephanie",
+                    "LastName": "Jean-Bapti",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -7921,33 +7865,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Stephanie",
-                    "LastName": "Jean-Baptiste",
-                    "UniformNumber": "01",
+                    "FirstName": "Zoe",
+                    "LastName": "Zutes",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Hali Lucia OUT; 15 Zoe Zutes OUT; 24 Anna Lee OUT; 01 Stephanie Jean-Baptiste IN; 04 Kelsey Morgans IN; 30 Zairea Hannah IN",
+            "Narrative": "30 Zairea Hannah IN; 04 Kelsey Morgans IN; 01 Stephanie Jean-Bapti IN; 24 Anna Lee OUT; 15 Zoe Zutes OUT; 05 Hali Lucia OUT",
             "Context": "",
-            "Id": "281+BE863B43",
+            "Id": "281+A4603D1B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7987,9 +7923,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture OFF. REBOUND (6 Reb, 1 Off)",
+            "Narrative": "33 Payton Couture OFF. REBOUND (4 Reb, 1 Off)",
             "Context": "",
-            "Id": "288+585D45D8",
+            "Id": "288+1DD93D5E",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8089,36 +8025,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Mallory",
-                "LastName": "Turner",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "13 Mallory Turner OUT; 24 Anna Lee IN",
-            "Context": "",
-            "Id": "293+2C69FA81",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 336,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Jaden",
                 "LastName": "Wilson",
@@ -8139,7 +8045,37 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Jaden Wilson IN; 32 Kathy Peterson-Ross OUT",
             "Context": "",
-            "Id": "295+1F7D40A7",
+            "Id": "293+12977AAD",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 336,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Anna",
+                "LastName": "Lee",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mallory",
+                    "LastName": "Turner",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Anna Lee IN; 13 Mallory Turner OUT",
+            "Context": "",
+            "Id": "295+FFECE097",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8349,10 +8285,10 @@
             "Player": null,
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
+            "Narrative": "Plattsburgh St. TIMEOUT 20 Sec. (2nd TO, 3rd 20)",
             "Context": "",
-            "Id": "307+B826A518",
-            "Type": "MEDIA",
+            "Id": "307+BF4C253",
+            "Type": "20SEC",
             "Action": "TIMEOUT",
             "Period": 3,
             "ClockSeconds": 294,
@@ -8361,22 +8297,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
+                "Team": "VisitingTeam",
+                "FirstName": "Julia",
+                "LastName": "Greek",
+                "UniformNumber": "02",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Payton",
+                    "LastName": "Couture",
+                    "UniformNumber": "33",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Julia Greek IN; 33 Payton Couture OUT",
+            "Context": "",
+            "Id": "308+C2C4C99B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 294,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Zoe",
+                "LastName": "Zutes",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Hali",
@@ -8387,47 +8345,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
+                    "FirstName": "Zairea",
+                    "LastName": "Hannah",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 30 Zairea Hannah OUT; 05 Hali Lucia IN; 15 Zoe Zutes IN",
+            "Narrative": "15 Zoe Zutes IN; 05 Hali Lucia IN; 30 Zairea Hannah OUT; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "308+41D081AA",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 294,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Payton",
-                "LastName": "Couture",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Julia",
-                    "LastName": "Greek",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture OUT; 02 Julia Greek IN",
-            "Context": "",
-            "Id": "312+68F13627",
+            "Id": "310+B3A0133C",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8467,9 +8403,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OFF. REBOUND (6 Reb, 3 Off)",
+            "Narrative": "23 Imani Walcott OFF. REBOUND (8 Reb, 3 Off)",
             "Context": "",
-            "Id": "315+FA03CEE3",
+            "Id": "315+1E8EF36D",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8697,16 +8633,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste TURNOVER (2 TO)",
+            "Narrative": "01 Stephanie Jean-Bapti TURNOVER (2 TO)",
             "Context": "",
-            "Id": "327+3FB4DF69",
+            "Id": "327+409B557D",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -8844,16 +8780,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste DEF. REBOUND (4 Reb, 3 Def)",
+            "Narrative": "01 Stephanie Jean-Bapti DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "334+5BF2C553",
+            "Id": "334+935B32A5",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8865,16 +8801,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste LAYUP MISS",
+            "Narrative": "01 Stephanie Jean-Bapti LAYUP MISS",
             "Context": "",
-            "Id": "335+619044A8",
+            "Id": "335+6C550438",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8986,9 +8922,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OFF. REBOUND (7 Reb, 4 Off)",
+            "Narrative": "23 Imani Walcott OFF. REBOUND (9 Reb, 4 Off)",
             "Context": "",
-            "Id": "341+FC432619",
+            "Id": "341+F740628B",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -9135,27 +9071,66 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Bri",
+                "LastName": "Brousseau",
+                "UniformNumber": "44",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                null,
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Payton",
+                    "LastName": "Couture",
+                    "UniformNumber": "33",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Imani",
+                    "LastName": "Walcott",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Mya",
+                    "LastName": "Smith",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "44 Bri Brousseau IN; Plattsburgh St. IN; 33 Payton Couture IN; Plattsburgh St. OUT; 23 Imani Walcott OUT; 03 Mya Smith OUT",
+            "Context": "",
+            "Id": "349+95CE121D",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 72,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "FirstName": "Zairea",
+                "LastName": "Hannah",
+                "UniformNumber": "30",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
+                    "FirstName": "Mallory",
+                    "LastName": "Turner",
+                    "UniformNumber": "13",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -9169,79 +9144,33 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mallory",
-                    "LastName": "Turner",
-                    "UniformNumber": "13",
+                    "FirstName": "Zoe",
+                    "LastName": "Zutes",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Zairea",
-                    "LastName": "Hannah",
-                    "UniformNumber": "30",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 05 Hali Lucia OUT; 15 Zoe Zutes OUT; 04 Kelsey Morgans IN; 13 Mallory Turner IN; 30 Zairea Hannah IN",
+            "Narrative": "30 Zairea Hannah IN; 13 Mallory Turner IN; 04 Kelsey Morgans IN; 15 Zoe Zutes OUT; 05 Hali Lucia OUT; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "349+AB99AE56",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 72,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mya",
-                "LastName": "Smith",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Imani",
-                    "LastName": "Walcott",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Payton",
-                    "LastName": "Couture",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Lauren",
-                    "LastName": "LaFountain",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Brousseau",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "03 Mya Smith OUT; 23 Imani Walcott OUT; 33 Payton Couture IN; 34 Lauren LaFountain IN; 34 Lauren LaFountain OUT; 44 Bri Brousseau IN",
-            "Context": "",
-            "Id": "355+26CF9013",
+            "Id": "355+1CF226B4",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9295,16 +9224,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER GOOD (6 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER GOOD (6 Pt)",
             "Context": "",
-            "Id": "363+46D93C78",
+            "Id": "363+D707AB1C",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 3,
@@ -9340,16 +9269,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste STEAL (1 Stl)",
+            "Narrative": "01 Stephanie Jean-Bapti STEAL (1 Stl)",
             "Context": "",
-            "Id": "365+A771DA4F",
+            "Id": "365+C52DAA21",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -9361,16 +9290,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER GOOD (8 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER GOOD (8 Pt)",
             "Context": "",
-            "Id": "366+51113A2F",
+            "Id": "366+585EEF0F",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 3,
@@ -9404,22 +9333,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
+                "Team": "VisitingTeam",
+                "FirstName": "Kathy",
+                "LastName": "Peterson-Ross",
+                "UniformNumber": "32",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Mallory",
-                    "LastName": "Turner",
-                    "UniformNumber": "13",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Selma",
+                    "LastName": "Deisz",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "32 Kathy Peterson-Ross IN; 04 Selma Deisz OUT",
+            "Context": "",
+            "Id": "368+D914DA1F",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 10,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Zoe",
+                "LastName": "Zutes",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Mandy",
@@ -9430,47 +9381,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Zutes",
-                    "UniformNumber": "15",
+                    "FirstName": "Mallory",
+                    "LastName": "Turner",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 13 Mallory Turner OUT; 03 Mandy Brink IN; 15 Zoe Zutes IN",
+            "Narrative": "15 Zoe Zutes IN; 03 Mandy Brink IN; 13 Mallory Turner OUT; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "368+DADA6F6C",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 10,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Selma",
-                "LastName": "Deisz",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kathy",
-                    "LastName": "Peterson-Ross",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Selma Deisz OUT; 32 Kathy Peterson-Ross IN",
-            "Context": "",
-            "Id": "372+8A81B1BB",
+            "Id": "370+A1105F64",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9547,21 +9476,13 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Jaden",
-                "LastName": "Wilson",
-                "UniformNumber": "11",
+                "FirstName": "Imani",
+                "LastName": "Walcott",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Brousseau",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Mya",
@@ -9572,17 +9493,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Imani",
-                    "LastName": "Walcott",
-                    "UniformNumber": "23",
+                    "FirstName": "Bri",
+                    "LastName": "Brousseau",
+                    "UniformNumber": "44",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jaden",
+                    "LastName": "Wilson",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "11 Jaden Wilson OUT; 44 Bri Brousseau OUT; 03 Mya Smith IN; 23 Imani Walcott IN",
+            "Narrative": "23 Imani Walcott IN; 03 Mya Smith IN; 44 Bri Brousseau OUT; 11 Jaden Wilson OUT",
             "Context": "",
-            "Id": "377+B0440299",
+            "Id": "377+89B36FF1",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9655,9 +9584,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture OFF. REBOUND (7 Reb, 2 Off)",
+            "Narrative": "33 Payton Couture OFF. REBOUND (5 Reb, 2 Off)",
             "Context": "",
-            "Id": "384+DB42ED24",
+            "Id": "384+9CC5629A",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9746,16 +9675,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste 3PTR MISS",
+            "Narrative": "01 Stephanie Jean-Bapti 3PTR MISS",
             "Context": "",
-            "Id": "390+CCB411A1",
+            "Id": "390+F1225785",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -9830,7 +9759,7 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
@@ -9846,9 +9775,9 @@
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste LAYUP MISS; 23 Imani Walcott BLOCK (7 Blk)",
+            "Narrative": "01 Stephanie Jean-Bapti LAYUP MISS; 23 Imani Walcott BLOCK (7 Blk)",
             "Context": "",
-            "Id": "394+46BE1E4C",
+            "Id": "394+31BA0770",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -9867,9 +9796,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott DEF. REBOUND (8 Reb, 4 Def)",
+            "Narrative": "23 Imani Walcott DEF. REBOUND (10 Reb, 6 Def)",
             "Context": "",
-            "Id": "396+66AD6B42",
+            "Id": "396+5269ED37",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9901,36 +9830,6 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Julia",
-                "LastName": "Greek",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Selma",
-                    "LastName": "Deisz",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Julia Greek OUT; 04 Selma Deisz IN",
-            "Context": "",
-            "Id": "398+23A7311C",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 481,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
                 "FirstName": "Imani",
                 "LastName": "Walcott",
                 "UniformNumber": "23",
@@ -9941,7 +9840,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Imani Walcott FT MISS",
             "Context": "",
-            "Id": "400+F5550D93",
+            "Id": "398+9589E19D",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -9955,9 +9854,39 @@
             "Team": "VisitingTeam",
             "Narrative": "Plattsburgh St. REBOUND",
             "Context": "",
-            "Id": "401+A371A869",
+            "Id": "399+C20F9E5F",
             "Type": "DEADB",
             "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 481,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Selma",
+                "LastName": "Deisz",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Julia",
+                    "LastName": "Greek",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Selma Deisz IN; 02 Julia Greek OUT",
+            "Context": "",
+            "Id": "400+BE01779A",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 481,
             "Coordinate": null,
@@ -10088,9 +10017,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (8 Reb, 6 Def)",
+            "Narrative": "33 Payton Couture DEF. REBOUND (6 Reb, 4 Def)",
             "Context": "",
-            "Id": "408+DCB808C",
+            "Id": "408+B2F23F70",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10144,16 +10073,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste 3PTR MISS",
+            "Narrative": "01 Stephanie Jean-Bapti 3PTR MISS",
             "Context": "",
-            "Id": "411+B777521D",
+            "Id": "411+8AE11439",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -10172,9 +10101,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (9 Reb, 7 Def)",
+            "Narrative": "33 Payton Couture DEF. REBOUND (7 Reb, 5 Def)",
             "Context": "",
-            "Id": "412+4235E9A",
+            "Id": "412+62928DAE",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10199,26 +10128,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Payton",
-                "LastName": "Couture",
-                "UniformNumber": "33",
+                "FirstName": "Jaden",
+                "LastName": "Wilson",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
+                    "FirstName": "Payton",
+                    "LastName": "Couture",
+                    "UniformNumber": "33",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture OUT; 11 Jaden Wilson IN",
+            "Narrative": "11 Jaden Wilson IN; 33 Payton Couture OUT",
             "Context": "",
-            "Id": "414+8FC46404",
+            "Id": "414+FD5C6AF4",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10229,26 +10158,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "FirstName": "Hali",
+                "LastName": "Lucia",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 05 Hali Lucia IN",
+            "Narrative": "05 Hali Lucia IN; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "416+4F9A85DD",
+            "Id": "416+742D453D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10302,16 +10231,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER GOOD (10 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER GOOD (10 Pt)",
             "Context": "",
-            "Id": "420+3AC109E9",
+            "Id": "420+A4EB34A3",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
@@ -10420,9 +10349,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OFF. REBOUND (9 Reb, 5 Off)",
+            "Narrative": "23 Imani Walcott OFF. REBOUND (11 Reb, 5 Off)",
             "Context": "",
-            "Id": "425+50AFACD0",
+            "Id": "425+FCED31D1",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10475,21 +10404,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Hali",
-                "LastName": "Lucia",
-                "UniformNumber": "05",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Mandy",
@@ -10500,17 +10421,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "FirstName": "Anna",
+                    "LastName": "Lee",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Hali Lucia OUT; 24 Anna Lee OUT; 03 Mandy Brink IN; 04 Kelsey Morgans IN",
+            "Narrative": "04 Kelsey Morgans IN; 03 Mandy Brink IN; 24 Anna Lee OUT; 05 Hali Lucia OUT",
             "Context": "",
-            "Id": "428+56F70C35",
+            "Id": "428+23DD1F69",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10521,26 +10450,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Jaden",
-                "LastName": "Wilson",
-                "UniformNumber": "11",
+                "FirstName": "Payton",
+                "LastName": "Couture",
+                "UniformNumber": "33",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Payton",
-                    "LastName": "Couture",
-                    "UniformNumber": "33",
+                    "FirstName": "Jaden",
+                    "LastName": "Wilson",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "11 Jaden Wilson OUT; 33 Payton Couture IN",
+            "Narrative": "33 Payton Couture IN; 11 Jaden Wilson OUT",
             "Context": "",
-            "Id": "432+F6F0685C",
+            "Id": "432+50EABA0",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10617,16 +10546,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER GOOD (12 Pt)",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER GOOD (12 Pt)",
             "Context": "",
-            "Id": "438+C90E9CE1",
+            "Id": "438+E8928DE7",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
@@ -10660,27 +10589,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
+                "Team": "VisitingTeam",
+                "FirstName": "Jaden",
+                "LastName": "Wilson",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kathy",
+                    "LastName": "Peterson-Ross",
+                    "UniformNumber": "32",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 24 Anna Lee IN",
+            "Team": "VisitingTeam",
+            "Narrative": "11 Jaden Wilson IN; 32 Kathy Peterson-Ross OUT",
             "Context": "",
-            "Id": "440+1E5452A7",
+            "Id": "440+A0DFEC4F",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10690,27 +10619,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kathy",
-                "LastName": "Peterson-Ross",
-                "UniformNumber": "32",
+                "Team": "HomeTeam",
+                "FirstName": "Anna",
+                "LastName": "Lee",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
+                    "Team": "HomeTeam",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "32 Kathy Peterson-Ross OUT; 11 Jaden Wilson IN",
+            "Team": "HomeTeam",
+            "Narrative": "24 Anna Lee IN; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "442+12CAA85",
+            "Id": "442+1F8931CD",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10722,16 +10651,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER MISS",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER MISS",
             "Context": "",
-            "Id": "444+7DCD9F80",
+            "Id": "444+F6F3E6B8",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -10794,9 +10723,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "33 Payton Couture DEF. REBOUND (10 Reb, 8 Def)",
+            "Narrative": "33 Payton Couture DEF. REBOUND (8 Reb, 6 Def)",
             "Context": "",
-            "Id": "448+23B0DD34",
+            "Id": "448+420475F1",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10904,16 +10833,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste LAYUP MISS",
+            "Narrative": "01 Stephanie Jean-Bapti LAYUP MISS",
             "Context": "",
-            "Id": "454+ABE29324",
+            "Id": "454+A627D3B4",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -11148,36 +11077,6 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 04 Kelsey Morgans IN",
-            "Context": "",
-            "Id": "467+1FE5A79C",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 152,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
                 "FirstName": "Zoe",
                 "LastName": "Zutes",
                 "UniformNumber": "15",
@@ -11188,7 +11087,7 @@
             "Team": "HomeTeam",
             "Narrative": "15 Zoe Zutes FT GOOD (5 Pt)",
             "Context": "",
-            "Id": "469+B43A5A1E",
+            "Id": "467+A08E1AD0",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11198,6 +11097,36 @@
                 "HomeTeam": 41,
                 "VisitingTeam": 43
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "04 Kelsey Morgans IN; 03 Mandy Brink OUT",
+            "Context": "",
+            "Id": "468+6DBD4F7F",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 152,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -11245,16 +11174,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste TURNOVER (3 TO)",
+            "Narrative": "01 Stephanie Jean-Bapti TURNOVER (3 TO)",
             "Context": "",
-            "Id": "472+1B2A3A8C",
+            "Id": "472+8F1DA532",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -11339,36 +11268,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 03 Mandy Brink IN",
-            "Context": "",
-            "Id": "477+CCB3158D",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 113,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Imani",
                 "LastName": "Walcott",
@@ -11380,7 +11279,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Imani Walcott FT GOOD (21 Pt)",
             "Context": "",
-            "Id": "479+46DE0925",
+            "Id": "477+5F86BC2F",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11390,6 +11289,36 @@
                 "HomeTeam": 41,
                 "VisitingTeam": 46
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Mandy",
+                "LastName": "Brink",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "03 Mandy Brink IN; 04 Kelsey Morgans OUT",
+            "Context": "",
+            "Id": "478+E17DCA58",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 113,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -11483,26 +11412,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 04 Kelsey Morgans IN",
+            "Narrative": "04 Kelsey Morgans IN; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "485+C106B9ED",
+            "Id": "485+A39C210D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11578,26 +11507,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
+                "FirstName": "Mandy",
+                "LastName": "Brink",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 03 Mandy Brink IN",
+            "Narrative": "03 Mandy Brink IN; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "491+9B587984",
+            "Id": "491+A8391C06",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11639,16 +11568,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste OFF. REBOUND (5 Reb, 2 Off)",
+            "Narrative": "01 Stephanie Jean-Bapti OFF. REBOUND (5 Reb, 2 Off)",
             "Context": "",
-            "Id": "495+5BCD2673",
+            "Id": "495+3BE409D",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11660,16 +11589,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste JUMPER MISS",
+            "Narrative": "01 Stephanie Jean-Bapti JUMPER MISS",
             "Context": "",
-            "Id": "496+1BDA84FD",
+            "Id": "496+90E4FDC5",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -11743,26 +11672,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "FirstName": "Kelsey",
+                "LastName": "Morgans",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Kelsey",
-                    "LastName": "Morgans",
-                    "UniformNumber": "04",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 04 Kelsey Morgans IN",
+            "Narrative": "04 Kelsey Morgans IN; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "500+8163ABD7",
+            "Id": "500+E3F93337",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11820,26 +11749,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
+                "FirstName": "Mandy",
+                "LastName": "Brink",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 03 Mandy Brink IN",
+            "Narrative": "03 Mandy Brink IN; 04 Kelsey Morgans OUT",
             "Context": "",
-            "Id": "505+57F8FF19",
+            "Id": "505+64999A9B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11851,16 +11780,16 @@
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Stephanie",
-                "LastName": "Jean-Baptiste",
+                "LastName": "Jean-Bapti",
                 "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Stephanie Jean-Baptiste 3PTR MISS",
+            "Narrative": "01 Stephanie Jean-Bapti 3PTR MISS",
             "Context": "",
-            "Id": "507+56A67F62",
+            "Id": "507+6B303946",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -11977,22 +11906,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Mandy",
-                "LastName": "Brink",
-                "UniformNumber": "03",
+                "Team": "VisitingTeam",
+                "FirstName": "Julia",
+                "LastName": "Greek",
+                "UniformNumber": "02",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Imani",
+                    "LastName": "Walcott",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Julia Greek IN; 23 Imani Walcott OUT",
+            "Context": "",
+            "Id": "514+C6E6F2DF",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 14,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Hali",
+                "LastName": "Lucia",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Kelsey",
@@ -12003,47 +11954,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
+                    "FirstName": "Anna",
+                    "LastName": "Lee",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Mandy Brink OUT; 24 Anna Lee OUT; 04 Kelsey Morgans IN; 05 Hali Lucia IN",
+            "Narrative": "05 Hali Lucia IN; 04 Kelsey Morgans IN; 24 Anna Lee OUT; 03 Mandy Brink OUT",
             "Context": "",
-            "Id": "514+BE050E01",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Imani",
-                "LastName": "Walcott",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Julia",
-                    "LastName": "Greek",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Imani Walcott OUT; 02 Julia Greek IN",
-            "Context": "",
-            "Id": "518+44E536A3",
+            "Id": "516+AA3041FF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -12074,52 +12003,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kelsey",
-                "LastName": "Morgans",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Mandy",
-                    "LastName": "Brink",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Anna",
-                    "LastName": "Lee",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "04 Kelsey Morgans OUT; 05 Hali Lucia OUT; 03 Mandy Brink IN; 24 Anna Lee IN",
-            "Context": "",
-            "Id": "521+68ADA92",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 10,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Julia",
                 "LastName": "Greek",
@@ -12131,7 +12014,7 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Julia Greek FT GOOD (6 Pt)",
             "Context": "",
-            "Id": "525+93495DB",
+            "Id": "521+18299DAF",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -12141,6 +12024,52 @@
                 "HomeTeam": 44,
                 "VisitingTeam": 50
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Anna",
+                "LastName": "Lee",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mandy",
+                    "LastName": "Brink",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hali",
+                    "LastName": "Lucia",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kelsey",
+                    "LastName": "Morgans",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Anna Lee IN; 03 Mandy Brink IN; 05 Hali Lucia OUT; 04 Kelsey Morgans OUT",
+            "Context": "",
+            "Id": "522+D770ED49",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 10,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -12228,82 +12157,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Zairea",
-                "LastName": "Hannah",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Hali",
-                    "LastName": "Lucia",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Zairea Hannah OUT; 05 Hali Lucia IN",
-            "Context": "",
-            "Id": "530+830EDEF",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 6,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Julia",
-                "LastName": "Greek",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Imani",
-                    "LastName": "Walcott",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jaden",
-                    "LastName": "Wilson",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kathy",
-                    "LastName": "Peterson-Ross",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Julia Greek OUT; 23 Imani Walcott IN; 11 Jaden Wilson OUT; 32 Kathy Peterson-Ross IN",
-            "Context": "",
-            "Id": "532+42C364DC",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 6,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Jaden",
                 "LastName": "Wilson",
@@ -12315,7 +12168,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Jaden Wilson FT GOOD (4 Pt)",
             "Context": "",
-            "Id": "534+E3C3B47",
+            "Id": "530+FD3D895B",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -12339,7 +12192,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Jaden Wilson FT GOOD (5 Pt)",
             "Context": "",
-            "Id": "535+B9D34565",
+            "Id": "531+AA0B6991",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -12349,6 +12202,82 @@
                 "HomeTeam": 44,
                 "VisitingTeam": 52
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Kathy",
+                "LastName": "Peterson-Ross",
+                "UniformNumber": "32",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Imani",
+                    "LastName": "Walcott",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jaden",
+                    "LastName": "Wilson",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Julia",
+                    "LastName": "Greek",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "32 Kathy Peterson-Ross IN; 23 Imani Walcott IN; 11 Jaden Wilson OUT; 02 Julia Greek OUT",
+            "Context": "",
+            "Id": "532+B6E10254",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Hali",
+                "LastName": "Lucia",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Zairea",
+                    "LastName": "Hannah",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "05 Hali Lucia IN; 30 Zairea Hannah OUT",
+            "Context": "",
+            "Id": "536+92400CFD",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 6,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

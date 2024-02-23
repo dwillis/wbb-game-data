@@ -9,18 +9,20 @@
         "StartTime": "7:00 PM",
         "EndTime": "",
         "NcaaGameId": "",
-        "Notes": [],
-        "Location": "Rodgers Recreation Center, Newport, RI",
+        "Notes": [
+            "2023-24 Women's Basketball. Round: 0. Salve Regina vs UMass Dartmouth. Played"
+        ],
+        "Location": "Newport, RI",
         "GlobalSportShortname": null,
         "BannerMessage": null,
         "StadiumImage": null,
         "SiteImage": null,
         "ClientHostname": null,
-        "Officials": "Eric Ferris,  Bill Gillen,  Ryan Nunes",
+        "Officials": "Eric Ferris, Bill Gillen, Ryan Nunes",
         "Attendance": 115,
         "PeriodsRegulation": 4,
-        "Period": 0,
-        "ClockSeconds": -1,
+        "Period": 4,
+        "ClockSeconds": 0,
         "Context": "SRU BONUS",
         "Rules": {
             "PeriodMinutes": 10,
@@ -57,7 +59,7 @@
             "Id": "UMD",
             "Name": "UMass Dartmouth",
             "Score": 84,
-            "CurrentRecord": "2-0,0-0 Little East",
+            "CurrentRecord": "2-0,0-0 Little E",
             "NcaaSchoolCode": "",
             "Color": "#0F223F",
             "TextColor": "#FFFFFF",
@@ -77,6 +79,52 @@
             {
                 "Player": {
                     "Team": "VisitingTeam",
+                    "FirstName": "Amaris",
+                    "LastName": "Mills",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Kasey",
+                        "LastName": "Oliver",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Carly",
+                        "LastName": "Whiteside",
+                        "UniformNumber": "44",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Melanie",
+                        "LastName": "DeMeo",
+                        "UniformNumber": "05",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "VisitingTeam",
+                "Narrative": "11 Amaris Mills IN; 04 Kasey Oliver IN; 44 Carly Whiteside OUT; 05 Melanie DeMeo OUT",
+                "Context": "",
+                "Id": "481+E07290A2",
+                "Type": "SUBS",
+                "Action": "SUBS",
+                "Period": 4,
+                "ClockSeconds": 4,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
                     "FirstName": "Jemima",
                     "LastName": "Joseph",
                     "UniformNumber": "23",
@@ -87,11 +135,11 @@
                 "Team": "VisitingTeam",
                 "Narrative": "23 Jemima Joseph DEF. REBOUND (6 Reb, 5 Def)",
                 "Context": "",
-                "Id": "485+E3AC4C26",
+                "Id": "480+F6C437A0",
                 "Type": "DEF",
                 "Action": "REBOUND",
                 "Period": 4,
-                "ClockSeconds": 3,
+                "ClockSeconds": 4,
                 "Coordinate": null,
                 "Score": null
             },
@@ -108,7 +156,7 @@
                 "Team": "HomeTeam",
                 "Narrative": "11 Briana Neary FT MISS",
                 "Context": "",
-                "Id": "484+FB06E94D",
+                "Id": "479+4D5214A2",
                 "Type": "FT",
                 "Action": "MISS",
                 "Period": 4,
@@ -129,7 +177,7 @@
                 "Team": "HomeTeam",
                 "Narrative": "11 Briana Neary FT GOOD (20 Pt)",
                 "Context": "",
-                "Id": "483+D9B02B5E",
+                "Id": "478+7607813F",
                 "Type": "FT",
                 "Action": "GOOD",
                 "Period": 4,
@@ -139,52 +187,6 @@
                     "HomeTeam": 64,
                     "VisitingTeam": 84
                 }
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Melanie",
-                    "LastName": "DeMeo",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [
-                    {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Carly",
-                        "LastName": "Whiteside",
-                        "UniformNumber": "44",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Kasey",
-                        "LastName": "Oliver",
-                        "UniformNumber": "04",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Amaris",
-                        "LastName": "Mills",
-                        "UniformNumber": "11",
-                        "Photo": null,
-                        "PersonId": ""
-                    }
-                ],
-                "Team": "VisitingTeam",
-                "Narrative": "05 Melanie DeMeo OUT; 44 Carly Whiteside OUT; 04 Kasey Oliver IN; 11 Amaris Mills IN",
-                "Context": "",
-                "Id": "479+275B7FA4",
-                "Type": "SUBS",
-                "Action": "SUBS",
-                "Period": 4,
-                "ClockSeconds": 4,
-                "Coordinate": null,
-                "Score": null
             },
             {
                 "Player": {
@@ -199,7 +201,7 @@
                 "Team": "VisitingTeam",
                 "Narrative": "44 Carly Whiteside FOUL (3 PF)",
                 "Context": "",
-                "Id": "478+96F2F43A",
+                "Id": "477+8915EFCD",
                 "Type": "FOUL",
                 "Action": "FOUL",
                 "Period": 4,
@@ -479,9 +481,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Amaris",
-                        "LastName": "Mills",
-                        "UniformNumber": "11",
+                        "FirstName": "Teja",
+                        "LastName": "Andrews",
+                        "UniformNumber": "12",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -498,7 +500,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "28.30"
+                    "Value": "28.11"
                 },
                 {
                     "Player": {
@@ -509,7 +511,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.42"
+                    "Value": "24.25"
                 },
                 {
                     "Player": {
@@ -520,7 +522,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "22.41"
+                    "Value": "22.26"
                 },
                 {
                     "Player": {
@@ -531,7 +533,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.49"
+                    "Value": "21.35"
                 }
             ]
         },
@@ -833,7 +835,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "12.0"
+                    "Value": "11.0"
                 },
                 {
                     "Player": {
@@ -857,7 +859,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "35.38"
+                    "Value": "35.36"
                 },
                 {
                     "Player": {
@@ -868,7 +870,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "27.40"
+                    "Value": "27.39"
                 },
                 {
                     "Player": {
@@ -879,7 +881,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.13"
+                    "Value": "24.12"
                 },
                 {
                     "Player": {
@@ -890,7 +892,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "18.87"
+                    "Value": "20.22"
                 }
             ]
         }
@@ -948,30 +950,6 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Anna Grace",
-                    "LastName": "Hjerpe",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Sabrina",
-                    "LastName": "Lawless",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Colleen",
-                    "LastName": "Ohrtman",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
                     "FirstName": "Jordan",
                     "LastName": "Furlong",
                     "UniformNumber": "15",
@@ -983,14 +961,6 @@
                     "FirstName": "Amanda",
                     "LastName": "Folan",
                     "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Maeve",
-                    "LastName": "Tullson",
-                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -1081,7 +1051,7 @@
                             "Uni": "03",
                             "Name": "M. SHUEY",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "35",
                             "Fgam": "0-3",
                             "ShootingPercentage": "0.0%",
@@ -1099,7 +1069,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "1.0",
-                            "UsagePercentage": "7.31",
+                            "UsagePercentage": "7.30",
                             "PointsPerMinute": ".029",
                             "Points": "1",
                             "PersonId": ""
@@ -1126,7 +1096,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "35.38",
+                            "UsagePercentage": "35.36",
                             "PointsPerMinute": ".567",
                             "Points": "17",
                             "PersonId": ""
@@ -1135,7 +1105,7 @@
                             "Uni": "11",
                             "Name": "B. NEARY",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "31",
                             "Fgam": "7-9",
                             "ShootingPercentage": "77.8%",
@@ -1153,7 +1123,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "18.0",
-                            "UsagePercentage": "24.13",
+                            "UsagePercentage": "24.12",
                             "PointsPerMinute": ".645",
                             "Points": "20",
                             "PersonId": ""
@@ -1162,7 +1132,7 @@
                             "Uni": "20",
                             "Name": "A. FOLAN",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "28",
                             "Fgam": "4-10",
                             "ShootingPercentage": "40.0%",
@@ -1180,7 +1150,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "5.0",
-                            "UsagePercentage": "27.40",
+                            "UsagePercentage": "27.39",
                             "PointsPerMinute": ".464",
                             "Points": "13",
                             "PersonId": ""
@@ -1189,12 +1159,12 @@
                             "Uni": "22",
                             "Name": "A. ROURKE",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "32",
-                            "Fgam": "4-11",
-                            "ShootingPercentage": "36.4%",
-                            "Tpam": "1-3",
-                            "Tppercentage": "33.3%",
+                            "Fgam": "4-12",
+                            "ShootingPercentage": "33.3%",
+                            "Tpam": "1-5",
+                            "Tppercentage": "20.0%",
                             "Ftma": "2-2",
                             "Ftp": "100.0%",
                             "TotalRebounds": "5",
@@ -1206,8 +1176,8 @@
                             "Steals": "0",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "12.0",
-                            "UsagePercentage": "18.87",
+                            "Efficiency": "11.0",
+                            "UsagePercentage": "20.22",
                             "PointsPerMinute": ".344",
                             "Points": "11",
                             "PersonId": ""
@@ -1215,7 +1185,7 @@
                         {
                             "Uni": "01",
                             "Name": "M. FORINO",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "16",
                             "Fgam": "0-3",
@@ -1234,7 +1204,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "-3.0",
-                            "UsagePercentage": "16.31",
+                            "UsagePercentage": "16.30",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -1242,7 +1212,7 @@
                         {
                             "Uni": "10",
                             "Name": "D. LINSCOTT",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "15",
                             "Fgam": "0-1",
@@ -1269,7 +1239,7 @@
                         {
                             "Uni": "15",
                             "Name": "J. FURLONG",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "2",
                             "Fgam": "0-1",
@@ -1296,12 +1266,12 @@
                         {
                             "Uni": "23",
                             "Name": "C. LIMA",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "2",
-                            "Fgam": "0-1",
+                            "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
-                            "Tpam": "0-1",
+                            "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
@@ -1314,7 +1284,7 @@
                             "Steals": "0",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-1.0",
+                            "Efficiency": "0.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
@@ -1323,8 +1293,8 @@
                         {
                             "Uni": "35",
                             "Name": "O. MARTIN",
-                            "Position": "G",
-                            "CurrentlyInGame": "",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "9",
                             "Fgam": "1-2",
                             "ShootingPercentage": "50.0%",
@@ -1425,17 +1395,17 @@
                     "Points": "64",
                     "Fgam": "21-56",
                     "ShootingPercentage": "37.5%",
-                    "Tpam": "3-12",
-                    "Tppercentage": "25.0%",
+                    "Tpam": "3-13",
+                    "Tppercentage": "23.1%",
                     "Ftma": "19-25",
                     "Ftp": "76.0%",
                     "TotalRebounds": "37",
                     "OffensiveRebounds": "10",
                     "DefensiveRebounds": "27",
-                    "Ties": "5",
-                    "Leads": "7",
+                    "Ties": "2",
+                    "Leads": "3",
                     "TimeWithLead": "21:06",
-                    "PercentLead": "52.7%",
+                    "PercentLead": "52.8%",
                     "LastLeadScore": "42-41",
                     "LastLeadTime": "4:44 (3rd)",
                     "LargestLead": "10",
@@ -1445,12 +1415,12 @@
                     "Turnovers": "25",
                     "PointsFromBench": "2",
                     "Blocks": "4",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "7",
+                    "PointsOnCourt": "47",
+                    "PointsOffFastBreak": "2",
                     "Steals": "5",
                     "PointsOffTurnovers": "12",
                     "PointsInPaint": "22",
-                    "PointsOffSecondChance": "13",
+                    "PointsOffSecondChance": "12",
                     "PersonalFouls": "15",
                     "TechnicalFouls": "0",
                     "Possession": "0",
@@ -1537,9 +1507,9 @@
                         "Tppercentage": "0.0%",
                         "Ftma": "7-8",
                         "Ftp": "87.5%",
-                        "TotalRebounds": "12",
-                        "OffensiveRebounds": "3",
-                        "DefensiveRebounds": "9",
+                        "TotalRebounds": "10",
+                        "OffensiveRebounds": "2",
+                        "DefensiveRebounds": "8",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "9:29",
@@ -1553,8 +1523,8 @@
                         "Turnovers": "6",
                         "PointsFromBench": "0",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "4",
+                        "PointsOnCourt": "47",
+                        "PointsOffFastBreak": "2",
                         "Steals": "1",
                         "PointsOffTurnovers": "5",
                         "PointsInPaint": "8",
@@ -1562,7 +1532,7 @@
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:386"
                     }
                 },
                 {
@@ -1647,8 +1617,8 @@
                         "TotalRebounds": "14",
                         "OffensiveRebounds": "4",
                         "DefensiveRebounds": "10",
-                        "Ties": "2",
-                        "Leads": "2",
+                        "Ties": "1",
+                        "Leads": "1",
                         "TimeWithLead": "7:28",
                         "PercentLead": "18.7%",
                         "LastLeadScore": "36-28",
@@ -1660,7 +1630,7 @@
                         "Turnovers": "4",
                         "PointsFromBench": "0",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "47",
                         "PointsOffFastBreak": "0",
                         "Steals": "3",
                         "PointsOffTurnovers": "1",
@@ -1669,7 +1639,7 @@
                         "PersonalFouls": "1",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:370"
                     }
                 },
                 {
@@ -1754,8 +1724,8 @@
                         "TotalRebounds": "6",
                         "OffensiveRebounds": "1",
                         "DefensiveRebounds": "5",
-                        "Ties": "3",
-                        "Leads": "5",
+                        "Ties": "1",
+                        "Leads": "2",
                         "TimeWithLead": "4:09",
                         "PercentLead": "10.4%",
                         "LastLeadScore": "42-41",
@@ -1767,7 +1737,7 @@
                         "Turnovers": "11",
                         "PointsFromBench": "0",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "47",
                         "PointsOffFastBreak": "0",
                         "Steals": "0",
                         "PointsOffTurnovers": "0",
@@ -1776,7 +1746,7 @@
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:389"
                     }
                 },
                 {
@@ -1854,13 +1824,13 @@
                         "Points": "20",
                         "Fgam": "6-14",
                         "ShootingPercentage": "42.9%",
-                        "Tpam": "2-5",
-                        "Tppercentage": "40.0%",
+                        "Tpam": "2-6",
+                        "Tppercentage": "33.3%",
                         "Ftma": "6-9",
                         "Ftp": "66.7%",
-                        "TotalRebounds": "5",
-                        "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "3",
+                        "TotalRebounds": "3",
+                        "OffensiveRebounds": "1",
+                        "DefensiveRebounds": "2",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "0:00",
@@ -1874,16 +1844,16 @@
                         "Turnovers": "4",
                         "PointsFromBench": "2",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "3",
+                        "PointsOnCourt": "47",
+                        "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "6",
                         "PointsInPaint": "6",
-                        "PointsOffSecondChance": "3",
+                        "PointsOffSecondChance": "2",
                         "PersonalFouls": "6",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:312"
                     }
                 }
             ]
@@ -1898,14 +1868,6 @@
                 "PersonId": ""
             },
             "Players": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kaylin",
-                    "LastName": "Zalewski",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Kasey",
@@ -1940,14 +1902,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Brooke",
-                    "LastName": "Orton",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Tyah",
                     "LastName": "Pettaway",
                     "UniformNumber": "15",
@@ -1964,25 +1918,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Gabby",
-                    "LastName": "Barnes",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Jemima",
                     "LastName": "Joseph",
                     "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Brodie",
-                    "LastName": "Gannon",
-                    "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -2083,7 +2021,7 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "20.0",
-                            "UsagePercentage": "21.49",
+                            "UsagePercentage": "21.35",
                             "PointsPerMinute": ".516",
                             "Points": "16",
                             "PersonId": ""
@@ -2092,14 +2030,14 @@
                             "Uni": "12",
                             "Name": "T. ANDREWS",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "32",
                             "Fgam": "3-5",
                             "ShootingPercentage": "60.0%",
                             "Tpam": "1-1",
                             "Tppercentage": "100.0%",
-                            "Ftma": "4-6",
-                            "Ftp": "66.7%",
+                            "Ftma": "4-5",
+                            "Ftp": "80.0%",
                             "TotalRebounds": "3",
                             "OffensiveRebounds": "0",
                             "DefensiveRebounds": "3",
@@ -2109,8 +2047,8 @@
                             "Steals": "5",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "14.0",
-                            "UsagePercentage": "18.23",
+                            "Efficiency": "15.0",
+                            "UsagePercentage": "17.47",
                             "PointsPerMinute": ".344",
                             "Points": "11",
                             "PersonId": ""
@@ -2119,7 +2057,7 @@
                             "Uni": "15",
                             "Name": "T. PETTAWAY",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "35",
                             "Fgam": "9-16",
                             "ShootingPercentage": "56.3%",
@@ -2137,7 +2075,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "25.0",
-                            "UsagePercentage": "22.41",
+                            "UsagePercentage": "22.26",
                             "PointsPerMinute": ".571",
                             "Points": "20",
                             "PersonId": ""
@@ -2164,7 +2102,7 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "-4.0",
-                            "UsagePercentage": "19.23",
+                            "UsagePercentage": "19.10",
                             "PointsPerMinute": ".083",
                             "Points": "2",
                             "PersonId": ""
@@ -2191,7 +2129,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "22.0",
-                            "UsagePercentage": "28.30",
+                            "UsagePercentage": "28.11",
                             "PointsPerMinute": ".952",
                             "Points": "20",
                             "PersonId": ""
@@ -2199,8 +2137,8 @@
                         {
                             "Uni": "04",
                             "Name": "K. OLIVER",
-                            "Position": "G",
-                            "CurrentlyInGame": "",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "9",
                             "Fgam": "0-1",
                             "ShootingPercentage": "0.0%",
@@ -2226,8 +2164,8 @@
                         {
                             "Uni": "11",
                             "Name": "A. MILLS",
-                            "Position": "G",
-                            "CurrentlyInGame": "",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "26",
                             "Fgam": "4-11",
                             "ShootingPercentage": "36.4%",
@@ -2245,7 +2183,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "15.0",
-                            "UsagePercentage": "24.42",
+                            "UsagePercentage": "24.25",
                             "PointsPerMinute": ".577",
                             "Points": "15",
                             "PersonId": ""
@@ -2253,7 +2191,7 @@
                         {
                             "Uni": "20",
                             "Name": "S. COMPANION",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-1",
@@ -2280,8 +2218,8 @@
                         {
                             "Uni": "23",
                             "Name": "J. JOSEPH",
-                            "Position": "F",
-                            "CurrentlyInGame": "",
+                            "Position": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "21",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
@@ -2293,13 +2231,13 @@
                             "OffensiveRebounds": "1",
                             "DefensiveRebounds": "5",
                             "Assists": "1",
-                            "Turnovers": "1",
+                            "Turnovers": "2",
                             "Blocks": "0",
                             "Steals": "1",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "7.0",
-                            "UsagePercentage": "2.20",
+                            "Efficiency": "6.0",
+                            "UsagePercentage": "4.36",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2384,26 +2322,26 @@
                     "ShootingPercentage": "49.2%",
                     "Tpam": "10-23",
                     "Tppercentage": "43.5%",
-                    "Ftma": "10-13",
-                    "Ftp": "76.9%",
+                    "Ftma": "10-12",
+                    "Ftp": "83.3%",
                     "TotalRebounds": "33",
                     "OffensiveRebounds": "6",
                     "DefensiveRebounds": "27",
-                    "Ties": "5",
-                    "Leads": "7",
-                    "TimeWithLead": "16:39",
+                    "Ties": "3",
+                    "Leads": "4",
+                    "TimeWithLead": "16:38",
                     "PercentLead": "41.6%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
                     "LargestLead": "21",
                     "LargestLeadScores": "84-63",
-                    "LargestLeadTime": "0:11 (4th)",
+                    "LargestLeadTime": "0:21 (4th)",
                     "Assists": "20",
-                    "Turnovers": "16",
+                    "Turnovers": "17",
                     "PointsFromBench": "15",
                     "Blocks": "0",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "28",
+                    "PointsOnCourt": "46",
+                    "PointsOffFastBreak": "20",
                     "Steals": "16",
                     "PointsOffTurnovers": "34",
                     "PointsInPaint": "34",
@@ -2510,7 +2448,7 @@
                         "Turnovers": "6",
                         "PointsFromBench": "3",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "46",
                         "PointsOffFastBreak": "3",
                         "Steals": "2",
                         "PointsOffTurnovers": "6",
@@ -2519,7 +2457,7 @@
                         "PersonalFouls": "4",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:362"
                     }
                 },
                 {
@@ -2601,11 +2539,11 @@
                         "Tppercentage": "42.9%",
                         "Ftma": "0-0",
                         "Ftp": "0.0%",
-                        "TotalRebounds": "8",
-                        "OffensiveRebounds": "2",
+                        "TotalRebounds": "6",
+                        "OffensiveRebounds": "0",
                         "DefensiveRebounds": "6",
-                        "Ties": "2",
-                        "Leads": "2",
+                        "Ties": "1",
+                        "Leads": "1",
                         "TimeWithLead": "0:47",
                         "PercentLead": "2.0%",
                         "LastLeadScore": "",
@@ -2617,7 +2555,7 @@
                         "Turnovers": "5",
                         "PointsFromBench": "3",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "46",
                         "PointsOffFastBreak": "7",
                         "Steals": "3",
                         "PointsOffTurnovers": "4",
@@ -2626,7 +2564,7 @@
                         "PersonalFouls": "4",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:413"
                     }
                 },
                 {
@@ -2708,11 +2646,11 @@
                         "Tppercentage": "50.0%",
                         "Ftma": "5-5",
                         "Ftp": "100.0%",
-                        "TotalRebounds": "8",
+                        "TotalRebounds": "6",
                         "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "6",
-                        "Ties": "3",
-                        "Leads": "5",
+                        "DefensiveRebounds": "4",
+                        "Ties": "2",
+                        "Leads": "3",
                         "TimeWithLead": "5:51",
                         "PercentLead": "14.6%",
                         "LastLeadScore": "",
@@ -2724,8 +2662,8 @@
                         "Turnovers": "1",
                         "PointsFromBench": "7",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "6",
+                        "PointsOnCourt": "46",
+                        "PointsOffFastBreak": "4",
                         "Steals": "7",
                         "PointsOffTurnovers": "20",
                         "PointsInPaint": "10",
@@ -2733,7 +2671,7 @@
                         "PersonalFouls": "3",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:288"
                     }
                 },
                 {
@@ -2813,11 +2751,11 @@
                         "ShootingPercentage": "64.3%",
                         "Tpam": "1-4",
                         "Tppercentage": "25.0%",
-                        "Ftma": "5-8",
-                        "Ftp": "62.5%",
-                        "TotalRebounds": "10",
+                        "Ftma": "5-7",
+                        "Ftp": "71.4%",
+                        "TotalRebounds": "9",
                         "OffensiveRebounds": "2",
-                        "DefensiveRebounds": "8",
+                        "DefensiveRebounds": "7",
                         "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "10:00",
@@ -2826,13 +2764,13 @@
                         "LastLeadTime": "",
                         "LargestLead": "21",
                         "LargestLeadScores": "84-63",
-                        "LargestLeadTime": "0:11 (4th)",
+                        "LargestLeadTime": "0:21 (4th)",
                         "Assists": "8",
-                        "Turnovers": "4",
+                        "Turnovers": "5",
                         "PointsFromBench": "2",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "12",
+                        "PointsOnCourt": "46",
+                        "PointsOffFastBreak": "6",
                         "Steals": "4",
                         "PointsOffTurnovers": "4",
                         "PointsInPaint": "16",
@@ -2840,7 +2778,7 @@
                         "PersonalFouls": "7",
                         "TechnicalFouls": "0",
                         "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "AverageScoringPossession": "0:317"
                     }
                 }
             ]
@@ -3657,52 +3595,6 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jaelyn",
-                "LastName": "Lavigne",
-                "UniformNumber": "32",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Carly",
-                    "LastName": "Whiteside",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Amaris",
-                    "LastName": "Mills",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jemima",
-                    "LastName": "Joseph",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "32 Jaelyn Lavigne OUT; 44 Carly Whiteside OUT; 11 Amaris Mills IN; 23 Jemima Joseph IN",
-            "Context": "",
-            "Id": "40+F2A0BA75",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 310,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Briana",
                 "LastName": "Neary",
@@ -3714,7 +3606,7 @@
             "Team": "HomeTeam",
             "Narrative": "11 Briana Neary FT GOOD (6 Pt)",
             "Context": "",
-            "Id": "44+6C9B286C",
+            "Id": "40+5D84EAC8",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -3738,7 +3630,7 @@
             "Team": "HomeTeam",
             "Narrative": "11 Briana Neary FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "45+D819A496",
+            "Id": "41+C8FD60BA",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -3748,6 +3640,52 @@
                 "HomeTeam": 14,
                 "VisitingTeam": 7
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jemima",
+                "LastName": "Joseph",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Amaris",
+                    "LastName": "Mills",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Carly",
+                    "LastName": "Whiteside",
+                    "UniformNumber": "44",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jaelyn",
+                    "LastName": "Lavigne",
+                    "UniformNumber": "32",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "23 Jemima Joseph IN; 11 Amaris Mills IN; 44 Carly Whiteside OUT; 32 Jaelyn Lavigne OUT",
+            "Context": "",
+            "Id": "42+1FA4697",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 310,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -3773,26 +3711,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Sofia",
-                "LastName": "Neary",
-                "UniformNumber": "05",
+                "FirstName": "Deanna",
+                "LastName": "Linscott",
+                "UniformNumber": "10",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Deanna",
-                    "LastName": "Linscott",
-                    "UniformNumber": "10",
+                    "FirstName": "Sofia",
+                    "LastName": "Neary",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Sofia Neary OUT; 10 Deanna Linscott IN",
+            "Narrative": "10 Deanna Linscott IN; 05 Sofia Neary OUT",
             "Context": "",
-            "Id": "47+28DFA2D2",
+            "Id": "47+A6ACB2B8",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4039,27 +3977,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Amanda",
-                "LastName": "Folan",
-                "UniformNumber": "20",
+                "Team": "VisitingTeam",
+                "FirstName": "Kasey",
+                "LastName": "Oliver",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Marissa",
-                    "LastName": "Forino",
-                    "UniformNumber": "01",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Melanie",
+                    "LastName": "DeMeo",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "20 Amanda Folan OUT; 01 Marissa Forino IN",
+            "Team": "VisitingTeam",
+            "Narrative": "04 Kasey Oliver IN; 05 Melanie DeMeo OUT",
             "Context": "",
-            "Id": "61+C16B36D3",
+            "Id": "61+BB327E69",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4069,27 +4007,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Melanie",
-                "LastName": "DeMeo",
-                "UniformNumber": "05",
+                "Team": "HomeTeam",
+                "FirstName": "Marissa",
+                "LastName": "Forino",
+                "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kasey",
-                    "LastName": "Oliver",
-                    "UniformNumber": "04",
+                    "Team": "HomeTeam",
+                    "FirstName": "Amanda",
+                    "LastName": "Folan",
+                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "05 Melanie DeMeo OUT; 04 Kasey Oliver IN",
+            "Team": "HomeTeam",
+            "Narrative": "01 Marissa Forino IN; 20 Amanda Folan OUT",
             "Context": "",
-            "Id": "63+9268C233",
+            "Id": "63+3CCE4649",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4142,26 +4080,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Briana",
+                "FirstName": "Sofia",
                 "LastName": "Neary",
-                "UniformNumber": "11",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Sofia",
+                    "FirstName": "Briana",
                     "LastName": "Neary",
-                    "UniformNumber": "05",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "11 Briana Neary OUT; 05 Sofia Neary IN",
+            "Narrative": "05 Sofia Neary IN; 11 Briana Neary OUT",
             "Context": "",
-            "Id": "67+8631CB60",
+            "Id": "67+5AD2933A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4319,26 +4257,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Tyah",
-                "LastName": "Pettaway",
-                "UniformNumber": "15",
+                "FirstName": "Melanie",
+                "LastName": "DeMeo",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Melanie",
-                    "LastName": "DeMeo",
-                    "UniformNumber": "05",
+                    "FirstName": "Tyah",
+                    "LastName": "Pettaway",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "15 Tyah Pettaway OUT; 05 Melanie DeMeo IN",
+            "Narrative": "05 Melanie DeMeo IN; 15 Tyah Pettaway OUT",
             "Context": "",
-            "Id": "76+7CAE03F0",
+            "Id": "76+BB063EAC",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4484,26 +4422,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Teja",
-                "LastName": "Andrews",
-                "UniformNumber": "12",
+                "FirstName": "Shelby",
+                "LastName": "Companion",
+                "UniformNumber": "20",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Shelby",
-                    "LastName": "Companion",
-                    "UniformNumber": "20",
+                    "FirstName": "Teja",
+                    "LastName": "Andrews",
+                    "UniformNumber": "12",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Teja Andrews OUT; 20 Shelby Companion IN",
+            "Narrative": "20 Shelby Companion IN; 12 Teja Andrews OUT",
             "Context": "",
-            "Id": "85+84CDC828",
+            "Id": "85+34C0E122",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4660,27 +4598,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Rourke",
-                "UniformNumber": "22",
+                "Team": "VisitingTeam",
+                "FirstName": "Jaelyn",
+                "LastName": "Lavigne",
+                "UniformNumber": "32",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Martin",
-                    "UniformNumber": "35",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jemima",
+                    "LastName": "Joseph",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "22 Ashley Rourke OUT; 35 Olivia Martin IN",
+            "Team": "VisitingTeam",
+            "Narrative": "32 Jaelyn Lavigne IN; 23 Jemima Joseph OUT",
             "Context": "",
-            "Id": "94+D58BE88D",
+            "Id": "94+13E7B157",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4690,27 +4628,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jemima",
-                "LastName": "Joseph",
-                "UniformNumber": "23",
+                "Team": "HomeTeam",
+                "FirstName": "Olivia",
+                "LastName": "Martin",
+                "UniformNumber": "35",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jaelyn",
-                    "LastName": "Lavigne",
-                    "UniformNumber": "32",
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Rourke",
+                    "UniformNumber": "22",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jemima Joseph OUT; 32 Jaelyn Lavigne IN",
+            "Team": "HomeTeam",
+            "Narrative": "35 Olivia Martin IN; 22 Ashley Rourke OUT",
             "Context": "",
-            "Id": "96+198EE501",
+            "Id": "96+59DE4747",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4849,6 +4787,36 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Tyah",
+                "LastName": "Pettaway",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kasey",
+                    "LastName": "Oliver",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "15 Tyah Pettaway IN; 04 Kasey Oliver OUT",
+            "Context": "",
+            "Id": "104+B43C3C8C",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 600,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Briana",
                 "LastName": "Neary",
@@ -4869,37 +4837,7 @@
             "Team": "HomeTeam",
             "Narrative": "11 Briana Neary IN; 05 Sofia Neary OUT",
             "Context": "",
-            "Id": "104+5153D4B1",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kasey",
-                "LastName": "Oliver",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Tyah",
-                    "LastName": "Pettaway",
-                    "UniformNumber": "15",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Kasey Oliver OUT; 15 Tyah Pettaway IN",
-            "Context": "",
-            "Id": "105+E32AD1C1",
+            "Id": "106+54F73B0B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -4955,26 +4893,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Deanna",
-                "LastName": "Linscott",
-                "UniformNumber": "10",
+                "FirstName": "Sofia",
+                "LastName": "Neary",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Sofia",
-                    "LastName": "Neary",
-                    "UniformNumber": "05",
+                    "FirstName": "Deanna",
+                    "LastName": "Linscott",
+                    "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "10 Deanna Linscott OUT; 05 Sofia Neary IN",
+            "Narrative": "05 Sofia Neary IN; 10 Deanna Linscott OUT",
             "Context": "",
-            "Id": "110+E95D5DB6",
+            "Id": "110+2E6838A8",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5096,26 +5034,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Shelby",
-                "LastName": "Companion",
-                "UniformNumber": "20",
+                "FirstName": "Jemima",
+                "LastName": "Joseph",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jemima",
-                    "LastName": "Joseph",
-                    "UniformNumber": "23",
+                    "FirstName": "Shelby",
+                    "LastName": "Companion",
+                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "20 Shelby Companion OUT; 23 Jemima Joseph IN",
+            "Narrative": "23 Jemima Joseph IN; 20 Shelby Companion OUT",
             "Context": "",
-            "Id": "117+2DB0279D",
+            "Id": "117+D88D7087",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5321,21 +5259,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Marissa",
-                "LastName": "Forino",
-                "UniformNumber": "01",
+                "FirstName": "Ashley",
+                "LastName": "Rourke",
+                "UniformNumber": "22",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Martin",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Amanda",
@@ -5346,17 +5276,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Rourke",
-                    "UniformNumber": "22",
+                    "FirstName": "Olivia",
+                    "LastName": "Martin",
+                    "UniformNumber": "35",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Marissa",
+                    "LastName": "Forino",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Marissa Forino OUT; 35 Olivia Martin OUT; 20 Amanda Folan IN; 22 Ashley Rourke IN",
+            "Narrative": "22 Ashley Rourke IN; 20 Amanda Folan IN; 35 Olivia Martin OUT; 01 Marissa Forino OUT",
             "Context": "",
-            "Id": "128+B62E542C",
+            "Id": "128+11D75596",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5787,82 +5725,6 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Morgan",
-                "LastName": "Shuey",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Marissa",
-                    "LastName": "Forino",
-                    "UniformNumber": "01",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Morgan Shuey OUT; 01 Marissa Forino IN",
-            "Context": "",
-            "Id": "153+122ECECE",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 343,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Melanie",
-                "LastName": "DeMeo",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Amaris",
-                    "LastName": "Mills",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kasey",
-                    "LastName": "Oliver",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Teja",
-                    "LastName": "Andrews",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "05 Melanie DeMeo OUT; 11 Amaris Mills OUT; 04 Kasey Oliver IN; 12 Teja Andrews IN",
-            "Context": "",
-            "Id": "155+3DA5A3B7",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 343,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
                 "FirstName": "Amanda",
                 "LastName": "Folan",
                 "UniformNumber": "20",
@@ -5873,7 +5735,7 @@
             "Team": "HomeTeam",
             "Narrative": "20 Amanda Folan FT MISS",
             "Context": "",
-            "Id": "159+AB748A09",
+            "Id": "153+5CD75C67",
             "Type": "FT",
             "Action": "MISS",
             "Period": 2,
@@ -5887,7 +5749,7 @@
             "Team": "HomeTeam",
             "Narrative": "Salve Regina REBOUND",
             "Context": "",
-            "Id": "160+4C112362",
+            "Id": "154+3B368720",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 2,
@@ -5908,7 +5770,7 @@
             "Team": "HomeTeam",
             "Narrative": "20 Amanda Folan FT GOOD (6 Pt)",
             "Context": "",
-            "Id": "161+4C6F5F35",
+            "Id": "155+1A418FF7",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -5921,27 +5783,103 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Teja",
+                "LastName": "Andrews",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kasey",
+                    "LastName": "Oliver",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Amaris",
+                    "LastName": "Mills",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Melanie",
+                    "LastName": "DeMeo",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Teja Andrews IN; 04 Kasey Oliver IN; 11 Amaris Mills OUT; 05 Melanie DeMeo OUT",
+            "Context": "",
+            "Id": "156+18AE82F4",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 343,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Briana",
-                "LastName": "Neary",
-                "UniformNumber": "11",
+                "FirstName": "Marissa",
+                "LastName": "Forino",
+                "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Deanna",
-                    "LastName": "Linscott",
-                    "UniformNumber": "10",
+                    "FirstName": "Morgan",
+                    "LastName": "Shuey",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "11 Briana Neary OUT; 10 Deanna Linscott IN",
+            "Narrative": "01 Marissa Forino IN; 03 Morgan Shuey OUT",
             "Context": "",
-            "Id": "162+83DD55CA",
+            "Id": "160+5892946B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 343,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Deanna",
+                "LastName": "Linscott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Briana",
+                    "LastName": "Neary",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "10 Deanna Linscott IN; 11 Briana Neary OUT",
+            "Context": "",
+            "Id": "162+7726A008",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6662,68 +6600,14 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sofia",
-                "LastName": "Neary",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Rourke",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Morgan",
-                    "LastName": "Shuey",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Briana",
-                    "LastName": "Neary",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "05 Sofia Neary OUT; 22 Ashley Rourke OUT; 03 Morgan Shuey IN; 11 Briana Neary IN",
-            "Context": "",
-            "Id": "200+751FF672",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 135,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Kasey",
-                "LastName": "Oliver",
-                "UniformNumber": "04",
+                "FirstName": "Amaris",
+                "LastName": "Mills",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jaelyn",
-                    "LastName": "Lavigne",
-                    "UniformNumber": "32",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Melanie",
@@ -6734,17 +6618,71 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Amaris",
-                    "LastName": "Mills",
-                    "UniformNumber": "11",
+                    "FirstName": "Jaelyn",
+                    "LastName": "Lavigne",
+                    "UniformNumber": "32",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kasey",
+                    "LastName": "Oliver",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "04 Kasey Oliver OUT; 32 Jaelyn Lavigne OUT; 05 Melanie DeMeo IN; 11 Amaris Mills IN",
+            "Narrative": "11 Amaris Mills IN; 05 Melanie DeMeo IN; 32 Jaelyn Lavigne OUT; 04 Kasey Oliver OUT",
             "Context": "",
-            "Id": "204+754BDBDD",
+            "Id": "200+B46CA57D",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Briana",
+                "LastName": "Neary",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Morgan",
+                    "LastName": "Shuey",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Rourke",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Sofia",
+                    "LastName": "Neary",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Briana Neary IN; 03 Morgan Shuey IN; 22 Ashley Rourke OUT; 05 Sofia Neary OUT",
+            "Context": "",
+            "Id": "204+624B05AE",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -7084,68 +7022,14 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Marissa",
-                "LastName": "Forino",
-                "UniformNumber": "01",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Deanna",
-                    "LastName": "Linscott",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Sofia",
-                    "LastName": "Neary",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Rourke",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "01 Marissa Forino OUT; 10 Deanna Linscott OUT; 05 Sofia Neary IN; 22 Ashley Rourke IN",
-            "Context": "",
-            "Id": "224+D6EE3BA9",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Amaris",
-                "LastName": "Mills",
-                "UniformNumber": "11",
+                "FirstName": "Carly",
+                "LastName": "Whiteside",
+                "UniformNumber": "44",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jemima",
-                    "LastName": "Joseph",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Jaelyn",
@@ -7156,17 +7040,71 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Carly",
-                    "LastName": "Whiteside",
-                    "UniformNumber": "44",
+                    "FirstName": "Jemima",
+                    "LastName": "Joseph",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Amaris",
+                    "LastName": "Mills",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "11 Amaris Mills OUT; 23 Jemima Joseph OUT; 32 Jaelyn Lavigne IN; 44 Carly Whiteside IN",
+            "Narrative": "44 Carly Whiteside IN; 32 Jaelyn Lavigne IN; 23 Jemima Joseph OUT; 11 Amaris Mills OUT",
             "Context": "",
-            "Id": "228+31AE07A5",
+            "Id": "224+19249C29",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 600,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Rourke",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Sofia",
+                    "LastName": "Neary",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Deanna",
+                    "LastName": "Linscott",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Marissa",
+                    "LastName": "Forino",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "22 Ashley Rourke IN; 05 Sofia Neary IN; 10 Deanna Linscott OUT; 01 Marissa Forino OUT",
+            "Context": "",
+            "Id": "228+E093F209",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7973,26 +7911,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Jaelyn",
-                "LastName": "Lavigne",
-                "UniformNumber": "32",
+                "FirstName": "Amaris",
+                "LastName": "Mills",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Amaris",
-                    "LastName": "Mills",
-                    "UniformNumber": "11",
+                    "FirstName": "Jaelyn",
+                    "LastName": "Lavigne",
+                    "UniformNumber": "32",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "32 Jaelyn Lavigne OUT; 11 Amaris Mills IN",
+            "Narrative": "11 Amaris Mills IN; 32 Jaelyn Lavigne OUT",
             "Context": "",
-            "Id": "271+86215FF1",
+            "Id": "271+A27C451",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8024,26 +7962,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Amanda",
-                "LastName": "Folan",
-                "UniformNumber": "20",
+                "FirstName": "Marissa",
+                "LastName": "Forino",
+                "UniformNumber": "01",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Marissa",
-                    "LastName": "Forino",
-                    "UniformNumber": "01",
+                    "FirstName": "Amanda",
+                    "LastName": "Folan",
+                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "20 Amanda Folan OUT; 01 Marissa Forino IN",
+            "Narrative": "01 Marissa Forino IN; 20 Amanda Folan OUT",
             "Context": "",
-            "Id": "274+DBC0650F",
+            "Id": "274+3B443E0F",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8292,36 +8230,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sofia",
-                "LastName": "Neary",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Deanna",
-                    "LastName": "Linscott",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "05 Sofia Neary OUT; 10 Deanna Linscott IN",
-            "Context": "",
-            "Id": "288+B79F8386",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 284,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Amaris",
                 "LastName": "Mills",
@@ -8333,7 +8241,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Amaris Mills FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "290+4E391ADD",
+            "Id": "288+4305BD47",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -8357,7 +8265,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Amaris Mills FT GOOD (8 Pt)",
             "Context": "",
-            "Id": "291+27BB6879",
+            "Id": "289+224FCCF3",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -8367,6 +8275,36 @@
                 "HomeTeam": 42,
                 "VisitingTeam": 43
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Deanna",
+                "LastName": "Linscott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Sofia",
+                    "LastName": "Neary",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "10 Deanna Linscott IN; 05 Sofia Neary OUT",
+            "Context": "",
+            "Id": "290+34D03476",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 284,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -8616,21 +8554,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Marissa",
-                "LastName": "Forino",
-                "UniformNumber": "01",
+                "FirstName": "Amanda",
+                "LastName": "Folan",
+                "UniformNumber": "20",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Deanna",
-                    "LastName": "Linscott",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Sofia",
@@ -8641,17 +8571,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Amanda",
-                    "LastName": "Folan",
-                    "UniformNumber": "20",
+                    "FirstName": "Deanna",
+                    "LastName": "Linscott",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Marissa",
+                    "LastName": "Forino",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Marissa Forino OUT; 10 Deanna Linscott OUT; 05 Sofia Neary IN; 20 Amanda Folan IN",
+            "Narrative": "20 Amanda Folan IN; 05 Sofia Neary IN; 10 Deanna Linscott OUT; 01 Marissa Forino OUT",
             "Context": "",
-            "Id": "304+785B5BCA",
+            "Id": "304+CA2DC106",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8845,26 +8783,26 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Ashley",
-                "LastName": "Rourke",
-                "UniformNumber": "22",
+                "FirstName": "Jordan",
+                "LastName": "Furlong",
+                "UniformNumber": "15",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Jordan",
-                    "LastName": "Furlong",
-                    "UniformNumber": "15",
+                    "FirstName": "Ashley",
+                    "LastName": "Rourke",
+                    "UniformNumber": "22",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "22 Ashley Rourke OUT; 15 Jordan Furlong IN",
+            "Narrative": "15 Jordan Furlong IN; 22 Ashley Rourke OUT",
             "Context": "",
-            "Id": "317+AA1F8EBB",
+            "Id": "317+5FF4C13B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9033,57 +8971,19 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Briana",
-                "LastName": "Neary",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Deanna",
-                    "LastName": "Linscott",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "11 Briana Neary OUT; 10 Deanna Linscott IN",
-            "Context": "",
-            "Id": "327+143B1F78",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 69,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Melanie",
-                "LastName": "DeMeo",
-                "UniformNumber": "05",
+                "FirstName": "Jaelyn",
+                "LastName": "Lavigne",
+                "UniformNumber": "32",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Teja",
-                    "LastName": "Andrews",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Carly",
-                    "LastName": "Whiteside",
-                    "UniformNumber": "44",
+                    "FirstName": "Jemima",
+                    "LastName": "Joseph",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -9097,25 +8997,63 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jemima",
-                    "LastName": "Joseph",
-                    "UniformNumber": "23",
+                    "FirstName": "Carly",
+                    "LastName": "Whiteside",
+                    "UniformNumber": "44",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jaelyn",
-                    "LastName": "Lavigne",
-                    "UniformNumber": "32",
+                    "FirstName": "Teja",
+                    "LastName": "Andrews",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Melanie",
+                    "LastName": "DeMeo",
+                    "UniformNumber": "05",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "05 Melanie DeMeo OUT; 12 Teja Andrews OUT; 44 Carly Whiteside OUT; 04 Kasey Oliver IN; 23 Jemima Joseph IN; 32 Jaelyn Lavigne IN",
+            "Narrative": "32 Jaelyn Lavigne IN; 23 Jemima Joseph IN; 04 Kasey Oliver IN; 44 Carly Whiteside OUT; 12 Teja Andrews OUT; 05 Melanie DeMeo OUT",
             "Context": "",
-            "Id": "329+9A66E6B5",
+            "Id": "327+3F85DEB7",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 69,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Deanna",
+                "LastName": "Linscott",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Briana",
+                    "LastName": "Neary",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "10 Deanna Linscott IN; 11 Briana Neary OUT",
+            "Context": "",
+            "Id": "333+DB8C7618",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -9250,27 +9188,49 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Melanie",
+                "LastName": "DeMeo",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Tyah",
+                    "LastName": "Pettaway",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Melanie DeMeo IN; 15 Tyah Pettaway OUT",
+            "Context": "",
+            "Id": "341+2EB94299",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 600,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Morgan",
-                "LastName": "Shuey",
-                "UniformNumber": "03",
+                "FirstName": "Ashley",
+                "LastName": "Rourke",
+                "UniformNumber": "22",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Sofia",
+                    "FirstName": "Briana",
                     "LastName": "Neary",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jordan",
-                    "LastName": "Furlong",
-                    "UniformNumber": "15",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -9284,55 +9244,33 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Briana",
-                    "LastName": "Neary",
-                    "UniformNumber": "11",
+                    "FirstName": "Jordan",
+                    "LastName": "Furlong",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Rourke",
-                    "UniformNumber": "22",
+                    "FirstName": "Sofia",
+                    "LastName": "Neary",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Morgan",
+                    "LastName": "Shuey",
+                    "UniformNumber": "03",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "03 Morgan Shuey OUT; 05 Sofia Neary OUT; 15 Jordan Furlong OUT; 01 Marissa Forino IN; 11 Briana Neary IN; 22 Ashley Rourke IN",
+            "Narrative": "22 Ashley Rourke IN; 11 Briana Neary IN; 01 Marissa Forino IN; 15 Jordan Furlong OUT; 05 Sofia Neary OUT; 03 Morgan Shuey OUT",
             "Context": "",
-            "Id": "341+A2200DB4",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tyah",
-                "LastName": "Pettaway",
-                "UniformNumber": "15",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Melanie",
-                    "LastName": "DeMeo",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "15 Tyah Pettaway OUT; 05 Melanie DeMeo IN",
-            "Context": "",
-            "Id": "347+EE84E953",
+            "Id": "343+435B33D4",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9714,66 +9652,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Deanna",
-                "LastName": "Linscott",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Morgan",
-                    "LastName": "Shuey",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "10 Deanna Linscott OUT; 03 Morgan Shuey IN",
-            "Context": "",
-            "Id": "367+392CF9DD",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 500,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kasey",
-                "LastName": "Oliver",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Teja",
-                    "LastName": "Andrews",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Kasey Oliver OUT; 12 Teja Andrews IN",
-            "Context": "",
-            "Id": "369+C84FEAE9",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 500,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Amaris",
                 "LastName": "Mills",
@@ -9785,7 +9663,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Amaris Mills FT GOOD (14 Pt)",
             "Context": "",
-            "Id": "371+E8275291",
+            "Id": "367+BB77A0D",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9809,7 +9687,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Amaris Mills FT GOOD (15 Pt)",
             "Context": "",
-            "Id": "372+E26A538D",
+            "Id": "368+F403C221",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9819,6 +9697,66 @@
                 "HomeTeam": 47,
                 "VisitingTeam": 62
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Teja",
+                "LastName": "Andrews",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kasey",
+                    "LastName": "Oliver",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Teja Andrews IN; 04 Kasey Oliver OUT",
+            "Context": "",
+            "Id": "369+2F17E20D",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 500,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Morgan",
+                "LastName": "Shuey",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Deanna",
+                    "LastName": "Linscott",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "03 Morgan Shuey IN; 10 Deanna Linscott OUT",
+            "Context": "",
+            "Id": "371+6C6DDAC1",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 500,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -9889,82 +9827,6 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Amanda",
-                "LastName": "Folan",
-                "UniformNumber": "20",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Rourke",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Colby",
-                    "LastName": "Lima",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Martin",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "20 Amanda Folan OUT; 22 Ashley Rourke OUT; 23 Colby Lima IN; 35 Olivia Martin IN",
-            "Context": "",
-            "Id": "376+DEE5197",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 445,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jemima",
-                "LastName": "Joseph",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Carly",
-                    "LastName": "Whiteside",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jemima Joseph OUT; 44 Carly Whiteside IN",
-            "Context": "",
-            "Id": "380+65069110",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 445,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
                 "FirstName": "Olivia",
                 "LastName": "Martin",
                 "UniformNumber": "35",
@@ -9975,7 +9837,7 @@
             "Team": "HomeTeam",
             "Narrative": "35 Olivia Martin LAYUP GOOD (2 Pt)",
             "Context": "",
-            "Id": "382+FDAC968C",
+            "Id": "376+FBCC0C5A",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9999,7 +9861,7 @@
             "Team": "HomeTeam",
             "Narrative": "11 Briana Neary FOUL (3 PF)",
             "Context": "",
-            "Id": "383+6E2F4F63",
+            "Id": "377+7A6CB42D",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10020,7 +9882,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Teja Andrews FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "384+B535AAA2",
+            "Id": "378+1EB2B7D0",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10044,7 +9906,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Teja Andrews FT GOOD (8 Pt)",
             "Context": "",
-            "Id": "385+F810B0D8",
+            "Id": "379+45A39ACA",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10057,27 +9919,103 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carly",
+                "LastName": "Whiteside",
+                "UniformNumber": "44",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jemima",
+                    "LastName": "Joseph",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "44 Carly Whiteside IN; 23 Jemima Joseph OUT",
+            "Context": "",
+            "Id": "380+4A184220",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 445,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Briana",
-                "LastName": "Neary",
-                "UniformNumber": "11",
+                "FirstName": "Olivia",
+                "LastName": "Martin",
+                "UniformNumber": "35",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Sofia",
-                    "LastName": "Neary",
-                    "UniformNumber": "05",
+                    "FirstName": "Colby",
+                    "LastName": "Lima",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Rourke",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Amanda",
+                    "LastName": "Folan",
+                    "UniformNumber": "20",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "11 Briana Neary OUT; 05 Sofia Neary IN",
+            "Narrative": "35 Olivia Martin IN; 23 Colby Lima IN; 22 Ashley Rourke OUT; 20 Amanda Folan OUT",
             "Context": "",
-            "Id": "386+D2934A5",
+            "Id": "382+AC304371",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 445,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Sofia",
+                "LastName": "Neary",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Briana",
+                    "LastName": "Neary",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "05 Sofia Neary IN; 11 Briana Neary OUT",
+            "Context": "",
+            "Id": "386+D1CA6CFF",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10164,36 +10102,6 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Melanie",
-                "LastName": "DeMeo",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Tyah",
-                    "LastName": "Pettaway",
-                    "UniformNumber": "15",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "05 Melanie DeMeo OUT; 15 Tyah Pettaway IN",
-            "Context": "",
-            "Id": "392+5AFCC924",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 416,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Sofia",
                 "LastName": "Neary",
@@ -10205,7 +10113,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sofia Neary FT GOOD (12 Pt)",
             "Context": "",
-            "Id": "394+73E88616",
+            "Id": "392+6723BA3C",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10229,9 +10137,39 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sofia Neary FT MISS",
             "Context": "",
-            "Id": "395+CD61D45E",
+            "Id": "393+CA21F234",
             "Type": "FT",
             "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 416,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Tyah",
+                "LastName": "Pettaway",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Melanie",
+                    "LastName": "DeMeo",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "15 Tyah Pettaway IN; 05 Melanie DeMeo OUT",
+            "Context": "",
+            "Id": "394+9AC97012",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 416,
             "Coordinate": null,
@@ -10294,26 +10232,61 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Marissa",
-                "LastName": "Forino",
-                "UniformNumber": "01",
+                "FirstName": "Ashley",
+                "LastName": "Rourke",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Ashley Rourke JUMPER MISS",
+            "Context": "",
+            "Id": "399+74EC537",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 386,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Salve Regina REBOUND",
+            "Context": "",
+            "Id": "400+45E41DA9",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 386,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Rourke",
+                "UniformNumber": "22",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Rourke",
-                    "UniformNumber": "22",
+                    "FirstName": "Marissa",
+                    "LastName": "Forino",
+                    "UniformNumber": "01",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "01 Marissa Forino OUT; 22 Ashley Rourke IN",
+            "Narrative": "22 Ashley Rourke IN; 01 Marissa Forino OUT",
             "Context": "",
-            "Id": "399+83737236",
+            "Id": "401+16158DC2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -10332,44 +10305,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "22 Ashley Rourke JUMPER MISS",
+            "Narrative": "22 Ashley Rourke 3PTR MISS",
             "Context": "",
-            "Id": "401+664C3351",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 386,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "Salve Regina REBOUND",
-            "Context": "",
-            "Id": "402+5FB068D3",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 386,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Colby",
-                "LastName": "Lima",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "23 Colby Lima 3PTR MISS",
-            "Context": "",
-            "Id": "403+C0D7374B",
+            "Id": "403+A34AAA5C",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -10521,36 +10459,6 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Colby",
-                "LastName": "Lima",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Briana",
-                    "LastName": "Neary",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "23 Colby Lima OUT; 11 Briana Neary IN",
-            "Context": "",
-            "Id": "412+49530D27",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 301,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
                 "FirstName": "Sofia",
                 "LastName": "Neary",
                 "UniformNumber": "05",
@@ -10561,7 +10469,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sofia Neary FT GOOD (15 Pt)",
             "Context": "",
-            "Id": "414+A6044A5A",
+            "Id": "412+A3D68AE0",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10585,9 +10493,39 @@
             "Team": "HomeTeam",
             "Narrative": "05 Sofia Neary FT MISS",
             "Context": "",
-            "Id": "415+987DB027",
+            "Id": "413+E6678D8D",
             "Type": "FT",
             "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 301,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Briana",
+                "LastName": "Neary",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Colby",
+                    "LastName": "Lima",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Briana Neary IN; 23 Colby Lima OUT",
+            "Context": "",
+            "Id": "414+976C94D5",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 301,
             "Coordinate": null,
@@ -10864,26 +10802,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Jaelyn",
-                "LastName": "Lavigne",
-                "UniformNumber": "32",
+                "FirstName": "Melanie",
+                "LastName": "DeMeo",
+                "UniformNumber": "05",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Melanie",
-                    "LastName": "DeMeo",
-                    "UniformNumber": "05",
+                    "FirstName": "Jaelyn",
+                    "LastName": "Lavigne",
+                    "UniformNumber": "32",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "32 Jaelyn Lavigne OUT; 05 Melanie DeMeo IN",
+            "Narrative": "05 Melanie DeMeo IN; 32 Jaelyn Lavigne OUT",
             "Context": "",
-            "Id": "429+D879F024",
+            "Id": "429+DC2FE93E",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11191,36 +11129,6 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Olivia",
-                "LastName": "Martin",
-                "UniformNumber": "35",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Amanda",
-                    "LastName": "Folan",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "35 Olivia Martin OUT; 20 Amanda Folan IN",
-            "Context": "",
-            "Id": "448+2F22B0A7",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 133,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Carly",
                 "LastName": "Whiteside",
@@ -11232,7 +11140,7 @@
             "Team": "VisitingTeam",
             "Narrative": "44 Carly Whiteside FT GOOD (18 Pt)",
             "Context": "",
-            "Id": "450+46BE1682",
+            "Id": "448+43ADFFD8",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11246,26 +11154,56 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Amaris",
-                "LastName": "Mills",
-                "UniformNumber": "11",
+                "FirstName": "Jemima",
+                "LastName": "Joseph",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jemima",
-                    "LastName": "Joseph",
-                    "UniformNumber": "23",
+                    "FirstName": "Amaris",
+                    "LastName": "Mills",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "11 Amaris Mills OUT; 23 Jemima Joseph IN",
+            "Narrative": "23 Jemima Joseph IN; 11 Amaris Mills OUT",
             "Context": "",
-            "Id": "451+49FAC01E",
+            "Id": "449+203C89A0",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 133,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amanda",
+                "LastName": "Folan",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Olivia",
+                    "LastName": "Martin",
+                    "UniformNumber": "35",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "20 Amanda Folan IN; 35 Olivia Martin OUT",
+            "Context": "",
+            "Id": "451+8A27B308",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11402,26 +11340,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Jemima",
-                "LastName": "Joseph",
-                "UniformNumber": "23",
+                "FirstName": "Amaris",
+                "LastName": "Mills",
+                "UniformNumber": "11",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Amaris",
-                    "LastName": "Mills",
-                    "UniformNumber": "11",
+                    "FirstName": "Jemima",
+                    "LastName": "Joseph",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "23 Jemima Joseph OUT; 11 Amaris Mills IN",
+            "Narrative": "11 Amaris Mills IN; 23 Jemima Joseph OUT",
             "Context": "",
-            "Id": "459+C34929B",
+            "Id": "459+13F0375B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -11452,59 +11390,20 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sofia",
-                "LastName": "Neary",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Martin",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "05 Sofia Neary OUT; 35 Olivia Martin IN",
-            "Context": "",
-            "Id": "462+6BDFFDEB",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 71,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Amaris",
-                "LastName": "Mills",
-                "UniformNumber": "11",
+                "FirstName": "Jemima",
+                "LastName": "Joseph",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jemima",
-                    "LastName": "Joseph",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
+            "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "11 Amaris Mills OUT; 23 Jemima Joseph IN",
+            "Narrative": "23 Jemima Joseph TURNOVER (2 TO)",
             "Context": "",
-            "Id": "464+332F0C53",
-            "Type": "SUBS",
-            "Action": "SUBS",
+            "Id": "462+9F63EF88",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
             "Period": 4,
             "ClockSeconds": 71,
             "Coordinate": null,
@@ -11523,7 +11422,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Teja Andrews FT MISS",
             "Context": "",
-            "Id": "466+CE73E347",
+            "Id": "463+5A56E71E",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -11537,7 +11436,7 @@
             "Team": "VisitingTeam",
             "Narrative": "UMass Dartmouth REBOUND",
             "Context": "",
-            "Id": "467+69E6588F",
+            "Id": "464+6F74B880",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 4,
@@ -11548,33 +11447,58 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Teja",
-                "LastName": "Andrews",
-                "UniformNumber": "12",
+                "FirstName": "Jemima",
+                "LastName": "Joseph",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [],
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Amaris",
+                    "LastName": "Mills",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "VisitingTeam",
-            "Narrative": "12 Teja Andrews FT MISS",
+            "Narrative": "23 Jemima Joseph IN; 11 Amaris Mills OUT",
             "Context": "",
-            "Id": "468+E3BA2481",
-            "Type": "FT",
-            "Action": "MISS",
+            "Id": "465+6DBE16C2",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 71,
             "Coordinate": null,
             "Score": null
         },
         {
-            "Player": null,
-            "InvolvedPlayers": [],
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Olivia",
+                "LastName": "Martin",
+                "UniformNumber": "35",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Sofia",
+                    "LastName": "Neary",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
             "Team": "HomeTeam",
-            "Narrative": "Salve Regina REBOUND",
+            "Narrative": "35 Olivia Martin IN; 05 Sofia Neary OUT",
             "Context": "",
-            "Id": "469+6F2D319D",
-            "Type": "DEADB",
-            "Action": "REBOUND",
+            "Id": "467+B8012B36",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 71,
             "Coordinate": null,
@@ -11593,11 +11517,11 @@
             "Team": "HomeTeam",
             "Narrative": "03 Morgan Shuey TURNOVER (2 TO)",
             "Context": "",
-            "Id": "470+3B0CD047",
+            "Id": "469+2FD209A7",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
-            "ClockSeconds": 60,
+            "ClockSeconds": 59,
             "Coordinate": null,
             "Score": null
         },
@@ -11614,11 +11538,11 @@
             "Team": "VisitingTeam",
             "Narrative": "15 Tyah Pettaway STEAL (4 Stl)",
             "Context": "",
-            "Id": "471+68C43F42",
+            "Id": "470+7441AC78",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
-            "ClockSeconds": 60,
+            "ClockSeconds": 59,
             "Coordinate": null,
             "Score": null
         },
@@ -11644,11 +11568,11 @@
             "Team": "VisitingTeam",
             "Narrative": "05 Melanie DeMeo LAYUP GOOD (16 Pt); 15 Tyah Pettaway Assist (5 Asst)",
             "Context": "",
-            "Id": "472+1617570D",
+            "Id": "471+648DA391",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 58,
+            "ClockSeconds": 53,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 63,
@@ -11666,13 +11590,13 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "22 Ashley Rourke JUMPER MISS",
+            "Narrative": "22 Ashley Rourke 3PTR MISS",
             "Context": "",
-            "Id": "474+453CE3A5",
-            "Type": "JUMPER",
+            "Id": "473+E99D20B7",
+            "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
-            "ClockSeconds": 49,
+            "ClockSeconds": 48,
             "Coordinate": null,
             "Score": null
         },
@@ -11689,11 +11613,11 @@
             "Team": "VisitingTeam",
             "Narrative": "05 Melanie DeMeo DEF. REBOUND (6 Reb, 6 Def)",
             "Context": "",
-            "Id": "475+E5475341",
+            "Id": "474+E1FAB268",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 44,
+            "ClockSeconds": 48,
             "Coordinate": null,
             "Score": null
         },
@@ -11719,11 +11643,11 @@
             "Team": "VisitingTeam",
             "Narrative": "44 Carly Whiteside LAYUP GOOD (20 Pt); 23 Jemima Joseph Assist (1 Asst)",
             "Context": "",
-            "Id": "476+3A3C7F34",
+            "Id": "475+54B561A9",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
-            "ClockSeconds": 11,
+            "ClockSeconds": 21,
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 63,
@@ -11743,55 +11667,9 @@
             "Team": "VisitingTeam",
             "Narrative": "44 Carly Whiteside FOUL (3 PF)",
             "Context": "",
-            "Id": "478+96F2F43A",
+            "Id": "477+8915EFCD",
             "Type": "FOUL",
             "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 4,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Melanie",
-                "LastName": "DeMeo",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Carly",
-                    "LastName": "Whiteside",
-                    "UniformNumber": "44",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kasey",
-                    "LastName": "Oliver",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Amaris",
-                    "LastName": "Mills",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "05 Melanie DeMeo OUT; 44 Carly Whiteside OUT; 04 Kasey Oliver IN; 11 Amaris Mills IN",
-            "Context": "",
-            "Id": "479+275B7FA4",
-            "Type": "SUBS",
-            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 4,
             "Coordinate": null,
@@ -11810,7 +11688,7 @@
             "Team": "HomeTeam",
             "Narrative": "11 Briana Neary FT GOOD (20 Pt)",
             "Context": "",
-            "Id": "483+D9B02B5E",
+            "Id": "478+7607813F",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11834,7 +11712,7 @@
             "Team": "HomeTeam",
             "Narrative": "11 Briana Neary FT MISS",
             "Context": "",
-            "Id": "484+FB06E94D",
+            "Id": "479+4D5214A2",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -11855,11 +11733,57 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Jemima Joseph DEF. REBOUND (6 Reb, 5 Def)",
             "Context": "",
-            "Id": "485+E3AC4C26",
+            "Id": "480+F6C437A0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
-            "ClockSeconds": 3,
+            "ClockSeconds": 4,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Amaris",
+                "LastName": "Mills",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kasey",
+                    "LastName": "Oliver",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Carly",
+                    "LastName": "Whiteside",
+                    "UniformNumber": "44",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Melanie",
+                    "LastName": "DeMeo",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "11 Amaris Mills IN; 04 Kasey Oliver IN; 44 Carly Whiteside OUT; 05 Melanie DeMeo OUT",
+            "Context": "",
+            "Id": "481+E07290A2",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 4,
             "Coordinate": null,
             "Score": null
         }

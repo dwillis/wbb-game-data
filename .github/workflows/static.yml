@@ -29,6 +29,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: free disk space
+        run: |
+        sudo swapoff -a
+        sudo rm -f /swapfile
+        sudo apt clean
+        docker rmi $(docker image ls -aq)
+        df -h
       - name: Delete huge unnecessary tools folder
         run: rm -rf /opt/hostedtoolcache
       - name: Checkout

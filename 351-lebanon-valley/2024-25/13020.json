@@ -589,7 +589,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "8"
+                    "Value": "9"
                 },
                 {
                     "Player": {
@@ -830,7 +830,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "17.0"
+                    "Value": "18.0"
                 },
                 {
                     "Player": {
@@ -1086,8 +1086,8 @@
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "8",
-                            "OffensiveRebounds": "1",
+                            "TotalRebounds": "9",
+                            "OffensiveRebounds": "2",
                             "DefensiveRebounds": "7",
                             "Assists": "2",
                             "Turnovers": "2",
@@ -1095,7 +1095,7 @@
                             "Steals": "3",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "17.0",
+                            "Efficiency": "18.0",
                             "UsagePercentage": "20.43",
                             "PointsPerMinute": ".276",
                             "Points": "8",
@@ -2358,7 +2358,7 @@
                     "DefensiveRebounds": "19",
                     "Ties": "11",
                     "Leads": "8",
-                    "TimeWithLead": "9:58",
+                    "TimeWithLead": "9:59",
                     "PercentLead": "24.9%",
                     "LastLeadScore": "47-46",
                     "LastLeadTime": "7:39 (4th)",
@@ -2680,7 +2680,7 @@
                         "DefensiveRebounds": "4",
                         "Ties": "3",
                         "Leads": "2",
-                        "TimeWithLead": "6:55",
+                        "TimeWithLead": "6:56",
                         "PercentLead": "17.3%",
                         "LastLeadScore": "45-44",
                         "LastLeadTime": "1:17 (3rd)",
@@ -3032,12 +3032,19 @@
             "Score": null
         },
         {
-            "Player": null,
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Cristina",
+                "LastName": "Fernandez",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "Lebanon Valley REBOUND",
+            "Narrative": "01 Cristina Fernandez OFF. REBOUND (1 Reb, 1 Off)",
             "Context": "",
-            "Id": "10+8A5B666E",
+            "Id": "10+58D2E5A1",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 1,
@@ -4339,9 +4346,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (1 Reb, 1 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (2 Reb, 1 Def)",
             "Context": "",
-            "Id": "79+E4026053",
+            "Id": "79+DD360ED0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 1,
@@ -4639,9 +4646,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (2 Reb, 2 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (3 Reb, 2 Def)",
             "Context": "",
-            "Id": "96+37F434DB",
+            "Id": "96+ECA5D758",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -4789,9 +4796,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (3 Reb, 3 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "104+2E9A7A3E",
+            "Id": "104+27F611A5",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -4963,9 +4970,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (4 Reb, 4 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (5 Reb, 4 Def)",
             "Context": "",
-            "Id": "114+20B3BC2D",
+            "Id": "114+A73A59AE",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5140,9 +5147,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez OFF. REBOUND (5 Reb, 1 Off)",
+            "Narrative": "01 Cristina Fernandez OFF. REBOUND (6 Reb, 2 Off)",
             "Context": "",
-            "Id": "124+1F116F11",
+            "Id": "124+B4A00F03",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -7135,6 +7142,30 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lauren",
+                "LastName": "Klieber",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "21 Lauren Klieber LAYUP GOOD (20 Pt)",
+            "Context": "",
+            "Id": "229+77877073",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 409,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 35,
+                "VisitingTeam": 37
+            }
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Jordan",
                 "LastName": "Zimmerman",
@@ -7146,7 +7177,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Jordan Zimmerman FOUL (3 PF)",
             "Context": "",
-            "Id": "229+686E3953",
+            "Id": "230+6136A84C",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -7165,9 +7196,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "21 Lauren Klieber FT GOOD (19 Pt)",
+            "Narrative": "21 Lauren Klieber FT GOOD (21 Pt)",
             "Context": "",
-            "Id": "230+EF82D5C6",
+            "Id": "231+91A1F576",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -7175,7 +7206,7 @@
             "Coordinate": null,
             "Score": {
                 "HomeTeam": 35,
-                "VisitingTeam": 36
+                "VisitingTeam": 38
             }
         },
         {
@@ -7200,7 +7231,7 @@
             "Team": "HomeTeam",
             "Narrative": "33 Jordan Zimmerman OUT; 31 Elise Balmer IN",
             "Context": "",
-            "Id": "231+62DE8878",
+            "Id": "232+17C91F2B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7230,37 +7261,13 @@
             "Team": "VisitingTeam",
             "Narrative": "14 Emily DuPont OUT; 22 Taylor Hehnly IN",
             "Context": "",
-            "Id": "233+A878C95",
+            "Id": "234+26596F2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
             "ClockSeconds": 408,
             "Coordinate": null,
             "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Lauren",
-                "LastName": "Klieber",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Lauren Klieber LAYUP GOOD (21 Pt)",
-            "Context": "",
-            "Id": "235+ECCF5CB4",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 407,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 35,
-                "VisitingTeam": 38
-            }
         },
         {
             "Player": {
@@ -7525,9 +7532,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (6 Reb, 5 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (7 Reb, 5 Def)",
             "Context": "",
-            "Id": "249+EBF5AC59",
+            "Id": "249+36A643D8",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7646,6 +7653,27 @@
         {
             "Player": {
                 "Team": "HomeTeam",
+                "FirstName": "Abbie",
+                "LastName": "Reed",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "22 Abbie Reed FOUL (1 PF)",
+            "Context": "",
+            "Id": "255+2D3C79C4",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 252,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
                 "FirstName": "Alexa",
                 "LastName": "Holcomb",
                 "UniformNumber": "25",
@@ -7681,7 +7709,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Alexa Holcomb IN; 01 Cristina Fernandez OUT; 32 Brielle Reidinger OUT; 34 Kailey Eckhart IN",
             "Context": "",
-            "Id": "255+9A2FB43C",
+            "Id": "256+F5BAC38F",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7702,7 +7730,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Lauren Klieber FT GOOD (22 Pt)",
             "Context": "",
-            "Id": "256+D9A94EE6",
+            "Id": "257+DF43E1CB",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -7726,7 +7754,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Lauren Klieber FT GOOD (23 Pt)",
             "Context": "",
-            "Id": "257+DF43ED8A",
+            "Id": "258+C0AF76FD",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -7759,32 +7787,11 @@
             "Team": "VisitingTeam",
             "Narrative": "02 Lindsay Holden OUT; 14 Emily DuPont IN",
             "Context": "",
-            "Id": "261+8DF8FE0E",
+            "Id": "262+72E33A91",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
             "ClockSeconds": 252,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Abbie",
-                "LastName": "Reed",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "22 Abbie Reed FOUL (1 PF)",
-            "Context": "",
-            "Id": "263+4B454233",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 3,
-            "ClockSeconds": 251,
             "Coordinate": null,
             "Score": null
         },
@@ -8526,9 +8533,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (7 Reb, 6 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (8 Reb, 6 Def)",
             "Context": "",
-            "Id": "302+6A818475",
+            "Id": "302+63AE6BC8",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9510,9 +9517,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "01 Cristina Fernandez DEF. REBOUND (8 Reb, 7 Def)",
+            "Narrative": "01 Cristina Fernandez DEF. REBOUND (9 Reb, 7 Def)",
             "Context": "",
-            "Id": "353+6B77745",
+            "Id": "353+86CED2C4",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10046,6 +10053,27 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "DuPont",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Emily DuPont FOUL (1 PF)",
+            "Context": "",
+            "Id": "379+A8CA5404",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 81,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Abbie",
                 "LastName": "Reed",
@@ -10057,7 +10085,7 @@
             "Team": "HomeTeam",
             "Narrative": "22 Abbie Reed FT MISS",
             "Context": "",
-            "Id": "379+F7FF4846",
+            "Id": "380+E0081DE5",
             "Type": "FT",
             "Action": "MISS",
             "Period": 4,
@@ -10071,7 +10099,7 @@
             "Team": "HomeTeam",
             "Narrative": "Lebanon Valley REBOUND",
             "Context": "",
-            "Id": "380+BC7CFEEF",
+            "Id": "381+40B6ECA2",
             "Type": "DEADB",
             "Action": "REBOUND",
             "Period": 4,
@@ -10092,7 +10120,7 @@
             "Team": "HomeTeam",
             "Narrative": "22 Abbie Reed FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "381+51695FE5",
+            "Id": "382+A761FF72",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10102,27 +10130,6 @@
                 "HomeTeam": 65,
                 "VisitingTeam": 53
             }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Emily",
-                "LastName": "DuPont",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "14 Emily DuPont FOUL (1 PF)",
-            "Context": "",
-            "Id": "382+B5F92F6C",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 80,
-            "Coordinate": null,
-            "Score": null
         },
         {
             "Player": {

@@ -1,6 +1,6 @@
 # wbb-game-data
 
-This repository contains individual JSON files of game data from NCAA women's basketball games from the 2006-07 season through the 2021-22 season, although not for all teams listed here. The JSON files are stored in individual team folders prefixed with the NCAA team id of each school. An example of a JSON game file is https://bgsufalcons.com/api/livestats?game_id=10955&detail=full.
+This repository contains individual JSON files of game data from NCAA women's basketball games from the 2006-07 season through the 2024-25 season, although not for all teams listed here. The JSON files are stored in individual team folders prefixed with the NCAA team id of each school. An example of a JSON game file is https://bgsufalcons.com/api/livestats?game_id=10955&detail=full.
 
 These files were collected using [a Python library written for the purpose](https://github.com/dwillis/wbb), which in turn depends on a listing of teams with URLs and NCAA ids (https://github.com/dwillis/wbb/blob/master/ncaa/teams.json). Contributions to the teams JSON file are welcome.
 

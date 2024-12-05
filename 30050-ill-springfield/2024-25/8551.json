@@ -78,27 +78,6 @@
         "LastPlays": [
             {
                 "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kayla",
-                    "LastName": "Rice",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "03 Kayla Rice TURNOVER (4 TO)",
-                "Context": "",
-                "Id": "530+2D1DE3D",
-                "Type": "TURNOVER",
-                "Action": "TURNOVER",
-                "Period": 4,
-                "ClockSeconds": 23,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
                     "Team": "VisitingTeam",
                     "FirstName": "Mara",
                     "LastName": "Rieder",
@@ -240,6 +219,27 @@
                     "HomeTeam": 67,
                     "VisitingTeam": 87
                 }
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alex",
+                    "LastName": "Wolff",
+                    "UniformNumber": "34",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "34 Alex Wolff OFF. REBOUND (6 Reb, 3 Off)",
+                "Context": "",
+                "Id": "518+1711EE26",
+                "Type": "OFF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 44,
+                "Coordinate": null,
+                "Score": null
             }
         ]
     },
@@ -549,17 +549,6 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Abby",
-                        "LastName": "Peterson",
-                        "UniformNumber": "23",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "23.63"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
                         "FirstName": "Alex",
                         "LastName": "Wolff",
                         "UniformNumber": "34",
@@ -578,6 +567,17 @@
                         "PersonId": ""
                     },
                     "Value": "23.08"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Abby",
+                        "LastName": "Peterson",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "22.24"
                 }
             ]
         },
@@ -834,7 +834,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "13.0"
+                    "Value": "14.0"
                 },
                 {
                     "Player": {
@@ -869,7 +869,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "31.16"
+                    "Value": "31.55"
                 },
                 {
                     "Player": {
@@ -880,18 +880,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "30.52"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Kayla",
-                        "LastName": "Rice",
-                        "UniformNumber": "03",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "28.29"
+                    "Value": "30.90"
                 },
                 {
                     "Player": {
@@ -902,7 +891,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "27.84"
+                    "Value": "28.18"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
+                        "FirstName": "Kayla",
+                        "LastName": "Rice",
+                        "UniformNumber": "03",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "27.18"
                 }
             ]
         }
@@ -1057,13 +1057,13 @@
                             "OffensiveRebounds": "2",
                             "DefensiveRebounds": "0",
                             "Assists": "3",
-                            "Turnovers": "4",
+                            "Turnovers": "3",
                             "Blocks": "0",
                             "Steals": "4",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "13.0",
-                            "UsagePercentage": "28.29",
+                            "Efficiency": "14.0",
+                            "UsagePercentage": "27.18",
                             "PointsPerMinute": ".500",
                             "Points": "17",
                             "PersonId": ""
@@ -1090,7 +1090,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "5.0",
-                            "UsagePercentage": "27.84",
+                            "UsagePercentage": "28.18",
                             "PointsPerMinute": ".394",
                             "Points": "13",
                             "PersonId": ""
@@ -1117,7 +1117,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "10.04",
+                            "UsagePercentage": "10.17",
                             "PointsPerMinute": ".051",
                             "Points": "2",
                             "PersonId": ""
@@ -1144,7 +1144,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "13.18",
+                            "UsagePercentage": "13.35",
                             "PointsPerMinute": ".154",
                             "Points": "4",
                             "PersonId": ""
@@ -1171,7 +1171,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "24.0",
-                            "UsagePercentage": "30.52",
+                            "UsagePercentage": "30.90",
                             "PointsPerMinute": ".871",
                             "Points": "27",
                             "PersonId": ""
@@ -1252,7 +1252,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "31.16",
+                            "UsagePercentage": "31.55",
                             "PointsPerMinute": ".364",
                             "Points": "4",
                             "PersonId": ""
@@ -1352,7 +1352,7 @@
                     "LargestLeadScores": "26-25",
                     "LargestLeadTime": "7:03 (2nd)",
                     "Assists": "10",
-                    "Turnovers": "17",
+                    "Turnovers": "16",
                     "PointsFromBench": "4",
                     "Blocks": "0",
                     "PointsOnCourt": "0",
@@ -1781,7 +1781,7 @@
                         "LargestLeadScores": "-",
                         "LargestLeadTime": "-",
                         "Assists": "4",
-                        "Turnovers": "4",
+                        "Turnovers": "3",
                         "PointsFromBench": "0",
                         "Blocks": "0",
                         "PointsOnCourt": "0",
@@ -2126,38 +2126,11 @@
                             "PersonId": ""
                         },
                         {
-                            "Uni": "10",
-                            "Name": "A. CARLSON",
-                            "Position": "G",
-                            "CurrentlyInGame": "",
-                            "Minutes": "3",
-                            "Fgam": "0-0",
-                            "ShootingPercentage": "0.0%",
-                            "Tpam": "0-0",
-                            "Tppercentage": "0.0%",
-                            "Ftma": "0-0",
-                            "Ftp": "0.0%",
-                            "TotalRebounds": "0",
-                            "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "0",
-                            "Assists": "0",
-                            "Turnovers": "0",
-                            "Blocks": "0",
-                            "Steals": "0",
-                            "PersonalFouls": "0",
-                            "TechnicalFouls": "0",
-                            "Efficiency": "0.0",
-                            "UsagePercentage": "-",
-                            "PointsPerMinute": "-",
-                            "Points": "0",
-                            "PersonId": ""
-                        },
-                        {
                             "Uni": "20",
                             "Name": "E. WELLER",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "25",
+                            "Minutes": "27",
                             "Fgam": "6-9",
                             "ShootingPercentage": "66.7%",
                             "Tpam": "0-0",
@@ -2174,8 +2147,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "14.0",
-                            "UsagePercentage": "20.04",
-                            "PointsPerMinute": ".480",
+                            "UsagePercentage": "18.55",
+                            "PointsPerMinute": ".444",
                             "Points": "12",
                             "PersonId": ""
                         },
@@ -2211,7 +2184,7 @@
                             "Name": "A. PETERSON",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "16",
+                            "Minutes": "17",
                             "Fgam": "2-5",
                             "ShootingPercentage": "40.0%",
                             "Tpam": "2-3",
@@ -2228,8 +2201,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "23.63",
-                            "PointsPerMinute": ".500",
+                            "UsagePercentage": "22.24",
+                            "PointsPerMinute": ".471",
                             "Points": "8",
                             "PersonId": ""
                         }
@@ -3381,17 +3354,17 @@
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Aalia",
-                    "LastName": "Carlson",
-                    "UniformNumber": "10",
+                    "FirstName": "Abby",
+                    "LastName": "Peterson",
+                    "UniformNumber": "23",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "03 Katie Hamill OUT; 10 Aalia Carlson IN",
+            "Narrative": "03 Katie Hamill OUT; 23 Abby Peterson IN",
             "Context": "",
-            "Id": "30+8F1CC49E",
+            "Id": "30+BE945C60",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3765,6 +3738,14 @@
                 },
                 {
                     "Team": "VisitingTeam",
+                    "FirstName": "Emerson",
+                    "LastName": "Weller",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
                     "FirstName": "Abby",
                     "LastName": "Peterson",
                     "UniformNumber": "23",
@@ -3773,9 +3754,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "10 Aalia Carlson OUT; 24 Morgan Ramthun OUT; 03 Katie Hamill IN; 23 Abby Peterson IN",
+            "Narrative": "10 Aalia Carlson OUT; 24 Morgan Ramthun OUT; 03 Katie Hamill IN; 20 Emerson Weller IN; 20 Emerson Weller OUT; 23 Abby Peterson IN",
             "Context": "",
-            "Id": "51+B71B307D",
+            "Id": "51+9DB35A70",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3796,7 +3777,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Saharra Murphy TURNOVER (1 TO)",
             "Context": "",
-            "Id": "57+54F40BAE",
+            "Id": "59+576E22B4",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 1,
@@ -3824,14 +3805,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Aalia",
-                    "LastName": "Carlson",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Morgan",
                     "LastName": "Ramthun",
                     "UniformNumber": "24",
@@ -3840,9 +3813,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "04 Kate Rolfes OUT; 03 Katie Hamill OUT; 10 Aalia Carlson IN; 24 Morgan Ramthun IN",
+            "Narrative": "04 Kate Rolfes OUT; 03 Katie Hamill OUT; 24 Morgan Ramthun IN",
             "Context": "",
-            "Id": "58+1FBE96C4",
+            "Id": "60+EC61616F",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3872,7 +3845,7 @@
             "Team": "HomeTeam",
             "Narrative": "10 Makenna Yeager OUT; 03 Kayla Rice IN",
             "Context": "",
-            "Id": "59+EC9C3971",
+            "Id": "61+F42B05F7",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -3893,7 +3866,7 @@
             "Team": "VisitingTeam",
             "Narrative": "34 Alex Wolff FT GOOD (5 Pt)",
             "Context": "",
-            "Id": "64+92FFFEED",
+            "Id": "65+9ACA9240",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -3917,7 +3890,7 @@
             "Team": "VisitingTeam",
             "Narrative": "34 Alex Wolff FT GOOD (6 Pt)",
             "Context": "",
-            "Id": "65+4A6CA3B3",
+            "Id": "66+3883AD54",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -3941,7 +3914,7 @@
             "Team": "HomeTeam",
             "Narrative": "20 Sydney Moss FOUL (1 PF)",
             "Context": "",
-            "Id": "66+1F8B3F27",
+            "Id": "67+61076C9A",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 1,
@@ -3962,7 +3935,7 @@
             "Team": "HomeTeam",
             "Narrative": "32 Diavian Mehundrew JUMPER GOOD (4 Pt)",
             "Context": "",
-            "Id": "67+8BBB73EE",
+            "Id": "68+9C294FED",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 1,
@@ -3995,7 +3968,7 @@
             "Team": "VisitingTeam",
             "Narrative": "34 Alex Wolff JUMPER GOOD (8 Pt); 05 Audrey Martinez-Stewart Assist (1 Asst)",
             "Context": "",
-            "Id": "68+32E4FBD4",
+            "Id": "69+3B633531",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 1,
@@ -4019,7 +3992,7 @@
             "Team": "HomeTeam",
             "Narrative": "32 Diavian Mehundrew LAYUP GOOD (6 Pt)",
             "Context": "",
-            "Id": "70+FA798A07",
+            "Id": "71+F8B494F2",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 1,
@@ -4043,7 +4016,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Morgan Ramthun FOUL (1 PF)",
             "Context": "",
-            "Id": "71+199AF578",
+            "Id": "72+2AF6CF5B",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 1,
@@ -4064,7 +4037,7 @@
             "Team": "HomeTeam",
             "Narrative": "32 Diavian Mehundrew FT MISS",
             "Context": "",
-            "Id": "72+F1D51D90",
+            "Id": "73+FA76E0FD",
             "Type": "FT",
             "Action": "MISS",
             "Period": 1,
@@ -4085,7 +4058,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Morgan Ramthun DEF. REBOUND (2 Reb, 1 Def)",
             "Context": "",
-            "Id": "73+A88BA8F8",
+            "Id": "74+A1D177CF",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 1,
@@ -4106,7 +4079,7 @@
             "Team": "VisitingTeam",
             "Narrative": "05 Audrey Martinez-Stewart LAYUP MISS",
             "Context": "",
-            "Id": "74+17E73357",
+            "Id": "75+16294F0A",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 1,
@@ -4127,7 +4100,7 @@
             "Team": "VisitingTeam",
             "Narrative": "34 Alex Wolff OFF. REBOUND (1 Reb, 1 Off)",
             "Context": "",
-            "Id": "75+D1A94825",
+            "Id": "76+C3351606",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 1,
@@ -4148,7 +4121,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Morgan Ramthun LAYUP GOOD (6 Pt)",
             "Context": "",
-            "Id": "76+C45E66F5",
+            "Id": "77+C02DE8A0",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 1,
@@ -4181,7 +4154,7 @@
             "Team": "HomeTeam",
             "Narrative": "32 Diavian Mehundrew 3PTR GOOD (9 Pt); 03 Kayla Rice Assist (1 Asst)",
             "Context": "",
-            "Id": "77+AE39021D",
+            "Id": "78+A8C07A52",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 1,
@@ -4230,7 +4203,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Saharra Murphy OUT; 24 Niyah Udoiwood IN; 10 Makenna Yeager IN; 20 Sydney Moss OUT",
             "Context": "",
-            "Id": "79+19C7951B",
+            "Id": "80+62BF44B8",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4263,20 +4236,12 @@
                     "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Aalia",
-                    "LastName": "Carlson",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "24 Morgan Ramthun OUT; 03 Katie Hamill IN; 04 Kate Rolfes IN; 10 Aalia Carlson OUT",
+            "Narrative": "24 Morgan Ramthun OUT; 03 Katie Hamill IN; 04 Kate Rolfes IN",
             "Context": "",
-            "Id": "82+299F8108",
+            "Id": "83+1FE17A37",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -11735,27 +11700,6 @@
             "Action": "REBOUND",
             "Period": 4,
             "ClockSeconds": 30,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kayla",
-                "LastName": "Rice",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "03 Kayla Rice TURNOVER (4 TO)",
-            "Context": "",
-            "Id": "530+2D1DE3D",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 23,
             "Coordinate": null,
             "Score": null
         }

@@ -3,14 +3,14 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "statcrew",
         "Date": "12/4/2024",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "",
         "NcaaGameId": "",
         "Notes": [],
-        "Location": "Thompson Gymnasium, Elizabethtown, PA",
+        "Location": "Elizabethtown, Pa. (Thompson Gymnasium)",
         "GlobalSportShortname": null,
         "BannerMessage": null,
         "StadiumImage": null,
@@ -19,8 +19,8 @@
         "Officials": "",
         "Attendance": 135,
         "PeriodsRegulation": 4,
-        "Period": 0,
-        "ClockSeconds": -1,
+        "Period": 4,
+        "ClockSeconds": 0,
         "Context": "JUN BONUS",
         "Rules": {
             "PeriodMinutes": 10,
@@ -34,7 +34,7 @@
             "Id": "ETOWN",
             "Name": "Elizabethtown",
             "Score": 86,
-            "CurrentRecord": "6-1,3-0 Landmark",
+            "CurrentRecord": "6-1, 3-0 LC",
             "NcaaSchoolCode": "",
             "Color": "#0A4E91",
             "TextColor": "#C8C8C8",
@@ -52,7 +52,7 @@
             "Id": "JUN",
             "Name": "Juniata",
             "Score": 64,
-            "CurrentRecord": "2-4,1-2 Landmark",
+            "CurrentRecord": "2-4, 1-2 LC",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -84,7 +84,7 @@
                 "Team": "VisitingTeam",
                 "Narrative": "12 Gemma Navickas TURNOVER (1 TO)",
                 "Context": "",
-                "Id": "470+45221FB0",
+                "Id": "430+94F7DDA8",
                 "Type": "TURNOVER",
                 "Action": "TURNOVER",
                 "Period": 4,
@@ -105,7 +105,7 @@
                 "Team": "VisitingTeam",
                 "Narrative": "12 Gemma Navickas FOUL (1 PF)",
                 "Context": "",
-                "Id": "469+DA4FB0EB",
+                "Id": "429+E503F2D3",
                 "Type": "FOUL",
                 "Action": "FOUL",
                 "Period": 4,
@@ -126,7 +126,7 @@
                 "Team": "HomeTeam",
                 "Narrative": "15 Kiley Wilhelm TURNOVER (1 TO)",
                 "Context": "",
-                "Id": "468+566D7A5D",
+                "Id": "428+614B39F5",
                 "Type": "TURNOVER",
                 "Action": "TURNOVER",
                 "Period": 4,
@@ -136,70 +136,14 @@
             },
             {
                 "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emelie",
-                    "LastName": "Nonemaker",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "40 Emelie Nonemaker FT GOOD (3 Pt)",
-                "Context": "",
-                "Id": "467+D7AD7F7F",
-                "Type": "FT",
-                "Action": "GOOD",
-                "Period": 4,
-                "ClockSeconds": 41,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 86,
-                    "VisitingTeam": 64
-                }
-            },
-            {
-                "Player": {
                     "Team": "HomeTeam",
-                    "FirstName": "Cadence",
-                    "LastName": "Anderson",
-                    "UniformNumber": "10",
+                    "FirstName": "Kiley",
+                    "LastName": "Wilhelm",
+                    "UniformNumber": "15",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Jess",
-                        "LastName": "Pronchick",
-                        "UniformNumber": "12",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Ashley",
-                        "LastName": "Adamson",
-                        "UniformNumber": "21",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Ellie",
-                        "LastName": "Fasick",
-                        "UniformNumber": "24",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Kiley",
-                        "LastName": "Wilhelm",
-                        "UniformNumber": "15",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
                     {
                         "Team": "HomeTeam",
                         "FirstName": "Mallory",
@@ -223,18 +167,74 @@
                         "UniformNumber": "35",
                         "Photo": null,
                         "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Ashley",
+                        "LastName": "Adamson",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Cadence",
+                        "LastName": "Anderson",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Ellie",
+                        "LastName": "Fasick",
+                        "UniformNumber": "24",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Jess",
+                        "LastName": "Pronchick",
+                        "UniformNumber": "12",
+                        "Photo": null,
+                        "PersonId": ""
                     }
                 ],
                 "Team": "HomeTeam",
-                "Narrative": "10 Cadence Anderson OUT; 12 Jess Pronchick OUT; 21 Ashley Adamson OUT; 24 Ellie Fasick OUT; 15 Kiley Wilhelm IN; 20 Mallory Elias IN; 22 Alex Gonzalez IN; 35 Peyton Houlihan IN",
+                "Narrative": "15 Kiley Wilhelm IN; 20 Mallory Elias IN; 22 Alex Gonzalez IN; 35 Peyton Houlihan IN; 21 Ashley Adamson OUT; 10 Cadence Anderson OUT; 24 Ellie Fasick OUT; 12 Jess Pronchick OUT",
                 "Context": "",
-                "Id": "459+BA3FF36C",
+                "Id": "420+F54DD517",
                 "Type": "SUBS",
                 "Action": "SUBS",
                 "Period": 4,
                 "ClockSeconds": 41,
                 "Coordinate": null,
                 "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emelie",
+                    "LastName": "Nonemaker",
+                    "UniformNumber": "40",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "40 Emelie Nonemaker FT GOOD (3 Pt)",
+                "Context": "",
+                "Id": "419+22A9A88F",
+                "Type": "FT",
+                "Action": "GOOD",
+                "Period": 4,
+                "ClockSeconds": 41,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 86,
+                    "VisitingTeam": 64
+                }
             }
         ]
     },
@@ -516,7 +516,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "30.84"
+                    "Value": "30.83"
                 },
                 {
                     "Player": {
@@ -527,7 +527,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "28.21"
+                    "Value": "28.19"
                 },
                 {
                     "Player": {
@@ -538,7 +538,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "20.09"
+                    "Value": "20.08"
                 },
                 {
                     "Player": {
@@ -549,7 +549,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "18.42"
+                    "Value": "18.41"
                 }
             ]
         },
@@ -886,7 +886,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "25.83"
+                    "Value": "25.82"
                 },
                 {
                     "Player": {
@@ -897,7 +897,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "25.57"
+                    "Value": "25.56"
                 },
                 {
                     "Player": {
@@ -908,7 +908,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.28"
+                    "Value": "24.27"
                 },
                 {
                     "Player": {
@@ -919,7 +919,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "21.88"
+                    "Value": "21.87"
                 }
             ]
         }
@@ -1142,7 +1142,7 @@
                             "Uni": "02",
                             "Name": "M. MUMMERT",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "21",
                             "Fgam": "4-6",
                             "ShootingPercentage": "66.7%",
@@ -1160,7 +1160,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "14.0",
-                            "UsagePercentage": "15.50",
+                            "UsagePercentage": "15.49",
                             "PointsPerMinute": ".476",
                             "Points": "10",
                             "PersonId": ""
@@ -1169,7 +1169,7 @@
                             "Uni": "05",
                             "Name": "E. GORDON",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "23",
                             "Fgam": "1-6",
                             "ShootingPercentage": "16.7%",
@@ -1187,7 +1187,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "-3.0",
-                            "UsagePercentage": "14.15",
+                            "UsagePercentage": "14.14",
                             "PointsPerMinute": ".130",
                             "Points": "3",
                             "PersonId": ""
@@ -1196,7 +1196,7 @@
                             "Uni": "25",
                             "Name": "S. MCNULTY",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "26",
                             "Fgam": "0-6",
                             "ShootingPercentage": "0.0%",
@@ -1214,7 +1214,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "-1.0",
-                            "UsagePercentage": "19.67",
+                            "UsagePercentage": "19.66",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -1223,7 +1223,7 @@
                             "Uni": "30",
                             "Name": "J. KING",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "29",
                             "Fgam": "10-12",
                             "ShootingPercentage": "83.3%",
@@ -1241,7 +1241,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "31.0",
-                            "UsagePercentage": "20.84",
+                            "UsagePercentage": "20.83",
                             "PointsPerMinute": ".690",
                             "Points": "20",
                             "PersonId": ""
@@ -1250,7 +1250,7 @@
                             "Uni": "34",
                             "Name": "D. RENNO",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "17",
                             "Fgam": "5-7",
                             "ShootingPercentage": "71.4%",
@@ -1268,7 +1268,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "18.0",
-                            "UsagePercentage": "24.28",
+                            "UsagePercentage": "24.27",
                             "PointsPerMinute": ".706",
                             "Points": "12",
                             "PersonId": ""
@@ -1276,7 +1276,7 @@
                         {
                             "Uni": "03",
                             "Name": "L. BOYD",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "18",
                             "Fgam": "3-8",
@@ -1295,7 +1295,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "25.83",
+                            "UsagePercentage": "25.82",
                             "PointsPerMinute": ".444",
                             "Points": "8",
                             "PersonId": ""
@@ -1303,7 +1303,7 @@
                         {
                             "Uni": "04",
                             "Name": "C. WILSON",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "17",
                             "Fgam": "4-7",
@@ -1322,7 +1322,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "12.0",
-                            "UsagePercentage": "21.88",
+                            "UsagePercentage": "21.87",
                             "PointsPerMinute": ".647",
                             "Points": "11",
                             "PersonId": ""
@@ -1330,7 +1330,7 @@
                         {
                             "Uni": "10",
                             "Name": "C. ANDERSON",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-1",
@@ -1357,7 +1357,7 @@
                         {
                             "Uni": "12",
                             "Name": "J. PRONCHICK",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-0",
@@ -1384,7 +1384,7 @@
                         {
                             "Uni": "14",
                             "Name": "A. CHAPMAN",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "2",
                             "Fgam": "0-1",
@@ -1411,7 +1411,7 @@
                         {
                             "Uni": "15",
                             "Name": "K. WILHELM",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-0",
@@ -1438,7 +1438,7 @@
                         {
                             "Uni": "20",
                             "Name": "M. ELIAS",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-0",
@@ -1465,7 +1465,7 @@
                         {
                             "Uni": "21",
                             "Name": "A. ADAMSON",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-1",
@@ -1492,7 +1492,7 @@
                         {
                             "Uni": "22",
                             "Name": "A. GONZALEZ",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-0",
@@ -1519,7 +1519,7 @@
                         {
                             "Uni": "24",
                             "Name": "E. FASICK",
-                            "Position": "C",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "1-1",
@@ -1546,7 +1546,7 @@
                         {
                             "Uni": "31",
                             "Name": "A. KENNEDY",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "24",
                             "Fgam": "7-8",
@@ -1565,7 +1565,7 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "30.0",
-                            "UsagePercentage": "25.57",
+                            "UsagePercentage": "25.56",
                             "PointsPerMinute": ".750",
                             "Points": "18",
                             "PersonId": ""
@@ -1573,7 +1573,7 @@
                         {
                             "Uni": "35",
                             "Name": "P. HOULIHAN",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "1",
                             "Fgam": "0-0",
@@ -1600,7 +1600,7 @@
                         {
                             "Uni": "40",
                             "Name": "G. O'CONNOR",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "15",
                             "Fgam": "1-1",
@@ -1709,9 +1709,9 @@
                     "TotalRebounds": "41",
                     "OffensiveRebounds": "14",
                     "DefensiveRebounds": "27",
-                    "Ties": "2",
+                    "Ties": "0",
                     "Leads": "0",
-                    "TimeWithLead": "38:05",
+                    "TimeWithLead": "38:04",
                     "PercentLead": "95.2%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
@@ -1722,16 +1722,16 @@
                     "Turnovers": "18",
                     "PointsFromBench": "41",
                     "Blocks": "5",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "11",
+                    "PointsOnCourt": "45",
+                    "PointsOffFastBreak": "0",
                     "Steals": "8",
                     "PointsOffTurnovers": "19",
-                    "PointsInPaint": "54",
+                    "PointsInPaint": "0",
                     "PointsOffSecondChance": "10",
                     "PersonalFouls": "17",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "75",
+                    "AverageScoringPossession": "0:14"
                 }
             },
             "PeriodStats": [
@@ -1817,7 +1817,7 @@
                         "TotalRebounds": "7",
                         "OffensiveRebounds": "2",
                         "DefensiveRebounds": "5",
-                        "Ties": "2",
+                        "Ties": "0",
                         "Leads": "0",
                         "TimeWithLead": "8:04",
                         "PercentLead": "20.2%",
@@ -1830,16 +1830,16 @@
                         "Turnovers": "2",
                         "PointsFromBench": "9",
                         "Blocks": "2",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "45",
                         "PointsOffFastBreak": "0",
                         "Steals": "4",
                         "PointsOffTurnovers": "6",
-                        "PointsInPaint": "12",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "1",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:13"
                     }
                 },
                 {
@@ -1937,16 +1937,16 @@
                         "Turnovers": "4",
                         "PointsFromBench": "10",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "45",
                         "PointsOffFastBreak": "0",
                         "Steals": "0",
                         "PointsOffTurnovers": "5",
-                        "PointsInPaint": "14",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "5",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "18",
+                        "AverageScoringPossession": "0:16"
                     }
                 },
                 {
@@ -2044,16 +2044,16 @@
                         "Turnovers": "4",
                         "PointsFromBench": "2",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "4",
+                        "PointsOnCourt": "45",
+                        "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "4",
-                        "PointsInPaint": "12",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "4",
                         "PersonalFouls": "5",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "16",
+                        "AverageScoringPossession": "0:16"
                     }
                 },
                 {
@@ -2151,16 +2151,16 @@
                         "Turnovers": "8",
                         "PointsFromBench": "20",
                         "Blocks": "1",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "7",
+                        "PointsOnCourt": "45",
+                        "PointsOffFastBreak": "0",
                         "Steals": "2",
                         "PointsOffTurnovers": "4",
-                        "PointsInPaint": "16",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "0",
                         "PersonalFouls": "8",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "23",
+                        "AverageScoringPossession": "0:10"
                     }
                 }
             ]
@@ -2175,14 +2175,6 @@
                 "PersonId": ""
             },
             "Players": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "McKenna",
-                    "LastName": "Kelley",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Michaela",
@@ -2249,33 +2241,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Chloe",
-                    "LastName": "Sauer",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Laney",
                     "LastName": "Gerdich",
                     "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Cate",
-                    "LastName": "Clark",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Dani",
-                    "LastName": "Scipioni",
-                    "UniformNumber": "34",
                     "Photo": null,
                     "PersonId": ""
                 },
@@ -2300,14 +2268,6 @@
                     "FirstName": "Emily",
                     "LastName": "McCann",
                     "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Paytan",
-                    "LastName": "Henry",
-                    "UniformNumber": "50",
                     "Photo": null,
                     "PersonId": ""
                 }
@@ -2374,7 +2334,7 @@
                             "Uni": "04",
                             "Name": "S. EMERT",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "29",
                             "Fgam": "6-15",
                             "ShootingPercentage": "40.0%",
@@ -2392,7 +2352,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "16.0",
-                            "UsagePercentage": "30.84",
+                            "UsagePercentage": "30.83",
                             "PointsPerMinute": ".690",
                             "Points": "20",
                             "PersonId": ""
@@ -2401,7 +2361,7 @@
                             "Uni": "11",
                             "Name": "O. BERG",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "17",
                             "Fgam": "0-2",
                             "ShootingPercentage": "0.0%",
@@ -2419,7 +2379,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "-3.0",
-                            "UsagePercentage": "13.79",
+                            "UsagePercentage": "13.78",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2428,7 +2388,7 @@
                             "Uni": "13",
                             "Name": "H. SHERMAN",
                             "Position": "F",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "24",
                             "Fgam": "6-14",
                             "ShootingPercentage": "42.9%",
@@ -2446,7 +2406,7 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "11.0",
-                            "UsagePercentage": "28.21",
+                            "UsagePercentage": "28.19",
                             "PointsPerMinute": ".542",
                             "Points": "13",
                             "PersonId": ""
@@ -2455,7 +2415,7 @@
                             "Uni": "21",
                             "Name": "B. BODTORF",
                             "Position": "G",
-                            "CurrentlyInGame": "",
+                            "CurrentlyInGame": "*",
                             "Minutes": "28",
                             "Fgam": "1-9",
                             "ShootingPercentage": "11.1%",
@@ -2473,7 +2433,7 @@
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
                             "Efficiency": "0.0",
-                            "UsagePercentage": "18.42",
+                            "UsagePercentage": "18.41",
                             "PointsPerMinute": ".071",
                             "Points": "2",
                             "PersonId": ""
@@ -2481,8 +2441,8 @@
                         {
                             "Uni": "31",
                             "Name": "L. GERDICH",
-                            "Position": "C",
-                            "CurrentlyInGame": "",
+                            "Position": "F",
+                            "CurrentlyInGame": "*",
                             "Minutes": "24",
                             "Fgam": "4-4",
                             "ShootingPercentage": "100.0%",
@@ -2500,7 +2460,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "15.0",
-                            "UsagePercentage": "11.49",
+                            "UsagePercentage": "11.48",
                             "PointsPerMinute": ".417",
                             "Points": "10",
                             "PersonId": ""
@@ -2508,7 +2468,7 @@
                         {
                             "Uni": "03",
                             "Name": "M. OWENS",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "2",
                             "Fgam": "0-0",
@@ -2535,7 +2495,7 @@
                         {
                             "Uni": "12",
                             "Name": "G. NAVICKAS",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "2",
                             "Fgam": "0-0",
@@ -2562,7 +2522,7 @@
                         {
                             "Uni": "23",
                             "Name": "D. GILLO",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "21",
                             "Fgam": "1-5",
@@ -2581,7 +2541,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "-1.0",
-                            "UsagePercentage": "20.09",
+                            "UsagePercentage": "20.08",
                             "PointsPerMinute": ".095",
                             "Points": "2",
                             "PersonId": ""
@@ -2589,7 +2549,7 @@
                         {
                             "Uni": "24",
                             "Name": "E. COOLIDGE",
-                            "Position": "F",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "19",
                             "Fgam": "2-5",
@@ -2608,7 +2568,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "1.0",
-                            "UsagePercentage": "17.27",
+                            "UsagePercentage": "17.26",
                             "PointsPerMinute": ".211",
                             "Points": "4",
                             "PersonId": ""
@@ -2616,7 +2576,7 @@
                         {
                             "Uni": "35",
                             "Name": "S. BETTS",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "11",
                             "Fgam": "0-1",
@@ -2643,7 +2603,7 @@
                         {
                             "Uni": "40",
                             "Name": "E. NONEMAKER",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "7",
                             "Fgam": "1-3",
@@ -2670,7 +2630,7 @@
                         {
                             "Uni": "43",
                             "Name": "E. MCCANN",
-                            "Position": "G",
+                            "Position": "",
                             "CurrentlyInGame": "",
                             "Minutes": "16",
                             "Fgam": "1-3",
@@ -2689,7 +2649,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "5.0",
-                            "UsagePercentage": "16.88",
+                            "UsagePercentage": "16.87",
                             "PointsPerMinute": ".375",
                             "Points": "6",
                             "PersonId": ""
@@ -2792,16 +2752,16 @@
                     "Turnovers": "16",
                     "PointsFromBench": "19",
                     "Blocks": "0",
-                    "PointsOnCourt": "0",
-                    "PointsOffFastBreak": "5",
+                    "PointsOnCourt": "45",
+                    "PointsOffFastBreak": "0",
                     "Steals": "9",
                     "PointsOffTurnovers": "9",
-                    "PointsInPaint": "32",
+                    "PointsInPaint": "0",
                     "PointsOffSecondChance": "10",
                     "PersonalFouls": "12",
                     "TechnicalFouls": "0",
-                    "Possession": "0",
-                    "AverageScoringPossession": "-"
+                    "Possession": "76",
+                    "AverageScoringPossession": "0:19"
                 }
             },
             "PeriodStats": [
@@ -2900,16 +2860,16 @@
                         "Turnovers": "6",
                         "PointsFromBench": "2",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "45",
                         "PointsOffFastBreak": "0",
                         "Steals": "0",
                         "PointsOffTurnovers": "0",
-                        "PointsInPaint": "6",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "4",
                         "PersonalFouls": "4",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "19",
+                        "AverageScoringPossession": "0:19"
                     }
                 },
                 {
@@ -3007,16 +2967,16 @@
                         "Turnovers": "2",
                         "PointsFromBench": "4",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "2",
+                        "PointsOnCourt": "45",
+                        "PointsOffFastBreak": "0",
                         "Steals": "1",
                         "PointsOffTurnovers": "4",
-                        "PointsInPaint": "12",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "17",
+                        "AverageScoringPossession": "0:17"
                     }
                 },
                 {
@@ -3114,16 +3074,16 @@
                         "Turnovers": "4",
                         "PointsFromBench": "2",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
+                        "PointsOnCourt": "45",
                         "PointsOffFastBreak": "0",
                         "Steals": "4",
                         "PointsOffTurnovers": "0",
-                        "PointsInPaint": "6",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "2",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "17",
+                        "AverageScoringPossession": "0:27"
                     }
                 },
                 {
@@ -3221,16 +3181,16 @@
                         "Turnovers": "4",
                         "PointsFromBench": "11",
                         "Blocks": "0",
-                        "PointsOnCourt": "0",
-                        "PointsOffFastBreak": "3",
+                        "PointsOnCourt": "45",
+                        "PointsOffFastBreak": "0",
                         "Steals": "4",
                         "PointsOffTurnovers": "5",
-                        "PointsInPaint": "8",
+                        "PointsInPaint": "0",
                         "PointsOffSecondChance": "2",
                         "PersonalFouls": "4",
                         "TechnicalFouls": "0",
-                        "Possession": "0",
-                        "AverageScoringPossession": "-"
+                        "Possession": "23",
+                        "AverageScoringPossession": "0:16"
                     }
                 }
             ]
@@ -3978,52 +3938,6 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Berg",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Deja",
-                    "LastName": "Gillo",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Laney",
-                    "LastName": "Gerdich",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Coolidge",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Olivia Berg OUT; 23 Deja Gillo IN; 31 Laney Gerdich OUT; 24 Emma Coolidge IN",
-            "Context": "",
-            "Id": "35+D70030B5",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 336,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "DaniRae",
                 "LastName": "Renno",
@@ -4035,7 +3949,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "37+66AE2B23",
+            "Id": "35+8513405",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -4059,7 +3973,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno FT GOOD (2 Pt)",
             "Context": "",
-            "Id": "38+76AEAD83",
+            "Id": "36+6210E6C9",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -4069,6 +3983,52 @@
                 "HomeTeam": 10,
                 "VisitingTeam": 6
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emma",
+                "LastName": "Coolidge",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Deja",
+                    "LastName": "Gillo",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Olivia",
+                    "LastName": "Berg",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Laney",
+                    "LastName": "Gerdich",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Emma Coolidge IN; 23 Deja Gillo IN; 11 Olivia Berg OUT; 31 Laney Gerdich OUT",
+            "Context": "",
+            "Id": "37+5669291",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 336,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -4233,14 +4193,76 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Makenna",
-                "LastName": "Mummert",
-                "UniformNumber": "02",
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "McCann",
+                "UniformNumber": "43",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Bri",
+                    "LastName": "Bodtorf",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "43 Emily McCann IN; 21 Bri Bodtorf OUT",
+            "Context": "",
+            "Id": "49+185DA5AE",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 254,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "O'Connor",
+                "UniformNumber": "40",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Cyleigh",
+                    "LastName": "Wilson",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lindsay",
+                    "LastName": "Boyd",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Allyia",
+                    "LastName": "Kennedy",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Makenna",
+                    "LastName": "Mummert",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Ella",
@@ -4264,74 +4286,12 @@
                     "UniformNumber": "34",
                     "Photo": null,
                     "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Lindsay",
-                    "LastName": "Boyd",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Cyleigh",
-                    "LastName": "Wilson",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Allyia",
-                    "LastName": "Kennedy",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "O'Connor",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "02 Makenna Mummert OUT; 05 Ella Gordon OUT; 25 Summer McNulty OUT; 34 DaniRae Renno OUT; 03 Lindsay Boyd IN; 04 Cyleigh Wilson IN; 31 Allyia Kennedy IN; 40 Grace O'Connor IN",
+            "Narrative": "40 Grace O'Connor IN; 04 Cyleigh Wilson IN; 03 Lindsay Boyd IN; 31 Allyia Kennedy IN; 02 Makenna Mummert OUT; 05 Ella Gordon OUT; 25 Summer McNulty OUT; 34 DaniRae Renno OUT",
             "Context": "",
-            "Id": "49+EED6DE10",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 254,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Bri",
-                "LastName": "Bodtorf",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "McCann",
-                    "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Bri Bodtorf OUT; 43 Emily McCann IN",
-            "Context": "",
-            "Id": "57+847DF916",
+            "Id": "51+853D2846",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4396,36 +4356,6 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Haily",
-                "LastName": "Sherman",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Laney",
-                    "LastName": "Gerdich",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Haily Sherman OUT; 31 Laney Gerdich IN",
-            "Context": "",
-            "Id": "62+4066152D",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 221,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
                 "FirstName": "Steph",
                 "LastName": "Emert",
                 "UniformNumber": "04",
@@ -4436,7 +4366,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert FT GOOD (3 Pt)",
             "Context": "",
-            "Id": "64+B6CF54CB",
+            "Id": "62+56C9D74D",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -4460,7 +4390,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert FT GOOD (4 Pt)",
             "Context": "",
-            "Id": "65+B0BEB9ED",
+            "Id": "63+57DD0413",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -4470,6 +4400,36 @@
                 "HomeTeam": 13,
                 "VisitingTeam": 8
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Laney",
+                "LastName": "Gerdich",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Haily",
+                    "LastName": "Sherman",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "31 Laney Gerdich IN; 13 Haily Sherman OUT",
+            "Context": "",
+            "Id": "64+B391BD03",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 1,
+            "ClockSeconds": 221,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -4661,27 +4621,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jess",
-                "LastName": "King",
-                "UniformNumber": "30",
+                "Team": "VisitingTeam",
+                "FirstName": "Bri",
+                "LastName": "Bodtorf",
+                "UniformNumber": "21",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "DaniRae",
-                    "LastName": "Renno",
-                    "UniformNumber": "34",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Steph",
+                    "LastName": "Emert",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Jess King OUT; 34 DaniRae Renno IN",
+            "Team": "VisitingTeam",
+            "Narrative": "21 Bri Bodtorf IN; 04 Steph Emert OUT",
             "Context": "",
-            "Id": "75+3A4B37BA",
+            "Id": "75+3762196F",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -4691,27 +4651,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Steph",
-                "LastName": "Emert",
-                "UniformNumber": "04",
+                "Team": "HomeTeam",
+                "FirstName": "DaniRae",
+                "LastName": "Renno",
+                "UniformNumber": "34",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Bodtorf",
-                    "UniformNumber": "21",
+                    "Team": "HomeTeam",
+                    "FirstName": "Jess",
+                    "LastName": "King",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Steph Emert OUT; 21 Bri Bodtorf IN",
+            "Team": "HomeTeam",
+            "Narrative": "34 DaniRae Renno IN; 30 Jess King OUT",
             "Context": "",
-            "Id": "77+4BB037C9",
+            "Id": "77+AEAA1B64",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
@@ -5116,136 +5076,17 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Lindsay",
-                "LastName": "Boyd",
-                "UniformNumber": "03",
+                "FirstName": "DaniRae",
+                "LastName": "Renno",
+                "UniformNumber": "34",
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Cyleigh",
-                    "LastName": "Wilson",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "DaniRae",
-                    "LastName": "Renno",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "O'Connor",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Makenna",
-                    "LastName": "Mummert",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ella",
-                    "LastName": "Gordon",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Summer",
-                    "LastName": "McNulty",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jess",
-                    "LastName": "King",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
+            "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "03 Lindsay Boyd OUT; 04 Cyleigh Wilson OUT; 34 DaniRae Renno OUT; 40 Grace O'Connor OUT; 02 Makenna Mummert IN; 05 Ella Gordon IN; 25 Summer McNulty IN; 30 Jess King IN",
+            "Narrative": "34 DaniRae Renno OUT",
             "Context": "",
-            "Id": "100+3D7A1C51",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Deja",
-                "LastName": "Gillo",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Coolidge",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "McCann",
-                    "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Steph",
-                    "LastName": "Emert",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Berg",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Haily",
-                    "LastName": "Sherman",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Deja Gillo OUT; 24 Emma Coolidge OUT; 43 Emily McCann OUT; 04 Steph Emert IN; 11 Olivia Berg IN; 13 Haily Sherman IN",
-            "Context": "",
-            "Id": "108+B82F0CA8",
+            "Id": "100+6E53A63A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5266,7 +5107,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (6 Pt)",
             "Context": "",
-            "Id": "114+31095772",
+            "Id": "101+67305541",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -5299,7 +5140,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP MISS; 30 Jess King BLOCK (1 Blk)",
             "Context": "",
-            "Id": "115+DB82C770",
+            "Id": "102+994D38C1",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -5313,7 +5154,7 @@
             "Team": "HomeTeam",
             "Narrative": "Elizabethtown REBOUND",
             "Context": "",
-            "Id": "116+B89A5AD8",
+            "Id": "103+F09480A7",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5334,7 +5175,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King TURNOVER (1 TO)",
             "Context": "",
-            "Id": "118+D59F0D3C",
+            "Id": "105+80A363CF",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -5355,7 +5196,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP GOOD (9 Pt)",
             "Context": "",
-            "Id": "119+C4621B49",
+            "Id": "106+B4C08EA8",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -5379,7 +5220,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (8 Pt)",
             "Context": "",
-            "Id": "120+F0F682F0",
+            "Id": "107+AD0EA5F7",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -5403,7 +5244,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King FOUL (1 PF)",
             "Context": "",
-            "Id": "121+DF96B33D",
+            "Id": "108+646ABCAC",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 2,
@@ -5424,7 +5265,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich FT GOOD (3 Pt)",
             "Context": "",
-            "Id": "122+58C16257",
+            "Id": "109+54FD84",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -5448,7 +5289,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich FT GOOD (4 Pt)",
             "Context": "",
-            "Id": "123+52656DE1",
+            "Id": "110+8475530",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -5481,7 +5322,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (10 Pt); 31 Allyia Kennedy Assist (2 Asst)",
             "Context": "",
-            "Id": "124+41383B0A",
+            "Id": "111+7DBB5225",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -5505,7 +5346,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP MISS",
             "Context": "",
-            "Id": "126+C97F4F02",
+            "Id": "113+EBB5E311",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -5526,7 +5367,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich OFF. REBOUND (3 Reb, 2 Off)",
             "Context": "",
-            "Id": "127+5D948C49",
+            "Id": "114+6DC82588",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5547,7 +5388,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich LAYUP GOOD (6 Pt)",
             "Context": "",
-            "Id": "128+F5666B98",
+            "Id": "115+739D0AAF",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -5571,7 +5412,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy LAYUP GOOD (5 Pt)",
             "Context": "",
-            "Id": "129+FCC3C602",
+            "Id": "116+42C372D3",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -5595,7 +5436,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman 3PTR MISS",
             "Context": "",
-            "Id": "130+28594A06",
+            "Id": "117+8AAE2525",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -5616,7 +5457,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "131+3CF4C7FA",
+            "Id": "118+B500AE4B",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5637,7 +5478,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert LAYUP MISS",
             "Context": "",
-            "Id": "132+A2B8AA12",
+            "Id": "119+1FF286BD",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -5658,7 +5499,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King OFF. REBOUND (4 Reb, 1 Off)",
             "Context": "",
-            "Id": "133+7F27CB23",
+            "Id": "120+E5CD3AC2",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5679,7 +5520,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty LAYUP MISS",
             "Context": "",
-            "Id": "134+45451C65",
+            "Id": "121+E57DCF86",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -5700,7 +5541,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty OFF. REBOUND (2 Reb, 2 Off)",
             "Context": "",
-            "Id": "135+23AC21A5",
+            "Id": "122+95799F54",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5721,7 +5562,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon LAYUP MISS",
             "Context": "",
-            "Id": "136+2FBDFB13",
+            "Id": "123+B2DD5074",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -5742,7 +5583,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Olivia Berg DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "137+450B0BD3",
+            "Id": "124+B3DEB022",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5763,7 +5604,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP MISS",
             "Context": "",
-            "Id": "138+5AE4FB04",
+            "Id": "125+BF4C7F67",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -5784,7 +5625,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert OFF. REBOUND (1 Reb, 1 Off)",
             "Context": "",
-            "Id": "139+6070526",
+            "Id": "126+977F8C97",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5794,27 +5635,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jess",
-                "LastName": "King",
-                "UniformNumber": "30",
+                "Team": "VisitingTeam",
+                "FirstName": "Emma",
+                "LastName": "Coolidge",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "DaniRae",
-                    "LastName": "Renno",
-                    "UniformNumber": "34",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Haily",
+                    "LastName": "Sherman",
+                    "UniformNumber": "13",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Jess King OUT; 34 DaniRae Renno IN",
+            "Team": "VisitingTeam",
+            "Narrative": "24 Emma Coolidge IN; 13 Haily Sherman OUT",
             "Context": "",
-            "Id": "140+66560FBD",
+            "Id": "127+E4EBB26D",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5824,27 +5665,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Haily",
-                "LastName": "Sherman",
-                "UniformNumber": "13",
+                "Team": "HomeTeam",
+                "FirstName": "DaniRae",
+                "LastName": "Renno",
+                "UniformNumber": "34",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Coolidge",
-                    "UniformNumber": "24",
+                    "Team": "HomeTeam",
+                    "FirstName": "Jess",
+                    "LastName": "King",
+                    "UniformNumber": "30",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Haily Sherman OUT; 24 Emma Coolidge IN",
+            "Team": "HomeTeam",
+            "Narrative": "34 DaniRae Renno IN; 30 Jess King OUT",
             "Context": "",
-            "Id": "142+9BD34DE0",
+            "Id": "129+CDD259DC",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5865,7 +5706,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich FOUL (2 PF)",
             "Context": "",
-            "Id": "144+4573E0F1",
+            "Id": "131+9746E146",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 2,
@@ -5886,7 +5727,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich TURNOVER (1 TO)",
             "Context": "",
-            "Id": "145+96B162F",
+            "Id": "132+F00CE95E",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -5897,21 +5738,13 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Berg",
-                "UniformNumber": "11",
+                "FirstName": "Sarah",
+                "LastName": "Betts",
+                "UniformNumber": "35",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Laney",
-                    "LastName": "Gerdich",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Deja",
@@ -5922,17 +5755,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Betts",
-                    "UniformNumber": "35",
+                    "FirstName": "Olivia",
+                    "LastName": "Berg",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Laney",
+                    "LastName": "Gerdich",
+                    "UniformNumber": "31",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "11 Olivia Berg OUT; 31 Laney Gerdich OUT; 23 Deja Gillo IN; 35 Sarah Betts IN",
+            "Narrative": "35 Sarah Betts IN; 23 Deja Gillo IN; 11 Olivia Berg OUT; 31 Laney Gerdich OUT",
             "Context": "",
-            "Id": "146+D3F0B9BC",
+            "Id": "133+3794845B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -5953,7 +5794,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty 3PTR MISS",
             "Context": "",
-            "Id": "150+BD93B063",
+            "Id": "137+5B5B3630",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -5974,7 +5815,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert OFF. REBOUND (2 Reb, 1 Off)",
             "Context": "",
-            "Id": "151+3B867435",
+            "Id": "138+F2A15014",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -5995,7 +5836,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy JUMPER GOOD (7 Pt)",
             "Context": "",
-            "Id": "152+E4181977",
+            "Id": "139+30137D40",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 2,
@@ -6019,7 +5860,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf LAYUP MISS",
             "Context": "",
-            "Id": "153+56C012FA",
+            "Id": "140+9FE3FEDB",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -6040,7 +5881,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "154+F22E39B8",
+            "Id": "141+59532F2B",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6061,7 +5902,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy TURNOVER (1 TO)",
             "Context": "",
-            "Id": "155+102EC90A",
+            "Id": "142+DEF2B59B",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -6082,7 +5923,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf STEAL (1 Stl)",
             "Context": "",
-            "Id": "156+28D8B80D",
+            "Id": "143+1AC6C862",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 2,
@@ -6112,7 +5953,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP GOOD (11 Pt); 21 Bri Bodtorf Assist (1 Asst)",
             "Context": "",
-            "Id": "157+17ACDECF",
+            "Id": "144+C017B50E",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6145,7 +5986,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno LAYUP GOOD (6 Pt); 02 Makenna Mummert Assist (1 Asst)",
             "Context": "",
-            "Id": "159+2180E690",
+            "Id": "146+DBC00B1",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6178,7 +6019,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert JUMPER GOOD (13 Pt); 23 Deja Gillo Assist (1 Asst)",
             "Context": "",
-            "Id": "161+AFD2031C",
+            "Id": "148+E61AC5BD",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 2,
@@ -6211,7 +6052,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno LAYUP GOOD (8 Pt); 31 Allyia Kennedy Assist (3 Asst)",
             "Context": "",
-            "Id": "163+DB65D35A",
+            "Id": "150+921D752B",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6235,7 +6076,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge LAYUP GOOD (2 Pt)",
             "Context": "",
-            "Id": "165+9A7F7F9A",
+            "Id": "152+C0EE072B",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6248,22 +6089,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Makenna",
-                "LastName": "Mummert",
-                "UniformNumber": "02",
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "McCann",
+                "UniformNumber": "43",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Summer",
-                    "LastName": "McNulty",
-                    "UniformNumber": "25",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Steph",
+                    "LastName": "Emert",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "43 Emily McCann IN; 04 Steph Emert OUT",
+            "Context": "",
+            "Id": "153+42BF4D35",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 235,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Cyleigh",
+                "LastName": "Wilson",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Lindsay",
@@ -6274,47 +6137,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Cyleigh",
-                    "LastName": "Wilson",
-                    "UniformNumber": "04",
+                    "FirstName": "Makenna",
+                    "LastName": "Mummert",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Summer",
+                    "LastName": "McNulty",
+                    "UniformNumber": "25",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "02 Makenna Mummert OUT; 25 Summer McNulty OUT; 03 Lindsay Boyd IN; 04 Cyleigh Wilson IN",
+            "Narrative": "04 Cyleigh Wilson IN; 03 Lindsay Boyd IN; 02 Makenna Mummert OUT; 25 Summer McNulty OUT",
             "Context": "",
-            "Id": "166+F504647",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 235,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Steph",
-                "LastName": "Emert",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "McCann",
-                    "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Steph Emert OUT; 43 Emily McCann IN",
-            "Context": "",
-            "Id": "170+1490D772",
+            "Id": "155+31E79282",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6344,7 +6185,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno LAYUP GOOD (10 Pt); 31 Allyia Kennedy Assist (4 Asst)",
             "Context": "",
-            "Id": "172+177B1054",
+            "Id": "159+DBF838BB",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6368,7 +6209,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo JUMPER MISS",
             "Context": "",
-            "Id": "174+A770D182",
+            "Id": "161+F9070131",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 2,
@@ -6389,7 +6230,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "175+7EFCB930",
+            "Id": "162+2E51A841",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6400,26 +6241,17 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Allyia",
-                "LastName": "Kennedy",
-                "UniformNumber": "31",
+                "FirstName": "Grace",
+                "LastName": "O'Connor",
+                "UniformNumber": "40",
                 "Photo": null,
                 "PersonId": ""
             },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "O'Connor",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
+            "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "31 Allyia Kennedy OUT; 40 Grace O'Connor IN",
+            "Narrative": "40 Grace O'Connor IN",
             "Context": "",
-            "Id": "176+E6800C16",
+            "Id": "163+F53CBF7A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6440,7 +6272,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon 3PTR MISS",
             "Context": "",
-            "Id": "178+8F1F5E8",
+            "Id": "164+FE58830E",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -6461,7 +6293,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge DEF. REBOUND (2 Reb, 1 Def)",
             "Context": "",
-            "Id": "179+CFBB01B3",
+            "Id": "165+3CE1799D",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6482,7 +6314,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo 3PTR MISS",
             "Context": "",
-            "Id": "180+80BFB098",
+            "Id": "166+4919EE72",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -6503,7 +6335,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "181+4FE4CDDD",
+            "Id": "167+9D2311C7",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6524,7 +6356,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson 3PTR MISS",
             "Context": "",
-            "Id": "182+30E2FC4C",
+            "Id": "168+E2E1FCE2",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 2,
@@ -6545,7 +6377,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "183+61433E89",
+            "Id": "169+CF35FD2F",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6575,7 +6407,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann JUMPER GOOD (2 Pt); 21 Bri Bodtorf Assist (2 Asst)",
             "Context": "",
-            "Id": "184+D43A362E",
+            "Id": "170+189F4634",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 2,
@@ -6599,7 +6431,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno FOUL (1 PF)",
             "Context": "",
-            "Id": "186+5257FE49",
+            "Id": "172+EDB7ACAF",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 2,
@@ -6620,7 +6452,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno TURNOVER (1 TO)",
             "Context": "",
-            "Id": "187+77238D7E",
+            "Id": "173+C5382120",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -6631,26 +6463,26 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Emma",
-                "LastName": "Coolidge",
-                "UniformNumber": "24",
+                "FirstName": "Haily",
+                "LastName": "Sherman",
+                "UniformNumber": "13",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Haily",
-                    "LastName": "Sherman",
-                    "UniformNumber": "13",
+                    "FirstName": "Emma",
+                    "LastName": "Coolidge",
+                    "UniformNumber": "24",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "24 Emma Coolidge OUT; 13 Haily Sherman IN",
+            "Narrative": "13 Haily Sherman IN; 24 Emma Coolidge OUT",
             "Context": "",
-            "Id": "188+FEE07163",
+            "Id": "174+C8264591",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6671,7 +6503,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP MISS",
             "Context": "",
-            "Id": "190+4DB6B5",
+            "Id": "176+E6B5EB7B",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 2,
@@ -6692,7 +6524,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "191+8A7FF360",
+            "Id": "177+6712D026",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6713,7 +6545,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman FOUL (1 PF)",
             "Context": "",
-            "Id": "192+DCDE537",
+            "Id": "178+733702BD",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 2,
@@ -6723,22 +6555,44 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Ella",
-                "LastName": "Gordon",
-                "UniformNumber": "05",
+                "Team": "VisitingTeam",
+                "FirstName": "Emelie",
+                "LastName": "Nonemaker",
+                "UniformNumber": "40",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "DaniRae",
-                    "LastName": "Renno",
-                    "UniformNumber": "34",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Bri",
+                    "LastName": "Bodtorf",
+                    "UniformNumber": "21",
                     "Photo": null,
                     "PersonId": ""
-                },
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "40 Emelie Nonemaker IN; 21 Bri Bodtorf OUT",
+            "Context": "",
+            "Id": "179+D8CF55A6",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 2,
+            "ClockSeconds": 107,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jess",
+                "LastName": "King",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Summer",
@@ -6749,47 +6603,25 @@
                 },
                 {
                     "Team": "HomeTeam",
-                    "FirstName": "Jess",
-                    "LastName": "King",
-                    "UniformNumber": "30",
+                    "FirstName": "Ella",
+                    "LastName": "Gordon",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "DaniRae",
+                    "LastName": "Renno",
+                    "UniformNumber": "34",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Ella Gordon OUT; 34 DaniRae Renno OUT; 25 Summer McNulty IN; 30 Jess King IN",
+            "Narrative": "30 Jess King IN; 25 Summer McNulty IN; 05 Ella Gordon OUT; 34 DaniRae Renno OUT",
             "Context": "",
-            "Id": "193+9D52E826",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 2,
-            "ClockSeconds": 107,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Bri",
-                "LastName": "Bodtorf",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emelie",
-                    "LastName": "Nonemaker",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Bri Bodtorf OUT; 40 Emelie Nonemaker IN",
-            "Context": "",
-            "Id": "197+A11D7D68",
+            "Id": "181+4CEFFFFE",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 2,
@@ -6810,7 +6642,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty TURNOVER (2 TO)",
             "Context": "",
-            "Id": "199+886F055C",
+            "Id": "185+3AE2FCFA",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -6831,7 +6663,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo TURNOVER (2 TO)",
             "Context": "",
-            "Id": "200+84D7BF46",
+            "Id": "186+BF2090EC",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 2,
@@ -6861,7 +6693,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson 3PTR GOOD (3 Pt); 25 Summer McNulty Assist (3 Asst)",
             "Context": "",
-            "Id": "201+ED17D536",
+            "Id": "187+D970C52C",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 2,
@@ -6894,7 +6726,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP GOOD (4 Pt); 43 Emily McCann Assist (1 Asst)",
             "Context": "",
-            "Id": "203+A9D2FA9",
+            "Id": "189+A78EDF57",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6918,7 +6750,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson JUMPER MISS",
             "Context": "",
-            "Id": "205+AC9AB716",
+            "Id": "191+70A3584C",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 2,
@@ -6932,7 +6764,7 @@
             "Team": "HomeTeam",
             "Narrative": "Elizabethtown REBOUND",
             "Context": "",
-            "Id": "206+5A27A854",
+            "Id": "192+34E5925A",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 2,
@@ -6962,7 +6794,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson 3PTR GOOD (6 Pt); 25 Summer McNulty Assist (4 Asst)",
             "Context": "",
-            "Id": "207+F81D5E58",
+            "Id": "193+9D48CD5E",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 2,
@@ -6986,7 +6818,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP GOOD (6 Pt)",
             "Context": "",
-            "Id": "209+5CFA9433",
+            "Id": "195+90BABC89",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6996,146 +6828,6 @@
                 "HomeTeam": 43,
                 "VisitingTeam": 33
             }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Lindsay",
-                "LastName": "Boyd",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Cyleigh",
-                    "LastName": "Wilson",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "O'Connor",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Makenna",
-                    "LastName": "Mummert",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ella",
-                    "LastName": "Gordon",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "DaniRae",
-                    "LastName": "Renno",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Lindsay Boyd OUT; 04 Cyleigh Wilson OUT; 40 Grace O'Connor OUT; 02 Makenna Mummert IN; 05 Ella Gordon IN; 34 DaniRae Renno IN",
-            "Context": "",
-            "Id": "210+B6BA5E76",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Deja",
-                "LastName": "Gillo",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Betts",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emelie",
-                    "LastName": "Nonemaker",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "McCann",
-                    "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Steph",
-                    "LastName": "Emert",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Berg",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Bodtorf",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Laney",
-                    "LastName": "Gerdich",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Deja Gillo OUT; 35 Sarah Betts OUT; 40 Emelie Nonemaker OUT; 43 Emily McCann OUT; 04 Steph Emert IN; 11 Olivia Berg IN; 21 Bri Bodtorf IN; 31 Laney Gerdich IN",
-            "Context": "",
-            "Id": "216+641B2CEE",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
         },
         {
             "Player": {
@@ -7159,7 +6851,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP GOOD (8 Pt); 21 Bri Bodtorf Assist (3 Asst)",
             "Context": "",
-            "Id": "224+4B69CEA2",
+            "Id": "196+C0B9D8F6",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -7183,7 +6875,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno LAYUP GOOD (12 Pt)",
             "Context": "",
-            "Id": "226+D91EC4E2",
+            "Id": "198+53DA42E6",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -7207,7 +6899,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf JUMPER MISS",
             "Context": "",
-            "Id": "227+51C628E0",
+            "Id": "199+CBE51C6C",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
@@ -7228,7 +6920,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty DEF. REBOUND (3 Reb, 1 Def)",
             "Context": "",
-            "Id": "228+456287A4",
+            "Id": "200+B90A1588",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7249,7 +6941,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert TURNOVER (1 TO)",
             "Context": "",
-            "Id": "229+2CD54FD4",
+            "Id": "201+A6456BE0",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -7270,7 +6962,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman STEAL (1 Stl)",
             "Context": "",
-            "Id": "230+9D4F409E",
+            "Id": "202+66DF5D72",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -7291,7 +6983,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Olivia Berg TURNOVER (3 TO)",
             "Context": "",
-            "Id": "231+6CF7B705",
+            "Id": "203+E28C53C1",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -7312,7 +7004,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno STEAL (1 Stl)",
             "Context": "",
-            "Id": "232+78D1227",
+            "Id": "204+8E3776E3",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -7333,7 +7025,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno JUMPER MISS",
             "Context": "",
-            "Id": "233+227F3860",
+            "Id": "205+BB55278C",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
@@ -7354,7 +7046,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno OFF. REBOUND (5 Reb, 2 Off)",
             "Context": "",
-            "Id": "234+49D7868C",
+            "Id": "206+C092C568",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7375,7 +7067,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon 3PTR MISS",
             "Context": "",
-            "Id": "235+9ACFD215",
+            "Id": "207+3B63DE9",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -7396,7 +7088,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich DEF. REBOUND (4 Reb, 2 Def)",
             "Context": "",
-            "Id": "236+2A5F3FC2",
+            "Id": "208+1CBB2D5E",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7417,7 +7109,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP GOOD (15 Pt)",
             "Context": "",
-            "Id": "237+D51927D5",
+            "Id": "209+C72E4F01",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -7441,7 +7133,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon FOUL (1 PF)",
             "Context": "",
-            "Id": "238+E696F09C",
+            "Id": "210+EB65D870",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -7462,7 +7154,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert FT GOOD (16 Pt)",
             "Context": "",
-            "Id": "239+62913167",
+            "Id": "211+502C0773",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -7486,7 +7178,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon 3PTR MISS",
             "Context": "",
-            "Id": "240+21619F7E",
+            "Id": "212+AAFA82CA",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -7507,7 +7199,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman DEF. REBOUND (3 Reb, 3 Def)",
             "Context": "",
-            "Id": "241+E3776976",
+            "Id": "213+6A5E260A",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7537,7 +7229,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich JUMPER GOOD (8 Pt); 21 Bri Bodtorf Assist (4 Asst)",
             "Context": "",
-            "Id": "242+5409B8F",
+            "Id": "214+84C61A8B",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 3,
@@ -7561,7 +7253,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty TURNOVER (3 TO)",
             "Context": "",
-            "Id": "244+38F8C3DB",
+            "Id": "216+BF52C247",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -7582,7 +7274,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich STEAL (1 Stl)",
             "Context": "",
-            "Id": "245+C2E4C05F",
+            "Id": "217+488E6C1B",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -7603,7 +7295,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert 3PTR MISS",
             "Context": "",
-            "Id": "246+4319E880",
+            "Id": "218+39DAB18C",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -7624,7 +7316,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman OFF. REBOUND (4 Reb, 1 Off)",
             "Context": "",
-            "Id": "247+86876172",
+            "Id": "219+FD0380A6",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7645,7 +7337,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf 3PTR MISS",
             "Context": "",
-            "Id": "248+2F2740CD",
+            "Id": "220+B4580D49",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -7666,7 +7358,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich OFF. REBOUND (5 Reb, 3 Off)",
             "Context": "",
-            "Id": "249+4A09718A",
+            "Id": "221+C562E9B6",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7687,7 +7379,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Olivia Berg 3PTR MISS",
             "Context": "",
-            "Id": "250+7AFA1247",
+            "Id": "222+E55D6DE3",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -7708,7 +7400,7 @@
             "Team": "HomeTeam",
             "Narrative": "34 DaniRae Renno DEF. REBOUND (6 Reb, 4 Def)",
             "Context": "",
-            "Id": "251+B3E7D0D9",
+            "Id": "223+2CA72FF5",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7738,7 +7430,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert 3PTR GOOD (7 Pt); 34 DaniRae Renno Assist (1 Asst)",
             "Context": "",
-            "Id": "252+574B7907",
+            "Id": "224+605C75AB",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 3,
@@ -7771,7 +7463,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP MISS; 02 Makenna Mummert BLOCK (1 Blk)",
             "Context": "",
-            "Id": "254+A709EDDF",
+            "Id": "226+954FC123",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -7785,7 +7477,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Juniata REBOUND",
             "Context": "",
-            "Id": "256+80B16B6F",
+            "Id": "228+AFB7F6EB",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7806,7 +7498,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert JUMPER MISS",
             "Context": "",
-            "Id": "257+63EBAC5F",
+            "Id": "229+2B700DA3",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
@@ -7827,7 +7519,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert OFF. REBOUND (2 Reb, 2 Off)",
             "Context": "",
-            "Id": "258+82B8DBDF",
+            "Id": "230+DB72C49B",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -7848,7 +7540,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon FOUL (2 PF)",
             "Context": "",
-            "Id": "259+24A13260",
+            "Id": "231+7327CAEC",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -7869,7 +7561,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King FOUL (2 PF)",
             "Context": "",
-            "Id": "260+1F716AE7",
+            "Id": "232+2E80986B",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -7879,27 +7571,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "DaniRae",
-                "LastName": "Renno",
-                "UniformNumber": "34",
+                "Team": "VisitingTeam",
+                "FirstName": "Deja",
+                "LastName": "Gillo",
+                "UniformNumber": "23",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Allyia",
-                    "LastName": "Kennedy",
-                    "UniformNumber": "31",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Olivia",
+                    "LastName": "Berg",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "34 DaniRae Renno OUT; 31 Allyia Kennedy IN",
+            "Team": "VisitingTeam",
+            "Narrative": "23 Deja Gillo IN; 11 Olivia Berg OUT",
             "Context": "",
-            "Id": "261+A7B50FB5",
+            "Id": "233+3DDDD9F2",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7909,27 +7601,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Berg",
-                "UniformNumber": "11",
+                "Team": "HomeTeam",
+                "FirstName": "Allyia",
+                "LastName": "Kennedy",
+                "UniformNumber": "31",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Deja",
-                    "LastName": "Gillo",
-                    "UniformNumber": "23",
+                    "Team": "HomeTeam",
+                    "FirstName": "DaniRae",
+                    "LastName": "Renno",
+                    "UniformNumber": "34",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Olivia Berg OUT; 23 Deja Gillo IN",
+            "Team": "HomeTeam",
+            "Narrative": "31 Allyia Kennedy IN; 34 DaniRae Renno OUT",
             "Context": "",
-            "Id": "263+4030557C",
+            "Id": "235+D91A513B",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -7950,7 +7642,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert FOUL (2 PF)",
             "Context": "",
-            "Id": "265+AB5A4451",
+            "Id": "237+5B25B78D",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -7971,7 +7663,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP GOOD (10 Pt)",
             "Context": "",
-            "Id": "266+7E882773",
+            "Id": "238+A568A5A7",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -7995,7 +7687,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman FOUL (2 PF)",
             "Context": "",
-            "Id": "267+2B0CE36E",
+            "Id": "239+F00C3682",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -8005,27 +7697,27 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Makenna",
-                "LastName": "Mummert",
-                "UniformNumber": "02",
+                "Team": "VisitingTeam",
+                "FirstName": "Emma",
+                "LastName": "Coolidge",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "HomeTeam",
-                    "FirstName": "Lindsay",
-                    "LastName": "Boyd",
-                    "UniformNumber": "03",
+                    "Team": "VisitingTeam",
+                    "FirstName": "Laney",
+                    "LastName": "Gerdich",
+                    "UniformNumber": "31",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "HomeTeam",
-            "Narrative": "02 Makenna Mummert OUT; 03 Lindsay Boyd IN",
+            "Team": "VisitingTeam",
+            "Narrative": "24 Emma Coolidge IN; 31 Laney Gerdich OUT",
             "Context": "",
-            "Id": "268+48306604",
+            "Id": "240+521E3DD0",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8035,27 +7727,27 @@
         },
         {
             "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Laney",
-                "LastName": "Gerdich",
-                "UniformNumber": "31",
+                "Team": "HomeTeam",
+                "FirstName": "Lindsay",
+                "LastName": "Boyd",
+                "UniformNumber": "03",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
                 {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Coolidge",
-                    "UniformNumber": "24",
+                    "Team": "HomeTeam",
+                    "FirstName": "Makenna",
+                    "LastName": "Mummert",
+                    "UniformNumber": "02",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
-            "Team": "VisitingTeam",
-            "Narrative": "31 Laney Gerdich OUT; 24 Emma Coolidge IN",
+            "Team": "HomeTeam",
+            "Narrative": "03 Lindsay Boyd IN; 02 Makenna Mummert OUT",
             "Context": "",
-            "Id": "270+713F6E46",
+            "Id": "242+988A8F02",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8076,7 +7768,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd 3PTR MISS",
             "Context": "",
-            "Id": "272+FE1A4099",
+            "Id": "244+39960D7D",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -8097,7 +7789,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty OFF. REBOUND (4 Reb, 3 Off)",
             "Context": "",
-            "Id": "273+66360745",
+            "Id": "245+52B47149",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8118,7 +7810,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty TURNOVER (4 TO)",
             "Context": "",
-            "Id": "274+1578A987",
+            "Id": "246+C5091593",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -8139,7 +7831,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf STEAL (2 Stl)",
             "Context": "",
-            "Id": "275+95257B46",
+            "Id": "247+5BD63B5A",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -8160,7 +7852,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf LAYUP MISS",
             "Context": "",
-            "Id": "276+6526C757",
+            "Id": "248+31CC335B",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8181,7 +7873,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King DEF. REBOUND (5 Reb, 4 Def)",
             "Context": "",
-            "Id": "277+EDFF471C",
+            "Id": "249+B1BDF858",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8202,7 +7894,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty 3PTR MISS",
             "Context": "",
-            "Id": "278+DE2B1836",
+            "Id": "250+EAC20A8A",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -8223,7 +7915,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd OFF. REBOUND (2 Reb, 1 Off)",
             "Context": "",
-            "Id": "279+9F3DBB50",
+            "Id": "251+D30E71D4",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8244,7 +7936,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty JUMPER MISS",
             "Context": "",
-            "Id": "280+D357707",
+            "Id": "252+41117B33",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 3,
@@ -8265,7 +7957,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert DEF. REBOUND (3 Reb, 1 Def)",
             "Context": "",
-            "Id": "281+DE59B02C",
+            "Id": "253+A25076C0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8286,7 +7978,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert TURNOVER (1 TO)",
             "Context": "",
-            "Id": "282+613BF0B",
+            "Id": "254+5A183EAF",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -8307,7 +7999,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King STEAL (2 Stl)",
             "Context": "",
-            "Id": "283+1BA4EBC5",
+            "Id": "255+56FEF039",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -8328,7 +8020,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert FOUL (1 PF)",
             "Context": "",
-            "Id": "284+343A36CB",
+            "Id": "256+23E510F7",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -8342,7 +8034,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Juniata TIMEOUT 30 Sec. (1st TO, 2nd 30)",
             "Context": "",
-            "Id": "285+CFD45A17",
+            "Id": "257+D9F207F3",
             "Type": "30SEC",
             "Action": "TIMEOUT",
             "Period": 3,
@@ -8363,7 +8055,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP MISS",
             "Context": "",
-            "Id": "286+30961D9",
+            "Id": "258+32EB7295",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8384,7 +8076,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy OFF. REBOUND (2 Reb, 1 Off)",
             "Context": "",
-            "Id": "287+CCBCD7B4",
+            "Id": "259+FEC735F0",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8405,7 +8097,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy TURNOVER (2 TO)",
             "Context": "",
-            "Id": "288+9F2F9F89",
+            "Id": "260+E58A396D",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -8426,7 +8118,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo STEAL (1 Stl)",
             "Context": "",
-            "Id": "289+5779C299",
+            "Id": "261+2E4E8B95",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 3,
@@ -8447,7 +8139,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP MISS",
             "Context": "",
-            "Id": "290+F4C1EC28",
+            "Id": "262+7C58D3BC",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8468,7 +8160,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy DEF. REBOUND (3 Reb, 2 Def)",
             "Context": "",
-            "Id": "291+1605E1CA",
+            "Id": "263+95B18DE6",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8498,7 +8190,7 @@
             "Team": "HomeTeam",
             "Narrative": "05 Ella Gordon 3PTR GOOD (3 Pt); 30 Jess King Assist (1 Asst)",
             "Context": "",
-            "Id": "292+90D3E573",
+            "Id": "264+16B0E9FF",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 3,
@@ -8522,7 +8214,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman 3PTR MISS",
             "Context": "",
-            "Id": "294+A0418137",
+            "Id": "266+2628C5EB",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -8536,7 +8228,7 @@
             "Team": "HomeTeam",
             "Narrative": "Elizabethtown REBOUND",
             "Context": "",
-            "Id": "295+967DE822",
+            "Id": "267+1C2DB0E6",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8547,29 +8239,13 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Haily",
-                "LastName": "Sherman",
-                "UniformNumber": "13",
+                "FirstName": "Laney",
+                "LastName": "Gerdich",
+                "UniformNumber": "31",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Bodtorf",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Laney",
-                    "LastName": "Gerdich",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Emily",
@@ -8577,12 +8253,28 @@
                     "UniformNumber": "43",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Haily",
+                    "LastName": "Sherman",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Bri",
+                    "LastName": "Bodtorf",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "13 Haily Sherman OUT; 21 Bri Bodtorf OUT; 31 Laney Gerdich IN; 43 Emily McCann IN",
+            "Narrative": "31 Laney Gerdich IN; 43 Emily McCann IN; 13 Haily Sherman OUT; 21 Bri Bodtorf OUT",
             "Context": "",
-            "Id": "296+E73E01CC",
+            "Id": "268+19F7440A",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8603,7 +8295,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP MISS",
             "Context": "",
-            "Id": "300+7607B9A0",
+            "Id": "272+6BD7493C",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8624,7 +8316,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King OFF. REBOUND (6 Reb, 2 Off)",
             "Context": "",
-            "Id": "301+29DB785A",
+            "Id": "273+3B5CA03E",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8645,7 +8337,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (12 Pt)",
             "Context": "",
-            "Id": "302+78677D5B",
+            "Id": "274+693F67D7",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -8669,7 +8361,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo TURNOVER (3 TO)",
             "Context": "",
-            "Id": "303+65493851",
+            "Id": "275+76663585",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -8699,7 +8391,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (14 Pt); 31 Allyia Kennedy Assist (5 Asst)",
             "Context": "",
-            "Id": "304+FEDA3BAB",
+            "Id": "276+530321F",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -8723,7 +8415,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert 3PTR MISS",
             "Context": "",
-            "Id": "306+A4160FB",
+            "Id": "278+83CB3BBF",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -8744,7 +8436,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy DEF. REBOUND (4 Reb, 3 Def)",
             "Context": "",
-            "Id": "307+2B856D3B",
+            "Id": "279+D37621E7",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8774,7 +8466,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (16 Pt); 31 Allyia Kennedy Assist (6 Asst)",
             "Context": "",
-            "Id": "308+3A67774E",
+            "Id": "280+A73BAFD2",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -8798,7 +8490,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge TURNOVER (1 TO)",
             "Context": "",
-            "Id": "310+D814C96D",
+            "Id": "282+5239FC11",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 3,
@@ -8809,29 +8501,13 @@
         {
             "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Ella",
-                "LastName": "Gordon",
-                "UniformNumber": "05",
+                "FirstName": "Cyleigh",
+                "LastName": "Wilson",
+                "UniformNumber": "04",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Summer",
-                    "LastName": "McNulty",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Cyleigh",
-                    "LastName": "Wilson",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Grace",
@@ -8839,12 +8515,28 @@
                     "UniformNumber": "40",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ella",
+                    "LastName": "Gordon",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Summer",
+                    "LastName": "McNulty",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "05 Ella Gordon OUT; 25 Summer McNulty OUT; 04 Cyleigh Wilson IN; 40 Grace O'Connor IN",
+            "Narrative": "04 Cyleigh Wilson IN; 40 Grace O'Connor IN; 05 Ella Gordon OUT; 25 Summer McNulty OUT",
             "Context": "",
-            "Id": "311+9860D339",
+            "Id": "283+72A00BC9",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 3,
@@ -8865,7 +8557,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd LAYUP MISS",
             "Context": "",
-            "Id": "315+8816AA26",
+            "Id": "287+E6683FA",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 3,
@@ -8886,7 +8578,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd OFF. REBOUND (3 Reb, 2 Off)",
             "Context": "",
-            "Id": "316+958E0967",
+            "Id": "288+834C6A5B",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8907,7 +8599,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd 3PTR MISS",
             "Context": "",
-            "Id": "317+290B5288",
+            "Id": "289+38265E7C",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -8928,7 +8620,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy OFF. REBOUND (5 Reb, 2 Off)",
             "Context": "",
-            "Id": "318+8FF8AB97",
+            "Id": "290+986E797B",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 3,
@@ -8949,7 +8641,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy LAYUP GOOD (9 Pt)",
             "Context": "",
-            "Id": "319+8F26D628",
+            "Id": "291+901D9A7C",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -8973,7 +8665,7 @@
             "Team": "HomeTeam",
             "Narrative": "40 Grace O'Connor FOUL (1 PF)",
             "Context": "",
-            "Id": "320+546119D1",
+            "Id": "292+DEF13C25",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 3,
@@ -8994,7 +8686,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann FT GOOD (3 Pt)",
             "Context": "",
-            "Id": "321+19FAA6C7",
+            "Id": "293+93F3772B",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -9018,7 +8710,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann FT GOOD (4 Pt)",
             "Context": "",
-            "Id": "322+41CFB081",
+            "Id": "294+380CD995",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 3,
@@ -9051,7 +8743,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (18 Pt); 03 Lindsay Boyd Assist (1 Asst)",
             "Context": "",
-            "Id": "323+F9C36250",
+            "Id": "295+8384195C",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -9075,7 +8767,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo 3PTR MISS",
             "Context": "",
-            "Id": "325+F93A0220",
+            "Id": "297+737F6934",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 3,
@@ -9096,73 +8788,11 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy DEF. REBOUND (6 Reb, 4 Def)",
             "Context": "",
-            "Id": "326+C14A1CA1",
+            "Id": "298+5A8EFBAD",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 3,
             "ClockSeconds": 0,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Deja",
-                "LastName": "Gillo",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Coolidge",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "McCann",
-                    "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Olivia",
-                    "LastName": "Berg",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Haily",
-                    "LastName": "Sherman",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Bri",
-                    "LastName": "Bodtorf",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Deja Gillo OUT; 24 Emma Coolidge OUT; 43 Emily McCann OUT; 11 Olivia Berg IN; 13 Haily Sherman IN; 21 Bri Bodtorf IN",
-            "Context": "",
-            "Id": "327+5E04A988",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 600,
             "Coordinate": null,
             "Score": null
         },
@@ -9179,7 +8809,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson LAYUP GOOD (8 Pt)",
             "Context": "",
-            "Id": "333+8E3F987B",
+            "Id": "299+31270835",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9203,7 +8833,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf TURNOVER (2 TO)",
             "Context": "",
-            "Id": "334+918B5234",
+            "Id": "300+1D96664E",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9224,7 +8854,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King STEAL (3 Stl)",
             "Context": "",
-            "Id": "335+E36980E7",
+            "Id": "301+6E87532D",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -9245,7 +8875,7 @@
             "Team": "HomeTeam",
             "Narrative": "40 Grace O'Connor LAYUP GOOD (2 Pt)",
             "Context": "",
-            "Id": "336+2E3F8E17",
+            "Id": "302+79E1D169",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9269,7 +8899,7 @@
             "Team": "VisitingTeam",
             "Narrative": "31 Laney Gerdich JUMPER GOOD (10 Pt)",
             "Context": "",
-            "Id": "337+9C6AFA85",
+            "Id": "303+F2412383",
             "Type": "JUMPER",
             "Action": "GOOD",
             "Period": 4,
@@ -9293,7 +8923,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman FOUL (3 PF)",
             "Context": "",
-            "Id": "338+71FE251C",
+            "Id": "304+F0322F46",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9314,7 +8944,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy FT GOOD (10 Pt)",
             "Context": "",
-            "Id": "339+74F92FA5",
+            "Id": "305+8C1F819F",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9338,7 +8968,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy FT GOOD (11 Pt)",
             "Context": "",
-            "Id": "340+1A651507",
+            "Id": "306+F9644C71",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9362,7 +8992,7 @@
             "Team": "HomeTeam",
             "Narrative": "40 Grace O'Connor FOUL (2 PF)",
             "Context": "",
-            "Id": "341+8D6D23A7",
+            "Id": "307+6E9219B9",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9383,7 +9013,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert FT GOOD (17 Pt)",
             "Context": "",
-            "Id": "342+88C8B38D",
+            "Id": "308+174B9FE7",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9407,7 +9037,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert FT GOOD (18 Pt)",
             "Context": "",
-            "Id": "343+8E095935",
+            "Id": "309+13FA12CF",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -9431,7 +9061,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy LAYUP GOOD (13 Pt)",
             "Context": "",
-            "Id": "344+F52F233D",
+            "Id": "310+5C4BD1C3",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9455,7 +9085,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP MISS",
             "Context": "",
-            "Id": "345+9FA7F8BC",
+            "Id": "311+30223EFA",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -9476,7 +9106,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King DEF. REBOUND (7 Reb, 5 Def)",
             "Context": "",
-            "Id": "346+3DCA2802",
+            "Id": "312+86D7FD48",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9506,7 +9136,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd LAYUP GOOD (8 Pt); 31 Allyia Kennedy Assist (7 Asst)",
             "Context": "",
-            "Id": "347+5180EEB8",
+            "Id": "313+D51C6552",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9530,7 +9160,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf 3PTR MISS",
             "Context": "",
-            "Id": "349+54D0510B",
+            "Id": "315+F47D36F5",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -9551,7 +9181,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert OFF. REBOUND (4 Reb, 3 Off)",
             "Context": "",
-            "Id": "350+194EEE14",
+            "Id": "316+9F6B80EE",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9572,7 +9202,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP GOOD (20 Pt)",
             "Context": "",
-            "Id": "351+651D1A89",
+            "Id": "317+FF104EE3",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9596,7 +9226,7 @@
             "Team": "HomeTeam",
             "Narrative": "40 Grace O'Connor TURNOVER (1 TO)",
             "Context": "",
-            "Id": "352+B7DCFFE0",
+            "Id": "318+5061D93E",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9617,7 +9247,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert STEAL (1 Stl)",
             "Context": "",
-            "Id": "353+FBE79FDF",
+            "Id": "319+C3A5BB9",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -9638,7 +9268,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd FOUL (2 PF)",
             "Context": "",
-            "Id": "354+BD8727B1",
+            "Id": "320+38182E8B",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9668,7 +9298,7 @@
             "Team": "VisitingTeam",
             "Narrative": "21 Bri Bodtorf JUMPER MISS; 31 Allyia Kennedy BLOCK (2 Blk)",
             "Context": "",
-            "Id": "355+27D2235A",
+            "Id": "321+ADDCCE80",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -9689,7 +9319,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King DEF. REBOUND (8 Reb, 6 Def)",
             "Context": "",
-            "Id": "357+C1324BB",
+            "Id": "323+AE90E205",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9719,7 +9349,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King LAYUP GOOD (20 Pt); 31 Allyia Kennedy Assist (8 Asst)",
             "Context": "",
-            "Id": "358+64FC9D1A",
+            "Id": "324+E2FB9A70",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -9743,7 +9373,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert LAYUP MISS",
             "Context": "",
-            "Id": "360+DCC47E63",
+            "Id": "326+7FA5592D",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -9764,7 +9394,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd DEF. REBOUND (4 Reb, 2 Def)",
             "Context": "",
-            "Id": "361+737843A6",
+            "Id": "327+CD0C96C0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9785,7 +9415,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd TURNOVER (1 TO)",
             "Context": "",
-            "Id": "362+BDED9B9E",
+            "Id": "328+811354",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9806,7 +9436,7 @@
             "Team": "VisitingTeam",
             "Narrative": "04 Steph Emert STEAL (2 Stl)",
             "Context": "",
-            "Id": "363+CB2836B2",
+            "Id": "329+403C10F8",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -9827,7 +9457,7 @@
             "Team": "VisitingTeam",
             "Narrative": "11 Olivia Berg 3PTR MISS",
             "Context": "",
-            "Id": "364+414CDFD5",
+            "Id": "330+E0BF4F33",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -9848,7 +9478,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson DEF. REBOUND (2 Reb, 2 Def)",
             "Context": "",
-            "Id": "365+1C5B709E",
+            "Id": "331+BCAB94C0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -9869,7 +9499,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson TURNOVER (1 TO)",
             "Context": "",
-            "Id": "366+212A671E",
+            "Id": "332+BDF933E4",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -9879,52 +9509,14 @@
         },
         {
             "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Grace",
-                "LastName": "O'Connor",
-                "UniformNumber": "40",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Makenna",
-                    "LastName": "Mummert",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "40 Grace O'Connor OUT; 02 Makenna Mummert IN",
-            "Context": "",
-            "Id": "367+C3D762D9",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 356,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Olivia",
-                "LastName": "Berg",
-                "UniformNumber": "11",
+                "FirstName": "Emma",
+                "LastName": "Coolidge",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Laney",
-                    "LastName": "Gerdich",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "VisitingTeam",
                     "FirstName": "Deja",
@@ -9935,17 +9527,25 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Emma",
-                    "LastName": "Coolidge",
-                    "UniformNumber": "24",
+                    "FirstName": "Olivia",
+                    "LastName": "Berg",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Laney",
+                    "LastName": "Gerdich",
+                    "UniformNumber": "31",
                     "Photo": null,
                     "PersonId": ""
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "11 Olivia Berg OUT; 31 Laney Gerdich OUT; 23 Deja Gillo IN; 24 Emma Coolidge IN",
+            "Narrative": "24 Emma Coolidge IN; 23 Deja Gillo IN; 11 Olivia Berg OUT; 31 Laney Gerdich OUT",
             "Context": "",
-            "Id": "369+D2473D2A",
+            "Id": "333+E7ABD0A4",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
@@ -9966,7 +9566,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge FOUL (2 PF)",
             "Context": "",
-            "Id": "373+42AA2096",
+            "Id": "337+EFDAB3D2",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -9987,7 +9587,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge TURNOVER (2 TO)",
             "Context": "",
-            "Id": "374+637FE4DB",
+            "Id": "338+F9F870B7",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -10008,7 +9608,7 @@
             "Team": "HomeTeam",
             "Narrative": "03 Lindsay Boyd TURNOVER (2 TO)",
             "Context": "",
-            "Id": "375+7F8C7B44",
+            "Id": "339+E0078370",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -10029,7 +9629,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman STEAL (2 Stl)",
             "Context": "",
-            "Id": "376+56C24E8B",
+            "Id": "340+F425454F",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -10059,7 +9659,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge LAYUP GOOD (4 Pt); 23 Deja Gillo Assist (2 Asst)",
             "Context": "",
-            "Id": "377+FED664E2",
+            "Id": "341+566CB84E",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -10092,7 +9692,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy LAYUP GOOD (15 Pt); 04 Cyleigh Wilson Assist (2 Asst)",
             "Context": "",
-            "Id": "379+52C949FE",
+            "Id": "343+F0A35E92",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -10116,39 +9716,9 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman FOUL (4 PF)",
             "Context": "",
-            "Id": "381+52FFF9BE",
+            "Id": "345+C89EF88A",
             "Type": "FOUL",
             "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 322,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Steph",
-                "LastName": "Emert",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emily",
-                    "LastName": "McCann",
-                    "UniformNumber": "43",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "04 Steph Emert OUT; 43 Emily McCann IN",
-            "Context": "",
-            "Id": "382+D4F9E8C9",
-            "Type": "SUBS",
-            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 322,
             "Coordinate": null,
@@ -10167,7 +9737,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy FT GOOD (16 Pt)",
             "Context": "",
-            "Id": "384+7C69060",
+            "Id": "346+2A9505D2",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10177,6 +9747,36 @@
                 "HomeTeam": 76,
                 "VisitingTeam": 52
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "McCann",
+                "UniformNumber": "43",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Steph",
+                    "LastName": "Emert",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "43 Emily McCann IN; 04 Steph Emert OUT",
+            "Context": "",
+            "Id": "347+5E24FC50",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 322,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -10191,7 +9791,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo 3PTR MISS",
             "Context": "",
-            "Id": "385+3F9B2C72",
+            "Id": "349+1A8BCE0E",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -10212,7 +9812,7 @@
             "Team": "HomeTeam",
             "Narrative": "30 Jess King DEF. REBOUND (9 Reb, 7 Def)",
             "Context": "",
-            "Id": "386+A9EA07C5",
+            "Id": "350+8C1F0421",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10242,7 +9842,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson 3PTR GOOD (11 Pt); 03 Lindsay Boyd Assist (2 Asst)",
             "Context": "",
-            "Id": "387+E3E6F46E",
+            "Id": "351+DE1C2142",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
@@ -10275,7 +9875,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman LAYUP GOOD (12 Pt); 23 Deja Gillo Assist (3 Asst)",
             "Context": "",
-            "Id": "389+51180F4E",
+            "Id": "353+1CE788BA",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -10299,101 +9899,9 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy FOUL (1 PF)",
             "Context": "",
-            "Id": "391+763B7048",
+            "Id": "355+202F411C",
             "Type": "FOUL",
             "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 276,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Lindsay",
-                "LastName": "Boyd",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "O'Connor",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jess",
-                    "LastName": "King",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Summer",
-                    "LastName": "McNulty",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Lindsay Boyd OUT; 40 Grace O'Connor IN; 30 Jess King OUT; 25 Summer McNulty IN",
-            "Context": "",
-            "Id": "392+7DB6DEBD",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 276,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Bri",
-                "LastName": "Bodtorf",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Emelie",
-                    "LastName": "Nonemaker",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Haily",
-                    "LastName": "Sherman",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Betts",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Bri Bodtorf OUT; 40 Emelie Nonemaker IN; 13 Haily Sherman OUT; 35 Sarah Betts IN",
-            "Context": "",
-            "Id": "394+D805E42F",
-            "Type": "SUBS",
-            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 276,
             "Coordinate": null,
@@ -10412,7 +9920,7 @@
             "Team": "VisitingTeam",
             "Narrative": "13 Haily Sherman FT GOOD (13 Pt)",
             "Context": "",
-            "Id": "396+424BB452",
+            "Id": "356+2145AA2A",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10422,6 +9930,82 @@
                 "HomeTeam": 79,
                 "VisitingTeam": 55
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emelie",
+                "LastName": "Nonemaker",
+                "UniformNumber": "40",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Sarah",
+                    "LastName": "Betts",
+                    "UniformNumber": "35",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Haily",
+                    "LastName": "Sherman",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Bri",
+                    "LastName": "Bodtorf",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "40 Emelie Nonemaker IN; 35 Sarah Betts IN; 13 Haily Sherman OUT; 21 Bri Bodtorf OUT",
+            "Context": "",
+            "Id": "357+9245116",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 276,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "O'Connor",
+                "UniformNumber": "40",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jess",
+                    "LastName": "King",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "40 Grace O'Connor IN; 30 Jess King OUT",
+            "Context": "",
+            "Id": "361+858159B4",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 276,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -10436,7 +10020,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy FOUL (2 PF)",
             "Context": "",
-            "Id": "401+33283573",
+            "Id": "363+90A2341",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -10457,7 +10041,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy TURNOVER (3 TO)",
             "Context": "",
-            "Id": "402+6CD8EAED",
+            "Id": "364+53578C13",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -10478,7 +10062,7 @@
             "Team": "VisitingTeam",
             "Narrative": "23 Deja Gillo TURNOVER (4 TO)",
             "Context": "",
-            "Id": "403+57B5B564",
+            "Id": "365+7BC12F42",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -10499,7 +10083,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert STEAL (1 Stl)",
             "Context": "",
-            "Id": "404+AA8761F2",
+            "Id": "366+A1FF09C0",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -10529,7 +10113,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy LAYUP GOOD (18 Pt); 40 Grace O'Connor Assist (2 Asst)",
             "Context": "",
-            "Id": "405+C5FD9674",
+            "Id": "367+D5DC8FC6",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -10553,7 +10137,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann JUMPER MISS",
             "Context": "",
-            "Id": "407+E3A9DF1C",
+            "Id": "369+283FC852",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -10574,7 +10158,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann OFF. REBOUND (1 Reb, 1 Off)",
             "Context": "",
-            "Id": "408+1D6E07C2",
+            "Id": "370+E746D510",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10595,7 +10179,7 @@
             "Team": "VisitingTeam",
             "Narrative": "35 Sarah Betts JUMPER MISS",
             "Context": "",
-            "Id": "409+402FBBF5",
+            "Id": "371+BD3F18C7",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -10609,7 +10193,7 @@
             "Team": "VisitingTeam",
             "Narrative": "Juniata REBOUND",
             "Context": "",
-            "Id": "410+C5767386",
+            "Id": "372+32BB9C68",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10630,7 +10214,7 @@
             "Team": "VisitingTeam",
             "Narrative": "40 Emelie Nonemaker LAYUP MISS",
             "Context": "",
-            "Id": "411+6E834605",
+            "Id": "373+A10A8763",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -10651,7 +10235,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert DEF. REBOUND (3 Reb, 2 Def)",
             "Context": "",
-            "Id": "412+44D1A6D2",
+            "Id": "374+D2F013E0",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10672,7 +10256,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty TURNOVER (5 TO)",
             "Context": "",
-            "Id": "413+7FFE6E32",
+            "Id": "375+E5DC9D00",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -10693,7 +10277,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge LAYUP MISS",
             "Context": "",
-            "Id": "414+620E4EBC",
+            "Id": "376+B5950F5A",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -10714,7 +10298,7 @@
             "Team": "HomeTeam",
             "Narrative": "25 Summer McNulty DEF. REBOUND (5 Reb, 2 Def)",
             "Context": "",
-            "Id": "415+28FACDE6",
+            "Id": "377+E7BD4158",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10735,7 +10319,7 @@
             "Team": "HomeTeam",
             "Narrative": "04 Cyleigh Wilson 3PTR MISS",
             "Context": "",
-            "Id": "416+1B86675",
+            "Id": "378+3DE58347",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -10756,7 +10340,7 @@
             "Team": "VisitingTeam",
             "Narrative": "35 Sarah Betts DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "417+685CBD35",
+            "Id": "379+5B2FF907",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10777,7 +10361,7 @@
             "Team": "VisitingTeam",
             "Narrative": "24 Emma Coolidge LAYUP MISS",
             "Context": "",
-            "Id": "418+8BF588FE",
+            "Id": "380+A45BE4A0",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -10798,7 +10382,7 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy DEF. REBOUND (7 Reb, 5 Def)",
             "Context": "",
-            "Id": "419+C7F574DC",
+            "Id": "381+EB4550FA",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -10828,7 +10412,7 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert 3PTR GOOD (10 Pt); 04 Cyleigh Wilson Assist (3 Asst)",
             "Context": "",
-            "Id": "420+6D773C1D",
+            "Id": "382+73DB828F",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 4,
@@ -10852,69 +10436,9 @@
             "Team": "HomeTeam",
             "Narrative": "31 Allyia Kennedy FOUL (3 PF)",
             "Context": "",
-            "Id": "422+F5E7EDC6",
+            "Id": "384+65C441D0",
             "Type": "FOUL",
             "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 113,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Allyia",
-                "LastName": "Kennedy",
-                "UniformNumber": "31",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ellie",
-                    "LastName": "Fasick",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "31 Allyia Kennedy OUT; 24 Ellie Fasick IN",
-            "Context": "",
-            "Id": "423+995230B",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 113,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Emma",
-                "LastName": "Coolidge",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Gemma",
-                    "LastName": "Navickas",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "24 Emma Coolidge OUT; 12 Gemma Navickas IN",
-            "Context": "",
-            "Id": "425+13FF3139",
-            "Type": "SUBS",
-            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 113,
             "Coordinate": null,
@@ -10933,7 +10457,7 @@
             "Team": "VisitingTeam",
             "Narrative": "35 Sarah Betts FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "427+B2EBFFDF",
+            "Id": "385+1392925D",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10957,7 +10481,7 @@
             "Team": "VisitingTeam",
             "Narrative": "35 Sarah Betts FT GOOD (2 Pt)",
             "Context": "",
-            "Id": "428+4592DCB9",
+            "Id": "386+9D94D07",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -10967,6 +10491,57 @@
                 "HomeTeam": 84,
                 "VisitingTeam": 57
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Gemma",
+                "LastName": "Navickas",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emma",
+                    "LastName": "Coolidge",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Gemma Navickas IN; 24 Emma Coolidge OUT",
+            "Context": "",
+            "Id": "387+151A8C2B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 113,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ellie",
+                "LastName": "Fasick",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Ellie Fasick IN",
+            "Context": "",
+            "Id": "389+9CBC39C",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 113,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -10990,7 +10565,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Ellie Fasick LAYUP GOOD (2 Pt); 02 Makenna Mummert Assist (2 Asst)",
             "Context": "",
-            "Id": "429+54903110",
+            "Id": "390+AFD040F",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -11014,117 +10589,9 @@
             "Team": "HomeTeam",
             "Narrative": "02 Makenna Mummert FOUL (3 PF)",
             "Context": "",
-            "Id": "431+AA16F978",
+            "Id": "392+C7549373",
             "Type": "FOUL",
             "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 96,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Cyleigh",
-                "LastName": "Wilson",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Summer",
-                    "LastName": "McNulty",
-                    "UniformNumber": "25",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Grace",
-                    "LastName": "O'Connor",
-                    "UniformNumber": "40",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Cadence",
-                    "LastName": "Anderson",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jess",
-                    "LastName": "Pronchick",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Adamson",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Makenna",
-                    "LastName": "Mummert",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ava",
-                    "LastName": "Chapman",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "04 Cyleigh Wilson OUT; 25 Summer McNulty OUT; 40 Grace O'Connor OUT; 10 Cadence Anderson IN; 12 Jess Pronchick IN; 21 Ashley Adamson IN; 02 Makenna Mummert OUT; 14 Ava Chapman IN",
-            "Context": "",
-            "Id": "432+4935C288",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 96,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Deja",
-                "LastName": "Gillo",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Michaela",
-                    "LastName": "Owens",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Deja Gillo OUT; 03 Michaela Owens IN",
-            "Context": "",
-            "Id": "438+C4FD02D2",
-            "Type": "SUBS",
-            "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 96,
             "Coordinate": null,
@@ -11143,7 +10610,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann FT GOOD (5 Pt)",
             "Context": "",
-            "Id": "440+2F027229",
+            "Id": "393+E5C3692C",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11167,7 +10634,7 @@
             "Team": "VisitingTeam",
             "Narrative": "43 Emily McCann FT GOOD (6 Pt)",
             "Context": "",
-            "Id": "441+27A2AF4D",
+            "Id": "394+FC50C442",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11177,6 +10644,106 @@
                 "HomeTeam": 86,
                 "VisitingTeam": 59
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Michaela",
+                "LastName": "Owens",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Deja",
+                    "LastName": "Gillo",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Michaela Owens IN; 23 Deja Gillo OUT",
+            "Context": "",
+            "Id": "395+CF6455D7",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 96,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ava",
+                "LastName": "Chapman",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Adamson",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Cadence",
+                    "LastName": "Anderson",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jess",
+                    "LastName": "Pronchick",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Makenna",
+                    "LastName": "Mummert",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Summer",
+                    "LastName": "McNulty",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "O'Connor",
+                    "UniformNumber": "40",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "14 Ava Chapman IN; 21 Ashley Adamson IN; 10 Cadence Anderson IN; 12 Jess Pronchick IN; 02 Makenna Mummert OUT; 25 Summer McNulty OUT; 40 Grace O'Connor OUT",
+            "Context": "",
+            "Id": "397+78D6A2D5",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 96,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -11191,7 +10758,7 @@
             "Team": "HomeTeam",
             "Narrative": "21 Ashley Adamson 3PTR MISS",
             "Context": "",
-            "Id": "444+2B57E480",
+            "Id": "404+C19AC1D8",
             "Type": "3PTR",
             "Action": "MISS",
             "Period": 4,
@@ -11212,7 +10779,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Michaela Owens DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "445+42F84DD2",
+            "Id": "405+A94E175A",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11233,7 +10800,7 @@
             "Team": "HomeTeam",
             "Narrative": "12 Jess Pronchick FOUL (1 PF)",
             "Context": "",
-            "Id": "446+31B949F8",
+            "Id": "406+ECEF5A70",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -11254,7 +10821,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Michaela Owens FT GOOD (1 Pt)",
             "Context": "",
-            "Id": "447+F4BE8FEE",
+            "Id": "407+2FB39376",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11278,7 +10845,7 @@
             "Team": "VisitingTeam",
             "Narrative": "03 Michaela Owens FT GOOD (2 Pt)",
             "Context": "",
-            "Id": "448+4A625DB2",
+            "Id": "408+1A1F80EA",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11302,7 +10869,7 @@
             "Team": "HomeTeam",
             "Narrative": "14 Ava Chapman LAYUP MISS",
             "Context": "",
-            "Id": "449+95243981",
+            "Id": "409+C4DDD1F9",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -11323,7 +10890,7 @@
             "Team": "HomeTeam",
             "Narrative": "24 Ellie Fasick OFF. REBOUND (1 Reb, 1 Off)",
             "Context": "",
-            "Id": "450+63A6C92C",
+            "Id": "410+12CC0E84",
             "Type": "OFF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11344,7 +10911,7 @@
             "Team": "HomeTeam",
             "Narrative": "10 Cadence Anderson JUMPER MISS",
             "Context": "",
-            "Id": "451+6BC8A5D7",
+            "Id": "411+1B223DFF",
             "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
@@ -11365,7 +10932,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Gemma Navickas DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "452+D0382072",
+            "Id": "412+E0911D5A",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11386,7 +10953,7 @@
             "Team": "VisitingTeam",
             "Narrative": "40 Emelie Nonemaker LAYUP MISS",
             "Context": "",
-            "Id": "453+3178E927",
+            "Id": "413+152911F",
             "Type": "LAYUP",
             "Action": "MISS",
             "Period": 4,
@@ -11407,7 +10974,7 @@
             "Team": "HomeTeam",
             "Narrative": "12 Jess Pronchick DEF. REBOUND (1 Reb, 1 Def)",
             "Context": "",
-            "Id": "454+4F25C25D",
+            "Id": "414+1E536E25",
             "Type": "DEF",
             "Action": "REBOUND",
             "Period": 4,
@@ -11428,7 +10995,7 @@
             "Team": "HomeTeam",
             "Narrative": "12 Jess Pronchick TURNOVER (1 TO)",
             "Context": "",
-            "Id": "455+D860B4E",
+            "Id": "415+5B1BAA26",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -11449,7 +11016,7 @@
             "Team": "VisitingTeam",
             "Narrative": "40 Emelie Nonemaker STEAL (1 Stl)",
             "Context": "",
-            "Id": "456+4F27F287",
+            "Id": "416+E69F6E0F",
             "Type": "STEAL",
             "Action": "STEAL",
             "Period": 4,
@@ -11470,7 +11037,7 @@
             "Team": "VisitingTeam",
             "Narrative": "40 Emelie Nonemaker LAYUP GOOD (2 Pt)",
             "Context": "",
-            "Id": "457+19F68345",
+            "Id": "417+472E17CD",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 4,
@@ -11494,7 +11061,7 @@
             "Team": "HomeTeam",
             "Narrative": "12 Jess Pronchick FOUL (2 PF)",
             "Context": "",
-            "Id": "458+861C731E",
+            "Id": "418+2013C9A6",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -11504,46 +11071,38 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emelie",
+                "LastName": "Nonemaker",
+                "UniformNumber": "40",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "40 Emelie Nonemaker FT GOOD (3 Pt)",
+            "Context": "",
+            "Id": "419+22A9A88F",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 41,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 86,
+                "VisitingTeam": 64
+            }
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
-                "FirstName": "Cadence",
-                "LastName": "Anderson",
-                "UniformNumber": "10",
+                "FirstName": "Kiley",
+                "LastName": "Wilhelm",
+                "UniformNumber": "15",
                 "Photo": null,
                 "PersonId": ""
             },
             "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jess",
-                    "LastName": "Pronchick",
-                    "UniformNumber": "12",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ashley",
-                    "LastName": "Adamson",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Ellie",
-                    "LastName": "Fasick",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kiley",
-                    "LastName": "Wilhelm",
-                    "UniformNumber": "15",
-                    "Photo": null,
-                    "PersonId": ""
-                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Mallory",
@@ -11567,42 +11126,50 @@
                     "UniformNumber": "35",
                     "Photo": null,
                     "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Adamson",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Cadence",
+                    "LastName": "Anderson",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ellie",
+                    "LastName": "Fasick",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jess",
+                    "LastName": "Pronchick",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "10 Cadence Anderson OUT; 12 Jess Pronchick OUT; 21 Ashley Adamson OUT; 24 Ellie Fasick OUT; 15 Kiley Wilhelm IN; 20 Mallory Elias IN; 22 Alex Gonzalez IN; 35 Peyton Houlihan IN",
+            "Narrative": "15 Kiley Wilhelm IN; 20 Mallory Elias IN; 22 Alex Gonzalez IN; 35 Peyton Houlihan IN; 21 Ashley Adamson OUT; 10 Cadence Anderson OUT; 24 Ellie Fasick OUT; 12 Jess Pronchick OUT",
             "Context": "",
-            "Id": "459+BA3FF36C",
+            "Id": "420+F54DD517",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 4,
             "ClockSeconds": 41,
             "Coordinate": null,
             "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Emelie",
-                "LastName": "Nonemaker",
-                "UniformNumber": "40",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "40 Emelie Nonemaker FT GOOD (3 Pt)",
-            "Context": "",
-            "Id": "467+D7AD7F7F",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 86,
-                "VisitingTeam": 64
-            }
         },
         {
             "Player": {
@@ -11617,7 +11184,7 @@
             "Team": "HomeTeam",
             "Narrative": "15 Kiley Wilhelm TURNOVER (1 TO)",
             "Context": "",
-            "Id": "468+566D7A5D",
+            "Id": "428+614B39F5",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,
@@ -11638,7 +11205,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Gemma Navickas FOUL (1 PF)",
             "Context": "",
-            "Id": "469+DA4FB0EB",
+            "Id": "429+E503F2D3",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 4,
@@ -11659,7 +11226,7 @@
             "Team": "VisitingTeam",
             "Narrative": "12 Gemma Navickas TURNOVER (1 TO)",
             "Context": "",
-            "Id": "470+45221FB0",
+            "Id": "430+94F7DDA8",
             "Type": "TURNOVER",
             "Action": "TURNOVER",
             "Period": 4,

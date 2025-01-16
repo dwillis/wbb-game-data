@@ -1247,6 +1247,33 @@
                             "PersonId": ""
                         },
                         {
+                            "Uni": "10",
+                            "Name": "J. FRIERSON",
+                            "Position": "G",
+                            "CurrentlyInGame": "",
+                            "Minutes": "0",
+                            "Fgam": "0-0",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-0",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "0",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "1",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "0.0",
+                            "UsagePercentage": "-",
+                            "PointsPerMinute": "-",
+                            "Points": "0",
+                            "PersonId": ""
+                        },
+                        {
                             "Uni": "14",
                             "Name": "A. BELLO",
                             "Position": "G",
@@ -3979,11 +4006,11 @@
             "Team": "VisitingTeam",
             "Narrative": "00 Janiyah Heyward FOUL (1 PF)",
             "Context": "",
-            "Id": "45+8DF03D45",
+            "Id": "45+8DF586B4",
             "Type": "FOUL",
             "Action": "FOUL",
             "Period": 1,
-            "ClockSeconds": 364,
+            "ClockSeconds": 365,
             "Coordinate": null,
             "Score": null
         },
@@ -4063,29 +4090,15 @@
                     "UniformNumber": "14",
                     "Photo": null,
                     "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "01 Trinity Thomas OUT; 14 Aliyah Bello IN",
-            "Context": "",
-            "Id": "49+D40D35A",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 1,
-            "ClockSeconds": 364,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Abby",
-                "LastName": "Carter",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Abby",
+                    "LastName": "Carter",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
                 {
                     "Team": "HomeTeam",
                     "FirstName": "Jazz",
@@ -4093,24 +4106,16 @@
                     "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Courtney",
-                    "LastName": "Nesbitt",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
                 }
             ],
             "Team": "HomeTeam",
-            "Narrative": "11 Abby Carter OUT; 10 Jazz Frierson IN; 10 Jazz Frierson OUT; 02 Courtney Nesbitt IN",
+            "Narrative": "01 Trinity Thomas OUT; 14 Aliyah Bello IN; 11 Abby Carter OUT; 10 Jazz Frierson IN",
             "Context": "",
-            "Id": "51+C050751C",
+            "Id": "49+6276BA39",
             "Type": "SUBS",
             "Action": "SUBS",
             "Period": 1,
-            "ClockSeconds": 351,
+            "ClockSeconds": 363,
             "Coordinate": null,
             "Score": null
         },
@@ -4165,6 +4170,36 @@
             "Id": "55+42A86584",
             "Type": "DEADB",
             "Action": "REBOUND",
+            "Period": 1,
+            "ClockSeconds": 351,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jazz",
+                "LastName": "Frierson",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Courtney",
+                    "LastName": "Nesbitt",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "10 Jazz Frierson OUT; 02 Courtney Nesbitt IN",
+            "Context": "",
+            "Id": "56+DC93F9C7",
+            "Type": "SUBS",
+            "Action": "SUBS",
             "Period": 1,
             "ClockSeconds": 351,
             "Coordinate": null,

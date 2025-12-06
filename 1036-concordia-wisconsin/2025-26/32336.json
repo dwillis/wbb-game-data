@@ -46,7 +46,12 @@
                 28,
                 22
             ],
-            "PeriodTimeouts": []
+            "PeriodTimeouts": [
+                0,
+                0,
+                0,
+                1
+            ]
         },
         "VisitingTeam": {
             "Id": "Marian",
@@ -67,6 +72,7 @@
             "PeriodTimeouts": [
                 0,
                 0,
+                1,
                 1
             ]
         },
@@ -74,101 +80,164 @@
             {
                 "Player": {
                     "Team": "HomeTeam",
-                    "FirstName": "Amya",
-                    "LastName": "Pluess",
-                    "UniformNumber": "11",
+                    "FirstName": "Blayne",
+                    "LastName": "Gacke",
+                    "UniformNumber": "31",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
-                "Narrative": "11 Amya Pluess LAYUP MISS",
+                "Narrative": "31 Blayne Gacke DEF. REBOUND (1 Reb, 1 Def)",
                 "Context": "",
-                "Id": "295+3A8B8256",
-                "Type": "LAYUP",
-                "Action": "MISS",
-                "Period": 3,
-                "ClockSeconds": 370,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Amya",
-                    "LastName": "Pluess",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "11 Amya Pluess STEAL (3 Stl)",
-                "Context": "",
-                "Id": "294+6A92B73C",
-                "Type": "STEAL",
-                "Action": "STEAL",
-                "Period": 3,
-                "ClockSeconds": 376,
+                "Id": "526+53F6878D",
+                "Type": "DEF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 13,
                 "Coordinate": null,
                 "Score": null
             },
             {
                 "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Ava",
-                    "LastName": "Kreger",
-                    "UniformNumber": "13",
+                    "FirstName": "Holly",
+                    "LastName": "Goodwin",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "13 Ava Kreger TURNOVER (2 TO)",
+                "Narrative": "04 Holly Goodwin LAYUP MISS",
                 "Context": "",
-                "Id": "293+84FFEA08",
+                "Id": "525+7F4CD523",
+                "Type": "LAYUP",
+                "Action": "MISS",
+                "Period": 4,
+                "ClockSeconds": 15,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "Concordia Wisconsin TURNOVER (4 TO)",
+                "Context": "",
+                "Id": "524+44DAC5A3",
                 "Type": "TURNOVER",
                 "Action": "TURNOVER",
-                "Period": 3,
-                "ClockSeconds": 376,
+                "Period": 4,
+                "ClockSeconds": 30,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Eastham",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Holly",
+                        "LastName": "Goodwin",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "VisitingTeam",
+                "Narrative": "30 Emily Eastham OUT; 04 Holly Goodwin IN",
+                "Context": "",
+                "Id": "522+1F52683B",
+                "Type": "SUBS",
+                "Action": "SUBS",
+                "Period": 4,
+                "ClockSeconds": 59,
                 "Coordinate": null,
                 "Score": null
             },
             {
                 "Player": {
                     "Team": "HomeTeam",
-                    "FirstName": "Andrea",
-                    "LastName": "Butterbrodt",
-                    "UniformNumber": "24",
+                    "FirstName": "Amya",
+                    "LastName": "Pluess",
+                    "UniformNumber": "11",
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [],
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Kristin",
+                        "LastName": "Wentling",
+                        "UniformNumber": "13",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Isabela",
+                        "LastName": "Gunderson",
+                        "UniformNumber": "14",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Alexa",
+                        "LastName": "Schwartz",
+                        "UniformNumber": "20",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Darya",
+                        "LastName": "Gunderman",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Kendall",
+                        "LastName": "Weiler",
+                        "UniformNumber": "22",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Bella",
+                        "LastName": "Zeck",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Blayne",
+                        "LastName": "Gacke",
+                        "UniformNumber": "31",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
                 "Team": "HomeTeam",
-                "Narrative": "24 Andrea Butterbrodt FT GOOD (9 Pt)",
+                "Narrative": "11 Amya Pluess OUT; 13 Kristin Wentling OUT; 14 Isabela Gunderson OUT; 20 Alexa Schwartz OUT; 10 Darya Gunderman IN; 22 Kendall Weiler IN; 23 Bella Zeck IN; 31 Blayne Gacke IN",
                 "Context": "",
-                "Id": "292+A62D74C4",
-                "Type": "FT",
-                "Action": "GOOD",
-                "Period": 3,
-                "ClockSeconds": 399,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 49,
-                    "VisitingTeam": 47
-                }
-            },
-            {
-                "Player": null,
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "Concordia Wisconsin REBOUND",
-                "Context": "",
-                "Id": "291+27B3FE92",
-                "Type": "DEADB",
-                "Action": "REBOUND",
-                "Period": 3,
-                "ClockSeconds": 399,
+                "Id": "514+71C44163",
+                "Type": "SUBS",
+                "Action": "SUBS",
+                "Period": 4,
+                "ClockSeconds": 59,
                 "Coordinate": null,
                 "Score": null
             }
@@ -186,7 +255,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "20"
+                    "Value": "18"
                 },
                 {
                     "Player": {
@@ -219,7 +288,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "6"
+                    "Value": "8"
                 }
             ],
             "Rebounds": [
@@ -411,17 +480,6 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Chelsea",
-                        "LastName": "King",
-                        "UniformNumber": "02",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "10.0"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
                         "FirstName": "Emily",
                         "LastName": "Eastham",
                         "UniformNumber": "30",
@@ -433,13 +491,24 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
+                        "FirstName": "Chelsea",
+                        "LastName": "King",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "8.0"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
                         "FirstName": "Nyedeng",
                         "LastName": "Awak",
                         "UniformNumber": "24",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "6.0"
+                    "Value": "8.0"
                 },
                 {
                     "Player": {
@@ -463,7 +532,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "41.08"
+                    "Value": "39.63"
                 },
                 {
                     "Player": {
@@ -1423,9 +1492,9 @@
                     "PercentLead": "78.6%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
-                    "LargestLead": "8",
-                    "LargestLeadScores": "13-5",
-                    "LargestLeadTime": "5:38 (1st)",
+                    "LargestLead": "25",
+                    "LargestLeadScores": "90-65",
+                    "LargestLeadTime": "1:30 (4th)",
                     "Assists": "12",
                     "Turnovers": "14",
                     "PointsFromBench": "20",
@@ -1745,9 +1814,9 @@
                         "PercentLead": "23.6%",
                         "LastLeadScore": "",
                         "LastLeadTime": "",
-                        "LargestLead": "3",
-                        "LargestLeadScores": "48-45",
-                        "LargestLeadTime": "7:33 (3rd)",
+                        "LargestLead": "17",
+                        "LargestLeadScores": "66-49",
+                        "LargestLeadTime": "2:33 (3rd)",
                         "Assists": "3",
                         "Turnovers": "3",
                         "PointsFromBench": "4",
@@ -1848,13 +1917,13 @@
                         "DefensiveRebounds": "7",
                         "Ties": "0",
                         "Leads": "0",
-                        "TimeWithLead": "0:00",
-                        "PercentLead": "0.0%",
-                        "LastLeadScore": "-",
-                        "LastLeadTime": "-",
-                        "LargestLead": "0",
-                        "LargestLeadScores": "-",
-                        "LargestLeadTime": "-",
+                        "TimeWithLead": "10:00",
+                        "PercentLead": "25.0%",
+                        "LastLeadScore": "",
+                        "LastLeadTime": "",
+                        "LargestLead": "25",
+                        "LargestLeadScores": "90-65",
+                        "LargestLeadTime": "1:30 (4th)",
                         "Assists": "3",
                         "Turnovers": "4",
                         "PointsFromBench": "2",
@@ -2060,8 +2129,8 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "30",
-                            "Fgam": "7-19",
-                            "ShootingPercentage": "36.8%",
+                            "Fgam": "6-18",
+                            "ShootingPercentage": "33.3%",
                             "Tpam": "2-10",
                             "Tppercentage": "20.0%",
                             "Ftma": "4-5",
@@ -2075,10 +2144,10 @@
                             "Steals": "2",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "10.0",
-                            "UsagePercentage": "41.08",
-                            "PointsPerMinute": ".667",
-                            "Points": "20",
+                            "Efficiency": "8.0",
+                            "UsagePercentage": "39.63",
+                            "PointsPerMinute": ".600",
+                            "Points": "18",
                             "PersonId": ""
                         },
                         {
@@ -2141,8 +2210,8 @@
                             "Position": "F",
                             "CurrentlyInGame": "",
                             "Minutes": "22",
-                            "Fgam": "3-6",
-                            "ShootingPercentage": "50.0%",
+                            "Fgam": "4-7",
+                            "ShootingPercentage": "57.1%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
@@ -2156,10 +2225,10 @@
                             "Steals": "0",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "6.0",
-                            "UsagePercentage": "11.92",
-                            "PointsPerMinute": ".273",
-                            "Points": "6",
+                            "Efficiency": "8.0",
+                            "UsagePercentage": "13.91",
+                            "PointsPerMinute": ".364",
+                            "Points": "8",
                             "PersonId": ""
                         },
                         {
@@ -3176,9 +3245,9 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
-                "FirstName": "Chelsea",
-                "LastName": "King",
-                "UniformNumber": "02",
+                "FirstName": "Nyedeng",
+                "LastName": "Awak",
+                "UniformNumber": "24",
                 "Photo": null,
                 "PersonId": ""
             },
@@ -3193,9 +3262,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King LAYUP GOOD (5 Pt); 30 Emily Eastham Assist (1 Asst)",
+            "Narrative": "24 Nyedeng Awak LAYUP GOOD (2 Pt); 30 Emily Eastham Assist (1 Asst)",
             "Context": "",
-            "Id": "14+B2B6B7FF",
+            "Id": "14+59F0909A",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 1,
@@ -3813,9 +3882,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "24 Nyedeng Awak LAYUP GOOD (2 Pt)",
+            "Narrative": "24 Nyedeng Awak LAYUP GOOD (4 Pt)",
             "Context": "",
-            "Id": "48+E9F040DB",
+            "Id": "48+E9F09EE1",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 1,
@@ -4540,9 +4609,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King 3PTR GOOD (8 Pt); 10 Cassandra Arndt Assist (1 Asst)",
+            "Narrative": "02 Chelsea King 3PTR GOOD (6 Pt); 10 Cassandra Arndt Assist (1 Asst)",
             "Context": "",
-            "Id": "89+8E74B867",
+            "Id": "89+88C66A3D",
             "Type": "3PTR",
             "Action": "GOOD",
             "Period": 1,
@@ -4752,9 +4821,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King FT GOOD (9 Pt)",
+            "Narrative": "02 Chelsea King FT GOOD (7 Pt)",
             "Context": "",
-            "Id": "104+4343CA2B",
+            "Id": "104+30A8C889",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 1,
@@ -5079,9 +5148,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King LAYUP GOOD (11 Pt)",
+            "Narrative": "02 Chelsea King LAYUP GOOD (9 Pt)",
             "Context": "",
-            "Id": "120+32FFE926",
+            "Id": "120+571E7FD9",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 1,
@@ -5975,9 +6044,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King LAYUP GOOD (13 Pt)",
+            "Narrative": "02 Chelsea King LAYUP GOOD (11 Pt)",
             "Context": "",
-            "Id": "169+9DF70961",
+            "Id": "169+3C451537",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -6320,9 +6389,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King FT GOOD (14 Pt)",
+            "Narrative": "02 Chelsea King FT GOOD (12 Pt)",
             "Context": "",
-            "Id": "189+10723C48",
+            "Id": "189+1072344A",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -6344,9 +6413,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King FT GOOD (15 Pt)",
+            "Narrative": "02 Chelsea King FT GOOD (13 Pt)",
             "Context": "",
-            "Id": "190+1FBE774",
+            "Id": "190+1FBEF6A",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -6368,9 +6437,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King FT GOOD (16 Pt)",
+            "Narrative": "02 Chelsea King FT GOOD (14 Pt)",
             "Context": "",
-            "Id": "191+2943854",
+            "Id": "191+2942352",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 2,
@@ -6637,9 +6706,9 @@
                 }
             ],
             "Team": "VisitingTeam",
-            "Narrative": "24 Nyedeng Awak LAYUP GOOD (4 Pt); 02 Chelsea King Assist (2 Asst)",
+            "Narrative": "24 Nyedeng Awak LAYUP GOOD (6 Pt); 02 Chelsea King Assist (2 Asst)",
             "Context": "",
-            "Id": "205+1EDE7F02",
+            "Id": "205+499A9884",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -7334,9 +7403,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King LAYUP GOOD (18 Pt)",
+            "Narrative": "02 Chelsea King LAYUP GOOD (16 Pt)",
             "Context": "",
-            "Id": "245+9C70B9C3",
+            "Id": "245+21BD7F49",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 2,
@@ -7844,9 +7913,9 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "02 Chelsea King LAYUP GOOD (20 Pt)",
+            "Narrative": "02 Chelsea King LAYUP GOOD (18 Pt)",
             "Context": "",
-            "Id": "269+D1E57D38",
+            "Id": "269+392659D3",
             "Type": "LAYUP",
             "Action": "GOOD",
             "Period": 3,
@@ -8329,6 +8398,4157 @@
             "Action": "MISS",
             "Period": 3,
             "ClockSeconds": 370,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb OFF. REBOUND (3 Reb, 2 Off)",
+            "Context": "",
+            "Id": "296+46F7460A",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 368,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb LAYUP GOOD (2 Pt)",
+            "Context": "",
+            "Id": "297+77A69380",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 368,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 51,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jon'Niyah",
+                "LastName": "Akins",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Jon'Niyah Akins FOUL (3 PF)",
+            "Context": "",
+            "Id": "298+33399856",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 368,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb FT GOOD (3 Pt)",
+            "Context": "",
+            "Id": "299+A7DDC8A0",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 368,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 52,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jon'Niyah",
+                "LastName": "Akins",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taj",
+                    "LastName": "Hanserd",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Jon'Niyah Akins OUT; 03 Taj Hanserd IN",
+            "Context": "",
+            "Id": "300+8869865C",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 351,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taj",
+                "LastName": "Hanserd",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Taj Hanserd TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "302+77543066",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 350,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb STEAL (2 Stl)",
+            "Context": "",
+            "Id": "303+AE61F68E",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 350,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb LAYUP MISS",
+            "Context": "",
+            "Id": "304+3F58EA44",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 341,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson OFF. REBOUND (3 Reb, 2 Off)",
+            "Context": "",
+            "Id": "305+64825B59",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 341,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson LAYUP GOOD (16 Pt)",
+            "Context": "",
+            "Id": "306+85A4C658",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 341,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 54,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Andrea",
+                    "LastName": "Butterbrodt",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross LAYUP GOOD (10 Pt); 24 Andrea Butterbrodt Assist (1 Asst)",
+            "Context": "",
+            "Id": "307+137B3A8",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 336,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Marian (WI) TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "309+662E6A6",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 336,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taj",
+                "LastName": "Hanserd",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Taj Hanserd TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "310+DDFADCE",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 323,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb STEAL (3 Stl)",
+            "Context": "",
+            "Id": "311+4331DFC2",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 323,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb LAYUP GOOD (5 Pt)",
+            "Context": "",
+            "Id": "312+E4D8FA13",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 313,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 58,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King TURNOVER (6 TO)",
+            "Context": "",
+            "Id": "313+8D6D9C19",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 305,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess STEAL (4 Stl)",
+            "Context": "",
+            "Id": "314+B9AC9B10",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 305,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Media Timeout",
+            "Context": "",
+            "Id": "315+D64D84C6",
+            "Type": "MEDIA",
+            "Action": "TIMEOUT",
+            "Period": 3,
+            "ClockSeconds": 296,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Nyedeng",
+                "LastName": "Awak",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Cassandra",
+                    "LastName": "Arndt",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Nyedeng Awak OUT; 10 Cassandra Arndt IN",
+            "Context": "",
+            "Id": "316+239F5AA0",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 296,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Isabela",
+                    "LastName": "Gunderson",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt 3PTR GOOD (12 Pt); 14 Isabela Gunderson Assist (2 Asst)",
+            "Context": "",
+            "Id": "318+9C723530",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 267,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 61,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "320+B4F8432D",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 243,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess STEAL (5 Stl)",
+            "Context": "",
+            "Id": "321+E8BC878E",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 243,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taj",
+                "LastName": "Hanserd",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taycee",
+                    "LastName": "Schwanke",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Taj Hanserd OUT; 14 Taycee Schwanke IN",
+            "Context": "",
+            "Id": "322+DFE05B1A",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 239,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Andrea",
+                    "LastName": "Butterbrodt",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess 3PTR GOOD (14 Pt); 24 Andrea Butterbrodt Assist (2 Asst)",
+            "Context": "",
+            "Id": "324+D0419684",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 228,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 64,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ava",
+                "LastName": "Kreger",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Ava Kreger 3PTR MISS",
+            "Context": "",
+            "Id": "326+1F310E0D",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 208,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King OFF. REBOUND (6 Reb, 1 Off)",
+            "Context": "",
+            "Id": "327+6FA43F32",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 203,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Schwartz",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess OUT; 20 Alexa Schwartz IN",
+            "Context": "",
+            "Id": "328+2EC6C286",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 203,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King 3PTR MISS",
+            "Context": "",
+            "Id": "330+BBF09BED",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 200,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Alexa",
+                "LastName": "Schwartz",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Alexa Schwartz DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "331+69E1D89D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 196,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt JUMPER MISS",
+            "Context": "",
+            "Id": "332+B4B14423",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 184,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "333+9D976CF2",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 180,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb FOUL (2 PF)",
+            "Context": "",
+            "Id": "334+3867BBEE",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 173,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kristin",
+                    "LastName": "Wentling",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson OUT; 13 Kristin Wentling IN",
+            "Context": "",
+            "Id": "335+588AD059",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 173,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Eastham",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Holly",
+                    "LastName": "Goodwin",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Brianna",
+                    "LastName": "Guelig",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King OUT; 30 Emily Eastham OUT; 04 Holly Goodwin IN; 20 Brianna Guelig IN",
+            "Context": "",
+            "Id": "337+F7B52F2",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 173,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ava",
+                "LastName": "Kreger",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Ava Kreger FT GOOD (5 Pt)",
+            "Context": "",
+            "Id": "341+27C13C9F",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 173,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 64,
+                "VisitingTeam": 48
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ava",
+                "LastName": "Kreger",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Ava Kreger FT GOOD (6 Pt)",
+            "Context": "",
+            "Id": "342+A5A8A12F",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 173,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 64,
+                "VisitingTeam": 49
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Alexa",
+                "LastName": "Schwartz",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Alexa Schwartz LAYUP GOOD (2 Pt)",
+            "Context": "",
+            "Id": "343+DC9B6916",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 153,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 66,
+                "VisitingTeam": 49
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt FOUL (2 PF)",
+            "Context": "",
+            "Id": "344+C1BFA7CC",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Isabela",
+                    "LastName": "Gunderson",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt OUT; 14 Isabela Gunderson IN",
+            "Context": "",
+            "Id": "345+148D608B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt FT GOOD (1 Pt)",
+            "Context": "",
+            "Id": "347+1A861781",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 66,
+                "VisitingTeam": 50
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt FT GOOD (2 Pt)",
+            "Context": "",
+            "Id": "348+AFFA00F",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 66,
+                "VisitingTeam": 51
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson LAYUP MISS",
+            "Context": "",
+            "Id": "349+C953ECF3",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 122,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "350+A5A689F1",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 120,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ava",
+                "LastName": "Kreger",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Ava Kreger TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "351+FE843FE0",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 101,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Alexa",
+                "LastName": "Schwartz",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Alexa Schwartz STEAL (2 Stl)",
+            "Context": "",
+            "Id": "352+9875F6FD",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 101,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb 3PTR MISS",
+            "Context": "",
+            "Id": "353+F47EE704",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 92,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Concordia Wisconsin REBOUND",
+            "Context": "",
+            "Id": "354+DEC272A1",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 89,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Amya",
+                    "LastName": "Pluess",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb OUT; 11 Amya Pluess IN",
+            "Context": "",
+            "Id": "355+8E7CE884",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 89,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ava",
+                "LastName": "Kreger",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jon'Niyah",
+                    "LastName": "Akins",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Ava Kreger OUT; 05 Jon'Niyah Akins IN",
+            "Context": "",
+            "Id": "357+60A2C32C",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 89,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "359+87F5860E",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 83,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig STEAL (2 Stl)",
+            "Context": "",
+            "Id": "360+93E54A90",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 83,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross FOUL (2 PF)",
+            "Context": "",
+            "Id": "361+CF06501E",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 70,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke FT GOOD (4 Pt)",
+            "Context": "",
+            "Id": "362+57A7DF74",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 70,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 66,
+                "VisitingTeam": 52
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke FT MISS",
+            "Context": "",
+            "Id": "363+A9F266A5",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 70,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Alexa",
+                "LastName": "Schwartz",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Alexa Schwartz DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "364+BFA6BC96",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 70,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jon'Niyah",
+                    "LastName": "Akins",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke LAYUP GOOD (6 Pt); 05 Jon'Niyah Akins Assist (1 Asst)",
+            "Context": "",
+            "Id": "365+CA67BE7B",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 68,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 66,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling LAYUP MISS",
+            "Context": "",
+            "Id": "367+ADF35B12",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 48,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig DEF. REBOUND (2 Reb, 1 Def)",
+            "Context": "",
+            "Id": "368+BD2A469D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 45,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jon'Niyah",
+                "LastName": "Akins",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Jon'Niyah Akins TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "369+52A20324",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 39,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson 3PTR MISS",
+            "Context": "",
+            "Id": "370+FE0F747",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 21,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling OFF. REBOUND (4 Reb, 3 Off)",
+            "Context": "",
+            "Id": "371+AA0E46DD",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 20,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig FOUL (1 PF)",
+            "Context": "",
+            "Id": "372+8866DC4",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 20,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling FT GOOD (8 Pt)",
+            "Context": "",
+            "Id": "373+C611BDA9",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 20,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 67,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling FT GOOD (9 Pt)",
+            "Context": "",
+            "Id": "374+580C9763",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 20,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 68,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Gracie",
+                    "LastName": "McNabb",
+                    "UniformNumber": "19",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross OUT; 19 Gracie McNabb IN",
+            "Context": "",
+            "Id": "375+658E09D1",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 20,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling FOUL (3 PF)",
+            "Context": "",
+            "Id": "377+F6558D9B",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig FT GOOD (1 Pt)",
+            "Context": "",
+            "Id": "378+57064595",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 68,
+                "VisitingTeam": 55
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig FT MISS",
+            "Context": "",
+            "Id": "379+3264255B",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig OFF. REBOUND (3 Reb, 2 Off)",
+            "Context": "",
+            "Id": "380+D4F47BB2",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Brianna",
+                "LastName": "Guelig",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Brianna Guelig LAYUP MISS",
+            "Context": "",
+            "Id": "381+30D091D5",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 1,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Marian (WI) REBOUND",
+            "Context": "",
+            "Id": "382+BE2E2B2A",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 0,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Schwartz",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jayden",
+                    "LastName": "Ross",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Andrea",
+                    "LastName": "Butterbrodt",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling OUT; 20 Alexa Schwartz OUT; 02 Jayden Ross IN; 24 Andrea Butterbrodt IN",
+            "Context": "",
+            "Id": "383+EE19E164",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 600,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Brianna",
+                    "LastName": "Guelig",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Chelsea",
+                    "LastName": "King",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Eastham",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke OUT; 20 Brianna Guelig OUT; 02 Chelsea King IN; 30 Emily Eastham IN",
+            "Context": "",
+            "Id": "387+E52828B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 600,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "391+BAF1E9D5",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 597,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt STEAL (1 Stl)",
+            "Context": "",
+            "Id": "392+8537413A",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 597,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt 3PTR GOOD (15 Pt)",
+            "Context": "",
+            "Id": "393+C4E84B11",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 590,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 71,
+                "VisitingTeam": 55
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham TURNOVER (4 TO)",
+            "Context": "",
+            "Id": "394+D42834C7",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 561,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson STEAL (1 Stl)",
+            "Context": "",
+            "Id": "395+E7FD6BE6",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 561,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Marian (WI) TIMEOUT 30 Sec. (1st TO, 2nd 30)",
+            "Context": "",
+            "Id": "396+D82CA6FC",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 546,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross LAYUP MISS",
+            "Context": "",
+            "Id": "397+5D60D5C5",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 526,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jon'Niyah",
+                "LastName": "Akins",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Jon'Niyah Akins DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "398+2CF030DF",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 523,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham 3PTR MISS",
+            "Context": "",
+            "Id": "399+253C7E15",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 510,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess DEF. REBOUND (6 Reb, 3 Def)",
+            "Context": "",
+            "Id": "400+7C940690",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 507,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson 3PTR MISS",
+            "Context": "",
+            "Id": "401+DF7A5794",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 498,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "402+4F7863BD",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 495,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King LAYUP MISS",
+            "Context": "",
+            "Id": "403+40573C28",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 483,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt OFF. REBOUND (4 Reb, 1 Off)",
+            "Context": "",
+            "Id": "404+30C2E96",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 479,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Holly",
+                "LastName": "Goodwin",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Holly Goodwin 3PTR MISS",
+            "Context": "",
+            "Id": "405+EAF4380F",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 475,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt DEF. REBOUND (4 Reb, 4 Def)",
+            "Context": "",
+            "Id": "406+DC1FE727",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 471,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Amya",
+                    "LastName": "Pluess",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb LAYUP GOOD (7 Pt); 11 Amya Pluess Assist (2 Asst)",
+            "Context": "",
+            "Id": "407+1ACF18A1",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 461,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 73,
+                "VisitingTeam": 55
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jon'Niyah",
+                "LastName": "Akins",
+                "UniformNumber": "05",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "05 Jon'Niyah Akins LAYUP GOOD (3 Pt)",
+            "Context": "",
+            "Id": "409+92368D1F",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 441,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 73,
+                "VisitingTeam": 57
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson LAYUP MISS",
+            "Context": "",
+            "Id": "410+9027FBA6",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Concordia Wisconsin REBOUND",
+            "Context": "",
+            "Id": "411+F701F431",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Holly",
+                "LastName": "Goodwin",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Holly Goodwin FOUL (2 PF)",
+            "Context": "",
+            "Id": "412+29644F4C",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alyana",
+                    "LastName": "Feekes",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess OUT; 25 Alyana Feekes IN",
+            "Context": "",
+            "Id": "413+A949417B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Holly",
+                "LastName": "Goodwin",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Jon'Niyah",
+                    "LastName": "Akins",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Cassandra",
+                    "LastName": "Arndt",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ava",
+                    "LastName": "Kreger",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taycee",
+                    "LastName": "Schwanke",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Nyedeng",
+                    "LastName": "Awak",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Holly Goodwin OUT; 05 Jon'Niyah Akins OUT; 10 Cassandra Arndt OUT; 13 Ava Kreger IN; 14 Taycee Schwanke IN; 24 Nyedeng Awak IN",
+            "Context": "",
+            "Id": "415+CDE499A0",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson FT MISS",
+            "Context": "",
+            "Id": "421+7D2311A4",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson FT MISS",
+            "Context": "",
+            "Id": "422+45301663",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross OFF. REBOUND (4 Reb, 3 Off)",
+            "Context": "",
+            "Id": "423+397CD3D5",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Concordia Wisconsin REBOUND",
+            "Context": "",
+            "Id": "424+2A60175E",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 423,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb 3PTR MISS",
+            "Context": "",
+            "Id": "425+19B8F7FF",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 412,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "426+3A78F703",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 407,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Nyedeng",
+                "LastName": "Awak",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Nyedeng Awak LAYUP GOOD (8 Pt)",
+            "Context": "",
+            "Id": "427+186DD165",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 404,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 73,
+                "VisitingTeam": 59
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "428+33100C5F",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 389,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham STEAL (1 Stl)",
+            "Context": "",
+            "Id": "429+58EC1F85",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 389,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alyana",
+                    "LastName": "Feekes",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Amya",
+                    "LastName": "Pluess",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kristin",
+                    "LastName": "Wentling",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson OUT; 25 Alyana Feekes OUT; 11 Amya Pluess IN; 13 Kristin Wentling IN",
+            "Context": "",
+            "Id": "430+430E0B7E",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 383,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King 3PTR MISS",
+            "Context": "",
+            "Id": "434+B64CCDB4",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 378,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt DEF. REBOUND (5 Reb, 5 Def)",
+            "Context": "",
+            "Id": "435+82C373F2",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 375,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling LAYUP GOOD (11 Pt)",
+            "Context": "",
+            "Id": "436+DC4DDBFC",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 352,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 75,
+                "VisitingTeam": 59
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Nyedeng",
+                "LastName": "Awak",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Nyedeng Awak FOUL (2 PF)",
+            "Context": "",
+            "Id": "437+DFE41765",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 352,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Holly",
+                    "LastName": "Goodwin",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham OUT; 04 Holly Goodwin IN",
+            "Context": "",
+            "Id": "438+E0228804",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 352,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling FT MISS",
+            "Context": "",
+            "Id": "440+54D94C5F",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 352,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Nyedeng",
+                "LastName": "Awak",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Nyedeng Awak DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "441+AF2C7124",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 351,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke JUMPER GOOD (8 Pt)",
+            "Context": "",
+            "Id": "442+E739A70B",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 335,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 75,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess LAYUP GOOD (16 Pt)",
+            "Context": "",
+            "Id": "443+96EC2B0A",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 316,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 77,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King 3PTR MISS",
+            "Context": "",
+            "Id": "444+ED5447B4",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 308,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling DEF. REBOUND (5 Reb, 2 Def)",
+            "Context": "",
+            "Id": "445+948BAA79",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 303,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "446+A5ADCF2C",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 302,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke STEAL (1 Stl)",
+            "Context": "",
+            "Id": "447+25FB2E16",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 302,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "448+DCC4A0D4",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 298,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling STEAL (2 Stl)",
+            "Context": "",
+            "Id": "449+3B0EBBDF",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 298,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross LAYUP GOOD (12 Pt)",
+            "Context": "",
+            "Id": "450+81F3342D",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 294,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 79,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ava",
+                "LastName": "Kreger",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Ava Kreger 3PTR MISS",
+            "Context": "",
+            "Id": "451+C94747C9",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 278,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling DEF. REBOUND (6 Reb, 3 Def)",
+            "Context": "",
+            "Id": "452+DC79C949",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 274,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt JUMPER GOOD (17 Pt)",
+            "Context": "",
+            "Id": "453+2B870933",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 266,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 81,
+                "VisitingTeam": 61
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Schwartz",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross OUT; 20 Alexa Schwartz IN",
+            "Context": "",
+            "Id": "454+8CA9A124",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 254,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King TURNOVER (7 TO)",
+            "Context": "",
+            "Id": "456+120C2571",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 246,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt STEAL (2 Stl)",
+            "Context": "",
+            "Id": "457+3664690D",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 246,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "458+D485C102",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 242,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King STEAL (2 Stl)",
+            "Context": "",
+            "Id": "459+A8FBF23",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 242,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King LAYUP MISS",
+            "Context": "",
+            "Id": "460+C17FE72E",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke OFF. REBOUND (1 Reb, 1 Off)",
+            "Context": "",
+            "Id": "461+AE18C9A1",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb FOUL (3 PF)",
+            "Context": "",
+            "Id": "462+CC8AE043",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Andrea",
+                "LastName": "Butterbrodt",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Isabela",
+                    "LastName": "Gunderson",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Andrea Butterbrodt OUT; 14 Isabela Gunderson IN",
+            "Context": "",
+            "Id": "463+F702F6BF",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Holly",
+                "LastName": "Goodwin",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ava",
+                    "LastName": "Kreger",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Brianna",
+                    "LastName": "Guelig",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emily",
+                    "LastName": "Eastham",
+                    "UniformNumber": "30",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Holly Goodwin OUT; 13 Ava Kreger OUT; 20 Brianna Guelig IN; 30 Emily Eastham IN",
+            "Context": "",
+            "Id": "465+F07D4450",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke FT GOOD (9 Pt)",
+            "Context": "",
+            "Id": "469+41FF6363",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 81,
+                "VisitingTeam": 62
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke FT MISS",
+            "Context": "",
+            "Id": "470+A6FD3B8F",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham OFF. REBOUND (4 Reb, 1 Off)",
+            "Context": "",
+            "Id": "471+8B474754",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 238,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson FOUL (1 PF)",
+            "Context": "",
+            "Id": "472+DE4766E5",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 235,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King 3PTR MISS",
+            "Context": "",
+            "Id": "473+64C83063",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 234,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Marian (WI) REBOUND",
+            "Context": "",
+            "Id": "474+762FBE17",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 234,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Schwartz",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jayden",
+                    "LastName": "Ross",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Andrea",
+                    "LastName": "Butterbrodt",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson OUT; 20 Alexa Schwartz OUT; 02 Jayden Ross IN; 24 Andrea Butterbrodt IN",
+            "Context": "",
+            "Id": "475+52BE1A99",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 234,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke FT MISS",
+            "Context": "",
+            "Id": "479+C09C049E",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 234,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke FT GOOD (10 Pt)",
+            "Context": "",
+            "Id": "480+1EF746EA",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 234,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 81,
+                "VisitingTeam": 63
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Marian (WI) REBOUND",
+            "Context": "",
+            "Id": "481+A76C9CB0",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 234,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Amya",
+                    "LastName": "Pluess",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb LAYUP GOOD (9 Pt); 11 Amya Pluess Assist (3 Asst)",
+            "Context": "",
+            "Id": "482+EA8989AC",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 220,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 83,
+                "VisitingTeam": 63
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham LAYUP GOOD (9 Pt)",
+            "Context": "",
+            "Id": "484+56325E9D",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 202,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 83,
+                "VisitingTeam": 65
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross LAYUP MISS",
+            "Context": "",
+            "Id": "485+DCEEA13E",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 189,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling OFF. REBOUND (7 Reb, 4 Off)",
+            "Context": "",
+            "Id": "486+DE67A2F4",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 185,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling LAYUP GOOD (13 Pt)",
+            "Context": "",
+            "Id": "487+267EB2AD",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 184,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 85,
+                "VisitingTeam": 65
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb FOUL (4 PF)",
+            "Context": "",
+            "Id": "488+37C557E8",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 176,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gracie",
+                "LastName": "McNabb",
+                "UniformNumber": "19",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alyana",
+                    "LastName": "Feekes",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "19 Gracie McNabb OUT; 25 Alyana Feekes IN",
+            "Context": "",
+            "Id": "489+9A359244",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 176,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taycee",
+                "LastName": "Schwanke",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "14 Taycee Schwanke TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "491+66E8EFE7",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 163,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Jayden",
+                    "LastName": "Ross",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess 3PTR GOOD (19 Pt); 02 Jayden Ross Assist (3 Asst)",
+            "Context": "",
+            "Id": "492+AB1EE471",
+            "Type": "3PTR",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 136,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 88,
+                "VisitingTeam": 65
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jayden",
+                "LastName": "Ross",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Andrea",
+                    "LastName": "Butterbrodt",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Isabela",
+                    "LastName": "Gunderson",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Schwartz",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Jayden Ross OUT; 24 Andrea Butterbrodt OUT; 14 Isabela Gunderson IN; 20 Alexa Schwartz IN",
+            "Context": "",
+            "Id": "494+77720EDA",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 120,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Chelsea",
+                "LastName": "King",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Nyedeng",
+                    "LastName": "Awak",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taj",
+                    "LastName": "Hanserd",
+                    "UniformNumber": "03",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Cassandra",
+                    "LastName": "Arndt",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "02 Chelsea King OUT; 24 Nyedeng Awak OUT; 03 Taj Hanserd IN; 10 Cassandra Arndt IN",
+            "Context": "",
+            "Id": "498+F2C050BF",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 120,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Cassandra",
+                "LastName": "Arndt",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Cassandra Arndt 3PTR MISS",
+            "Context": "",
+            "Id": "502+A95BD076",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 110,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham OFF. REBOUND (5 Reb, 2 Off)",
+            "Context": "",
+            "Id": "503+272F3418",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 106,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham LAYUP MISS",
+            "Context": "",
+            "Id": "504+99E65A87",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 103,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling DEF. REBOUND (8 Reb, 4 Def)",
+            "Context": "",
+            "Id": "505+AF2F6D1D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 100,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Isabela",
+                "LastName": "Gunderson",
+                "UniformNumber": "14",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "14 Isabela Gunderson LAYUP GOOD (18 Pt)",
+            "Context": "",
+            "Id": "506+F2E4B142",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 90,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 90,
+                "VisitingTeam": 65
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taj",
+                "LastName": "Hanserd",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Taj Hanserd TURNOVER (4 TO)",
+            "Context": "",
+            "Id": "507+970B48B4",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling STEAL (3 Stl)",
+            "Context": "",
+            "Id": "508+82F92AA1",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 80,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Kristin",
+                "LastName": "Wentling",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "13 Kristin Wentling LAYUP MISS",
+            "Context": "",
+            "Id": "509+45CDCC68",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 67,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham DEF. REBOUND (6 Reb, 4 Def)",
+            "Context": "",
+            "Id": "510+39A77B8B",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 65,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taj",
+                "LastName": "Hanserd",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "03 Taj Hanserd TURNOVER (5 TO)",
+            "Context": "",
+            "Id": "511+6CF43C71",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 60,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Alexa",
+                "LastName": "Schwartz",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "20 Alexa Schwartz STEAL (3 Stl)",
+            "Context": "",
+            "Id": "512+DA3DA062",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 60,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Concordia Wisconsin TIMEOUT 30 Sec. (1st TO, 1st 30)",
+            "Context": "",
+            "Id": "513+183A657E",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 59,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Amya",
+                "LastName": "Pluess",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kristin",
+                    "LastName": "Wentling",
+                    "UniformNumber": "13",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Isabela",
+                    "LastName": "Gunderson",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Alexa",
+                    "LastName": "Schwartz",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Darya",
+                    "LastName": "Gunderman",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Kendall",
+                    "LastName": "Weiler",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Bella",
+                    "LastName": "Zeck",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Blayne",
+                    "LastName": "Gacke",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Amya Pluess OUT; 13 Kristin Wentling OUT; 14 Isabela Gunderson OUT; 20 Alexa Schwartz OUT; 10 Darya Gunderman IN; 22 Kendall Weiler IN; 23 Bella Zeck IN; 31 Blayne Gacke IN",
+            "Context": "",
+            "Id": "514+71C44163",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 59,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Emily",
+                "LastName": "Eastham",
+                "UniformNumber": "30",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Holly",
+                    "LastName": "Goodwin",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "30 Emily Eastham OUT; 04 Holly Goodwin IN",
+            "Context": "",
+            "Id": "522+1F52683B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 59,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Concordia Wisconsin TURNOVER (4 TO)",
+            "Context": "",
+            "Id": "524+44DAC5A3",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 30,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Holly",
+                "LastName": "Goodwin",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Holly Goodwin LAYUP MISS",
+            "Context": "",
+            "Id": "525+7F4CD523",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 15,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Blayne",
+                "LastName": "Gacke",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "31 Blayne Gacke DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "526+53F6878D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 13,
             "Coordinate": null,
             "Score": null
         }

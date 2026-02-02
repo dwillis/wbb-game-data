@@ -51,7 +51,7 @@
                 0,
                 1,
                 0,
-                4
+                2
             ]
         },
         "VisitingTeam": {
@@ -75,23 +75,63 @@
                 0,
                 0,
                 0,
-                3
+                2
             ]
         },
         "LastPlays": [
             {
-                "Player": null,
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Elle",
+                    "LastName": "Snyder",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                },
                 "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "Belmont REBOUND",
+                "Team": "HomeTeam",
+                "Narrative": "15 Elle Snyder FOUL (5 PF)",
                 "Context": "",
-                "Id": "610+8EF1958E",
-                "Type": "DEF",
-                "Action": "REBOUND",
+                "Id": "528+13010E98",
+                "Type": "FOUL",
+                "Action": "FOUL",
                 "Period": 5,
-                "ClockSeconds": 0,
+                "ClockSeconds": 237,
                 "Coordinate": null,
                 "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Georgia",
+                    "LastName": "Cox",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Sydney",
+                        "LastName": "Huber",
+                        "UniformNumber": "04",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "HomeTeam",
+                "Narrative": "05 Georgia Cox LAYUP GOOD (20 Pt); 04 Sydney Huber Assist (3 Asst)",
+                "Context": "",
+                "Id": "526+112BE1FD",
+                "Type": "LAYUP",
+                "Action": "GOOD",
+                "Period": 5,
+                "ClockSeconds": 252,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 61,
+                    "VisitingTeam": 59
+                }
             },
             {
                 "Player": {
@@ -104,91 +144,48 @@
                 },
                 "InvolvedPlayers": [],
                 "Team": "HomeTeam",
-                "Narrative": "10 Camryn Runner 3PTR MISS",
+                "Narrative": "10 Camryn Runner DEF. REBOUND (10 Reb, 9 Def)",
                 "Context": "",
-                "Id": "609+4215F5F6",
-                "Type": "3PTR",
-                "Action": "MISS",
+                "Id": "525+1E3DAA1",
+                "Type": "DEF",
+                "Action": "REBOUND",
                 "Period": 5,
-                "ClockSeconds": 1,
+                "ClockSeconds": 268,
                 "Coordinate": null,
                 "Score": null
             },
             {
                 "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Jailyn",
-                    "LastName": "Banks",
-                    "UniformNumber": "23",
+                    "FirstName": "Avery",
+                    "LastName": "Strickland",
+                    "UniformNumber": "13",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "23 Jailyn Banks FT GOOD (20 Pt)",
+                "Narrative": "13 Avery Strickland 3PTR MISS",
                 "Context": "",
-                "Id": "608+7183735D",
-                "Type": "FT",
-                "Action": "GOOD",
+                "Id": "524+ECA042A4",
+                "Type": "3PTR",
+                "Action": "MISS",
                 "Period": 5,
-                "ClockSeconds": 6,
+                "ClockSeconds": 273,
                 "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 73,
-                    "VisitingTeam": 79
-                }
+                "Score": null
             },
             {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jailyn",
-                    "LastName": "Banks",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
+                "Player": null,
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "23 Jailyn Banks FT GOOD (19 Pt)",
+                "Narrative": "Belmont REBOUND",
                 "Context": "",
-                "Id": "607+E57A22C",
-                "Type": "FT",
-                "Action": "GOOD",
+                "Id": "523+313DDCB",
+                "Type": "OFF",
+                "Action": "REBOUND",
                 "Period": 5,
-                "ClockSeconds": 6,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 73,
-                    "VisitingTeam": 78
-                }
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kaiden",
-                    "LastName": "Kreinhagen",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [
-                    {
-                        "Team": "HomeTeam",
-                        "FirstName": "Kylee",
-                        "LastName": "Norkus",
-                        "UniformNumber": "20",
-                        "Photo": null,
-                        "PersonId": ""
-                    }
-                ],
-                "Team": "HomeTeam",
-                "Narrative": "11 Kaiden Kreinhagen OUT; 20 Kylee Norkus IN",
-                "Context": "",
-                "Id": "605+82C6B17",
-                "Type": "SUBS",
-                "Action": "SUBS",
-                "Period": 5,
-                "ClockSeconds": 6,
+                "ClockSeconds": 280,
                 "Coordinate": null,
                 "Score": null
             }
@@ -1372,10 +1369,10 @@
                     "DefensiveRebounds": "38",
                     "Ties": "13",
                     "Leads": "14",
-                    "TimeWithLead": "16:42",
-                    "PercentLead": "37.1%",
-                    "LastLeadScore": "63-61",
-                    "LastLeadTime": "3:28 (1st OT)",
+                    "TimeWithLead": "20:25",
+                    "PercentLead": "45.4%",
+                    "LastLeadScore": "61-59",
+                    "LastLeadTime": "3:57 (1st OT)",
                     "LargestLead": "8",
                     "LargestLeadScores": "13-5",
                     "LargestLeadTime": "0:04 (1st)",
@@ -1908,13 +1905,13 @@
                         "DefensiveRebounds": "2",
                         "Ties": "4",
                         "Leads": "1",
-                        "TimeWithLead": "0:30",
-                        "PercentLead": "1.1%",
-                        "LastLeadScore": "63-61",
-                        "LastLeadTime": "3:28 (1st OT)",
+                        "TimeWithLead": "4:12",
+                        "PercentLead": "9.3%",
+                        "LastLeadScore": "61-59",
+                        "LastLeadTime": "3:57 (1st OT)",
                         "LargestLead": "2",
-                        "LargestLeadScores": "63-61",
-                        "LargestLeadTime": "3:43 (1st OT)",
+                        "LargestLeadScores": "61-59",
+                        "LargestLeadTime": "4:12 (1st OT)",
                         "Assists": "4",
                         "Turnovers": "1",
                         "PointsFromBench": "3",
@@ -2198,7 +2195,7 @@
                             "Minutes": "36",
                             "Fgam": "3-16",
                             "ShootingPercentage": "18.8%",
-                            "Tpam": "0-5",
+                            "Tpam": "0-4",
                             "Tppercentage": "0.0%",
                             "Ftma": "14-18",
                             "Ftp": "77.8%",
@@ -2430,8 +2427,8 @@
                     "Points": "79",
                     "Fgam": "21-75",
                     "ShootingPercentage": "28.0%",
-                    "Tpam": "7-27",
-                    "Tppercentage": "25.9%",
+                    "Tpam": "7-26",
+                    "Tppercentage": "26.9%",
                     "Ftma": "30-40",
                     "Ftp": "75.0%",
                     "TotalRebounds": "56",
@@ -2439,13 +2436,13 @@
                     "DefensiveRebounds": "36",
                     "Ties": "13",
                     "Leads": "14",
-                    "TimeWithLead": "16:15",
-                    "PercentLead": "36.1%",
+                    "TimeWithLead": "13:34",
+                    "PercentLead": "30.1%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
-                    "LargestLead": "6",
-                    "LargestLeadScores": "79-73",
-                    "LargestLeadTime": "0:06 (1st OT)",
+                    "LargestLead": "5",
+                    "LargestLeadScores": "31-26",
+                    "LargestLeadTime": "1:19 (2nd)",
                     "Assists": "12",
                     "Turnovers": "13",
                     "PointsFromBench": "11",
@@ -2859,7 +2856,7 @@
                         "Points": "18",
                         "Fgam": "5-22",
                         "ShootingPercentage": "22.7%",
-                        "Tpam": "0-5",
+                        "Tpam": "0-4",
                         "Tppercentage": "0.0%",
                         "Ftma": "8-11",
                         "Ftp": "72.7%",
@@ -2975,13 +2972,13 @@
                         "DefensiveRebounds": "4",
                         "Ties": "4",
                         "Leads": "1",
-                        "TimeWithLead": "2:40",
-                        "PercentLead": "5.9%",
-                        "LastLeadScore": "",
-                        "LastLeadTime": "",
-                        "LargestLead": "6",
-                        "LargestLeadScores": "79-73",
-                        "LargestLeadTime": "0:06 (1st OT)",
+                        "TimeWithLead": "0:00",
+                        "PercentLead": "0.0%",
+                        "LastLeadScore": "-",
+                        "LastLeadTime": "-",
+                        "LargestLead": "0",
+                        "LargestLeadScores": "-",
+                        "LargestLeadTime": "-",
                         "Assists": "2",
                         "Turnovers": "0",
                         "PointsFromBench": "0",
@@ -12540,10 +12537,10 @@
             },
             "InvolvedPlayers": [],
             "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks 3PTR MISS",
+            "Narrative": "23 Jailyn Banks JUMPER MISS",
             "Context": "",
-            "Id": "520+EC76ACBF",
-            "Type": "3PTR",
+            "Id": "520+865EEFB9",
+            "Type": "JUMPER",
             "Action": "MISS",
             "Period": 4,
             "ClockSeconds": 2,
@@ -12699,1583 +12696,6 @@
             "Action": "FOUL",
             "Period": 5,
             "ClockSeconds": 237,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Elle",
-                "LastName": "Snyder",
-                "UniformNumber": "15",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jelena",
-                    "LastName": "Savic",
-                    "UniformNumber": "31",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "15 Elle Snyder OUT; 31 Jelena Savic IN",
-            "Context": "",
-            "Id": "529+298C65D2",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 237,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Avery",
-                "LastName": "Strickland",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Avery Strickland FT GOOD (20 Pt)",
-            "Context": "",
-            "Id": "531+13344326",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 237,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 61,
-                "VisitingTeam": 60
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Avery",
-                "LastName": "Strickland",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Avery Strickland FT GOOD (21 Pt)",
-            "Context": "",
-            "Id": "532+75791AA",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 237,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 61,
-                "VisitingTeam": 61
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Georgia",
-                    "LastName": "Cox",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner LAYUP GOOD (15 Pt); 05 Georgia Cox Assist (3 Asst)",
-            "Context": "",
-            "Id": "533+FD95C0BC",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 223,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 63,
-                "VisitingTeam": 61
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks LAYUP GOOD (10 Pt)",
-            "Context": "",
-            "Id": "535+95CCB3C8",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 208,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 63,
-                "VisitingTeam": 63
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kaiden",
-                "LastName": "Kreinhagen",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Kaiden Kreinhagen FOUL (2 PF)",
-            "Context": "",
-            "Id": "536+29D8963",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 208,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (11 Pt)",
-            "Context": "",
-            "Id": "537+66EA9A0C",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 208,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 63,
-                "VisitingTeam": 64
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sydney",
-                "LastName": "Huber",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "04 Sydney Huber 3PTR MISS",
-            "Context": "",
-            "Id": "538+F36502F2",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 193,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sanaa",
-                "LastName": "Tripp",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "05 Sanaa Tripp DEF. REBOUND (6 Reb, 6 Def)",
-            "Context": "",
-            "Id": "539+2396BC73",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 189,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks LAYUP MISS",
-            "Context": "",
-            "Id": "540+745E3B43",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 183,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jelena",
-                "LastName": "Savic",
-                "UniformNumber": "31",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "31 Jelena Savic DEF. REBOUND (4 Reb, 4 Def)",
-            "Context": "",
-            "Id": "541+1D6EECF8",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 181,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Hilary",
-                "LastName": "Fuller",
-                "UniformNumber": "09",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "09 Hilary Fuller FOUL (4 PF)",
-            "Context": "",
-            "Id": "542+82336872",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 181,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jelena",
-                "LastName": "Savic",
-                "UniformNumber": "31",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "31 Jelena Savic FT GOOD (5 Pt)",
-            "Context": "",
-            "Id": "543+159DE0CA",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 181,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 64,
-                "VisitingTeam": 64
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jelena",
-                "LastName": "Savic",
-                "UniformNumber": "31",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "31 Jelena Savic FT MISS",
-            "Context": "",
-            "Id": "544+4B638956",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 181,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Hilary",
-                "LastName": "Fuller",
-                "UniformNumber": "09",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "09 Hilary Fuller DEF. REBOUND (8 Reb, 7 Def)",
-            "Context": "",
-            "Id": "545+2B68ECAD",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 180,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kaiden",
-                "LastName": "Kreinhagen",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Kaiden Kreinhagen FOUL (3 PF)",
-            "Context": "",
-            "Id": "546+5339D6A7",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 163,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Hilary",
-                "LastName": "Fuller",
-                "UniformNumber": "09",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Quinn",
-                    "LastName": "Eubank",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "09 Hilary Fuller OUT; 22 Quinn Eubank IN",
-            "Context": "",
-            "Id": "547+5FD982F3",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 163,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (12 Pt)",
-            "Context": "",
-            "Id": "549+90DFB022",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 163,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 64,
-                "VisitingTeam": 65
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (13 Pt)",
-            "Context": "",
-            "Id": "550+9FCC237A",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 163,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 64,
-                "VisitingTeam": 66
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jelena",
-                "LastName": "Savic",
-                "UniformNumber": "31",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Georgia",
-                    "LastName": "Cox",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "31 Jelena Savic LAYUP GOOD (7 Pt); 05 Georgia Cox Assist (4 Asst)",
-            "Context": "",
-            "Id": "551+6C65EA09",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 146,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 66,
-                "VisitingTeam": 66
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks JUMPER MISS",
-            "Context": "",
-            "Id": "553+35960EDB",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 120,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Quinn",
-                "LastName": "Eubank",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "22 Quinn Eubank OFF. REBOUND (2 Reb, 1 Off)",
-            "Context": "",
-            "Id": "554+246F905C",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 117,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Quinn",
-                    "LastName": "Eubank",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks LAYUP GOOD (15 Pt); 22 Quinn Eubank Assist (2 Asst)",
-            "Context": "",
-            "Id": "555+95969030",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 116,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 66,
-                "VisitingTeam": 68
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sydney",
-                "LastName": "Huber",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "04 Sydney Huber FOUL (2 PF)",
-            "Context": "",
-            "Id": "557+964D639C",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 116,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (16 Pt)",
-            "Context": "",
-            "Id": "558+BED1ED16",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 116,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 66,
-                "VisitingTeam": 69
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FOUL (3 PF)",
-            "Context": "",
-            "Id": "559+3C929556",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 108,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
-            "Context": "",
-            "Id": "560+8C802DDB",
-            "Type": "MEDIA",
-            "Action": "TIMEOUT",
-            "Period": 5,
-            "ClockSeconds": 108,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Quinn",
-                "LastName": "Eubank",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Hilary",
-                    "LastName": "Fuller",
-                    "UniformNumber": "09",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "22 Quinn Eubank OUT; 09 Hilary Fuller IN",
-            "Context": "",
-            "Id": "561+A14FE202",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 108,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner FT GOOD (16 Pt)",
-            "Context": "",
-            "Id": "563+5FC8F535",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 108,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 67,
-                "VisitingTeam": 69
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner FT GOOD (17 Pt)",
-            "Context": "",
-            "Id": "564+E4AEC1B9",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 108,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 68,
-                "VisitingTeam": 69
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jelena",
-                "LastName": "Savic",
-                "UniformNumber": "31",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "31 Jelena Savic FOUL (1 PF)",
-            "Context": "",
-            "Id": "565+74FD569E",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 96,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Avery",
-                "LastName": "Strickland",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Avery Strickland FT GOOD (22 Pt)",
-            "Context": "",
-            "Id": "566+845E28DC",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 96,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 68,
-                "VisitingTeam": 70
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Avery",
-                "LastName": "Strickland",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Avery Strickland FT GOOD (23 Pt)",
-            "Context": "",
-            "Id": "567+8995EBA2",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 96,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 68,
-                "VisitingTeam": 71
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Hilary",
-                "LastName": "Fuller",
-                "UniformNumber": "09",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Quinn",
-                    "LastName": "Eubank",
-                    "UniformNumber": "22",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "09 Hilary Fuller OUT; 22 Quinn Eubank IN",
-            "Context": "",
-            "Id": "568+340A0A2F",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 96,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sydney",
-                "LastName": "Huber",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "04 Sydney Huber 3PTR MISS",
-            "Context": "",
-            "Id": "570+4C4B03B4",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 79,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Quinn",
-                "LastName": "Eubank",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "22 Quinn Eubank DEF. REBOUND (3 Reb, 2 Def)",
-            "Context": "",
-            "Id": "571+94254653",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 77,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jailyn",
-                    "LastName": "Banks",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones 3PTR GOOD (11 Pt); 23 Jailyn Banks Assist (5 Asst)",
-            "Context": "",
-            "Id": "572+50759D52",
-            "Type": "3PTR",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 52,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 68,
-                "VisitingTeam": 74
-            }
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "Evansville TIMEOUT 30 Sec. (3rd TO, 3rd 30)",
-            "Context": "",
-            "Id": "574+C755B2D",
-            "Type": "30SEC",
-            "Action": "TIMEOUT",
-            "Period": 5,
-            "ClockSeconds": 52,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones FOUL (3 PF)",
-            "Context": "",
-            "Id": "575+B8780E69",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 43,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Hilary",
-                "LastName": "Fuller",
-                "UniformNumber": "09",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Sanaa",
-                    "LastName": "Tripp",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "09 Hilary Fuller IN; 05 Sanaa Tripp OUT",
-            "Context": "",
-            "Id": "576+4218D7ED",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 43,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner FT GOOD (18 Pt)",
-            "Context": "",
-            "Id": "577+96E9082",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 43,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 69,
-                "VisitingTeam": 74
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner FT GOOD (19 Pt)",
-            "Context": "",
-            "Id": "579+4B7E0283",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 43,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 70,
-                "VisitingTeam": 74
-            }
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Belmont TIMEOUT 30 Sec. (3rd TO, 3rd 30)",
-            "Context": "",
-            "Id": "580+3842DC32",
-            "Type": "30SEC",
-            "Action": "TIMEOUT",
-            "Period": 5,
-            "ClockSeconds": 43,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kylee",
-                    "LastName": "Norkus",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner OUT; 20 Kylee Norkus IN",
-            "Context": "",
-            "Id": "581+60BF0FDD",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 43,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sydney",
-                "LastName": "Huber",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "04 Sydney Huber FOUL (3 PF)",
-            "Context": "",
-            "Id": "583+3137A1F2",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Hilary",
-                "LastName": "Fuller",
-                "UniformNumber": "09",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Sanaa",
-                    "LastName": "Tripp",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "09 Hilary Fuller OUT; 05 Sanaa Tripp IN",
-            "Context": "",
-            "Id": "584+9C5711E5",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (17 Pt)",
-            "Context": "",
-            "Id": "586+278B49F8",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 70,
-                "VisitingTeam": 75
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (18 Pt)",
-            "Context": "",
-            "Id": "587+23DD73EC",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 70,
-                "VisitingTeam": 76
-            }
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "Evansville TIMEOUT 30 Sec. (4th TO, 4th 30)",
-            "Context": "",
-            "Id": "588+AC72732A",
-            "Type": "30SEC",
-            "Action": "TIMEOUT",
-            "Period": 5,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kylee",
-                "LastName": "Norkus",
-                "UniformNumber": "20",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Camryn",
-                    "LastName": "Runner",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "20 Kylee Norkus OUT; 10 Camryn Runner IN",
-            "Context": "",
-            "Id": "589+87729DA7",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Georgia",
-                "LastName": "Cox",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Camryn",
-                    "LastName": "Runner",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "05 Georgia Cox 3PTR GOOD (23 Pt); 10 Camryn Runner Assist (10 Asst)",
-            "Context": "",
-            "Id": "591+FBFC7C82",
-            "Type": "3PTR",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 36,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 73,
-                "VisitingTeam": 76
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Sydney",
-                "LastName": "Huber",
-                "UniformNumber": "04",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "04 Sydney Huber FOUL (4 PF)",
-            "Context": "",
-            "Id": "593+7741BD16",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 32,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones FT MISS",
-            "Context": "",
-            "Id": "594+8B7B1161",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 32,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Belmont REBOUND",
-            "Context": "",
-            "Id": "595+49EF73FB",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 32,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones FT GOOD (12 Pt)",
-            "Context": "",
-            "Id": "596+EC1A715A",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 32,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 73,
-                "VisitingTeam": 77
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Georgia",
-                "LastName": "Cox",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "05 Georgia Cox TURNOVER (4 TO)",
-            "Context": "",
-            "Id": "597+24EA7367",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 5,
-            "ClockSeconds": 18,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones STEAL (2 Stl)",
-            "Context": "",
-            "Id": "598+9F7EC688",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 5,
-            "ClockSeconds": 18,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kaiden",
-                "LastName": "Kreinhagen",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Kaiden Kreinhagen FOUL (4 PF)",
-            "Context": "",
-            "Id": "599+48909EFC",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones FT MISS",
-            "Context": "",
-            "Id": "600+B182D995",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Belmont REBOUND",
-            "Context": "",
-            "Id": "601+6395764F",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Tuti",
-                "LastName": "Jones",
-                "UniformNumber": "00",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "00 Tuti Jones FT MISS",
-            "Context": "",
-            "Id": "602+A949B29F",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Quinn",
-                "LastName": "Eubank",
-                "UniformNumber": "22",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "22 Quinn Eubank OFF. REBOUND (4 Reb, 2 Off)",
-            "Context": "",
-            "Id": "603+D223D86D",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kaiden",
-                "LastName": "Kreinhagen",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Kaiden Kreinhagen FOUL (5 PF)",
-            "Context": "",
-            "Id": "604+590196",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 5,
-            "ClockSeconds": 6,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Kaiden",
-                "LastName": "Kreinhagen",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Kylee",
-                    "LastName": "Norkus",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "11 Kaiden Kreinhagen OUT; 20 Kylee Norkus IN",
-            "Context": "",
-            "Id": "605+82C6B17",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 5,
-            "ClockSeconds": 6,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (19 Pt)",
-            "Context": "",
-            "Id": "607+E57A22C",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 6,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 73,
-                "VisitingTeam": 78
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jailyn",
-                "LastName": "Banks",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Jailyn Banks FT GOOD (20 Pt)",
-            "Context": "",
-            "Id": "608+7183735D",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 5,
-            "ClockSeconds": 6,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 73,
-                "VisitingTeam": 79
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Camryn",
-                "LastName": "Runner",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Camryn Runner 3PTR MISS",
-            "Context": "",
-            "Id": "609+4215F5F6",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 5,
-            "ClockSeconds": 1,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Belmont REBOUND",
-            "Context": "",
-            "Id": "610+8EF1958E",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 5,
-            "ClockSeconds": 0,
             "Coordinate": null,
             "Score": null
         }

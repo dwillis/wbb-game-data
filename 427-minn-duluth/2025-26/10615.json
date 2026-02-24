@@ -16,7 +16,7 @@
         "StadiumImage": null,
         "SiteImage": null,
         "ClientHostname": null,
-        "Officials": "Drew Sannes,  Ashley Deisting,  Carolyn Derksen",
+        "Officials": "",
         "Attendance": 0,
         "PeriodsRegulation": 4,
         "Period": 0,
@@ -49,6 +49,7 @@
             "PeriodTimeouts": [
                 0,
                 0,
+                1,
                 1
             ]
         },
@@ -71,54 +72,31 @@
             "PeriodTimeouts": [
                 0,
                 0,
-                1
+                1,
+                2
             ]
         },
         "LastPlays": [
             {
                 "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Izzy",
-                    "LastName": "Moore",
-                    "UniformNumber": "25",
+                    "FirstName": "Lily",
+                    "LastName": "Klein",
+                    "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
                 },
                 "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "25 Izzy Moore TURNOVER (4 TO)",
+                "Narrative": "10 Lily Klein DEF. REBOUND (9 Reb, 7 Def)",
                 "Context": "",
-                "Id": "306+20FEFBFB",
-                "Type": "TURNOVER",
-                "Action": "TURNOVER",
-                "Period": 3,
-                "ClockSeconds": 187,
+                "Id": "461+AD8162F9",
+                "Type": "DEF",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 0,
                 "Coordinate": null,
                 "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Maria",
-                    "LastName": "Counts",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "04 Maria Counts LAYUP GOOD (6 Pt)",
-                "Context": "",
-                "Id": "305+682E405",
-                "Type": "LAYUP",
-                "Action": "GOOD",
-                "Period": 3,
-                "ClockSeconds": 205,
-                "Coordinate": null,
-                "Score": {
-                    "HomeTeam": 32,
-                    "VisitingTeam": 44
-                }
             },
             {
                 "Player": {
@@ -131,36 +109,22 @@
                 },
                 "InvolvedPlayers": [
                     {
-                        "Team": "HomeTeam",
-                        "FirstName": "Vanessa",
-                        "LastName": "Bickford",
-                        "UniformNumber": "12",
+                        "Team": "VisitingTeam",
+                        "FirstName": "Makenzie",
+                        "LastName": "Carrier",
+                        "UniformNumber": "02",
                         "Photo": null,
                         "PersonId": ""
                     }
                 ],
                 "Team": "HomeTeam",
-                "Narrative": "24 Grace Counts OUT; 12 Vanessa Bickford IN",
+                "Narrative": "24 Grace Counts 3PTR MISS; 02 Makenzie Carrier BLOCK (1 Blk)",
                 "Context": "",
-                "Id": "303+3B49A701",
-                "Type": "SUBS",
-                "Action": "SUBS",
-                "Period": 3,
-                "ClockSeconds": 216,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": null,
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "Minn. Duluth TIMEOUT 30 Sec. (1st TO, 1st 30)",
-                "Context": "",
-                "Id": "302+492C5973",
-                "Type": "30SEC",
-                "Action": "TIMEOUT",
-                "Period": 3,
-                "ClockSeconds": 217,
+                "Id": "459+A438B605",
+                "Type": "3PTR",
+                "Action": "MISS",
+                "Period": 4,
+                "ClockSeconds": 3,
                 "Coordinate": null,
                 "Score": null
             },
@@ -173,28 +137,57 @@
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [
-                    {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Lily",
-                        "LastName": "Klein",
-                        "UniformNumber": "10",
-                        "Photo": null,
-                        "PersonId": ""
-                    }
-                ],
+                "InvolvedPlayers": [],
                 "Team": "VisitingTeam",
-                "Narrative": "25 Izzy Moore 3PTR GOOD (19 Pt); 10 Lily Klein Assist (2 Asst)",
+                "Narrative": "25 Izzy Moore LAYUP GOOD (41 Pt)",
                 "Context": "",
-                "Id": "300+8206BFD6",
-                "Type": "3PTR",
+                "Id": "458+26081F47",
+                "Type": "LAYUP",
                 "Action": "GOOD",
-                "Period": 3,
-                "ClockSeconds": 222,
+                "Period": 4,
+                "ClockSeconds": 11,
                 "Coordinate": null,
                 "Score": {
-                    "HomeTeam": 30,
-                    "VisitingTeam": 44
+                    "HomeTeam": 58,
+                    "VisitingTeam": 74
+                }
+            },
+            {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "VisitingTeam",
+                "Narrative": "Northern St. TIMEOUT Full (2nd TO, 1st Full)",
+                "Context": "",
+                "Id": "457+442B4C",
+                "Type": "TEAM",
+                "Action": "TIMEOUT",
+                "Period": 4,
+                "ClockSeconds": 16,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lexi",
+                    "LastName": "Karge",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "42 Lexi Karge LAYUP GOOD (14 Pt)",
+                "Context": "",
+                "Id": "456+DC59ADD5",
+                "Type": "LAYUP",
+                "Action": "GOOD",
+                "Period": 4,
+                "ClockSeconds": 20,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 58,
+                    "VisitingTeam": 72
                 }
             }
         ]
@@ -511,7 +504,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "41.03"
+                    "Value": "55.18"
                 },
                 {
                     "Player": {
@@ -522,18 +515,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "30.43"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Taylor",
-                        "LastName": "Tool",
-                        "UniformNumber": "12",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "16.15"
+                    "Value": "27.75"
                 },
                 {
                     "Player": {
@@ -544,7 +526,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "12.81"
+                    "Value": "21.36"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Taylor",
+                        "LastName": "Tool",
+                        "UniformNumber": "12",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "19.00"
                 }
             ]
         },
@@ -553,9 +546,9 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Claire",
-                        "LastName": "Bjorge",
-                        "UniformNumber": "23",
+                        "FirstName": "Lexi",
+                        "LastName": "Karge",
+                        "UniformNumber": "42",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -564,9 +557,9 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Lexi",
-                        "LastName": "Karge",
-                        "UniformNumber": "42",
+                        "FirstName": "Claire",
+                        "LastName": "Bjorge",
+                        "UniformNumber": "23",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -645,20 +638,20 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Vanessa",
-                        "LastName": "Bickford",
-                        "UniformNumber": "12",
+                        "FirstName": "Claire",
+                        "LastName": "Bjorge",
+                        "UniformNumber": "23",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "2"
+                    "Value": "3"
                 },
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Claire",
-                        "LastName": "Bjorge",
-                        "UniformNumber": "23",
+                        "FirstName": "Vanessa",
+                        "LastName": "Bickford",
+                        "UniformNumber": "12",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -784,20 +777,20 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Claire",
-                        "LastName": "Bjorge",
-                        "UniformNumber": "23",
+                        "FirstName": "Lexi",
+                        "LastName": "Karge",
+                        "UniformNumber": "42",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "14.0"
+                    "Value": "15.0"
                 },
                 {
                     "Player": {
                         "Team": "HomeTeam",
-                        "FirstName": "Lexi",
-                        "LastName": "Karge",
-                        "UniformNumber": "42",
+                        "FirstName": "Claire",
+                        "LastName": "Bjorge",
+                        "UniformNumber": "23",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -847,7 +840,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "27.65"
+                    "Value": "25.51"
                 },
                 {
                     "Player": {
@@ -869,7 +862,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "20.53"
+                    "Value": "22.29"
                 }
             ]
         }
@@ -1159,8 +1152,8 @@
                             "Position": "G",
                             "CurrentlyInGame": "",
                             "Minutes": "23",
-                            "Fgam": "6-9",
-                            "ShootingPercentage": "66.7%",
+                            "Fgam": "5-8",
+                            "ShootingPercentage": "62.5%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "2-2",
@@ -1168,16 +1161,16 @@
                             "TotalRebounds": "2",
                             "OffensiveRebounds": "0",
                             "DefensiveRebounds": "2",
-                            "Assists": "2",
+                            "Assists": "3",
                             "Turnovers": "3",
                             "Blocks": "0",
                             "Steals": "2",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "14.0",
-                            "UsagePercentage": "27.65",
-                            "PointsPerMinute": ".609",
-                            "Points": "14",
+                            "Efficiency": "13.0",
+                            "UsagePercentage": "25.51",
+                            "PointsPerMinute": ".522",
+                            "Points": "12",
                             "PersonId": ""
                         },
                         {
@@ -1186,8 +1179,8 @@
                             "Position": "F",
                             "CurrentlyInGame": "",
                             "Minutes": "28",
-                            "Fgam": "3-6",
-                            "ShootingPercentage": "50.0%",
+                            "Fgam": "4-7",
+                            "ShootingPercentage": "57.1%",
                             "Tpam": "1-1",
                             "Tppercentage": "100.0%",
                             "Ftma": "5-6",
@@ -1201,10 +1194,10 @@
                             "Steals": "3",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "13.0",
-                            "UsagePercentage": "20.53",
-                            "PointsPerMinute": ".429",
-                            "Points": "12",
+                            "Efficiency": "15.0",
+                            "UsagePercentage": "22.29",
+                            "PointsPerMinute": ".500",
+                            "Points": "14",
                             "PersonId": ""
                         },
                         {
@@ -1409,7 +1402,7 @@
                     "LargestLead": "0",
                     "LargestLeadScores": "-",
                     "LargestLeadTime": "-",
-                    "Assists": "8",
+                    "Assists": "9",
                     "Turnovers": "14",
                     "PointsFromBench": "14",
                     "Blocks": "0",
@@ -1838,7 +1831,7 @@
                         "LargestLead": "0",
                         "LargestLeadScores": "-",
                         "LargestLeadTime": "-",
-                        "Assists": "2",
+                        "Assists": "3",
                         "Turnovers": "2",
                         "PointsFromBench": "2",
                         "Blocks": "0",
@@ -2034,7 +2027,7 @@
                             "Name": "M. FIEDLER",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "38",
+                            "Minutes": "28",
                             "Fgam": "2-4",
                             "ShootingPercentage": "50.0%",
                             "Tpam": "0-1",
@@ -2051,8 +2044,8 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "2.0",
-                            "UsagePercentage": "10.37",
-                            "PointsPerMinute": ".132",
+                            "UsagePercentage": "14.08",
+                            "PointsPerMinute": ".179",
                             "Points": "5",
                             "PersonId": ""
                         },
@@ -2061,7 +2054,7 @@
                             "Name": "L. KLEIN",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "31",
+                            "Minutes": "23",
                             "Fgam": "0-2",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-1",
@@ -2078,7 +2071,7 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "9.0",
-                            "UsagePercentage": "6.95",
+                            "UsagePercentage": "9.36",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2088,7 +2081,7 @@
                             "Name": "T. TOOL",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "20",
+                            "Minutes": "17",
                             "Fgam": "1-6",
                             "ShootingPercentage": "16.7%",
                             "Tpam": "0-1",
@@ -2105,8 +2098,8 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "1.0",
-                            "UsagePercentage": "16.15",
-                            "PointsPerMinute": ".100",
+                            "UsagePercentage": "19.00",
+                            "PointsPerMinute": ".118",
                             "Points": "2",
                             "PersonId": ""
                         },
@@ -2115,7 +2108,7 @@
                             "Name": "M. COUNTS",
                             "Position": "F",
                             "CurrentlyInGame": "",
-                            "Minutes": "17",
+                            "Minutes": "13",
                             "Fgam": "0-1",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2132,7 +2125,7 @@
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
                             "Efficiency": "4.0",
-                            "UsagePercentage": "6.33",
+                            "UsagePercentage": "8.28",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2142,7 +2135,7 @@
                             "Name": "I. MOORE",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "39",
+                            "Minutes": "29",
                             "Fgam": "14-19",
                             "ShootingPercentage": "73.7%",
                             "Tpam": "1-2",
@@ -2159,8 +2152,8 @@
                             "PersonalFouls": "4",
                             "TechnicalFouls": "0",
                             "Efficiency": "40.0",
-                            "UsagePercentage": "41.03",
-                            "PointsPerMinute": "1.051",
+                            "UsagePercentage": "55.18",
+                            "PointsPerMinute": "1.414",
                             "Points": "41",
                             "PersonId": ""
                         },
@@ -2169,7 +2162,7 @@
                             "Name": "R. RUS",
                             "Position": "G",
                             "CurrentlyInGame": "",
-                            "Minutes": "31",
+                            "Minutes": "34",
                             "Fgam": "6-10",
                             "ShootingPercentage": "60.0%",
                             "Tpam": "0-0",
@@ -2186,8 +2179,8 @@
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "14.0",
-                            "UsagePercentage": "30.43",
-                            "PointsPerMinute": ".613",
+                            "UsagePercentage": "27.75",
+                            "PointsPerMinute": ".559",
                             "Points": "19",
                             "PersonId": ""
                         },
@@ -2223,7 +2216,7 @@
                             "Name": "C. KUYPER",
                             "Position": "C",
                             "CurrentlyInGame": "",
-                            "Minutes": "20",
+                            "Minutes": "12",
                             "Fgam": "1-1",
                             "ShootingPercentage": "100.0%",
                             "Tpam": "1-1",
@@ -2240,8 +2233,8 @@
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
                             "Efficiency": "8.0",
-                            "UsagePercentage": "12.81",
-                            "PointsPerMinute": ".250",
+                            "UsagePercentage": "21.36",
+                            "PointsPerMinute": ".417",
                             "Points": "5",
                             "PersonId": ""
                         }
@@ -2336,9 +2329,9 @@
                     "PercentLead": "98.4%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
-                    "LargestLead": "14",
-                    "LargestLeadScores": "44-30",
-                    "LargestLeadTime": "3:42 (3rd)",
+                    "LargestLead": "16",
+                    "LargestLeadScores": "74-58",
+                    "LargestLeadTime": "0:11 (4th)",
                     "Assists": "8",
                     "Turnovers": "18",
                     "PointsFromBench": "26",
@@ -2658,9 +2651,9 @@
                         "PercentLead": "25.0%",
                         "LastLeadScore": "",
                         "LastLeadTime": "",
-                        "LargestLead": "14",
-                        "LargestLeadScores": "44-30",
-                        "LargestLeadTime": "3:42 (3rd)",
+                        "LargestLead": "15",
+                        "LargestLeadScores": "49-34",
+                        "LargestLeadTime": "0:53 (3rd)",
                         "Assists": "2",
                         "Turnovers": "5",
                         "PointsFromBench": "3",
@@ -2761,13 +2754,13 @@
                         "DefensiveRebounds": "9",
                         "Ties": "0",
                         "Leads": "0",
-                        "TimeWithLead": "0:00",
-                        "PercentLead": "0.0%",
-                        "LastLeadScore": "-",
-                        "LastLeadTime": "-",
-                        "LargestLead": "0",
-                        "LargestLeadScores": "-",
-                        "LargestLeadTime": "-",
+                        "TimeWithLead": "10:00",
+                        "PercentLead": "25.0%",
+                        "LastLeadScore": "",
+                        "LastLeadTime": "",
+                        "LargestLead": "16",
+                        "LargestLeadScores": "74-58",
+                        "LargestLeadTime": "0:11 (4th)",
                         "Assists": "1",
                         "Turnovers": "6",
                         "PointsFromBench": "6",
@@ -8412,6 +8405,2938 @@
             "Action": "TURNOVER",
             "Period": 3,
             "ClockSeconds": 187,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts LAYUP MISS",
+            "Context": "",
+            "Id": "307+E43475B7",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 165,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein DEF. REBOUND (6 Reb, 4 Def)",
+            "Context": "",
+            "Id": "308+CCA08D1F",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 164,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts FOUL (2 PF)",
+            "Context": "",
+            "Id": "309+CD66DCDF",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 143,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Morgan",
+                "LastName": "Fiedler",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Morgan Fiedler FT MISS",
+            "Context": "",
+            "Id": "310+6BD6C744",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 143,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Northern St. REBOUND",
+            "Context": "",
+            "Id": "311+1412A9B2",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 143,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Morgan",
+                "LastName": "Fiedler",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Morgan Fiedler FT GOOD (5 Pt)",
+            "Context": "",
+            "Id": "312+BCA9713",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 143,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 32,
+                "VisitingTeam": 45
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani LAYUP MISS",
+            "Context": "",
+            "Id": "313+2F6EE007",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 129,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore DEF. REBOUND (7 Reb, 7 Def)",
+            "Context": "",
+            "Id": "314+762BFEC2",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 128,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "315+E4625074",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 121,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lexi",
+                "LastName": "Karge",
+                "UniformNumber": "42",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "42 Lexi Karge STEAL (3 Stl)",
+            "Context": "",
+            "Id": "316+B2C4A951",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 3,
+            "ClockSeconds": 121,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford FOUL (1 PF)",
+            "Context": "",
+            "Id": "317+5B1C244C",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 97,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford TURNOVER (1 TO)",
+            "Context": "",
+            "Id": "318+4D14EC63",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 3,
+            "ClockSeconds": 97,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Carli",
+                    "LastName": "Kuyper",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore LAYUP GOOD (21 Pt); 24 Carli Kuyper Assist (1 Asst)",
+            "Context": "",
+            "Id": "319+CE1CC99D",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 79,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 32,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge LAYUP GOOD (6 Pt)",
+            "Context": "",
+            "Id": "321+30AAF395",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 69,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 34,
+                "VisitingTeam": 47
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore JUMPER GOOD (23 Pt)",
+            "Context": "",
+            "Id": "322+3BD7A982",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 53,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 34,
+                "VisitingTeam": 49
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lexi",
+                "LastName": "Karge",
+                "UniformNumber": "42",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Claire",
+                    "LastName": "Bjorge",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "42 Lexi Karge LAYUP GOOD (10 Pt); 23 Claire Bjorge Assist (1 Asst)",
+            "Context": "",
+            "Id": "323+27B0960A",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 34,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 36,
+                "VisitingTeam": 49
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lexi",
+                "LastName": "Karge",
+                "UniformNumber": "42",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "42 Lexi Karge FOUL (1 PF)",
+            "Context": "",
+            "Id": "325+3CC794BE",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 3,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lexi",
+                    "LastName": "Karge",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Counts",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Fritz",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani OUT; 42 Lexi Karge OUT; 24 Grace Counts IN; 31 Ashley Fritz IN",
+            "Context": "",
+            "Id": "326+84C5C449",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 3,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper FT MISS",
+            "Context": "",
+            "Id": "330+942BC58A",
+            "Type": "FT",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Northern St. REBOUND",
+            "Context": "",
+            "Id": "331+4082CA02",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper FT GOOD (5 Pt)",
+            "Context": "",
+            "Id": "332+11DFE253",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 3,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 36,
+                "VisitingTeam": 50
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Counts",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Grace Counts 3PTR MISS",
+            "Context": "",
+            "Id": "333+1A2098C0",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 3,
+            "ClockSeconds": 2,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Northern St. REBOUND",
+            "Context": "",
+            "Id": "334+75AD3478",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 3,
+            "ClockSeconds": 0,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Tool",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper OUT; 12 Taylor Tool IN",
+            "Context": "",
+            "Id": "335+5E382705",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 600,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore LAYUP GOOD (25 Pt)",
+            "Context": "",
+            "Id": "337+BCB850FE",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 583,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 36,
+                "VisitingTeam": 52
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "338+FF14E450",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 563,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Myra",
+                    "LastName": "Moorjani",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge OUT; 11 Myra Moorjani IN",
+            "Context": "",
+            "Id": "339+F13AC68E",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 544,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Morgan",
+                "LastName": "Fiedler",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Morgan Fiedler TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "341+9D60675D",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 537,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz STEAL (1 Stl)",
+            "Context": "",
+            "Id": "342+EA7C9161",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 537,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Counts",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz LAYUP GOOD (6 Pt); 24 Grace Counts Assist (1 Asst)",
+            "Context": "",
+            "Id": "343+4B98C2E0",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 521,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 38,
+                "VisitingTeam": 52
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore TURNOVER (5 TO)",
+            "Context": "",
+            "Id": "345+FE44E8C9",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 492,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Counts",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Grace Counts STEAL (1 Stl)",
+            "Context": "",
+            "Id": "346+3F19D941",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 492,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Counts",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Tool",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Grace Counts LAYUP MISS; 12 Taylor Tool BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "347+6C60D9B9",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 487,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Minn. Duluth REBOUND",
+            "Context": "",
+            "Id": "349+B56BC3A4",
+            "Type": "OFF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 487,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford JUMPER MISS",
+            "Context": "",
+            "Id": "350+E099254B",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 479,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein DEF. REBOUND (7 Reb, 5 Def)",
+            "Context": "",
+            "Id": "351+9FA8D4A5",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 478,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz FOUL (3 PF)",
+            "Context": "",
+            "Id": "352+B41DC456",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 464,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts FOUL (3 PF)",
+            "Context": "",
+            "Id": "353+9F0DC9D",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 451,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lexi",
+                    "LastName": "Karge",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Counts",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Claire",
+                    "LastName": "Bjorge",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts OUT; 42 Lexi Karge IN; 24 Grace Counts OUT; 23 Claire Bjorge IN",
+            "Context": "",
+            "Id": "354+6476C04B",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 451,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus FT GOOD (14 Pt)",
+            "Context": "",
+            "Id": "356+B0A42BD0",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 451,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 38,
+                "VisitingTeam": 53
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus FT GOOD (15 Pt)",
+            "Context": "",
+            "Id": "357+8E9AB4CC",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 451,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 38,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FOUL (3 PF)",
+            "Context": "",
+            "Id": "360+47709B16",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 442,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani LAYUP GOOD (4 Pt)",
+            "Context": "",
+            "Id": "361+1D7B35D",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 434,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 40,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus LAYUP MISS",
+            "Context": "",
+            "Id": "362+C5CE423E",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 405,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "363+64E3333D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 402,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge LAYUP GOOD (8 Pt)",
+            "Context": "",
+            "Id": "364+1F7446F6",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 398,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 42,
+                "VisitingTeam": 54
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Tool",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus LAYUP GOOD (17 Pt); 12 Taylor Tool Assist (2 Asst)",
+            "Context": "",
+            "Id": "365+B044B546",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 374,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 42,
+                "VisitingTeam": 56
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein FOUL (2 PF)",
+            "Context": "",
+            "Id": "367+46D8CA88",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 363,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Megan",
+                    "LastName": "Counts",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein OUT; 15 Megan Counts IN",
+            "Context": "",
+            "Id": "368+3E949FA4",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 363,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Maria",
+                    "LastName": "Counts",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford OUT; 04 Maria Counts IN",
+            "Context": "",
+            "Id": "370+B9A89EBC",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 363,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge FT GOOD (9 Pt)",
+            "Context": "",
+            "Id": "372+51FD6B9",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 363,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 43,
+                "VisitingTeam": 56
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge FT GOOD (10 Pt)",
+            "Context": "",
+            "Id": "373+1C35D1C0",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 363,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 44,
+                "VisitingTeam": 56
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "374+6D0C06D8",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 337,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "375+5FD5E730",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 324,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore JUMPER GOOD (27 Pt)",
+            "Context": "",
+            "Id": "376+B14963D9",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 307,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 44,
+                "VisitingTeam": 58
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus FOUL (1 PF)",
+            "Context": "",
+            "Id": "377+6D490B0",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 297,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Media Timeout",
+            "Context": "",
+            "Id": "378+E87EC599",
+            "Type": "MEDIA",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 297,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts JUMPER MISS",
+            "Context": "",
+            "Id": "379+803CC052",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 291,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lexi",
+                "LastName": "Karge",
+                "UniformNumber": "42",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Vanessa",
+                    "LastName": "Bickford",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "42 Lexi Karge OUT; 12 Vanessa Bickford IN",
+            "Context": "",
+            "Id": "380+EFCB3220",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 291,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taylor",
+                "LastName": "Tool",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Carli",
+                    "LastName": "Kuyper",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Taylor Tool OUT; 24 Carli Kuyper IN",
+            "Context": "",
+            "Id": "382+396AB857",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 291,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus DEF. REBOUND (3 Reb, 3 Def)",
+            "Context": "",
+            "Id": "384+F868AB71",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 290,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus FOUL (2 PF)",
+            "Context": "",
+            "Id": "385+B81ACE79",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 279,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus TURNOVER (3 TO)",
+            "Context": "",
+            "Id": "386+FE9A4031",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 279,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Counts",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz OUT; 24 Grace Counts IN",
+            "Context": "",
+            "Id": "387+EAFDEE58",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 279,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Counts",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "24 Grace Counts 3PTR MISS",
+            "Context": "",
+            "Id": "389+F60E5576",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 271,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus DEF. REBOUND (4 Reb, 4 Def)",
+            "Context": "",
+            "Id": "390+5207F44C",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 267,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FOUL (4 PF)",
+            "Context": "",
+            "Id": "391+368F7C20",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 250,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani FT GOOD (5 Pt)",
+            "Context": "",
+            "Id": "392+9E409F1A",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 250,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 45,
+                "VisitingTeam": 58
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani FT GOOD (6 Pt)",
+            "Context": "",
+            "Id": "393+9F7EBEAE",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 250,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 46,
+                "VisitingTeam": 58
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts FOUL (4 PF)",
+            "Context": "",
+            "Id": "394+7AAB442B",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 229,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Fritz",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts OUT; 31 Ashley Fritz IN",
+            "Context": "",
+            "Id": "395+83D8243C",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 229,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Northern St. TIMEOUT 30 Sec. (1st TO, 2nd 30)",
+            "Context": "",
+            "Id": "397+B2A92A7",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 228,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus LAYUP GOOD (19 Pt)",
+            "Context": "",
+            "Id": "398+30546BE6",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 225,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 46,
+                "VisitingTeam": 60
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper FOUL (3 PF)",
+            "Context": "",
+            "Id": "399+7BBDAC54",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 217,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani FT GOOD (7 Pt)",
+            "Context": "",
+            "Id": "400+E53DECF7",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 217,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 47,
+                "VisitingTeam": 60
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani FT GOOD (8 Pt)",
+            "Context": "",
+            "Id": "401+E638A1D3",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 217,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 48,
+                "VisitingTeam": 60
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Taylor",
+                "LastName": "Tool",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Carli",
+                    "LastName": "Kuyper",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "12 Taylor Tool OUT; 24 Carli Kuyper IN",
+            "Context": "",
+            "Id": "402+C0CD9E39",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 217,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus LAYUP MISS",
+            "Context": "",
+            "Id": "404+FFA46953",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 198,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge DEF. REBOUND (2 Reb, 2 Def)",
+            "Context": "",
+            "Id": "405+8FD2EB3A",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 195,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Claire",
+                    "LastName": "Bjorge",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford LAYUP GOOD (2 Pt); 23 Claire Bjorge Assist (2 Asst)",
+            "Context": "",
+            "Id": "406+97E0513",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 191,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 50,
+                "VisitingTeam": 60
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge FOUL (3 PF)",
+            "Context": "",
+            "Id": "408+11858DF6",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 169,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Megan",
+                "LastName": "Counts",
+                "UniformNumber": "15",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Lily",
+                    "LastName": "Klein",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "15 Megan Counts OUT; 10 Lily Klein IN",
+            "Context": "",
+            "Id": "409+C357836A",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 168,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore JUMPER GOOD (29 Pt)",
+            "Context": "",
+            "Id": "411+6D569A93",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 156,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 50,
+                "VisitingTeam": 62
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani LAYUP MISS",
+            "Context": "",
+            "Id": "412+CF995E05",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 145,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper DEF. REBOUND (4 Reb, 4 Def)",
+            "Context": "",
+            "Id": "413+638D3D46",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 144,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz FOUL (4 PF)",
+            "Context": "",
+            "Id": "414+82EB00BE",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Counts",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Fritz",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Maria",
+                    "LastName": "Counts",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Lexi",
+                    "LastName": "Karge",
+                    "UniformNumber": "42",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Grace Counts OUT; 31 Ashley Fritz OUT; 04 Maria Counts IN; 42 Lexi Karge IN",
+            "Context": "",
+            "Id": "415+C7370F59",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (30 Pt)",
+            "Context": "",
+            "Id": "419+8F69E7D",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 50,
+                "VisitingTeam": 63
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (31 Pt)",
+            "Context": "",
+            "Id": "420+33ED1B61",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 135,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 50,
+                "VisitingTeam": 64
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford LAYUP GOOD (4 Pt)",
+            "Context": "",
+            "Id": "421+D0CB1B70",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 125,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 52,
+                "VisitingTeam": 64
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein TURNOVER (2 TO)",
+            "Context": "",
+            "Id": "422+F9F5BBCE",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 106,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge STEAL (1 Stl)",
+            "Context": "",
+            "Id": "423+84614256",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 106,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lexi",
+                "LastName": "Karge",
+                "UniformNumber": "42",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Claire",
+                    "LastName": "Bjorge",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "42 Lexi Karge LAYUP GOOD (12 Pt); 23 Claire Bjorge Assist (3 Asst)",
+            "Context": "",
+            "Id": "424+2E05C2",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 102,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 54,
+                "VisitingTeam": 64
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Reagan",
+                "LastName": "Rus",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "01 Reagan Rus TURNOVER (4 TO)",
+            "Context": "",
+            "Id": "426+5BB031E0",
+            "Type": "TURNOVER",
+            "Action": "TURNOVER",
+            "Period": 4,
+            "ClockSeconds": 91,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge STEAL (2 Stl)",
+            "Context": "",
+            "Id": "427+95B1C258",
+            "Type": "STEAL",
+            "Action": "STEAL",
+            "Period": 4,
+            "ClockSeconds": 91,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts FOUL (5 PF)",
+            "Context": "",
+            "Id": "428+19CD963C",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Maria",
+                "LastName": "Counts",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ashley",
+                    "LastName": "Fritz",
+                    "UniformNumber": "31",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "04 Maria Counts OUT; 31 Ashley Fritz IN",
+            "Context": "",
+            "Id": "429+ECBC9F62",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Makenzie",
+                    "LastName": "Carrier",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein OUT; 02 Makenzie Carrier IN",
+            "Context": "",
+            "Id": "431+141D5379",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (32 Pt)",
+            "Context": "",
+            "Id": "433+443E873B",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 65
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (33 Pt)",
+            "Context": "",
+            "Id": "434+4F30C7D7",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 66
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani LAYUP MISS",
+            "Context": "",
+            "Id": "435+681B0ACA",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper DEF. REBOUND (5 Reb, 5 Def)",
+            "Context": "",
+            "Id": "436+B88AA068",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge JUMPER GOOD (12 Pt)",
+            "Context": "",
+            "Id": "437+DFD55875",
+            "Type": "JUMPER",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 85,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 64
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani LAYUP MISS",
+            "Context": "",
+            "Id": "438+54B20A0F",
+            "Type": "LAYUP",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 73,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore DEF. REBOUND (8 Reb, 8 Def)",
+            "Context": "",
+            "Id": "439+BE48818D",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 71,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Myra",
+                "LastName": "Moorjani",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "11 Myra Moorjani FOUL (2 PF)",
+            "Context": "",
+            "Id": "440+D24AD117",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 71,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (34 Pt)",
+            "Context": "",
+            "Id": "441+66C66213",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 71,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 67
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (35 Pt)",
+            "Context": "",
+            "Id": "442+68C719CB",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 71,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 68
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Vanessa",
+                "LastName": "Bickford",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "12 Vanessa Bickford 3PTR MISS",
+            "Context": "",
+            "Id": "443+AD73B36",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 71,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Morgan",
+                "LastName": "Fiedler",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Morgan Fiedler DEF. REBOUND (1 Reb, 1 Def)",
+            "Context": "",
+            "Id": "444+8DB355B3",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 58,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore LAYUP GOOD (37 Pt)",
+            "Context": "",
+            "Id": "445+57723F86",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 46,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 70
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Minn. Duluth TIMEOUT 30 Sec. (1st TO, 2nd 30)",
+            "Context": "",
+            "Id": "446+7DF58A20",
+            "Type": "30SEC",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 45,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Claire",
+                "LastName": "Bjorge",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "23 Claire Bjorge JUMPER MISS",
+            "Context": "",
+            "Id": "447+A04D1818",
+            "Type": "JUMPER",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 37,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Carli",
+                "LastName": "Kuyper",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Lily",
+                    "LastName": "Klein",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Carli Kuyper OUT; 10 Lily Klein IN",
+            "Context": "",
+            "Id": "448+1FC2DDFD",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 37,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein DEF. REBOUND (8 Reb, 6 Def)",
+            "Context": "",
+            "Id": "450+A7ACE624",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 34,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz FOUL (5 PF)",
+            "Context": "",
+            "Id": "451+E7D3C644",
+            "Type": "FOUL",
+            "Action": "FOUL",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ashley",
+                "LastName": "Fritz",
+                "UniformNumber": "31",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Counts",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "31 Ashley Fritz OUT; 24 Grace Counts IN",
+            "Context": "",
+            "Id": "452+CB4711A3",
+            "Type": "SUBS",
+            "Action": "SUBS",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (38 Pt)",
+            "Context": "",
+            "Id": "454+B3F9F6B4",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 71
+            }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore FT GOOD (39 Pt)",
+            "Context": "",
+            "Id": "455+B07DDB76",
+            "Type": "FT",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 56,
+                "VisitingTeam": 72
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Lexi",
+                "LastName": "Karge",
+                "UniformNumber": "42",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "42 Lexi Karge LAYUP GOOD (14 Pt)",
+            "Context": "",
+            "Id": "456+DC59ADD5",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 20,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 58,
+                "VisitingTeam": 72
+            }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "Northern St. TIMEOUT Full (2nd TO, 1st Full)",
+            "Context": "",
+            "Id": "457+442B4C",
+            "Type": "TEAM",
+            "Action": "TIMEOUT",
+            "Period": 4,
+            "ClockSeconds": 16,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Izzy",
+                "LastName": "Moore",
+                "UniformNumber": "25",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "25 Izzy Moore LAYUP GOOD (41 Pt)",
+            "Context": "",
+            "Id": "458+26081F47",
+            "Type": "LAYUP",
+            "Action": "GOOD",
+            "Period": 4,
+            "ClockSeconds": 11,
+            "Coordinate": null,
+            "Score": {
+                "HomeTeam": 58,
+                "VisitingTeam": 74
+            }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Counts",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Makenzie",
+                    "LastName": "Carrier",
+                    "UniformNumber": "02",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Grace Counts 3PTR MISS; 02 Makenzie Carrier BLOCK (1 Blk)",
+            "Context": "",
+            "Id": "459+A438B605",
+            "Type": "3PTR",
+            "Action": "MISS",
+            "Period": 4,
+            "ClockSeconds": 3,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lily",
+                "LastName": "Klein",
+                "UniformNumber": "10",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [],
+            "Team": "VisitingTeam",
+            "Narrative": "10 Lily Klein DEF. REBOUND (9 Reb, 7 Def)",
+            "Context": "",
+            "Id": "461+AD8162F9",
+            "Type": "DEF",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 0,
             "Coordinate": null,
             "Score": null
         }

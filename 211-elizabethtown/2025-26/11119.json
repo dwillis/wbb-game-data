@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "2/11/2026",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Memorial Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Juniata",
             "Score": 45,
             "CurrentRecord": "",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Elizabethtown",
             "Score": 63,
             "CurrentRecord": "",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#0A4E91",
             "TextColor": "#C8C8C8",
@@ -4564,6 +4571,36 @@
                 "HomeTeam": 11,
                 "VisitingTeam": 15
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Ella",
+                "LastName": "Gordon",
+                "UniformNumber": "5",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Leah",
+                    "LastName": "Skweres",
+                    "UniformNumber": "4",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "5 Ella Gordon Assist (1 Asst); 4 Leah Skweres Assist (3 Asst)",
+            "Context": "",
+            "Id": "83+4BF00404",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 138,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

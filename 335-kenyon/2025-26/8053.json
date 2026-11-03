@@ -8,7 +8,12 @@
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "8:50 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Cutler Event Center; Olivet, Mich.",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "The Univ. of Olivet",
             "Score": 59,
             "CurrentRecord": "1-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Kenyon",
             "Score": 62,
             "CurrentRecord": "3-1",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#4B2E84",
             "TextColor": "#EBEBEB",
@@ -3715,6 +3722,36 @@
         {
             "Player": {
                 "Team": "VisitingTeam",
+                "FirstName": "Susannah",
+                "LastName": "Zimmerman",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Susannah",
+                    "LastName": "Zimmerman",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Susannah Zimmerman Assist (1 Asst); 04 Susannah Zimmerman Assist (2 Asst)",
+            "Context": "",
+            "Id": "37+F64919A4",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 393,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
                 "FirstName": "Alyssa",
                 "LastName": "Horsley",
                 "UniformNumber": "03",
@@ -4547,6 +4584,36 @@
                 "HomeTeam": 10,
                 "VisitingTeam": 12
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Ava",
+                "LastName": "Lord",
+                "UniformNumber": "00",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Murphy",
+                    "UniformNumber": "05",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "00 Ava Lord Assist (2 Asst); 05 Grace Murphy Assist (2 Asst)",
+            "Context": "",
+            "Id": "84+9E872233",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 111,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

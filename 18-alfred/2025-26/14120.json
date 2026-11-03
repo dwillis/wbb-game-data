@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/15/2025",
         "DateUTC": null,
         "StartTime": "4:00 PM",
         "EndTime": "5:45 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Terry S. Galanis Family Arena",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Alfred",
             "Score": 67,
             "CurrentRecord": "4-0, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#623393",
             "TextColor": "#F7A81B",
@@ -58,6 +64,7 @@
             "Name": "Thiel",
             "Score": 53,
             "CurrentRecord": "2-2, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -3619,6 +3626,36 @@
                 "HomeTeam": 6,
                 "VisitingTeam": 9
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Kelsey",
+                "LastName": "Wagner",
+                "UniformNumber": "4",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ava",
+                    "LastName": "Anastasi",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "4 Kelsey Wagner Assist (1 Asst); 10 Ava Anastasi Assist (1 Asst)",
+            "Context": "",
+            "Id": "41+DF3E5E85",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 347,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

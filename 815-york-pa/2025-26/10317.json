@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/15/2025",
         "DateUTC": null,
         "StartTime": "3:15 PM",
         "EndTime": "5:01 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Charles Wolf Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "York (Pa.)",
             "Score": 41,
             "CurrentRecord": "1-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#00853E",
             "TextColor": "#000000",
@@ -57,6 +63,7 @@
             "Name": "Wm. Paterson",
             "Score": 62,
             "CurrentRecord": "2-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -10549,6 +10556,36 @@
                 "HomeTeam": 32,
                 "VisitingTeam": 54
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Timberley",
+                "LastName": "Linebaugh",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Renee",
+                    "LastName": "Wells",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "13 Timberley Linebaugh Assist (1 Asst); 14 Renee Wells Assist (4 Asst)",
+            "Context": "",
+            "Id": "402+157A9D75",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 4,
+            "ClockSeconds": 329,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

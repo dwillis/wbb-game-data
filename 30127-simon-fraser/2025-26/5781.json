@@ -8,16 +8,21 @@
         "DateUTC": null,
         "StartTime": "4:15 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
-        "Location": "Langley Events Centre, Langley",
+        "Location": "Langley Events Centre, Langley, B.C.",
         "GlobalSportShortname": null,
         "BannerMessage": null,
         "StadiumImage": null,
         "SiteImage": null,
         "ClientHostname": null,
         "Officials": "Blake Cruzen,  Felix Hernandez,  Michael Thorner",
-        "Attendance": 0,
+        "Attendance": 120,
         "PeriodsRegulation": 4,
         "Period": 0,
         "ClockSeconds": -1,
@@ -35,6 +40,7 @@
             "Name": "Simon Fraser",
             "Score": 68,
             "CurrentRecord": "1-2,0-0 Great Northwest",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#CC0633",
             "TextColor": "#CC0633",
@@ -58,6 +64,7 @@
             "Name": "Minot St.",
             "Score": 62,
             "CurrentRecord": "0-3,0-0 NSIC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -78,6 +85,20 @@
         },
         "LastPlays": [
             {
+                "Player": null,
+                "InvolvedPlayers": [],
+                "Team": "HomeTeam",
+                "Narrative": "Simon Fraser REBOUND",
+                "Context": "",
+                "Id": "488+D99DCC49",
+                "Type": "DEADB",
+                "Action": "REBOUND",
+                "Period": 4,
+                "ClockSeconds": 4,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
                 "Player": {
                     "Team": "HomeTeam",
                     "FirstName": "Bree",
@@ -90,7 +111,7 @@
                 "Team": "HomeTeam",
                 "Narrative": "01 Bree Neufeld FT GOOD (10 Pt)",
                 "Context": "",
-                "Id": "488+B501E32C",
+                "Id": "487+46EBBA2F",
                 "Type": "FT",
                 "Action": "GOOD",
                 "Period": 4,
@@ -100,20 +121,6 @@
                     "HomeTeam": 68,
                     "VisitingTeam": 62
                 }
-            },
-            {
-                "Player": null,
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "Simon Fraser REBOUND",
-                "Context": "",
-                "Id": "487+2A77954A",
-                "Type": "DEADB",
-                "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 4,
-                "Coordinate": null,
-                "Score": null
             },
             {
                 "Player": {
@@ -11725,20 +11732,6 @@
             "Score": null
         },
         {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "Simon Fraser REBOUND",
-            "Context": "",
-            "Id": "487+2A77954A",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 4,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
             "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Bree",
@@ -11751,7 +11744,7 @@
             "Team": "HomeTeam",
             "Narrative": "01 Bree Neufeld FT GOOD (10 Pt)",
             "Context": "",
-            "Id": "488+B501E32C",
+            "Id": "487+46EBBA2F",
             "Type": "FT",
             "Action": "GOOD",
             "Period": 4,
@@ -11761,6 +11754,20 @@
                 "HomeTeam": 68,
                 "VisitingTeam": 62
             }
+        },
+        {
+            "Player": null,
+            "InvolvedPlayers": [],
+            "Team": "HomeTeam",
+            "Narrative": "Simon Fraser REBOUND",
+            "Context": "",
+            "Id": "488+D99DCC49",
+            "Type": "DEADB",
+            "Action": "REBOUND",
+            "Period": 4,
+            "ClockSeconds": 4,
+            "Coordinate": null,
+            "Score": null
         }
     ]
 }

@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/9/2026",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "8:33 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Luce Field House",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Connecticut Col.",
             "Score": 43,
             "CurrentRecord": "8-5, 0-1",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Colby",
             "Score": 64,
             "CurrentRecord": "8-4, 1-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#002878",
             "TextColor": "#FFFFFF",
@@ -6291,6 +6298,36 @@
                 "HomeTeam": 19,
                 "VisitingTeam": 26
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Sofia",
+                "LastName": "Tavarez",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Amelia",
+                    "LastName": "Hanscom",
+                    "UniformNumber": "17",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Sofia Tavarez Assist (2 Asst); 17 Amelia Hanscom Assist (3 Asst)",
+            "Context": "",
+            "Id": "176+5F400482",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 157,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

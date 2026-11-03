@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "2/4/2026",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "6:42 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Liebertz Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Merchant Marine",
             "Score": 84,
             "CurrentRecord": "17-4, 14-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#093A88",
             "TextColor": "#6C6C6C",
@@ -58,6 +64,7 @@
             "Name": "Mt. St. Mary (N.Y.)",
             "Score": 56,
             "CurrentRecord": "12-8, 11-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -4046,11 +4053,11 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "04 Sydney Brown OUT",
+            "Narrative": "04 Sydney Brown heads to the bench",
             "Context": "",
-            "Id": "64+9C0BC671",
-            "Type": "SUBS",
-            "Action": "SUBS",
+            "Id": "64+992D539A",
+            "Type": "OUT",
+            "Action": "SUB",
             "Period": 1,
             "ClockSeconds": 191,
             "Coordinate": null,
@@ -4166,11 +4173,11 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "34 Breanna Sommers IN",
+            "Narrative": "34 Breanna Sommers checks into the game",
             "Context": "",
-            "Id": "70+5D4EAAB4",
-            "Type": "SUBS",
-            "Action": "SUBS",
+            "Id": "70+1AA462E9",
+            "Type": "IN",
+            "Action": "SUB",
             "Period": 1,
             "ClockSeconds": 131,
             "Coordinate": null,
@@ -6800,6 +6807,36 @@
         },
         {
             "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Breanna",
+                "LastName": "Sommers",
+                "UniformNumber": "34",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Sara",
+                    "LastName": "Cashin",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "34 Breanna Sommers Assist (2 Asst); 12 Sara Cashin Assist (2 Asst)",
+            "Context": "",
+            "Id": "214+FFDE96F2",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 563,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "VisitingTeam",
                 "FirstName": "Reese",
                 "LastName": "Mayer",
@@ -9306,6 +9343,36 @@
                 "HomeTeam": 71,
                 "VisitingTeam": 42
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Breanna",
+                "LastName": "Sommers",
+                "UniformNumber": "34",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Grace",
+                    "LastName": "Christie",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "34 Breanna Sommers Assist (3 Asst); 21 Grace Christie Assist (1 Asst)",
+            "Context": "",
+            "Id": "347+38CBB37D",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 4,
+            "ClockSeconds": 462,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

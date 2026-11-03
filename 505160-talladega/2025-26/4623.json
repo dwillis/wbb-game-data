@@ -8,7 +8,12 @@
         "DateUTC": null,
         "StartTime": "1:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [
             ""
         ],
@@ -37,6 +42,7 @@
             "Name": "Fisk",
             "Score": 51,
             "CurrentRecord": " ",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -60,6 +66,7 @@
             "Name": "Talladega",
             "Score": 80,
             "CurrentRecord": " ",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#AA0534",
             "TextColor": "#72CDF4",
@@ -13795,6 +13802,40 @@
                 "HomeTeam": 50,
                 "VisitingTeam": 73
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Harmonie",
+                "LastName": "Bolton",
+                "UniformNumber": " 3",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kameron",
+                    "LastName": "Jones",
+                    "UniformNumber": " 1",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": " 3 Harmonie Bolton Assist (4 Asst);  1 Kameron Jones Assist (5 Asst)",
+            "Context": "",
+            "Id": "525+ABFB3286",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 4,
+            "ClockSeconds": 241,
+            "Coordinate": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Side": "right"
+            },
+            "Score": null
         },
         {
             "Player": {

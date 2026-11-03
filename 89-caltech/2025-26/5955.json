@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/7/2026",
         "DateUTC": null,
         "StartTime": "7:05 PM",
         "EndTime": "8:41 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Redlands, Calif. | Currier Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Redlands",
             "Score": 105,
             "CurrentRecord": "10-1, 3-0 SCIAC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Caltech",
             "Score": 50,
             "CurrentRecord": "2-9, 0-5 SCIAC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#FF6C0C",
             "TextColor": "#FFFFFF",
@@ -5725,6 +5732,36 @@
         {
             "Player": {
                 "Team": "HomeTeam",
+                "FirstName": "Libby",
+                "LastName": "Oxciano",
+                "UniformNumber": "0",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Libby",
+                    "LastName": "Oxciano",
+                    "UniformNumber": "0",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "0 Libby Oxciano Assist (1 Asst); 0 Libby Oxciano Assist (2 Asst)",
+            "Context": "",
+            "Id": "152+1DF22F4C",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 363,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
                 "FirstName": "Aliyah",
                 "LastName": "Anderson",
                 "UniformNumber": "22",
@@ -10630,6 +10667,36 @@
                 "HomeTeam": 94,
                 "VisitingTeam": 44
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Isabella",
+                "LastName": "Lo",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Monica",
+                    "LastName": "Villanueva",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "11 Isabella Lo Assist (3 Asst); 12 Monica Villanueva Assist (3 Asst)",
+            "Context": "",
+            "Id": "415+742FB6A2",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 4,
+            "ClockSeconds": 216,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

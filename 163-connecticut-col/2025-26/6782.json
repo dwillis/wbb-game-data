@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "12/8/2025",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "6:25 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Luce Field House",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Connecticut Col.",
             "Score": 66,
             "CurrentRecord": "6-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#002F5F",
             "TextColor": "#9EC3DE",
@@ -57,6 +63,7 @@
             "Name": "Coast Guard",
             "Score": 44,
             "CurrentRecord": "4-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -8635,6 +8642,36 @@
                 "HomeTeam": 35,
                 "VisitingTeam": 23
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Catherine",
+                "LastName": "Cole",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Elliot",
+                    "LastName": "Geer",
+                    "UniformNumber": "24",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "20 Catherine Cole Assist (1 Asst); 24 Elliot Geer Assist (4 Asst)",
+            "Context": "",
+            "Id": "310+BE13B44D",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 243,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

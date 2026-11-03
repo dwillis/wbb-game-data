@@ -8,7 +8,12 @@
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [
             "Mark's Pizzeria Crosstown Shootout"
         ],
@@ -37,6 +42,7 @@
             "Name": "St. John Fisher",
             "Score": 43,
             "CurrentRecord": "1-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -60,6 +66,7 @@
             "Name": "Rochester",
             "Score": 67,
             "CurrentRecord": "1-3",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#FFD82B",
             "TextColor": "#001E5F",
@@ -9465,6 +9472,36 @@
                 "HomeTeam": 36,
                 "VisitingTeam": 54
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Valerosa",
+                "LastName": "Gambitta",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Hazell",
+                    "LastName": "Nickerson",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "12 Valerosa Gambitta Assist (1 Asst); 25 Hazell Nickerson Assist (2 Asst)",
+            "Context": "",
+            "Id": "346+2D2841CF",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 75,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

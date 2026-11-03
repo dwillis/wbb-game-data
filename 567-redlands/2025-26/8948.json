@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "2/4/2026",
         "DateUTC": null,
         "StartTime": "7:04 PM",
         "EndTime": "8:48 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Redlands, Calif. | Currier Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Redlands",
             "Score": 57,
             "CurrentRecord": "15-5, 8-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#580E0E",
             "TextColor": "#807876",
@@ -58,6 +64,7 @@
             "Name": "La Verne",
             "Score": 48,
             "CurrentRecord": "5-15, 1-10",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -5087,6 +5094,66 @@
                 "HomeTeam": 25,
                 "VisitingTeam": 15
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Teagan",
+                "LastName": "McIlroy",
+                "UniformNumber": "3",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alyssa",
+                    "LastName": "Smith",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "3 Teagan McIlroy Assist (2 Asst); 20 Alyssa Smith Assist (2 Asst)",
+            "Context": "",
+            "Id": "129+FE99C829",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 400,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Alyssa",
+                "LastName": "Smith",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Alyssa",
+                    "LastName": "Smith",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Alyssa Smith Assist (2 Asst); 20 Alyssa Smith Assist (3 Asst)",
+            "Context": "",
+            "Id": "130+4D5C0B10",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 379,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

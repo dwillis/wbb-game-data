@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/13/2026",
         "DateUTC": null,
         "StartTime": "6:00 PM",
         "EndTime": "7:30 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Bloomfield College Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Bloomfield",
             "Score": 80,
             "CurrentRecord": "10-5, 8-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#D1190D",
             "TextColor": "#FFFFFF",
@@ -58,6 +64,7 @@
             "Name": "Penn State York",
             "Score": 60,
             "CurrentRecord": "11-3, 7-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -7496,6 +7503,36 @@
                 "HomeTeam": 42,
                 "VisitingTeam": 24
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Nia",
+                "LastName": "Mallette",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Michaela",
+                    "LastName": "Fink",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "24 Nia Mallette Assist (3 Asst); 20 Michaela Fink Assist (2 Asst)",
+            "Context": "",
+            "Id": "254+CF51145F",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 547,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

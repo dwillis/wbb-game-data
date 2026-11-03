@@ -22,7 +22,7 @@
         "overtime_periods_played": 0,
         "periods_played": 4,
         "postponed": false,
-        "updated_at": "2025-11-23T21:01:44.619Z",
+        "updated_at": "2026-10-15T21:11:10.361Z",
         "scored_with_ncaa_live_stats": true,
         "expected_to_be_scored_with_live_stats": true,
         "ncaa_live_stats_id": 2723933,
@@ -57,7 +57,7 @@
                     {
                         "period": 1,
                         "statistic": {
-                            "sMinutesPlayed": 3000.00006,
+                            "sMinutesPlayed": 3000,
                             "sFieldGoalsMade": 1,
                             "sFieldGoalsAttempted": 15,
                             "sThreePointFieldGoalsMade": 1,
@@ -93,7 +93,7 @@
                     {
                         "period": 2,
                         "statistic": {
-                            "sMinutesPlayed": 3000.00012,
+                            "sMinutesPlayed": 3000,
                             "sFieldGoalsMade": 5,
                             "sFieldGoalsAttempted": 17,
                             "sThreePointFieldGoalsMade": 3,
@@ -132,7 +132,7 @@
                     {
                         "period": 3,
                         "statistic": {
-                            "sMinutesPlayed": 2999.99994,
+                            "sMinutesPlayed": 3000,
                             "sFieldGoalsMade": 5,
                             "sFieldGoalsAttempted": 18,
                             "sThreePointFieldGoalsMade": 4,
@@ -209,7 +209,7 @@
                     {
                         "period": 0,
                         "statistic": {
-                            "sMinutesPlayed": 11999.99994,
+                            "sMinutesPlayed": 12000,
                             "sFieldGoalsMade": 16,
                             "sFieldGoalsAttempted": 70,
                             "sThreePointFieldGoalsMade": 9,
@@ -260,7 +260,7 @@
                             "cAssistTurnoverRatio": 0.52381,
                             "cBlocksPerGame": 1,
                             "cStealsPerGame": 5,
-                            "cMinutesPerGame": 11999.99994,
+                            "cMinutesPerGame": 12000,
                             "cFreeThrowsMadeAvg": 8,
                             "cFieldGoalsMadePerGame": 16,
                             "cTotalFouls": 25
@@ -462,7 +462,7 @@
                     {
                         "period": 0,
                         "statistic": {
-                            "sMinutesPlayed": 12000.00012,
+                            "sMinutesPlayed": 12000,
                             "sFieldGoalsMade": 43,
                             "sFieldGoalsAttempted": 65,
                             "sThreePointFieldGoalsMade": 8,
@@ -512,7 +512,7 @@
                             "cAssistTurnoverRatio": 2.36364,
                             "cBlocksPerGame": 12,
                             "cStealsPerGame": 14,
-                            "cMinutesPerGame": 12000.00012,
+                            "cMinutesPerGame": 12000,
                             "cFreeThrowsMadeAvg": 27,
                             "cFieldGoalsMadePerGame": 43,
                             "cTotalFouls": 12
@@ -563,6 +563,8 @@
             "createdAt": "2019-06-26T17:01:15.000Z",
             "updatedAt": "2019-06-27T13:38:30.000Z"
         },
+        "counts_as_final": true,
+        "last_synced_at": null,
         "actions": {
             "data": [
                 {
@@ -25780,6 +25782,7 @@
                     "xml_class_code": null,
                     "xml_code": "30",
                     "xml_name": "Maryam Dauda",
+                    "ncaa_xml_name": "Maryam Dauda",
                     "xml_position": "F",
                     "xml_short_name": "Dauda,Maryam",
                     "xml_uni": "30",
@@ -25790,9 +25793,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sOffensiveEfficiency": 2,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 148.00002,
+                                "sMinutesPlayed": 148,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
@@ -25804,15 +25805,15 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sOffensiveEfficiency": 2,
-                                "s2PointFieldGoalAttempts": 2,
-                                "sMinutesPlayed": 163.99998,
+                                "sMinutesPlayed": 164,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
@@ -25827,14 +25828,14 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 2
+                                "s2PointFieldGoalsMade": 2,
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sMinutesPlayed": 261,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -25851,14 +25852,14 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sOffensiveEfficiency": 0.759493670886076,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sMinutesPlayed": 432,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
@@ -25875,14 +25876,14 @@
                                 "sFreeThrowPct": 50,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 0.759493670886076,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sOffensiveEfficiency": 0.904522613065327,
-                                "s2PointFieldGoalAttempts": 5,
                                 "sMinutesPlayed": 1005,
                                 "sFieldGoalsMade": 4,
                                 "sFieldGoalsAttempted": 7,
@@ -25905,6 +25906,8 @@
                                 "sPointsPerGame": 9,
                                 "sReboundsPerGame": 5,
                                 "s2PointFieldGoalsMade": 4,
+                                "sOffensiveEfficiency": 0.904522613065327,
+                                "s2PointFieldGoalAttempts": 5,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -25946,7 +25949,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -26073,6 +26076,7 @@
                     "xml_class_code": null,
                     "xml_code": "25",
                     "xml_name": "Raven Johnson",
+                    "ncaa_xml_name": "Raven Johnson",
                     "xml_position": "G",
                     "xml_short_name": "Johnson,Raven",
                     "xml_uni": "25",
@@ -26081,15 +26085,33 @@
                     "updated_at": "2025-11-23T21:01:17.089Z",
                     "statistic": [
                         {
-                            "period": 2,
+                            "period": 1,
                             "statistic": {
-                                "s3PointFGPercent": 100,
+                                "sMinutesPlayed": 452,
+                                "sFieldGoalsMade": 1,
+                                "sFieldGoalsAttempted": 1,
+                                "sFreeThrowsAttempted": 0,
+                                "sPoints": 2,
+                                "sAssists": 1,
+                                "sSteals": 2,
+                                "sBlockedShots": 1,
+                                "sPointsInThePaint": 2,
+                                "sPlus": 19,
+                                "sPlusMinus": 14,
+                                "sMinus": 5,
+                                "sFieldGoalPct": 100,
+                                "s3PointFGPercent": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 1.66666666666667,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 408.70002,
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 1
+                            }
+                        },
+                        {
+                            "period": 2,
+                            "statistic": {
+                                "sMinutesPlayed": 409,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsMade": 1,
@@ -26104,18 +26126,18 @@
                                 "sPlus": 16,
                                 "sPlusMinus": 4,
                                 "sMinus": 12,
-                                "sFieldGoalPct": 100
+                                "sFieldGoalPct": 100,
+                                "s3PointFGPercent": 100,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 1.66666666666667,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "s3PointFGPercent": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 1,
-                                "s2PointFieldGoalAttempts": 2,
                                 "sMinutesPlayed": 339,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
@@ -26132,18 +26154,18 @@
                                 "sPlus": 25,
                                 "sPlusMinus": 17,
                                 "sMinus": 8,
-                                "sFieldGoalPct": 50
+                                "sFieldGoalPct": 50,
+                                "s3PointFGPercent": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 1,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "s3PointFGPercent": 100,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 1.5,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sMinutesPlayed": 129,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
@@ -26158,43 +26180,19 @@
                                 "sPlus": 9,
                                 "sPlusMinus": 4,
                                 "sMinus": 5,
-                                "sFieldGoalPct": 100
-                            }
-                        },
-                        {
-                            "period": 1,
-                            "statistic": {
-                                "s3PointFGPercent": null,
+                                "sFieldGoalPct": 100,
+                                "s3PointFGPercent": 100,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 2,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 451.99998,
-                                "sFieldGoalsMade": 1,
-                                "sFieldGoalsAttempted": 1,
-                                "sFreeThrowsAttempted": 0,
-                                "sPoints": 2,
-                                "sAssists": 1,
-                                "sSteals": 2,
-                                "sBlockedShots": 1,
-                                "sPointsInThePaint": 2,
-                                "sPlus": 19,
-                                "sPlusMinus": 14,
-                                "sMinus": 5,
-                                "sFieldGoalPct": 100
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 1.5,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "s3PointFGPercent": 100,
-                                "sPointsPerGame": 12,
-                                "sReboundsPerGame": 2,
-                                "s2PointFieldGoalsMade": 3,
-                                "sOffensiveEfficiency": 1.5,
-                                "s2PointFieldGoalAttempts": 4,
-                                "sMinutesPlayed": 1328.7,
+                                "sMinutesPlayed": 1329,
                                 "sFieldGoalsMade": 5,
                                 "sFieldGoalsAttempted": 6,
                                 "sThreePointFieldGoalsMade": 2,
@@ -26216,6 +26214,12 @@
                                 "sPlusMinus": 39,
                                 "sMinus": 30,
                                 "sFieldGoalPct": 83.3333333333333,
+                                "s3PointFGPercent": 100,
+                                "sPointsPerGame": 12,
+                                "sReboundsPerGame": 2,
+                                "s2PointFieldGoalsMade": 3,
+                                "sOffensiveEfficiency": 1.5,
+                                "s2PointFieldGoalAttempts": 4,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -26228,7 +26232,7 @@
                                 "cAssistTurnoverRatio": 3.5,
                                 "cBlocksPerGame": 2,
                                 "cStealsPerGame": 3,
-                                "cMinutesPerGame": 1328.7,
+                                "cMinutesPerGame": 1329,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 5,
                                 "cTotalFouls": 2
@@ -26257,7 +26261,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -26384,6 +26388,7 @@
                     "xml_class_code": null,
                     "xml_code": "00",
                     "xml_name": "Ta'Niya Latson",
+                    "ncaa_xml_name": "Ta'Niya Latson",
                     "xml_position": "G",
                     "xml_short_name": "Latson,Ta'Niya",
                     "xml_uni": "00",
@@ -26394,6 +26399,7 @@
                         {
                             "period": 1,
                             "statistic": {
+                                "sMinutesPlayed": 452,
                                 "sFieldGoalsMade": 4,
                                 "sFieldGoalsAttempted": 4,
                                 "sFreeThrowsAttempted": 0,
@@ -26416,13 +26422,13 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 4,
                                 "sOffensiveEfficiency": 1.6,
-                                "s2PointFieldGoalAttempts": 4,
-                                "sMinutesPlayed": 451.99998
+                                "s2PointFieldGoalAttempts": 4
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
+                                "sMinutesPlayed": 393,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
                                 "sThreePointFieldGoalsMade": 1,
@@ -26442,13 +26448,13 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
                                 "sOffensiveEfficiency": 3,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sMinutesPlayed": 393.3
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
+                                "sMinutesPlayed": 339,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsMade": 1,
@@ -26471,13 +26477,13 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
                                 "sOffensiveEfficiency": 1.66666666666667,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 339
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
+                                "sMinutesPlayed": 476,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 4,
                                 "sFreeThrowsMade": 4,
@@ -26498,13 +26504,13 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 2,
                                 "sOffensiveEfficiency": 1.25490196078431,
-                                "s2PointFieldGoalAttempts": 4,
-                                "sMinutesPlayed": 475.99998
+                                "s2PointFieldGoalAttempts": 4
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
+                                "sMinutesPlayed": 1660,
                                 "sFieldGoalsMade": 9,
                                 "sFieldGoalsAttempted": 11,
                                 "sThreePointFieldGoalsMade": 2,
@@ -26520,6 +26526,7 @@
                                 "sBlockedShots": 1,
                                 "sPersonalFouls": 1,
                                 "sGames": 1,
+                                "sGamesStarted": 1,
                                 "sFastbreakPoints": 16,
                                 "sPointsInThePaint": 14,
                                 "sPlus": 89,
@@ -26533,8 +26540,6 @@
                                 "s2PointFieldGoalsMade": 7,
                                 "sOffensiveEfficiency": 1.5609756097561,
                                 "s2PointFieldGoalAttempts": 9,
-                                "sMinutesPlayed": 1660.30002,
-                                "sGamesStarted": 1,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -26547,7 +26552,7 @@
                                 "cAssistTurnoverRatio": 2.5,
                                 "cBlocksPerGame": 1,
                                 "cStealsPerGame": 3,
-                                "cMinutesPerGame": 1660.30002,
+                                "cMinutesPerGame": 1660,
                                 "cFreeThrowsMadeAvg": 4,
                                 "cFieldGoalsMadePerGame": 9,
                                 "cTotalFouls": 1
@@ -26576,7 +26581,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -26703,6 +26708,7 @@
                     "xml_class_code": null,
                     "xml_code": "5",
                     "xml_name": "Tessa Johnson",
+                    "ncaa_xml_name": "Tessa Johnson",
                     "xml_position": "G",
                     "xml_short_name": "Johnson,Tessa",
                     "xml_uni": "5",
@@ -26713,33 +26719,31 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalPct": 0,
                                 "s3PointFGPercent": 0,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sMinutesPlayed": 295.99998,
+                                "sMinutesPlayed": 296,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
                                 "sPlus": 11,
                                 "sPlusMinus": 6,
-                                "sMinus": 5
+                                "sMinus": 5,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sOffensiveEfficiency": 1,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFieldGoalPct": 50,
                                 "s3PointFGPercent": 50,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sMinutesPlayed": 478.00002,
+                                "sMinutesPlayed": 478,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsMade": 1,
@@ -26752,14 +26756,14 @@
                                 "sTurnovers": 1,
                                 "sPlus": 21,
                                 "sPlusMinus": 13,
-                                "sMinus": 8
+                                "sMinus": 8,
+                                "sOffensiveEfficiency": 1,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sOffensiveEfficiency": 2.66666666666667,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalPct": 100,
                                 "s3PointFGPercent": 100,
                                 "sPointsPerGame": null,
@@ -26777,14 +26781,14 @@
                                 "sPointsInThePaint": 2,
                                 "sPlus": 25,
                                 "sPlusMinus": 17,
-                                "sMinus": 8
+                                "sMinus": 8,
+                                "sOffensiveEfficiency": 2.66666666666667,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sOffensiveEfficiency": 2,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalPct": 100,
                                 "s3PointFGPercent": null,
                                 "sPointsPerGame": null,
@@ -26797,14 +26801,14 @@
                                 "sPoints": 2,
                                 "sAssists": 1,
                                 "sPlus": 10,
-                                "sMinus": 10
+                                "sMinus": 10,
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sOffensiveEfficiency": 1.44444444444444,
-                                "s2PointFieldGoalAttempts": 3,
                                 "sFieldGoalPct": 62.5,
                                 "s3PointFGPercent": 60,
                                 "sPointsPerGame": 13,
@@ -26828,6 +26832,8 @@
                                 "sPlus": 67,
                                 "sPlusMinus": 36,
                                 "sMinus": 31,
+                                "sOffensiveEfficiency": 1.44444444444444,
+                                "s2PointFieldGoalAttempts": 3,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -26869,7 +26875,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -26996,6 +27002,7 @@
                     "xml_class_code": null,
                     "xml_code": "11",
                     "xml_name": "Madina Okot",
+                    "ncaa_xml_name": "Madina Okot",
                     "xml_position": "C",
                     "xml_short_name": "Okot,Madina",
                     "xml_uni": "11",
@@ -27006,14 +27013,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sDoubleDoubles": 0,
-                                "sMinutesPlayed": 485.29998,
-                                "s2PointFieldGoalsMade": 2,
-                                "sOffensiveEfficiency": 1.33333333333333,
-                                "s2PointFieldGoalAttempts": 3,
+                                "sMinutesPlayed": 485,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 4,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -27029,20 +27029,20 @@
                                 "sPlus": 21,
                                 "sPlusMinus": 16,
                                 "sMinus": 5,
-                                "sFieldGoalPct": 50
+                                "sFieldGoalPct": 50,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sDoubleDoubles": 0,
+                                "s2PointFieldGoalsMade": 2,
+                                "sOffensiveEfficiency": 1.33333333333333,
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sFreeThrowPct": 100,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sDoubleDoubles": 0,
-                                "sMinutesPlayed": 163.99998,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 2.06896551724138,
-                                "s2PointFieldGoalAttempts": 1,
+                                "sMinutesPlayed": 164,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsMade": 4,
@@ -27054,20 +27054,20 @@
                                 "sPlus": 10,
                                 "sPlusMinus": 8,
                                 "sMinus": 2,
-                                "sFieldGoalPct": 100
+                                "sFieldGoalPct": 100,
+                                "sFreeThrowPct": 100,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sDoubleDoubles": 0,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 2.06896551724138,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sDoubleDoubles": 0,
                                 "sMinutesPlayed": 339,
-                                "s2PointFieldGoalsMade": 2,
-                                "sOffensiveEfficiency": 2,
-                                "s2PointFieldGoalAttempts": 3,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 3,
                                 "sFreeThrowsAttempted": 0,
@@ -27081,39 +27081,39 @@
                                 "sPlus": 25,
                                 "sPlusMinus": 17,
                                 "sMinus": 8,
-                                "sFieldGoalPct": 66.6666666666667
+                                "sFieldGoalPct": 66.6666666666667,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sDoubleDoubles": 0,
+                                "s2PointFieldGoalsMade": 2,
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sDoubleDoubles": 0,
                                 "sMinutesPlayed": 168,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sDefensiveRebounds": 1,
                                 "sTotalRebounds": 1,
                                 "sPlus": 10,
                                 "sMinus": 10,
-                                "sFieldGoalPct": null
+                                "sFieldGoalPct": null,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sDoubleDoubles": 0,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sFreeThrowPct": 100,
-                                "sPointsPerGame": 14,
-                                "sReboundsPerGame": 12,
-                                "sDoubleDoubles": 1,
-                                "sMinutesPlayed": 1156.30002,
-                                "s2PointFieldGoalsMade": 5,
-                                "sOffensiveEfficiency": 1.77215189873418,
-                                "s2PointFieldGoalAttempts": 7,
+                                "sMinutesPlayed": 1156,
                                 "sFieldGoalsMade": 5,
                                 "sFieldGoalsAttempted": 8,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -27135,6 +27135,13 @@
                                 "sPlusMinus": 41,
                                 "sMinus": 25,
                                 "sFieldGoalPct": 62.5,
+                                "sFreeThrowPct": 100,
+                                "sPointsPerGame": 14,
+                                "sReboundsPerGame": 12,
+                                "sDoubleDoubles": 1,
+                                "s2PointFieldGoalsMade": 5,
+                                "sOffensiveEfficiency": 1.77215189873418,
+                                "s2PointFieldGoalAttempts": 7,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 16.66667,
                                 "cDefensiveReboundsPct": 83.33333,
@@ -27147,7 +27154,7 @@
                                 "cAssistTurnoverRatio": 0,
                                 "cBlocksPerGame": 3,
                                 "cStealsPerGame": 2,
-                                "cMinutesPerGame": 1156.30002,
+                                "cMinutesPerGame": 1156,
                                 "cFreeThrowsMadeAvg": 4,
                                 "cFieldGoalsMadePerGame": 5,
                                 "cTotalFouls": 1
@@ -27176,7 +27183,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -27303,6 +27310,7 @@
                     "xml_class_code": null,
                     "xml_code": "8",
                     "xml_name": "Joyce Edwards",
+                    "ncaa_xml_name": "Joyce Edwards",
                     "xml_position": "F",
                     "xml_short_name": "Edwards,Joyce",
                     "xml_uni": "8",
@@ -27311,35 +27319,15 @@
                     "updated_at": "2025-11-23T21:01:18.010Z",
                     "statistic": [
                         {
-                            "period": 3,
-                            "statistic": {
-                                "sDefensiveRebounds": 1,
-                                "sTotalRebounds": 1,
-                                "sAssists": 1,
-                                "sSteals": 1,
-                                "sBlockedShots": 1,
-                                "sFastbreakPoints": 6,
-                                "sPointsInThePaint": 6,
-                                "sPlus": 25,
-                                "sPlusMinus": 17,
-                                "sMinus": 8,
-                                "sFieldGoalPct": 100,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 3,
-                                "sOffensiveEfficiency": 2,
-                                "s2PointFieldGoalAttempts": 3,
-                                "sMinutesPlayed": 339,
-                                "sFieldGoalsMade": 3,
-                                "sFieldGoalsAttempted": 3,
-                                "sFreeThrowsAttempted": 0,
-                                "sPoints": 6
-                            }
-                        },
-                        {
                             "period": 1,
                             "statistic": {
+                                "sMinutesPlayed": 567,
+                                "sFieldGoalsMade": 2,
+                                "sFieldGoalsAttempted": 3,
+                                "sFreeThrowsMade": 5,
+                                "sFreeThrowsAttempted": 6,
+                                "sPoints": 9,
+                                "sOffensiveRebounds": 1,
                                 "sDefensiveRebounds": 1,
                                 "sTotalRebounds": 2,
                                 "sAssists": 2,
@@ -27357,19 +27345,19 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 2,
                                 "sOffensiveEfficiency": 1.53846153846154,
-                                "s2PointFieldGoalAttempts": 3,
-                                "sMinutesPlayed": 566.7,
-                                "sFieldGoalsMade": 2,
-                                "sFieldGoalsAttempted": 3,
-                                "sFreeThrowsMade": 5,
-                                "sFreeThrowsAttempted": 6,
-                                "sPoints": 9,
-                                "sOffensiveRebounds": 1
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
+                                "sMinutesPlayed": 436,
+                                "sFieldGoalsMade": 3,
+                                "sFieldGoalsAttempted": 4,
+                                "sFreeThrowsMade": 1,
+                                "sFreeThrowsAttempted": 2,
+                                "sPoints": 7,
+                                "sOffensiveRebounds": 1,
                                 "sTotalRebounds": 1,
                                 "sPersonalFouls": 1,
                                 "sSecondChancePoints": 2,
@@ -27384,19 +27372,45 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 3,
                                 "sOffensiveEfficiency": 1.77215189873418,
-                                "s2PointFieldGoalAttempts": 4,
-                                "sMinutesPlayed": 436.00002,
+                                "s2PointFieldGoalAttempts": 4
+                            }
+                        },
+                        {
+                            "period": 3,
+                            "statistic": {
+                                "sMinutesPlayed": 339,
                                 "sFieldGoalsMade": 3,
-                                "sFieldGoalsAttempted": 4,
-                                "sFreeThrowsMade": 1,
-                                "sFreeThrowsAttempted": 2,
-                                "sPoints": 7,
-                                "sOffensiveRebounds": 1
+                                "sFieldGoalsAttempted": 3,
+                                "sFreeThrowsAttempted": 0,
+                                "sPoints": 6,
+                                "sDefensiveRebounds": 1,
+                                "sTotalRebounds": 1,
+                                "sAssists": 1,
+                                "sSteals": 1,
+                                "sBlockedShots": 1,
+                                "sFastbreakPoints": 6,
+                                "sPointsInThePaint": 6,
+                                "sPlus": 25,
+                                "sPlusMinus": 17,
+                                "sMinus": 8,
+                                "sFieldGoalPct": 100,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 3,
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
+                                "sMinutesPlayed": 168,
+                                "sFieldGoalsMade": 1,
+                                "sFieldGoalsAttempted": 1,
+                                "sFreeThrowsMade": 1,
+                                "sFreeThrowsAttempted": 1,
+                                "sPoints": 3,
                                 "sPersonalFouls": 2,
                                 "sPointsInThePaint": 2,
                                 "sPlus": 10,
@@ -27407,18 +27421,19 @@
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
                                 "sOffensiveEfficiency": 2.03389830508475,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 168,
-                                "sFieldGoalsMade": 1,
-                                "sFieldGoalsAttempted": 1,
-                                "sFreeThrowsMade": 1,
-                                "sFreeThrowsAttempted": 1,
-                                "sPoints": 3
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
+                                "sMinutesPlayed": 1510,
+                                "sFieldGoalsMade": 9,
+                                "sFieldGoalsAttempted": 11,
+                                "sFreeThrowsMade": 7,
+                                "sFreeThrowsAttempted": 9,
+                                "sPoints": 25,
+                                "sOffensiveRebounds": 2,
                                 "sDefensiveRebounds": 2,
                                 "sTotalRebounds": 4,
                                 "sAssists": 3,
@@ -27441,13 +27456,6 @@
                                 "s2PointFieldGoalsMade": 9,
                                 "sOffensiveEfficiency": 1.75131348511384,
                                 "s2PointFieldGoalAttempts": 11,
-                                "sMinutesPlayed": 1509.70002,
-                                "sFieldGoalsMade": 9,
-                                "sFieldGoalsAttempted": 11,
-                                "sFreeThrowsMade": 7,
-                                "sFreeThrowsAttempted": 9,
-                                "sPoints": 25,
-                                "sOffensiveRebounds": 2,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 50,
                                 "cDefensiveReboundsPct": 50,
@@ -27460,7 +27468,7 @@
                                 "cAssistTurnoverRatio": 3,
                                 "cBlocksPerGame": 2,
                                 "cStealsPerGame": 2,
-                                "cMinutesPerGame": 1509.70002,
+                                "cMinutesPerGame": 1510,
                                 "cFreeThrowsMadeAvg": 7,
                                 "cFieldGoalsMadePerGame": 9,
                                 "cTotalFouls": 3
@@ -27489,7 +27497,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -27616,6 +27624,7 @@
                     "xml_class_code": null,
                     "xml_code": "1",
                     "xml_name": "Maddy McDaniel",
+                    "ncaa_xml_name": "Maddy McDaniel",
                     "xml_position": "G",
                     "xml_short_name": "McDaniel,Maddy",
                     "xml_uni": "1",
@@ -27626,8 +27635,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sMinutesPlayed": 148.00002,
-                                "s2PointFieldGoalAttempts": 1,
+                                "sMinutesPlayed": 148,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
                                 "sDefensiveRebounds": 1,
@@ -27640,14 +27648,31 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 1
+                            }
+                        },
+                        {
+                            "period": 2,
+                            "statistic": {
+                                "sMinutesPlayed": 164,
+                                "sFreeThrowsAttempted": 0,
+                                "sAssists": 1,
+                                "sPlus": 10,
+                                "sPlusMinus": 8,
+                                "sMinus": 2,
+                                "sFieldGoalPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
                                 "sMinutesPlayed": 261,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sPersonalFouls": 1,
                                 "sPlus": 5,
@@ -27657,14 +27682,14 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sMinutesPlayed": 163.00002,
-                                "s2PointFieldGoalAttempts": 1,
+                                "sMinutesPlayed": 163,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
@@ -27678,31 +27703,14 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 2
-                            }
-                        },
-                        {
-                            "period": 2,
-                            "statistic": {
-                                "sMinutesPlayed": 163.99998,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sFreeThrowsAttempted": 0,
-                                "sAssists": 1,
-                                "sPlus": 10,
-                                "sPlusMinus": 8,
-                                "sMinus": 2,
-                                "sFieldGoalPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 736.00002,
-                                "s2PointFieldGoalAttempts": 2,
+                                "sMinutesPlayed": 736,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
@@ -27722,6 +27730,7 @@
                                 "sReboundsPerGame": 1,
                                 "s2PointFieldGoalsMade": 1,
                                 "sOffensiveEfficiency": 1,
+                                "s2PointFieldGoalAttempts": 2,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -27734,7 +27743,7 @@
                                 "cAssistTurnoverRatio": 0,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 1,
-                                "cMinutesPerGame": 736.00002,
+                                "cMinutesPerGame": 736,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 1,
                                 "cTotalFouls": 1
@@ -27763,7 +27772,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -27890,6 +27899,7 @@
                     "xml_class_code": null,
                     "xml_code": "15",
                     "xml_name": "Adhel Tac",
+                    "ncaa_xml_name": "Adhel Tac",
                     "xml_position": "F",
                     "xml_short_name": "Tac,Adhel",
                     "xml_uni": "15",
@@ -27900,7 +27910,7 @@
                         {
                             "period": 2,
                             "statistic": {
-                                "sMinutesPlayed": 436.00002,
+                                "sMinutesPlayed": 436,
                                 "sFreeThrowsMade": 1,
                                 "sFreeThrowsAttempted": 2,
                                 "sPoints": 1,
@@ -27995,7 +28005,7 @@
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 1129.00002,
+                                "sMinutesPlayed": 1129,
                                 "sFieldGoalsMade": 3,
                                 "sFieldGoalsAttempted": 3,
                                 "sFreeThrowsMade": 5,
@@ -28035,7 +28045,7 @@
                                 "cAssistTurnoverRatio": 0.5,
                                 "cBlocksPerGame": 1,
                                 "cStealsPerGame": 1,
-                                "cMinutesPerGame": 1129.00002,
+                                "cMinutesPerGame": 1129,
                                 "cFreeThrowsMadeAvg": 5,
                                 "cFieldGoalsMadePerGame": 3,
                                 "cTotalFouls": 0
@@ -28064,7 +28074,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -28191,6 +28201,7 @@
                     "xml_class_code": null,
                     "xml_code": "24",
                     "xml_name": "Ayla McDowell",
+                    "ncaa_xml_name": "Ayla McDowell",
                     "xml_position": "G",
                     "xml_short_name": "McDowell,Ayla",
                     "xml_uni": "24",
@@ -28201,8 +28212,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sOffensiveEfficiency": 2.10526315789474,
-                                "sMinutesPlayed": 148.00002,
+                                "sMinutesPlayed": 148,
                                 "sFreeThrowsMade": 2,
                                 "sFreeThrowsAttempted": 2,
                                 "sPoints": 2,
@@ -28213,14 +28223,14 @@
                                 "s3PointFGPercent": null,
                                 "sFreeThrowPct": 100,
                                 "sPointsPerGame": null,
-                                "sReboundsPerGame": null
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 2.10526315789474
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sOffensiveEfficiency": null,
-                                "sMinutesPlayed": 163.99998,
+                                "sMinutesPlayed": 164,
                                 "sFreeThrowsAttempted": 0,
                                 "sSteals": 1,
                                 "sBlockedShots": 1,
@@ -28232,13 +28242,13 @@
                                 "s3PointFGPercent": null,
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
-                                "sReboundsPerGame": null
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": null
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sOffensiveEfficiency": 0,
                                 "sMinutesPlayed": 261,
                                 "sFieldGoalsAttempted": 3,
                                 "sThreePointFieldGoalsAttempted": 3,
@@ -28253,13 +28263,13 @@
                                 "s3PointFGPercent": 0,
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
-                                "sReboundsPerGame": null
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sOffensiveEfficiency": 5.26315789473684,
                                 "sMinutesPlayed": 432,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
@@ -28280,13 +28290,13 @@
                                 "s3PointFGPercent": 100,
                                 "sFreeThrowPct": 100,
                                 "sPointsPerGame": null,
-                                "sReboundsPerGame": null
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 5.26315789473684
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sOffensiveEfficiency": 1.79487179487179,
                                 "sMinutesPlayed": 1005,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 4,
@@ -28313,6 +28323,7 @@
                                 "sFreeThrowPct": 100,
                                 "sPointsPerGame": 7,
                                 "sReboundsPerGame": 5,
+                                "sOffensiveEfficiency": 1.79487179487179,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 40,
                                 "cDefensiveReboundsPct": 60,
@@ -28354,7 +28365,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -28481,6 +28492,7 @@
                     "xml_class_code": null,
                     "xml_code": "44",
                     "xml_name": "Agot Makeer",
+                    "ncaa_xml_name": "Agot Makeer",
                     "xml_position": "G",
                     "xml_short_name": "Makeer,Agot",
                     "xml_uni": "44",
@@ -28491,9 +28503,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sOffensiveEfficiency": 2.10526315789474,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sMinutesPlayed": 304.00002,
+                                "sMinutesPlayed": 304,
                                 "sFreeThrowsMade": 2,
                                 "sFreeThrowsAttempted": 2,
                                 "sPoints": 2,
@@ -28506,14 +28516,14 @@
                                 "sFreeThrowPct": 100,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 2.10526315789474,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sMinutesPlayed": 192,
                                 "sFieldGoalsAttempted": 1,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -28526,14 +28536,14 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sOffensiveEfficiency": 0.666666666666667,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sMinutesPlayed": 261,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 3,
@@ -28550,14 +28560,14 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 0.666666666666667,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sMinutesPlayed": 432,
                                 "sFieldGoalsAttempted": 1,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -28574,15 +28584,15 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sOffensiveEfficiency": 0.575539568345324,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 1189.00002,
+                                "sMinutesPlayed": 1189,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 5,
                                 "sThreePointFieldGoalsAttempted": 4,
@@ -28607,6 +28617,8 @@
                                 "sPointsPerGame": 4,
                                 "sReboundsPerGame": 3,
                                 "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 0.575539568345324,
+                                "s2PointFieldGoalAttempts": 1,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -28619,7 +28631,7 @@
                                 "cAssistTurnoverRatio": 1,
                                 "cBlocksPerGame": 1,
                                 "cStealsPerGame": 1,
-                                "cMinutesPerGame": 1189.00002,
+                                "cMinutesPerGame": 1189,
                                 "cFreeThrowsMadeAvg": 2,
                                 "cFieldGoalsMadePerGame": 1,
                                 "cTotalFouls": 1
@@ -28648,7 +28660,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -28775,6 +28787,7 @@
                     "xml_class_code": null,
                     "xml_code": "3",
                     "xml_name": "Jermany Mapp",
+                    "ncaa_xml_name": "Jermany Mapp",
                     "xml_position": "G",
                     "xml_short_name": "Mapp,Jermany",
                     "xml_uni": "3",
@@ -28785,14 +28798,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "s3PointFGPercent": null,
-                                "sFreeThrowPct": 100,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0.404040404040404,
-                                "s2PointFieldGoalAttempts": 2,
-                                "sMinutesPlayed": 577.00002,
+                                "sMinutesPlayed": 577,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsMade": 2,
                                 "sFreeThrowsAttempted": 2,
@@ -28802,20 +28808,20 @@
                                 "sPlus": 5,
                                 "sPlusMinus": -22,
                                 "sMinus": 27,
-                                "sFieldGoalPct": 0
+                                "sFieldGoalPct": 0,
+                                "s3PointFGPercent": null,
+                                "sFreeThrowPct": 100,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0.404040404040404,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "s3PointFGPercent": null,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 3,
-                                "sMinutesPlayed": 193.30002,
+                                "sMinutesPlayed": 193,
                                 "sFieldGoalsAttempted": 3,
                                 "sFreeThrowsAttempted": 0,
                                 "sDefensiveRebounds": 2,
@@ -28824,19 +28830,19 @@
                                 "sPlus": 9,
                                 "sPlusMinus": -2,
                                 "sMinus": 11,
-                                "sFieldGoalPct": 0
+                                "sFieldGoalPct": 0,
+                                "s3PointFGPercent": null,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "s3PointFGPercent": 50,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 0.833333333333333,
-                                "s2PointFieldGoalAttempts": 4,
                                 "sMinutesPlayed": 339,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 6,
@@ -28850,19 +28856,19 @@
                                 "sPlus": 8,
                                 "sPlusMinus": -17,
                                 "sMinus": 25,
-                                "sFieldGoalPct": 33.3333333333333
+                                "sFieldGoalPct": 33.3333333333333,
+                                "s3PointFGPercent": 50,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 0.833333333333333,
+                                "s2PointFieldGoalAttempts": 4
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "s3PointFGPercent": null,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 0.5,
-                                "s2PointFieldGoalAttempts": 2,
                                 "sMinutesPlayed": 432,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
@@ -28875,20 +28881,20 @@
                                 "sPlus": 4,
                                 "sPlusMinus": -19,
                                 "sMinus": 23,
-                                "sFieldGoalPct": 50
+                                "sFieldGoalPct": 50,
+                                "s3PointFGPercent": null,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 0.5,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "s3PointFGPercent": 50,
-                                "sFreeThrowPct": 100,
-                                "sPointsPerGame": 9,
-                                "sReboundsPerGame": 2,
-                                "s2PointFieldGoalsMade": 2,
-                                "sOffensiveEfficiency": 0.501392757660167,
-                                "s2PointFieldGoalAttempts": 11,
-                                "sMinutesPlayed": 1541.29998,
+                                "sMinutesPlayed": 1541,
                                 "sFieldGoalsMade": 3,
                                 "sFieldGoalsAttempted": 13,
                                 "sThreePointFieldGoalsMade": 1,
@@ -28911,6 +28917,13 @@
                                 "sPlusMinus": -60,
                                 "sMinus": 86,
                                 "sFieldGoalPct": 23.0769230769231,
+                                "s3PointFGPercent": 50,
+                                "sFreeThrowPct": 100,
+                                "sPointsPerGame": 9,
+                                "sReboundsPerGame": 2,
+                                "s2PointFieldGoalsMade": 2,
+                                "sOffensiveEfficiency": 0.501392757660167,
+                                "s2PointFieldGoalAttempts": 11,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -28923,7 +28936,7 @@
                                 "cAssistTurnoverRatio": 0.5,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 1,
-                                "cMinutesPerGame": 1541.29998,
+                                "cMinutesPerGame": 1541,
                                 "cFreeThrowsMadeAvg": 2,
                                 "cFieldGoalsMadePerGame": 3,
                                 "cTotalFouls": 1
@@ -28952,7 +28965,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -29079,6 +29092,7 @@
                     "xml_class_code": null,
                     "xml_code": "10",
                     "xml_name": "Ana Barreto",
+                    "ncaa_xml_name": "Ana Barreto",
                     "xml_position": "G",
                     "xml_short_name": "Barreto,Ana",
                     "xml_uni": "10",
@@ -29087,48 +29101,9 @@
                     "updated_at": "2025-11-23T21:01:19.749Z",
                     "statistic": [
                         {
-                            "period": 4,
-                            "statistic": {
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": null,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sFreeThrowsAttempted": 0,
-                                "sFieldGoalPct": null,
-                                "s3PointFGPercent": null
-                            }
-                        },
-                        {
-                            "period": 3,
-                            "statistic": {
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0.6,
-                                "s2PointFieldGoalAttempts": 2,
-                                "sMinutesPlayed": 339,
-                                "sFieldGoalsMade": 1,
-                                "sFieldGoalsAttempted": 3,
-                                "sThreePointFieldGoalsMade": 1,
-                                "sThreePointFieldGoalsAttempted": 1,
-                                "sFreeThrowsAttempted": 0,
-                                "sPoints": 3,
-                                "sTurnovers": 2,
-                                "sPersonalFouls": 1,
-                                "sPlus": 8,
-                                "sPlusMinus": -17,
-                                "sMinus": 25,
-                                "sFieldGoalPct": 33.3333333333333,
-                                "s3PointFGPercent": 100
-                            }
-                        },
-                        {
                             "period": 1,
                             "statistic": {
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 4,
-                                "sMinutesPlayed": 430.30002,
+                                "sMinutesPlayed": 430,
                                 "sFieldGoalsAttempted": 5,
                                 "sThreePointFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
@@ -29140,16 +29115,16 @@
                                 "sPlusMinus": -12,
                                 "sMinus": 17,
                                 "sFieldGoalPct": 0,
-                                "s3PointFGPercent": 0
+                                "s3PointFGPercent": 0,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 4
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0.75,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sMinutesPlayed": 600,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 4,
@@ -29164,17 +29139,52 @@
                                 "sPlusMinus": -15,
                                 "sMinus": 29,
                                 "sFieldGoalPct": 25,
-                                "s3PointFGPercent": 25
+                                "s3PointFGPercent": 25,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0.75,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
+                            "period": 3,
+                            "statistic": {
+                                "sMinutesPlayed": 339,
+                                "sFieldGoalsMade": 1,
+                                "sFieldGoalsAttempted": 3,
+                                "sThreePointFieldGoalsMade": 1,
+                                "sThreePointFieldGoalsAttempted": 1,
+                                "sFreeThrowsAttempted": 0,
+                                "sPoints": 3,
+                                "sTurnovers": 2,
+                                "sPersonalFouls": 1,
+                                "sPlus": 8,
+                                "sPlusMinus": -17,
+                                "sMinus": 25,
+                                "sFieldGoalPct": 33.3333333333333,
+                                "s3PointFGPercent": 100,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0.6,
+                                "s2PointFieldGoalAttempts": 2
+                            }
+                        },
+                        {
+                            "period": 4,
+                            "statistic": {
+                                "sFreeThrowsAttempted": 0,
+                                "sFieldGoalPct": null,
+                                "s3PointFGPercent": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sPointsPerGame": 6,
-                                "sReboundsPerGame": 1,
-                                "sOffensiveEfficiency": 0.428571428571429,
-                                "s2PointFieldGoalAttempts": 6,
-                                "sMinutesPlayed": 1369.30002,
+                                "sMinutesPlayed": 1369,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 12,
                                 "sThreePointFieldGoalsMade": 2,
@@ -29195,6 +29205,10 @@
                                 "sMinus": 71,
                                 "sFieldGoalPct": 16.6666666666667,
                                 "s3PointFGPercent": 33.3333333333333,
+                                "sPointsPerGame": 6,
+                                "sReboundsPerGame": 1,
+                                "sOffensiveEfficiency": 0.428571428571429,
+                                "s2PointFieldGoalAttempts": 6,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -29207,7 +29221,7 @@
                                 "cAssistTurnoverRatio": 1,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 2,
-                                "cMinutesPerGame": 1369.30002,
+                                "cMinutesPerGame": 1369,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 2,
                                 "cTotalFouls": 2
@@ -29236,7 +29250,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -29363,6 +29377,7 @@
                     "xml_class_code": null,
                     "xml_code": "1",
                     "xml_name": "Alyssa Lewis",
+                    "ncaa_xml_name": "Alyssa Lewis",
                     "xml_position": "G",
                     "xml_short_name": "Lewis,Alyssa",
                     "xml_uni": "1",
@@ -29373,7 +29388,7 @@
                         {
                             "period": 2,
                             "statistic": {
-                                "sMinutesPlayed": 30.70002,
+                                "sMinutesPlayed": 31,
                                 "sFreeThrowsAttempted": 0,
                                 "sFieldGoalPct": null,
                                 "s3PointFGPercent": null,
@@ -29446,7 +29461,7 @@
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 891.70002,
+                                "sMinutesPlayed": 892,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 8,
                                 "sThreePointFieldGoalsMade": 2,
@@ -29479,7 +29494,7 @@
                                 "cAssistTurnoverRatio": 0,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 891.70002,
+                                "cMinutesPerGame": 892,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 2,
                                 "cTotalFouls": 0
@@ -29508,7 +29523,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -29635,6 +29650,7 @@
                     "xml_class_code": null,
                     "xml_code": "21",
                     "xml_name": "Hannah Hicks",
+                    "ncaa_xml_name": "Hannah Hicks",
                     "xml_position": "F",
                     "xml_short_name": "Hicks,Hannah",
                     "xml_uni": "21",
@@ -29645,8 +29661,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sMinutesPlayed": 406.69998,
-                                "s2PointFieldGoalAttempts": 1,
+                                "sMinutesPlayed": 407,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
                                 "sPlus": 5,
@@ -29655,32 +29670,14 @@
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0
-                            }
-                        },
-                        {
-                            "period": 3,
-                            "statistic": {
-                                "sMinutesPlayed": 448.99998,
-                                "s2PointFieldGoalAttempts": 3,
-                                "sFieldGoalsAttempted": 3,
-                                "sFreeThrowsAttempted": 0,
-                                "sOffensiveRebounds": 1,
-                                "sTotalRebounds": 1,
-                                "sPlus": 8,
-                                "sPlusMinus": -20,
-                                "sMinus": 28,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sMinutesPlayed": 412.00002,
-                                "s2PointFieldGoalAttempts": 0,
+                                "sMinutesPlayed": 412,
                                 "sFreeThrowsMade": 1,
                                 "sFreeThrowsAttempted": 2,
                                 "sPoints": 1,
@@ -29691,25 +29688,43 @@
                                 "sFreeThrowPct": 50,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 1.05263157894737
+                                "sOffensiveEfficiency": 1.05263157894737,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
+                            "period": 3,
+                            "statistic": {
+                                "sMinutesPlayed": 449,
+                                "sFieldGoalsAttempted": 3,
+                                "sFreeThrowsAttempted": 0,
+                                "sOffensiveRebounds": 1,
+                                "sTotalRebounds": 1,
+                                "sPlus": 8,
+                                "sPlusMinus": -20,
+                                "sMinus": 28,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sFreeThrowPct": null,
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 1267.69998,
-                                "s2PointFieldGoalAttempts": 4,
+                                "sMinutesPlayed": 1268,
                                 "sFieldGoalsAttempted": 4,
                                 "sFreeThrowsMade": 1,
                                 "sFreeThrowsAttempted": 2,
@@ -29726,6 +29741,7 @@
                                 "sPointsPerGame": 1,
                                 "sReboundsPerGame": 1,
                                 "sOffensiveEfficiency": 0.253164556962025,
+                                "s2PointFieldGoalAttempts": 4,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 100,
                                 "cDefensiveReboundsPct": 0,
@@ -29738,7 +29754,7 @@
                                 "cAssistTurnoverRatio": 0,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 1267.69998,
+                                "cMinutesPerGame": 1268,
                                 "cFreeThrowsMadeAvg": 1,
                                 "cFieldGoalsMadePerGame": 0,
                                 "cTotalFouls": 1
@@ -29767,7 +29783,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -29894,6 +29910,7 @@
                     "xml_class_code": null,
                     "xml_code": "11",
                     "xml_name": "Imani Morris",
+                    "ncaa_xml_name": "Imani Morris",
                     "xml_position": "F",
                     "xml_short_name": "Morris,Imani",
                     "xml_uni": "11",
@@ -29904,55 +29921,54 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sMinutesPlayed": 95.29998,
-                                "s2PointFieldGoalAttempts": 1,
+                                "sMinutesPlayed": 95,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
                                 "sPersonalFouls": 1,
                                 "sPlusMinus": -4,
-                                "sMinus": 4
+                                "sMinus": 4,
+                                "s2PointFieldGoalAttempts": 1
+                            }
+                        },
+                        {
+                            "period": 2,
+                            "statistic": {
+                                "sMinutesPlayed": 112,
+                                "sFreeThrowsAttempted": 0,
+                                "sTurnovers": 1,
+                                "sPersonalFouls": 2,
+                                "sPlusMinus": -6,
+                                "sMinus": 6,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sMinutesPlayed": 109.99998,
-                                "s2PointFieldGoalAttempts": 1,
+                                "sMinutesPlayed": 110,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
                                 "sPersonalFouls": 1,
                                 "sPlusMinus": -3,
-                                "sMinus": 3
+                                "sMinus": 3,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
                                 "sMinutesPlayed": 96,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sPersonalFouls": 1,
                                 "sPlusMinus": -5,
-                                "sMinus": 5
-                            }
-                        },
-                        {
-                            "period": 2,
-                            "statistic": {
-                                "sMinutesPlayed": 112.00002,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sFreeThrowsAttempted": 0,
-                                "sTurnovers": 1,
-                                "sPersonalFouls": 2,
-                                "sPlusMinus": -6,
-                                "sMinus": 6
+                                "sMinus": 5,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 413.29998,
-                                "s2PointFieldGoalAttempts": 2,
+                                "sMinutesPlayed": 413,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
                                 "sTurnovers": 1,
@@ -29961,6 +29977,7 @@
                                 "sDisqualifications": 1,
                                 "sPlusMinus": -18,
                                 "sMinus": 18,
+                                "s2PointFieldGoalAttempts": 2,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 0,
@@ -29973,7 +29990,7 @@
                                 "cAssistTurnoverRatio": 0,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 413.29998,
+                                "cMinutesPerGame": 413,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 0,
                                 "cTotalFouls": 5
@@ -30002,7 +30019,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -30129,6 +30146,7 @@
                     "xml_class_code": null,
                     "xml_code": "6",
                     "xml_name": "Magda Freire",
+                    "ncaa_xml_name": "Magda Freire",
                     "xml_position": "G",
                     "xml_short_name": "Freire,Magda",
                     "xml_uni": "6",
@@ -30140,7 +30158,6 @@
                             "period": 1,
                             "statistic": {
                                 "sMinutesPlayed": 288,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sTurnovers": 2,
                                 "sPersonalFouls": 1,
@@ -30149,31 +30166,14 @@
                                 "sFieldGoalPct": null,
                                 "sPointsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0
-                            }
-                        },
-                        {
-                            "period": 4,
-                            "statistic": {
-                                "sMinutesPlayed": 39,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sFieldGoalsAttempted": 1,
-                                "sThreePointFieldGoalsAttempted": 1,
-                                "sFreeThrowsAttempted": 0,
-                                "sPlus": 5,
-                                "sPlusMinus": 4,
-                                "sMinus": 1,
-                                "sFieldGoalPct": 0,
-                                "sPointsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
                                 "sMinutesPlayed": 267,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -30189,25 +30189,42 @@
                                 "sFieldGoalPct": 50,
                                 "sPointsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 0.666666666666667
+                                "sOffensiveEfficiency": 0.666666666666667,
+                                "s2PointFieldGoalAttempts": 1
+                            }
+                        },
+                        {
+                            "period": 4,
+                            "statistic": {
+                                "sMinutesPlayed": 39,
+                                "sFieldGoalsAttempted": 1,
+                                "sThreePointFieldGoalsAttempted": 1,
+                                "sFreeThrowsAttempted": 0,
+                                "sPlus": 5,
+                                "sPlusMinus": 4,
+                                "sMinus": 1,
+                                "sFieldGoalPct": 0,
+                                "sPointsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sFieldGoalPct": null,
                                 "sPointsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
                                 "sMinutesPlayed": 594,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 3,
                                 "sThreePointFieldGoalsAttempted": 2,
@@ -30225,6 +30242,7 @@
                                 "sPointsPerGame": 2,
                                 "s2PointFieldGoalsMade": 1,
                                 "sOffensiveEfficiency": 0.333333333333333,
+                                "s2PointFieldGoalAttempts": 1,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 0,
@@ -30266,7 +30284,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -30393,6 +30411,7 @@
                     "xml_class_code": null,
                     "xml_code": "8",
                     "xml_name": "Tamar Kopilevich",
+                    "ncaa_xml_name": "Tamar Kopilevich",
                     "xml_position": "F",
                     "xml_short_name": "Kopilevich,Tamar",
                     "xml_uni": "8",
@@ -30401,9 +30420,66 @@
                     "updated_at": "2025-11-23T21:01:20.611Z",
                     "statistic": [
                         {
+                            "period": 1,
+                            "statistic": {
+                                "sMinutesPlayed": 151,
+                                "sFreeThrowsAttempted": 0,
+                                "sTurnovers": 1,
+                                "sPersonalFouls": 3,
+                                "sPlusMinus": -8,
+                                "sMinus": 8,
+                                "sFieldGoalPct": null,
+                                "s3PointFGPercent": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
+                            "period": 2,
+                            "statistic": {
+                                "sMinutesPlayed": 154,
+                                "sFieldGoalsMade": 1,
+                                "sFieldGoalsAttempted": 2,
+                                "sThreePointFieldGoalsMade": 1,
+                                "sThreePointFieldGoalsAttempted": 2,
+                                "sFreeThrowsAttempted": 0,
+                                "sPoints": 3,
+                                "sPersonalFouls": 1,
+                                "sPlus": 4,
+                                "sMinus": 4,
+                                "sFieldGoalPct": 50,
+                                "s3PointFGPercent": 50,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 1.5,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
+                            "period": 3,
+                            "statistic": {
+                                "sMinutesPlayed": 225,
+                                "sFreeThrowsAttempted": 0,
+                                "sAssists": 1,
+                                "sPlus": 6,
+                                "sPlusMinus": -9,
+                                "sMinus": 15,
+                                "sFieldGoalPct": null,
+                                "s3PointFGPercent": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
                             "period": 4,
                             "statistic": {
-                                "s2PointFieldGoalAttempts": 1,
                                 "sMinutesPlayed": 129,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
@@ -30422,72 +30498,14 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": null
-                            }
-                        },
-                        {
-                            "period": 1,
-                            "statistic": {
-                                "s2PointFieldGoalAttempts": 0,
-                                "sMinutesPlayed": 150.70002,
-                                "sFreeThrowsAttempted": 0,
-                                "sTurnovers": 1,
-                                "sPersonalFouls": 3,
-                                "sPlusMinus": -8,
-                                "sMinus": 8,
-                                "sFieldGoalPct": null,
-                                "s3PointFGPercent": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0
-                            }
-                        },
-                        {
-                            "period": 2,
-                            "statistic": {
-                                "s2PointFieldGoalAttempts": 0,
-                                "sMinutesPlayed": 154.00002,
-                                "sFieldGoalsMade": 1,
-                                "sFieldGoalsAttempted": 2,
-                                "sThreePointFieldGoalsMade": 1,
-                                "sThreePointFieldGoalsAttempted": 2,
-                                "sFreeThrowsAttempted": 0,
-                                "sPoints": 3,
-                                "sPersonalFouls": 1,
-                                "sPlus": 4,
-                                "sMinus": 4,
-                                "sFieldGoalPct": 50,
-                                "s3PointFGPercent": 50,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 1.5
-                            }
-                        },
-                        {
-                            "period": 3,
-                            "statistic": {
-                                "s2PointFieldGoalAttempts": 0,
-                                "sMinutesPlayed": 224.59998,
-                                "sFreeThrowsAttempted": 0,
-                                "sAssists": 1,
-                                "sPlus": 6,
-                                "sPlusMinus": -9,
-                                "sMinus": 15,
-                                "sFieldGoalPct": null,
-                                "s3PointFGPercent": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 658.30002,
+                                "sMinutesPlayed": 658,
                                 "sFieldGoalsMade": 2,
                                 "sFieldGoalsAttempted": 3,
                                 "sThreePointFieldGoalsMade": 1,
@@ -30512,6 +30530,7 @@
                                 "sReboundsPerGame": 1,
                                 "s2PointFieldGoalsMade": 1,
                                 "sOffensiveEfficiency": 1.66666666666667,
+                                "s2PointFieldGoalAttempts": 1,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 100,
                                 "cDefensiveReboundsPct": 0,
@@ -30524,7 +30543,7 @@
                                 "cAssistTurnoverRatio": 1,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 658.30002,
+                                "cMinutesPerGame": 658,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 2,
                                 "cTotalFouls": 5
@@ -30553,7 +30572,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -30680,6 +30699,7 @@
                     "xml_class_code": null,
                     "xml_code": "22",
                     "xml_name": "Dayuna Colvin",
+                    "ncaa_xml_name": "Dayuna Colvin",
                     "xml_position": "G",
                     "xml_short_name": "Colvin,Dayuna",
                     "xml_uni": "22",
@@ -30688,8 +30708,53 @@
                     "updated_at": "2025-11-23T21:01:20.808Z",
                     "statistic": [
                         {
+                            "period": 1,
+                            "statistic": {
+                                "sMinutesPlayed": 505,
+                                "sFieldGoalsAttempted": 2,
+                                "sFreeThrowsAttempted": 0,
+                                "sDefensiveRebounds": 2,
+                                "sTotalRebounds": 2,
+                                "sAssists": 1,
+                                "sTurnovers": 3,
+                                "sPlus": 5,
+                                "sPlusMinus": -20,
+                                "sMinus": 25,
+                                "sFieldGoalPct": 0,
+                                "s3PointFGPercent": null,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 2
+                            }
+                        },
+                        {
+                            "period": 2,
+                            "statistic": {
+                                "sMinutesPlayed": 376,
+                                "sFieldGoalsAttempted": 2,
+                                "sThreePointFieldGoalsAttempted": 1,
+                                "sFreeThrowsAttempted": 0,
+                                "sAssists": 1,
+                                "sTurnovers": 1,
+                                "sPlus": 5,
+                                "sPlusMinus": -13,
+                                "sMinus": 18,
+                                "sFieldGoalPct": 0,
+                                "s3PointFGPercent": 0,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 1
+                            }
+                        },
+                        {
                             "period": 3,
                             "statistic": {
+                                "sMinutesPlayed": 375,
+                                "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
                                 "sThreePointFieldGoalsMade": 1,
                                 "sThreePointFieldGoalsAttempted": 1,
@@ -30708,52 +30773,7 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "sOffensiveEfficiency": 1.26582278481013,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 375.40002,
-                                "sFieldGoalsMade": 1
-                            }
-                        },
-                        {
-                            "period": 1,
-                            "statistic": {
-                                "sFieldGoalsAttempted": 2,
-                                "sFreeThrowsAttempted": 0,
-                                "sDefensiveRebounds": 2,
-                                "sTotalRebounds": 2,
-                                "sAssists": 1,
-                                "sTurnovers": 3,
-                                "sPlus": 5,
-                                "sPlusMinus": -20,
-                                "sMinus": 25,
-                                "sFieldGoalPct": 0,
-                                "s3PointFGPercent": null,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 2,
-                                "sMinutesPlayed": 504.70002
-                            }
-                        },
-                        {
-                            "period": 2,
-                            "statistic": {
-                                "sFieldGoalsAttempted": 2,
-                                "sThreePointFieldGoalsAttempted": 1,
-                                "sFreeThrowsAttempted": 0,
-                                "sAssists": 1,
-                                "sTurnovers": 1,
-                                "sPlus": 5,
-                                "sPlusMinus": -13,
-                                "sMinus": 18,
-                                "sFieldGoalPct": 0,
-                                "s3PointFGPercent": 0,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sMinutesPlayed": 376.00002
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
@@ -30772,6 +30792,8 @@
                         {
                             "period": 0,
                             "statistic": {
+                                "sMinutesPlayed": 1256,
+                                "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 6,
                                 "sThreePointFieldGoalsMade": 1,
                                 "sThreePointFieldGoalsAttempted": 2,
@@ -30795,8 +30817,6 @@
                                 "sReboundsPerGame": 2,
                                 "sOffensiveEfficiency": 0.418410041841004,
                                 "s2PointFieldGoalAttempts": 4,
-                                "sMinutesPlayed": 1256.1,
-                                "sFieldGoalsMade": 1,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 100,
@@ -30809,7 +30829,7 @@
                                 "cAssistTurnoverRatio": 0.6,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 1256.1,
+                                "cMinutesPerGame": 1256,
                                 "cFreeThrowsMadeAvg": 2,
                                 "cFieldGoalsMadePerGame": 1,
                                 "cTotalFouls": 2
@@ -30838,7 +30858,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -30965,6 +30985,7 @@
                     "xml_class_code": null,
                     "xml_code": "5",
                     "xml_name": "Brenae Jones-Grant",
+                    "ncaa_xml_name": "Brenae Jones-Grant",
                     "xml_position": "F",
                     "xml_short_name": "Jones-Grant,Brenae",
                     "xml_uni": "5",
@@ -30975,16 +30996,8 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sFieldGoalPct": 25,
-                                "s3PointFGPercent": 50,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sMinutesPlayed": 309.3,
+                                "sMinutesPlayed": 309,
                                 "sFieldGoalsMade": 1,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 3,
-                                "s2PointFieldGoalAttempts": 2,
                                 "sFieldGoalsAttempted": 4,
                                 "sThreePointFieldGoalsMade": 1,
                                 "sThreePointFieldGoalsAttempted": 2,
@@ -30996,22 +31009,22 @@
                                 "sSecondChancePoints": 3,
                                 "sPlus": 5,
                                 "sPlusMinus": -8,
-                                "sMinus": 13
+                                "sMinus": 13,
+                                "sFieldGoalPct": 25,
+                                "s3PointFGPercent": 50,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 3,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 2,
                             "statistic": {
-                                "sFieldGoalPct": 50,
-                                "s3PointFGPercent": null,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
                                 "sMinutesPlayed": 297,
                                 "sFieldGoalsMade": 1,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 0.666666666666667,
-                                "s2PointFieldGoalAttempts": 2,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
                                 "sPoints": 2,
@@ -31020,43 +31033,43 @@
                                 "sPointsInThePaint": 2,
                                 "sPlus": 8,
                                 "sPlusMinus": -8,
-                                "sMinus": 16
+                                "sMinus": 16,
+                                "sFieldGoalPct": 50,
+                                "s3PointFGPercent": null,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 0.666666666666667,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sFieldGoalPct": 0,
-                                "s3PointFGPercent": null,
-                                "sFreeThrowPct": null,
-                                "sPointsPerGame": null,
-                                "sMinutesPlayed": 298.99998,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": 0,
-                                "s2PointFieldGoalAttempts": 2,
+                                "sMinutesPlayed": 299,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
                                 "sDefensiveRebounds": 2,
                                 "sTotalRebounds": 2,
                                 "sPlus": 13,
                                 "sPlusMinus": 1,
-                                "sMinus": 12
+                                "sMinus": 12,
+                                "sFieldGoalPct": 0,
+                                "s3PointFGPercent": null,
+                                "sFreeThrowPct": null,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 2
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
-                                "sFieldGoalPct": 33.3333333333333,
-                                "s3PointFGPercent": 0,
-                                "sFreeThrowPct": 75,
-                                "sPointsPerGame": null,
                                 "sMinutesPlayed": 600,
                                 "sFieldGoalsMade": 1,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 1.02040816326531,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalsAttempted": 3,
                                 "sThreePointFieldGoalsAttempted": 2,
                                 "sFreeThrowsMade": 3,
@@ -31073,22 +31086,22 @@
                                 "sPointsInThePaint": 2,
                                 "sPlus": 14,
                                 "sPlusMinus": -19,
-                                "sMinus": 33
+                                "sMinus": 33,
+                                "sFieldGoalPct": 33.3333333333333,
+                                "s3PointFGPercent": 0,
+                                "sFreeThrowPct": 75,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 1,
+                                "sOffensiveEfficiency": 1.02040816326531,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sFieldGoalPct": 27.2727272727273,
-                                "s3PointFGPercent": 25,
-                                "sFreeThrowPct": 75,
-                                "sPointsPerGame": 10,
-                                "sMinutesPlayed": 1505.29998,
+                                "sMinutesPlayed": 1505,
                                 "sFieldGoalsMade": 3,
-                                "sReboundsPerGame": 7,
-                                "s2PointFieldGoalsMade": 2,
-                                "sOffensiveEfficiency": 0.91743119266055,
-                                "s2PointFieldGoalAttempts": 7,
                                 "sFieldGoalsAttempted": 11,
                                 "sThreePointFieldGoalsMade": 1,
                                 "sThreePointFieldGoalsAttempted": 4,
@@ -31109,6 +31122,14 @@
                                 "sPlus": 40,
                                 "sPlusMinus": -34,
                                 "sMinus": 74,
+                                "sFieldGoalPct": 27.2727272727273,
+                                "s3PointFGPercent": 25,
+                                "sFreeThrowPct": 75,
+                                "sPointsPerGame": 10,
+                                "sReboundsPerGame": 7,
+                                "s2PointFieldGoalsMade": 2,
+                                "sOffensiveEfficiency": 0.91743119266055,
+                                "s2PointFieldGoalAttempts": 7,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 57.14286,
                                 "cDefensiveReboundsPct": 42.85714,
@@ -31121,7 +31142,7 @@
                                 "cAssistTurnoverRatio": 0.5,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 1505.29998,
+                                "cMinutesPerGame": 1505,
                                 "cFreeThrowsMadeAvg": 3,
                                 "cFieldGoalsMadePerGame": 3,
                                 "cTotalFouls": 3
@@ -31150,7 +31171,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -31277,6 +31298,7 @@
                     "xml_class_code": null,
                     "xml_code": "31",
                     "xml_name": "Breah Franks",
+                    "ncaa_xml_name": "Breah Franks",
                     "xml_position": "C",
                     "xml_short_name": "Franks,Breah",
                     "xml_uni": "31",
@@ -31287,8 +31309,7 @@
                         {
                             "period": 1,
                             "statistic": {
-                                "sMinutesPlayed": 238.00002,
-                                "s2PointFieldGoalAttempts": 0,
+                                "sMinutesPlayed": 238,
                                 "sFreeThrowsAttempted": 0,
                                 "sDefensiveRebounds": 1,
                                 "sTotalRebounds": 1,
@@ -31298,14 +31319,34 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
+                            "period": 2,
+                            "statistic": {
+                                "sMinutesPlayed": 225,
+                                "sFieldGoalsAttempted": 1,
+                                "sFreeThrowsAttempted": 0,
+                                "sOffensiveRebounds": 1,
+                                "sTotalRebounds": 1,
+                                "sPersonalFouls": 1,
+                                "sPlus": 4,
+                                "sPlusMinus": -8,
+                                "sMinus": 12,
+                                "sFieldGoalPct": 0,
+                                "sPointsPerGame": null,
+                                "sReboundsPerGame": null,
+                                "s2PointFieldGoalsMade": 0,
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 3,
                             "statistic": {
-                                "sMinutesPlayed": 151.00002,
-                                "s2PointFieldGoalAttempts": 0,
+                                "sMinutesPlayed": 151,
                                 "sFreeThrowsAttempted": 0,
                                 "sAssists": 1,
                                 "sPlus": 8,
@@ -31315,14 +31356,14 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
                                 "sMinutesPlayed": 504,
-                                "s2PointFieldGoalAttempts": 1,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
                                 "sFreeThrowsAttempted": 0,
@@ -31340,34 +31381,14 @@
                                 "sPointsPerGame": null,
                                 "sReboundsPerGame": null,
                                 "s2PointFieldGoalsMade": 1,
-                                "sOffensiveEfficiency": 2
-                            }
-                        },
-                        {
-                            "period": 2,
-                            "statistic": {
-                                "sMinutesPlayed": 225,
-                                "s2PointFieldGoalAttempts": 1,
-                                "sFieldGoalsAttempted": 1,
-                                "sFreeThrowsAttempted": 0,
-                                "sOffensiveRebounds": 1,
-                                "sTotalRebounds": 1,
-                                "sPersonalFouls": 1,
-                                "sPlus": 4,
-                                "sPlusMinus": -8,
-                                "sMinus": 12,
-                                "sFieldGoalPct": 0,
-                                "sPointsPerGame": null,
-                                "sReboundsPerGame": null,
-                                "s2PointFieldGoalsMade": 0,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 1
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 1117.99998,
-                                "s2PointFieldGoalAttempts": 2,
+                                "sMinutesPlayed": 1118,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
@@ -31389,6 +31410,7 @@
                                 "sReboundsPerGame": 3,
                                 "s2PointFieldGoalsMade": 1,
                                 "sOffensiveEfficiency": 2,
+                                "s2PointFieldGoalAttempts": 2,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 66.66667,
                                 "cDefensiveReboundsPct": 33.33333,
@@ -31401,7 +31423,7 @@
                                 "cAssistTurnoverRatio": 1,
                                 "cBlocksPerGame": 1,
                                 "cStealsPerGame": 0,
-                                "cMinutesPerGame": 1117.99998,
+                                "cMinutesPerGame": 1118,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 1,
                                 "cTotalFouls": 4
@@ -31430,7 +31452,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,
@@ -31557,6 +31579,7 @@
                     "xml_class_code": null,
                     "xml_code": "9",
                     "xml_name": "Kelley Hutcherson",
+                    "ncaa_xml_name": "Kelley Hutcherson",
                     "xml_position": "G",
                     "xml_short_name": "Hutcherson,Kelley",
                     "xml_uni": "9",
@@ -31568,7 +31591,6 @@
                             "period": 2,
                             "statistic": {
                                 "sMinutesPlayed": 333,
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 1,
                                 "sThreePointFieldGoalsMade": 1,
@@ -31582,14 +31604,29 @@
                                 "sFieldGoalPct": 100,
                                 "s3PointFGPercent": 100,
                                 "sPointsPerGame": null,
-                                "sOffensiveEfficiency": 3
+                                "sOffensiveEfficiency": 3,
+                                "s2PointFieldGoalAttempts": 0
+                            }
+                        },
+                        {
+                            "period": 3,
+                            "statistic": {
+                                "sMinutesPlayed": 452,
+                                "sFreeThrowsAttempted": 0,
+                                "sPlus": 11,
+                                "sPlusMinus": -9,
+                                "sMinus": 20,
+                                "sFieldGoalPct": null,
+                                "s3PointFGPercent": null,
+                                "sPointsPerGame": null,
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 4,
                             "statistic": {
                                 "sMinutesPlayed": 600,
-                                "s2PointFieldGoalAttempts": 3,
                                 "sFieldGoalsAttempted": 5,
                                 "sThreePointFieldGoalsAttempted": 2,
                                 "sFreeThrowsAttempted": 0,
@@ -31601,40 +31638,25 @@
                                 "sFieldGoalPct": 0,
                                 "s3PointFGPercent": 0,
                                 "sPointsPerGame": null,
-                                "sOffensiveEfficiency": 0
-                            }
-                        },
-                        {
-                            "period": 3,
-                            "statistic": {
-                                "sMinutesPlayed": 451.99998,
-                                "s2PointFieldGoalAttempts": 0,
-                                "sFreeThrowsAttempted": 0,
-                                "sPlus": 11,
-                                "sPlusMinus": -9,
-                                "sMinus": 20,
-                                "sFieldGoalPct": null,
-                                "s3PointFGPercent": null,
-                                "sPointsPerGame": null,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": 0,
+                                "s2PointFieldGoalAttempts": 3
                             }
                         },
                         {
                             "period": 1,
                             "statistic": {
-                                "s2PointFieldGoalAttempts": 0,
                                 "sFreeThrowsAttempted": 0,
                                 "sFieldGoalPct": null,
                                 "s3PointFGPercent": null,
                                 "sPointsPerGame": null,
-                                "sOffensiveEfficiency": null
+                                "sOffensiveEfficiency": null,
+                                "s2PointFieldGoalAttempts": 0
                             }
                         },
                         {
                             "period": 0,
                             "statistic": {
-                                "sMinutesPlayed": 1384.99998,
-                                "s2PointFieldGoalAttempts": 3,
+                                "sMinutesPlayed": 1385,
                                 "sFieldGoalsMade": 1,
                                 "sFieldGoalsAttempted": 6,
                                 "sThreePointFieldGoalsMade": 1,
@@ -31652,6 +31674,7 @@
                                 "s3PointFGPercent": 33.3333333333333,
                                 "sPointsPerGame": 3,
                                 "sOffensiveEfficiency": 0.5,
+                                "s2PointFieldGoalAttempts": 3,
                                 "cGamesPlayedPct": 0,
                                 "cOffensiveReboundsPct": 0,
                                 "cDefensiveReboundsPct": 0,
@@ -31664,7 +31687,7 @@
                                 "cAssistTurnoverRatio": 0,
                                 "cBlocksPerGame": 0,
                                 "cStealsPerGame": 1,
-                                "cMinutesPerGame": 1384.99998,
+                                "cMinutesPerGame": 1385,
                                 "cFreeThrowsMadeAvg": 0,
                                 "cFieldGoalsMadePerGame": 1,
                                 "cTotalFouls": 0
@@ -31693,7 +31716,7 @@
                         "overtimePeriodsPlayed": 0,
                         "periodsPlayed": 4,
                         "postponed": false,
-                        "updatedAt": "2025-11-23T21:01:44.619Z",
+                        "updatedAt": "2026-10-15T21:11:10.361Z",
                         "statsUpdatedAt": "2025-11-23T21:01:44.605Z",
                         "scoredWithNcaaLiveStats": true,
                         "expectedToBeScoredWithLiveStats": true,

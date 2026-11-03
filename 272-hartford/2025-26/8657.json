@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "12/29/2025",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "6:39 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Staake Gymnasium | Babson Park, MA",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Babson",
             "Score": 67,
             "CurrentRecord": "6-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Hartford",
             "Score": 65,
             "CurrentRecord": "3-7",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#C30013",
             "TextColor": "#141414",
@@ -8555,6 +8562,36 @@
                 "HomeTeam": 45,
                 "VisitingTeam": 35
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Lauren",
+                "LastName": "Sabia",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mary",
+                    "LastName": "Kate Flynn",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Lauren Sabia Assist (1 Asst); 21 Mary Kate Flynn Assist (2 Asst)",
+            "Context": "",
+            "Id": "310+9E50ED58",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 203,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

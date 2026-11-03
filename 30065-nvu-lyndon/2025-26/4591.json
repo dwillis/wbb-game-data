@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/8/2025",
         "DateUTC": null,
         "StartTime": "4:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "SHAPE",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Vermont State University Lyndon",
             "Score": 80,
             "CurrentRecord": "2-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#0D4000",
             "TextColor": "#FFD63B",
@@ -58,6 +64,7 @@
             "Name": "Bryant & Stratton - Albany",
             "Score": 41,
             "CurrentRecord": "0-1",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -10947,6 +10954,36 @@
                 "HomeTeam": 69,
                 "VisitingTeam": 35
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Hawa",
+                "LastName": "Mubarak",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Keyanna",
+                    "LastName": "Drew",
+                    "UniformNumber": "5",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "11 Hawa Mubarak Assist (1 Asst); 5 Keyanna Drew Assist (2 Asst)",
+            "Context": "",
+            "Id": "439+7D445A4E",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 4,
+            "ClockSeconds": 290,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

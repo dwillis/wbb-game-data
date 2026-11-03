@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/15/2025",
         "DateUTC": null,
         "StartTime": "2:00 PM",
         "EndTime": "3:42 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Terry S. Galanis Arena",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Alfred St.",
             "Score": 59,
             "CurrentRecord": "1-2, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#FFFFFF",
             "TextColor": "#FFFFFF",
@@ -58,6 +64,7 @@
             "Name": "Bard",
             "Score": 45,
             "CurrentRecord": "0-3, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -5509,6 +5516,36 @@
                 "HomeTeam": 21,
                 "VisitingTeam": 17
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Morgan",
+                "LastName": "Kottka",
+                "UniformNumber": "24",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Taylor",
+                    "LastName": "Benjamin",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "24 Morgan Kottka Assist (3 Asst); 10 Taylor Benjamin Assist (1 Asst)",
+            "Context": "",
+            "Id": "140+6926D70D",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 475,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

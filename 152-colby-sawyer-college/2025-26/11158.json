@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/20/2026",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "6:24 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Bridges Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "New England Col.",
             "Score": 76,
             "CurrentRecord": "11-5, 2-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Colby-Sawyer",
             "Score": 57,
             "CurrentRecord": "6-10, 1-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#0092CD",
             "TextColor": "#6B6B6B",
@@ -7450,6 +7457,66 @@
             "Action": "SUBS",
             "Period": 3,
             "ClockSeconds": 334,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Bailey",
+                "LastName": "Burke",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Bailey",
+                    "LastName": "Burke",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Bailey Burke Assist (1 Asst); 23 Bailey Burke Assist (2 Asst)",
+            "Context": "",
+            "Id": "258+FBA42FFC",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 330,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Bailey",
+                "LastName": "Burke",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Bailey",
+                    "LastName": "Burke",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Bailey Burke Assist (2 Asst); 23 Bailey Burke Assist (3 Asst)",
+            "Context": "",
+            "Id": "259+2B832319",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 330,
             "Coordinate": null,
             "Score": null
         },

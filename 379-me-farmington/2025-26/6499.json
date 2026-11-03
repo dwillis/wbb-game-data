@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/21/2026",
         "DateUTC": null,
         "StartTime": "7:04 PM",
         "EndTime": "8:24 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Alumni Gym / Lewiston, Maine",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Bates",
             "Score": 90,
             "CurrentRecord": "15-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Me.-Farmington",
             "Score": 48,
             "CurrentRecord": "12-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#68092B",
             "TextColor": "#373737",
@@ -3264,6 +3271,36 @@
         },
         {
             "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Melissa",
+                "LastName": "Mayo",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Mya",
+                    "LastName": "Hicks",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "33 Melissa Mayo Assist (1 Asst); 11 Mya Hicks Assist (1 Asst)",
+            "Context": "",
+            "Id": "6+7232AE4E",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 542,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
                 "Team": "HomeTeam",
                 "FirstName": "Ava",
                 "LastName": "James",
@@ -5996,6 +6033,36 @@
             "Action": "REBOUND",
             "Period": 2,
             "ClockSeconds": 395,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Londyn",
+                "LastName": "Perry",
+                "UniformNumber": "01",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Londyn",
+                    "LastName": "Perry",
+                    "UniformNumber": "01",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "01 Londyn Perry Assist (1 Asst); 01 Londyn Perry Assist (2 Asst)",
+            "Context": "",
+            "Id": "165+6A2FF6D6",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 388,
             "Coordinate": null,
             "Score": null
         },

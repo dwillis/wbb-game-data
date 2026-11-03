@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/21/2026",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "8:19 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Liebertz Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Merchant Marine",
             "Score": 95,
             "CurrentRecord": "13-4, 10-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#093A88",
             "TextColor": "#6C6C6C",
@@ -58,6 +64,7 @@
             "Name": "Old Westbury",
             "Score": 21,
             "CurrentRecord": "2-11, 1-10",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -4811,11 +4818,11 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "21 Lilly Smeltzer IN",
+            "Narrative": "21 Lilly Smeltzer checks into the game",
             "Context": "",
-            "Id": "117+7BD03132",
-            "Type": "SUBS",
-            "Action": "SUBS",
+            "Id": "117+BC6E866F",
+            "Type": "IN",
+            "Action": "SUB",
             "Period": 2,
             "ClockSeconds": 454,
             "Coordinate": null,
@@ -4918,6 +4925,36 @@
                 "HomeTeam": 33,
                 "VisitingTeam": 11
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sakhmet",
+                "LastName": "Lewis",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Tatum",
+                    "LastName": "Carney",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "20 Sakhmet Lewis Assist (2 Asst); 15 Tatum Carney Assist (3 Asst)",
+            "Context": "",
+            "Id": "123+75E64BCB",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 419,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {
@@ -5127,11 +5164,11 @@
             },
             "InvolvedPlayers": [],
             "Team": "HomeTeam",
-            "Narrative": "44 Carolae Barton OUT",
+            "Narrative": "44 Carolae Barton heads to the bench",
             "Context": "",
-            "Id": "137+1607BE3D",
-            "Type": "SUBS",
-            "Action": "SUBS",
+            "Id": "137+3D4DE696",
+            "Type": "OUT",
+            "Action": "SUB",
             "Period": 2,
             "ClockSeconds": 334,
             "Coordinate": null,
@@ -6290,6 +6327,36 @@
             "Action": "REBOUND",
             "Period": 3,
             "ClockSeconds": 449,
+            "Coordinate": null,
+            "Score": null
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Hannah",
+                "LastName": "Ramsden",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Hannah",
+                    "LastName": "Ramsden",
+                    "UniformNumber": "23",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Hannah Ramsden Assist (4 Asst); 23 Hannah Ramsden Assist (5 Asst)",
+            "Context": "",
+            "Id": "201+B33B29AA",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 441,
             "Coordinate": null,
             "Score": null
         },

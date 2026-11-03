@@ -8,7 +8,12 @@
         "DateUTC": null,
         "StartTime": "2:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Murchison Gymnasium, Montecito, CA",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Westmont",
             "Score": 92,
             "CurrentRecord": "1-0,0-0 PacWest",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#990033",
             "TextColor": "#CC9966",
@@ -53,6 +59,7 @@
             "Name": "Simon Fraser",
             "Score": 54,
             "CurrentRecord": "1-3,0-0 Great Northwest",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -3204,6 +3211,36 @@
                 "HomeTeam": 6,
                 "VisitingTeam": 4
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Mariah",
+                "LastName": "Brown",
+                "UniformNumber": "02",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Rilyn",
+                    "LastName": "Quirke",
+                    "UniformNumber": "32",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "02 Mariah Brown Assist (1 Asst); 32 Rilyn Quirke Assist (2 Asst)",
+            "Context": "",
+            "Id": "17+96F78332",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 451,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

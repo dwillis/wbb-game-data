@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/10/2026",
         "DateUTC": null,
         "StartTime": "3:00 PM",
         "EndTime": "4:56 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Capital Union Building",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Penn State-Harrisburg",
             "Score": 78,
             "CurrentRecord": "4-12, 3-2 UEC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#FFFFFF",
             "TextColor": "#FFFFFF",
@@ -58,6 +64,7 @@
             "Name": "Gallaudet",
             "Score": 75,
             "CurrentRecord": "1-11, 0-4 UEC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -7398,6 +7405,36 @@
                 "HomeTeam": 23,
                 "VisitingTeam": 42
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Mikayla",
+                "LastName": "Coleman",
+                "UniformNumber": "03",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Seanna",
+                    "LastName": "Baird",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "03 Mikayla Coleman Assist (1 Asst); 10 Seanna Baird Assist (6 Asst)",
+            "Context": "",
+            "Id": "251+47863324",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 472,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

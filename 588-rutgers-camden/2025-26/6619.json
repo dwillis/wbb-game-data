@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/22/2025",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Camden Athletic & Fitness Center",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Rutgers-Camden",
             "Score": 54,
             "CurrentRecord": "3-3",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#D20F0D",
             "TextColor": "#1C1F1E",
@@ -58,6 +64,7 @@
             "Name": "Colby",
             "Score": 62,
             "CurrentRecord": "4-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -4092,6 +4099,36 @@
                 "HomeTeam": 7,
                 "VisitingTeam": 9
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gabriella",
+                "LastName": "Toledo",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Zairra",
+                    "LastName": "Galloway",
+                    "UniformNumber": "08",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "04 Gabriella Toledo Assist (1 Asst); 08 Zairra Galloway Assist (1 Asst)",
+            "Context": "",
+            "Id": "61+4EEAFCF9",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 188,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/17/2026",
         "DateUTC": null,
         "StartTime": "3:00 PM",
         "EndTime": "4:51 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "JWU Wildcat Center",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Johnson & Wales - Charlotte",
             "Score": 64,
             "CurrentRecord": "12-4, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Mary Washington",
             "Score": 61,
             "CurrentRecord": "9-13, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#002D61",
             "TextColor": "#8DC9F7",
@@ -4367,6 +4374,36 @@
                 "HomeTeam": 8,
                 "VisitingTeam": 6
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Gabby",
+                "LastName": "Tapley",
+                "UniformNumber": "23",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Emma",
+                    "LastName": "Terry",
+                    "UniformNumber": "15",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "23 Gabby Tapley Assist (1 Asst); 15 Emma Terry Assist (2 Asst)",
+            "Context": "",
+            "Id": "78+A3DE4306",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 243,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

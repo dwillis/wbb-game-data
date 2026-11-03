@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "2/24/2026",
         "DateUTC": null,
         "StartTime": "7:05 PM",
         "EndTime": "8:57 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Redlands, Calif. | Currier Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Redlands",
             "Score": 79,
             "CurrentRecord": "19-6",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Chapman",
             "Score": 61,
             "CurrentRecord": "16-10",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#FFFFFF",
             "TextColor": "#FFFFFF",
@@ -3388,6 +3395,36 @@
                 "HomeTeam": 4,
                 "VisitingTeam": 0
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Teagan",
+                "LastName": "McIlroy",
+                "UniformNumber": "3",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kira",
+                    "LastName": "Watanabe",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "3 Teagan McIlroy Assist (1 Asst); 11 Kira Watanabe Assist (1 Asst)",
+            "Context": "",
+            "Id": "9+FFB04A33",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 499,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

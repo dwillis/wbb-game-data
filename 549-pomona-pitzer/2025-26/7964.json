@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/19/2026",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "8:37 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Redlands, Calif. | Currier Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Redlands",
             "Score": 77,
             "CurrentRecord": "12-3, 5-2 SCIAC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Pomona-Pitzer",
             "Score": 83,
             "CurrentRecord": "10-6, 5-2 SCIAC",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#003EAB",
             "TextColor": "#FFFFFF",
@@ -10390,6 +10397,36 @@
                 "HomeTeam": 68,
                 "VisitingTeam": 70
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Leila",
+                "LastName": "Hosn",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Abigail",
+                    "LastName": "Homan",
+                    "UniformNumber": "22",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "20 Leila Hosn Assist (7 Asst); 22 Abigail Homan Assist (2 Asst)",
+            "Context": "",
+            "Id": "405+2B9B2C4F",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 4,
+            "ClockSeconds": 136,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

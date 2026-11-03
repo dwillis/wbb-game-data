@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/21/2025",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Manning & Napier Varsity Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "St. John Fisher",
             "Score": 43,
             "CurrentRecord": "1-4, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#993333",
             "TextColor": "#F7D778",
@@ -58,10 +64,11 @@
             "Name": "Rochester (N.Y.)",
             "Score": 67,
             "CurrentRecord": "1-3, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
-            "Logo": "https://athletics.sjfc.edu/images/logos/Rochester.png",
+            "Logo": "https://athletics.sjfc.edu/images/logos/200x200 Spirit R (2).png",
             "Url": null,
             "PeriodScores": [
                 12,
@@ -9479,6 +9486,36 @@
                 "HomeTeam": 36,
                 "VisitingTeam": 54
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Valerosa",
+                "LastName": "Gambitta",
+                "UniformNumber": "12",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Hazell",
+                    "LastName": "Nickerson",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "12 Valerosa Gambitta Assist (1 Asst); 25 Hazell Nickerson Assist (2 Asst)",
+            "Context": "",
+            "Id": "348+B3A31",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 75,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

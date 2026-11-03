@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/22/2025",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Manning and Napier Varsity Gym",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "St. John Fisher",
             "Score": 53,
             "CurrentRecord": "1-5, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#993333",
             "TextColor": "#F7D778",
@@ -58,6 +64,7 @@
             "Name": "Rensselaer",
             "Score": 63,
             "CurrentRecord": "4-2, 0-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -4109,6 +4116,36 @@
                 "HomeTeam": 10,
                 "VisitingTeam": 6
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Danielle",
+                "LastName": "Strauf",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Julia",
+                    "LastName": "Perales",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "13 Danielle Strauf Assist (1 Asst); 11 Julia Perales Assist (1 Asst)",
+            "Context": "",
+            "Id": "64+6434D87F",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 196,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

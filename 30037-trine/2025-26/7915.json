@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "12/13/2025",
         "DateUTC": null,
         "StartTime": "3:20 PM",
         "EndTime": "4:51 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Cutler Event Center; Olivet, Mich.",
         "GlobalSportShortname": null,
@@ -35,10 +40,11 @@
             "Name": "Olivet",
             "Score": 45,
             "CurrentRecord": "1-6, 0-3",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
-            "Logo": "https://trinethunder.com/images/logos/the university of olivet.png",
+            "Logo": "https://trinethunder.com/images/logos/university_of_olivet_200x200.png",
             "Url": null,
             "PeriodScores": [
                 10,
@@ -58,6 +64,7 @@
             "Name": "Trine",
             "Score": 82,
             "CurrentRecord": "6-1, 2-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#003767",
             "TextColor": "#B5A66B",
@@ -7453,6 +7460,36 @@
                 "HomeTeam": 21,
                 "VisitingTeam": 40
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Sophie",
+                "LastName": "Gesell",
+                "UniformNumber": "04",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Ava",
+                    "LastName": "Lord",
+                    "UniformNumber": "00",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "04 Sophie Gesell Assist (2 Asst); 00 Ava Lord Assist (3 Asst)",
+            "Context": "",
+            "Id": "254+62A8FD43",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 31,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

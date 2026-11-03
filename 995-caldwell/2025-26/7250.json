@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/25/2025",
         "DateUTC": null,
         "StartTime": "5:30 PM",
         "EndTime": "7:17 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Newman Center/Caldwell, N.J.",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Caldwell",
             "Score": 72,
             "CurrentRecord": "4-1, 1-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#D31732",
             "TextColor": "#B59859",
@@ -58,6 +64,7 @@
             "Name": "Goldey-Beacom",
             "Score": 57,
             "CurrentRecord": "0-5, 0-1",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -8324,6 +8331,36 @@
                 "HomeTeam": 48,
                 "VisitingTeam": 44
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Brooke",
+                "LastName": "Corbett",
+                "UniformNumber": "13",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Kato",
+                    "LastName": "Van Heuverbeke",
+                    "UniformNumber": "25",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "13 Brooke Corbett Assist (1 Asst); 25 Kato Van Heuverbeke Assist (1 Asst)",
+            "Context": "",
+            "Id": "289+BAE2EEA3",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 3,
+            "ClockSeconds": 73,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "2/7/2026",
         "DateUTC": null,
         "StartTime": "3:30 PM",
         "EndTime": "5:10 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Higgins Court/ Weston, Mass. ",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Regis (Mass.)",
             "Score": 83,
             "CurrentRecord": "10-12, 7-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "New England Col.",
             "Score": 81,
             "CurrentRecord": "13-8, 4-5",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#001638",
             "TextColor": "#B11422",
@@ -3942,6 +3949,36 @@
                 "HomeTeam": 8,
                 "VisitingTeam": 11
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Jayden",
+                "LastName": "Estrada",
+                "UniformNumber": "11",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Madi",
+                    "LastName": "Zancan",
+                    "UniformNumber": "10",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "11 Jayden Estrada Assist (1 Asst); 10 Madi Zancan Assist (1 Asst)",
+            "Context": "",
+            "Id": "54+9253F1D",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 244,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

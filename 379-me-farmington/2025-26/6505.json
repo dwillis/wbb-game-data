@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "2/3/2026",
         "DateUTC": null,
         "StartTime": "7:00 PM",
         "EndTime": "8:17 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Dearborn Gymnsaium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Me.-Farmington",
             "Score": 48,
             "CurrentRecord": "15-6, 13-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#68092B",
             "TextColor": "#373737",
@@ -58,6 +64,7 @@
             "Name": "Colby",
             "Score": 66,
             "CurrentRecord": "12-8, 2-4",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -3723,6 +3730,36 @@
                 "HomeTeam": 8,
                 "VisitingTeam": 7
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Audrey",
+                "LastName": "Mackie",
+                "UniformNumber": "20",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Talia",
+                    "LastName": "Thompson",
+                    "UniformNumber": "12",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "20 Audrey Mackie Assist (1 Asst); 12 Talia Thompson Assist (1 Asst)",
+            "Context": "",
+            "Id": "34+363467D8",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 343,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

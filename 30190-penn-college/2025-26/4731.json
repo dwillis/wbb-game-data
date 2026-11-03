@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "11/17/2025",
         "DateUTC": null,
         "StartTime": "6:00 PM",
         "EndTime": "7:36 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Bardo Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Penn College",
             "Score": 68,
             "CurrentRecord": "5-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#3366FF",
             "TextColor": "#E7E6E6",
@@ -58,6 +64,7 @@
             "Name": "Penn State-Altoona",
             "Score": 61,
             "CurrentRecord": "2-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -4523,6 +4530,36 @@
                 "HomeTeam": 14,
                 "VisitingTeam": 14
             }
+        },
+        {
+            "Player": {
+                "Team": "VisitingTeam",
+                "FirstName": "Avana",
+                "LastName": "Sayles",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "HomeTeam",
+                    "FirstName": "Raeanna",
+                    "LastName": "Andreas",
+                    "UniformNumber": "21",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "VisitingTeam",
+            "Narrative": "33 Avana Sayles Assist (2 Asst); 21 Raeanna Andreas Assist (2 Asst)",
+            "Context": "",
+            "Id": "87+AE08CFB3",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 88,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

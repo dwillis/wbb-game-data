@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/3/2026",
         "DateUTC": null,
         "StartTime": "1:00 PM",
         "EndTime": "2:56 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Odle Arena",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Taylor (IN)",
             "Score": 68,
             "CurrentRecord": "14-1, 4-1",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Marian (IN)",
             "Score": 82,
             "CurrentRecord": "15-0, 5-0",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#031E51",
             "TextColor": "#FDB813",
@@ -5117,6 +5124,36 @@
                 "HomeTeam": 12,
                 "VisitingTeam": 12
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Emma",
+                "LastName": "Ancelet",
+                "UniformNumber": "33",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Abbey",
+                    "LastName": "McNally",
+                    "UniformNumber": "11",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "33 Emma Ancelet Assist (1 Asst); 11 Abbey McNally Assist (1 Asst)",
+            "Context": "",
+            "Id": "116+6E9B5BA6",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 1,
+            "ClockSeconds": 74,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

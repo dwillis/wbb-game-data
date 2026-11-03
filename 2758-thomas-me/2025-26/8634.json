@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/31/2026",
         "DateUTC": null,
         "StartTime": "3:00 PM",
         "EndTime": "4:54 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Dearborn Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Me.-Farmington",
             "Score": 74,
             "CurrentRecord": "15-5, 13-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Thomas (ME)",
             "Score": 62,
             "CurrentRecord": "12-9, 8-6",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#B52C1F",
             "TextColor": "#B52C1F",
@@ -6266,6 +6273,36 @@
                 "HomeTeam": 24,
                 "VisitingTeam": 21
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Grace",
+                "LastName": "Dwyer",
+                "UniformNumber": "21",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Elena",
+                    "LastName": "Alderman",
+                    "UniformNumber": "20",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "21 Grace Dwyer Assist (1 Asst); 20 Elena Alderman Assist (2 Asst)",
+            "Context": "",
+            "Id": "179+95DDD2BE",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 383,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

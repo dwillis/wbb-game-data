@@ -3,12 +3,17 @@
         "Type": "BasketballGame",
         "HasStarted": true,
         "IsComplete": true,
-        "Source": "",
+        "Source": "presto",
         "Date": "1/5/2026",
         "DateUTC": null,
         "StartTime": "5:00 PM",
         "EndTime": "6:40 PM",
+        "UseLiveStatsAutomation": null,
         "NcaaGameId": "",
+        "SidearmGameId": null,
+        "ClientId": null,
+        "ClientAbbrev": null,
+        "ClientLiveStatsUrl": null,
         "Notes": [],
         "Location": "Dearborn Gymnasium",
         "GlobalSportShortname": null,
@@ -35,6 +40,7 @@
             "Name": "Me.-Farmington",
             "Score": 63,
             "CurrentRecord": "8-3, 6-1",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#EEEEEE",
             "TextColor": "#232323",
@@ -58,6 +64,7 @@
             "Name": "Vermont State Lyndon",
             "Score": 45,
             "CurrentRecord": "8-4, 3-2",
+            "PostgameRecord": "",
             "NcaaSchoolCode": "",
             "Color": "#0D4000",
             "TextColor": "#FFD63B",
@@ -5849,6 +5856,36 @@
                 "HomeTeam": 26,
                 "VisitingTeam": 8
             }
+        },
+        {
+            "Player": {
+                "Team": "HomeTeam",
+                "FirstName": "Jessica",
+                "LastName": "Dow",
+                "UniformNumber": "22",
+                "Photo": null,
+                "PersonId": ""
+            },
+            "InvolvedPlayers": [
+                {
+                    "Team": "VisitingTeam",
+                    "FirstName": "Ella",
+                    "LastName": "Huntington",
+                    "UniformNumber": "5",
+                    "Photo": null,
+                    "PersonId": ""
+                }
+            ],
+            "Team": "HomeTeam",
+            "Narrative": "22 Jessica Dow Assist (1 Asst); 5 Ella Huntington Assist (2 Asst)",
+            "Context": "",
+            "Id": "157+8B27E16B",
+            "Type": "ASSIST",
+            "Action": "ASSIST",
+            "Period": 2,
+            "ClockSeconds": 462,
+            "Coordinate": null,
+            "Score": null
         },
         {
             "Player": {

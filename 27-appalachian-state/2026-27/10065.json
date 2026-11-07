@@ -54,9 +54,7 @@
             ],
             "PeriodTimeouts": [
                 0,
-                2,
-                0,
-                1
+                2
             ]
         },
         "VisitingTeam": {
@@ -78,8 +76,6 @@
             ],
             "PeriodTimeouts": [
                 1,
-                0,
-                1,
                 0
             ]
         },
@@ -87,112 +83,208 @@
             {
                 "Player": {
                     "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Williams",
-                    "UniformNumber": "21",
+                    "FirstName": "Kara",
+                    "LastName": "Connor",
+                    "UniformNumber": "10",
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [],
+                "InvolvedPlayers": [
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Katie",
+                        "LastName": "Alexander",
+                        "UniformNumber": "24",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Se'Nai",
+                        "LastName": "Camper",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Kailah",
+                        "LastName": "Crawford",
+                        "UniformNumber": "35",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
                 "Team": "VisitingTeam",
-                "Narrative": "21 Sarah Williams JUMPER GOOD (14 Pt)",
+                "Narrative": "10 Kara Connor OUT; 24 Katie Alexander OUT; 23 Se'Nai Camper IN; 35 Kailah Crawford IN",
                 "Context": "",
-                "Id": "580+FD0D41B6",
-                "Type": "JUMPER",
+                "Id": "351+879802F6",
+                "Type": "SUBS",
+                "Action": "SUBS",
+                "Period": 3,
+                "ClockSeconds": 349,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Joi",
+                    "LastName": "Williams",
+                    "UniformNumber": "04",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Torin",
+                        "LastName": "Rogers",
+                        "UniformNumber": "06",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Feryal Defne",
+                        "LastName": "Atli",
+                        "UniformNumber": "17",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Jayden",
+                        "LastName": "McBride",
+                        "UniformNumber": "02",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Jadyn",
+                        "LastName": "Atchison",
+                        "UniformNumber": "13",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Addie",
+                        "LastName": "Biel",
+                        "UniformNumber": "30",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "HomeTeam",
+                "Narrative": "04 Joi Williams OUT; 06 Torin Rogers OUT; 17 Feryal Defne Atli OUT; 02 Jayden McBride IN; 13 Jadyn Atchison IN; 30 Addie Biel IN",
+                "Context": "",
+                "Id": "345+CE496D67",
+                "Type": "SUBS",
+                "Action": "SUBS",
+                "Period": 3,
+                "ClockSeconds": 349,
+                "Coordinate": null,
+                "Score": null
+            },
+            {
+                "Player": {
+                    "Team": "HomeTeam",
+                    "FirstName": "Feryal Defne",
+                    "LastName": "Atli",
+                    "UniformNumber": "17",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Jaida",
+                        "LastName": "McClure",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "HomeTeam",
+                "Narrative": "17 Feryal Defne Atli LAYUP GOOD (12 Pt); 10 Jaida McClure Assist (1 Asst)",
+                "Context": "",
+                "Id": "343+E2737F77",
+                "Type": "LAYUP",
                 "Action": "GOOD",
-                "Period": 4,
-                "ClockSeconds": 3,
+                "Period": 3,
+                "ClockSeconds": 365,
                 "Coordinate": null,
                 "Score": {
-                    "HomeTeam": 107,
-                    "VisitingTeam": 43
+                    "HomeTeam": 72,
+                    "VisitingTeam": 19
+                }
+            },
+            {
+                "Player": {
+                    "Team": "VisitingTeam",
+                    "FirstName": "EK",
+                    "LastName": "Walraven",
+                    "UniformNumber": "14",
+                    "Photo": null,
+                    "PersonId": ""
+                },
+                "InvolvedPlayers": [
+                    {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Kara",
+                        "LastName": "Connor",
+                        "UniformNumber": "10",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
+                "Team": "VisitingTeam",
+                "Narrative": "14 EK Walraven 3PTR GOOD (5 Pt); 10 Kara Connor Assist (1 Asst)",
+                "Context": "",
+                "Id": "341+E28E87D5",
+                "Type": "3PTR",
+                "Action": "GOOD",
+                "Period": 3,
+                "ClockSeconds": 375,
+                "Coordinate": null,
+                "Score": {
+                    "HomeTeam": 70,
+                    "VisitingTeam": 19
                 }
             },
             {
                 "Player": {
                     "Team": "HomeTeam",
-                    "FirstName": "Jaida",
-                    "LastName": "McClure",
-                    "UniformNumber": "10",
+                    "FirstName": "Joi",
+                    "LastName": "Williams",
+                    "UniformNumber": "04",
                     "Photo": null,
                     "PersonId": ""
                 },
-                "InvolvedPlayers": [],
+                "InvolvedPlayers": [
+                    {
+                        "Team": "HomeTeam",
+                        "FirstName": "Daisia",
+                        "LastName": "Mitchell",
+                        "UniformNumber": "24",
+                        "Photo": null,
+                        "PersonId": ""
+                    }
+                ],
                 "Team": "HomeTeam",
-                "Narrative": "10 Jaida McClure TURNOVER (2 TO)",
+                "Narrative": "04 Joi Williams 3PTR GOOD (9 Pt); 24 Daisia Mitchell Assist (5 Asst)",
                 "Context": "",
-                "Id": "579+CDD6575F",
-                "Type": "TURNOVER",
-                "Action": "TURNOVER",
-                "Period": 4,
-                "ClockSeconds": 11,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Smith",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "11 Zoe Smith OFF. REBOUND (2 Reb, 1 Off)",
-                "Context": "",
-                "Id": "578+DEC65D86",
-                "Type": "OFF",
-                "Action": "REBOUND",
-                "Period": 4,
-                "ClockSeconds": 14,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "HomeTeam",
-                    "FirstName": "Isa",
-                    "LastName": "Roman",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "HomeTeam",
-                "Narrative": "03 Isa Roman 3PTR MISS",
-                "Context": "",
-                "Id": "577+6726EE84",
+                "Id": "339+B67A4036",
                 "Type": "3PTR",
-                "Action": "MISS",
-                "Period": 4,
-                "ClockSeconds": 18,
-                "Coordinate": null,
-                "Score": null
-            },
-            {
-                "Player": {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mariia",
-                    "LastName": "Fedoseeva",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                "InvolvedPlayers": [],
-                "Team": "VisitingTeam",
-                "Narrative": "33 Mariia Fedoseeva LAYUP GOOD (10 Pt)",
-                "Context": "",
-                "Id": "576+33D78391",
-                "Type": "LAYUP",
                 "Action": "GOOD",
-                "Period": 4,
-                "ClockSeconds": 41,
+                "Period": 3,
+                "ClockSeconds": 389,
                 "Coordinate": null,
                 "Score": {
-                    "HomeTeam": 107,
-                    "VisitingTeam": 41
+                    "HomeTeam": 70,
+                    "VisitingTeam": 16
                 }
             }
         ]
@@ -203,13 +295,13 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Sarah",
-                        "LastName": "Williams",
-                        "UniformNumber": "21",
+                        "FirstName": "EK",
+                        "LastName": "Walraven",
+                        "UniformNumber": "14",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "14"
+                    "Value": "5"
                 },
                 {
                     "Player": {
@@ -220,29 +312,29 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "10"
+                    "Value": "5"
                 },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "EK",
-                        "LastName": "Walraven",
-                        "UniformNumber": "14",
+                        "FirstName": "Sarah",
+                        "LastName": "Williams",
+                        "UniformNumber": "21",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "7"
+                    "Value": "3"
                 },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Se'Nai",
-                        "LastName": "Camper",
-                        "UniformNumber": "23",
+                        "FirstName": "Kara",
+                        "LastName": "Connor",
+                        "UniformNumber": "10",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
+                    "Value": "2"
                 }
             ],
             "Rebounds": [
@@ -255,17 +347,6 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "EK",
-                        "LastName": "Walraven",
-                        "UniformNumber": "14",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
                     "Value": "3"
                 },
                 {
@@ -282,13 +363,24 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Katie",
-                        "LastName": "Alexander",
-                        "UniformNumber": "24",
+                        "FirstName": "EK",
+                        "LastName": "Walraven",
+                        "UniformNumber": "14",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "3"
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Sarah",
+                        "LastName": "Williams",
+                        "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
                 }
             ],
             "Assists": [
@@ -301,28 +393,6 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "2"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Ayanna",
-                        "LastName": "Varela",
-                        "UniformNumber": "11",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "1"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "EK",
-                        "LastName": "Walraven",
-                        "UniformNumber": "14",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
                     "Value": "1"
                 },
                 {
@@ -331,6 +401,17 @@
                         "FirstName": "Sarah",
                         "LastName": "Williams",
                         "UniformNumber": "21",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "1"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Se'Nai",
+                        "LastName": "Camper",
+                        "UniformNumber": "23",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -365,17 +446,6 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Se'Nai",
-                        "LastName": "Camper",
-                        "UniformNumber": "23",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "2"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
                         "FirstName": "Kara",
                         "LastName": "Connor",
                         "UniformNumber": "10",
@@ -387,9 +457,9 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Ayanna",
-                        "LastName": "Varela",
-                        "UniformNumber": "11",
+                        "FirstName": "Se'Nai",
+                        "LastName": "Camper",
+                        "UniformNumber": "23",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -406,7 +476,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "5"
+                    "Value": "3"
                 },
                 {
                     "Player": {
@@ -417,18 +487,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "4"
-                },
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Kara",
-                        "LastName": "Connor",
-                        "UniformNumber": "10",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "3"
+                    "Value": "2"
                 },
                 {
                     "Player": {
@@ -436,6 +495,17 @@
                         "FirstName": "Katie",
                         "LastName": "Alexander",
                         "UniformNumber": "24",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "2"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Mariia",
+                        "LastName": "Fedoseeva",
+                        "UniformNumber": "33",
                         "Photo": null,
                         "PersonId": ""
                     },
@@ -452,7 +522,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "9.0"
+                    "Value": "6.0"
                 },
                 {
                     "Player": {
@@ -463,7 +533,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "5.0"
+                    "Value": "4.0"
                 },
                 {
                     "Player": {
@@ -479,27 +549,16 @@
                 {
                     "Player": {
                         "Team": "VisitingTeam",
-                        "FirstName": "Ayanna",
-                        "LastName": "Varela",
-                        "UniformNumber": "11",
+                        "FirstName": "Nuria",
+                        "LastName": "Rubio",
+                        "UniformNumber": "02",
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "2.0"
+                    "Value": "-2.0"
                 }
             ],
             "Usage Percentage": [
-                {
-                    "Player": {
-                        "Team": "VisitingTeam",
-                        "FirstName": "Se'Nai",
-                        "LastName": "Camper",
-                        "UniformNumber": "23",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "34.69"
-                },
                 {
                     "Player": {
                         "Team": "VisitingTeam",
@@ -509,7 +568,18 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "34.10"
+                    "Value": "27.39"
+                },
+                {
+                    "Player": {
+                        "Team": "VisitingTeam",
+                        "FirstName": "Se'Nai",
+                        "LastName": "Camper",
+                        "UniformNumber": "23",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "25.65"
                 },
                 {
                     "Player": {
@@ -520,7 +590,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "31.60"
+                    "Value": "22.90"
                 },
                 {
                     "Player": {
@@ -531,7 +601,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "23.36"
+                    "Value": "17.97"
                 }
             ]
         },
@@ -643,6 +713,17 @@
                 {
                     "Player": {
                         "Team": "HomeTeam",
+                        "FirstName": "Jadyn",
+                        "LastName": "Atchison",
+                        "UniformNumber": "13",
+                        "Photo": null,
+                        "PersonId": ""
+                    },
+                    "Value": "4"
+                },
+                {
+                    "Player": {
+                        "Team": "HomeTeam",
                         "FirstName": "Raven",
                         "LastName": "Preston",
                         "UniformNumber": "05",
@@ -661,17 +742,6 @@
                         "PersonId": ""
                     },
                     "Value": "3"
-                },
-                {
-                    "Player": {
-                        "Team": "HomeTeam",
-                        "FirstName": "Joi",
-                        "LastName": "Williams",
-                        "UniformNumber": "04",
-                        "Photo": null,
-                        "PersonId": ""
-                    },
-                    "Value": "2"
                 }
             ],
             "Blocks": [
@@ -800,7 +870,7 @@
                         "Photo": null,
                         "PersonId": ""
                     },
-                    "Value": "24.0"
+                    "Value": "27.0"
                 },
                 {
                     "Player": {
@@ -1316,13 +1386,13 @@
                             "TotalRebounds": "5",
                             "OffensiveRebounds": "0",
                             "DefensiveRebounds": "5",
-                            "Assists": "1",
+                            "Assists": "4",
                             "Turnovers": "3",
                             "Blocks": "2",
                             "Steals": "6",
                             "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "24.0",
+                            "Efficiency": "27.0",
                             "UsagePercentage": "29.87",
                             "PointsPerMinute": ".941",
                             "Points": "16",
@@ -1473,10 +1543,10 @@
                     "PercentLead": "98.0%",
                     "LastLeadScore": "",
                     "LastLeadTime": "",
-                    "LargestLead": "69",
-                    "LargestLeadScores": "106-37",
-                    "LargestLeadTime": "2:11 (4th)",
-                    "Assists": "18",
+                    "LargestLead": "54",
+                    "LargestLeadScores": "70-16",
+                    "LargestLeadTime": "6:29 (3rd)",
+                    "Assists": "21",
                     "Turnovers": "13",
                     "PointsFromBench": "54",
                     "Blocks": "3",
@@ -1691,7 +1761,7 @@
                         "LargestLead": "48",
                         "LargestLeadScores": "62-14",
                         "LargestLeadTime": "0:21 (2nd)",
-                        "Assists": "5",
+                        "Assists": "7",
                         "Turnovers": "3",
                         "PointsFromBench": "17",
                         "Blocks": "1",
@@ -1795,10 +1865,10 @@
                         "PercentLead": "25.0%",
                         "LastLeadScore": "",
                         "LastLeadTime": "",
-                        "LargestLead": "61",
-                        "LargestLeadScores": "82-21",
-                        "LargestLeadTime": "2:04 (3rd)",
-                        "Assists": "5",
+                        "LargestLead": "54",
+                        "LargestLeadScores": "70-16",
+                        "LargestLeadTime": "6:29 (3rd)",
+                        "Assists": "6",
                         "Turnovers": "3",
                         "PointsFromBench": "12",
                         "Blocks": "2",
@@ -1898,13 +1968,13 @@
                         "DefensiveRebounds": "6",
                         "Ties": "0",
                         "Leads": "0",
-                        "TimeWithLead": "10:00",
-                        "PercentLead": "25.0%",
-                        "LastLeadScore": "",
-                        "LastLeadTime": "",
-                        "LargestLead": "69",
-                        "LargestLeadScores": "106-37",
-                        "LargestLeadTime": "2:11 (4th)",
+                        "TimeWithLead": "0:00",
+                        "PercentLead": "0.0%",
+                        "LastLeadScore": "-",
+                        "LastLeadTime": "-",
+                        "LargestLead": "0",
+                        "LargestLeadScores": "-",
+                        "LargestLeadTime": "-",
                         "Assists": "3",
                         "Turnovers": "4",
                         "PointsFromBench": "15",
@@ -1975,14 +2045,6 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Lauren",
-                    "LastName": "Belue",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Sarah",
                     "LastName": "Williams",
                     "UniformNumber": "21",
@@ -2015,25 +2077,9 @@
                 },
                 {
                     "Team": "VisitingTeam",
-                    "FirstName": "Amaya",
-                    "LastName": "Gallegos",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
                     "FirstName": "Kailah",
                     "LastName": "Crawford",
                     "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jayden",
-                    "LastName": "Belue",
-                    "UniformNumber": "45",
                     "Photo": null,
                     "PersonId": ""
                 }
@@ -2101,25 +2147,25 @@
                             "Name": "K. CONNOR",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "20",
+                            "Minutes": "17",
                             "Fgam": "1-3",
                             "ShootingPercentage": "33.3%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "4",
-                            "OffensiveRebounds": "2",
+                            "TotalRebounds": "3",
+                            "OffensiveRebounds": "1",
                             "DefensiveRebounds": "2",
-                            "Assists": "2",
-                            "Turnovers": "2",
+                            "Assists": "1",
+                            "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "1",
-                            "PersonalFouls": "3",
+                            "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "5.0",
-                            "UsagePercentage": "11.68",
-                            "PointsPerMinute": ".100",
+                            "Efficiency": "4.0",
+                            "UsagePercentage": "10.99",
+                            "PointsPerMinute": ".118",
                             "Points": "2",
                             "PersonId": ""
                         },
@@ -2128,25 +2174,25 @@
                             "Name": "A. VARELA",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "15",
+                            "Minutes": "11",
                             "Fgam": "1-1",
                             "ShootingPercentage": "100.0%",
                             "Tpam": "0-0",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-2",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "1",
+                            "TotalRebounds": "0",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "1",
-                            "Assists": "1",
-                            "Turnovers": "1",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "0",
                             "Blocks": "0",
-                            "Steals": "1",
-                            "PersonalFouls": "4",
+                            "Steals": "0",
+                            "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "2.0",
-                            "UsagePercentage": "8.97",
-                            "PointsPerMinute": ".133",
+                            "Efficiency": "0.0",
+                            "UsagePercentage": "7.99",
+                            "PointsPerMinute": ".182",
                             "Points": "2",
                             "PersonId": ""
                         },
@@ -2155,26 +2201,26 @@
                             "Name": "E. WALRAVEN",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "34",
-                            "Fgam": "3-3",
+                            "Minutes": "27",
+                            "Fgam": "2-2",
                             "ShootingPercentage": "100.0%",
                             "Tpam": "1-1",
                             "Tppercentage": "100.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "3",
+                            "TotalRebounds": "2",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "3",
-                            "Assists": "1",
-                            "Turnovers": "2",
+                            "DefensiveRebounds": "2",
+                            "Assists": "0",
+                            "Turnovers": "1",
                             "Blocks": "0",
                             "Steals": "0",
                             "PersonalFouls": "1",
                             "TechnicalFouls": "0",
-                            "Efficiency": "9.0",
-                            "UsagePercentage": "6.87",
-                            "PointsPerMinute": ".206",
-                            "Points": "7",
+                            "Efficiency": "6.0",
+                            "UsagePercentage": "5.19",
+                            "PointsPerMinute": ".185",
+                            "Points": "5",
                             "PersonId": ""
                         },
                         {
@@ -2182,26 +2228,26 @@
                             "Name": "S. WILLIAMS",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "37",
-                            "Fgam": "6-20",
-                            "ShootingPercentage": "30.0%",
-                            "Tpam": "2-7",
-                            "Tppercentage": "28.6%",
+                            "Minutes": "29",
+                            "Fgam": "1-12",
+                            "ShootingPercentage": "8.3%",
+                            "Tpam": "1-5",
+                            "Tppercentage": "20.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "2",
+                            "TotalRebounds": "1",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "2",
+                            "DefensiveRebounds": "1",
                             "Assists": "1",
-                            "Turnovers": "7",
+                            "Turnovers": "5",
                             "Blocks": "0",
                             "Steals": "0",
-                            "PersonalFouls": "1",
+                            "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-4.0",
-                            "UsagePercentage": "34.10",
-                            "PointsPerMinute": ".378",
-                            "Points": "14",
+                            "Efficiency": "-11.0",
+                            "UsagePercentage": "27.39",
+                            "PointsPerMinute": ".103",
+                            "Points": "3",
                             "PersonId": ""
                         },
                         {
@@ -2209,10 +2255,10 @@
                             "Name": "S. CAMPER",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "16",
-                            "Fgam": "2-10",
-                            "ShootingPercentage": "20.0%",
-                            "Tpam": "0-3",
+                            "Minutes": "18",
+                            "Fgam": "1-8",
+                            "ShootingPercentage": "12.5%",
+                            "Tpam": "0-2",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-2",
                             "Ftp": "0.0%",
@@ -2222,13 +2268,13 @@
                             "Assists": "1",
                             "Turnovers": "1",
                             "Blocks": "0",
-                            "Steals": "2",
-                            "PersonalFouls": "5",
+                            "Steals": "1",
+                            "PersonalFouls": "3",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-1.0",
-                            "UsagePercentage": "34.69",
-                            "PointsPerMinute": ".250",
-                            "Points": "4",
+                            "Efficiency": "-3.0",
+                            "UsagePercentage": "25.65",
+                            "PointsPerMinute": ".111",
+                            "Points": "2",
                             "PersonId": ""
                         },
                         {
@@ -2236,61 +2282,7 @@
                             "Name": "N. RUBIO",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "14",
-                            "Fgam": "0-1",
-                            "ShootingPercentage": "0.0%",
-                            "Tpam": "0-1",
-                            "Tppercentage": "0.0%",
-                            "Ftma": "0-0",
-                            "Ftp": "0.0%",
-                            "TotalRebounds": "0",
-                            "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "0",
-                            "Assists": "0",
-                            "Turnovers": "5",
-                            "Blocks": "0",
-                            "Steals": "0",
-                            "PersonalFouls": "0",
-                            "TechnicalFouls": "0",
-                            "Efficiency": "-6.0",
-                            "UsagePercentage": "20.03",
-                            "PointsPerMinute": ".000",
-                            "Points": "0",
-                            "PersonId": ""
-                        },
-                        {
-                            "Uni": "13",
-                            "Name": "M. HINTON",
-                            "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "11",
-                            "Fgam": "0-1",
-                            "ShootingPercentage": "0.0%",
-                            "Tpam": "0-1",
-                            "Tppercentage": "0.0%",
-                            "Ftma": "0-0",
-                            "Ftp": "0.0%",
-                            "TotalRebounds": "0",
-                            "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "0",
-                            "Assists": "0",
-                            "Turnovers": "1",
-                            "Blocks": "0",
-                            "Steals": "0",
-                            "PersonalFouls": "1",
-                            "TechnicalFouls": "0",
-                            "Efficiency": "-2.0",
-                            "UsagePercentage": "8.50",
-                            "PointsPerMinute": ".000",
-                            "Points": "0",
-                            "PersonId": ""
-                        },
-                        {
-                            "Uni": "20",
-                            "Name": "L. BELUE",
-                            "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "3",
+                            "Minutes": "12",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2301,12 +2293,39 @@
                             "OffensiveRebounds": "0",
                             "DefensiveRebounds": "0",
                             "Assists": "0",
-                            "Turnovers": "0",
+                            "Turnovers": "2",
                             "Blocks": "0",
                             "Steals": "0",
                             "PersonalFouls": "0",
                             "TechnicalFouls": "0",
-                            "Efficiency": "0.0",
+                            "Efficiency": "-2.0",
+                            "UsagePercentage": "7.79",
+                            "PointsPerMinute": ".000",
+                            "Points": "0",
+                            "PersonId": ""
+                        },
+                        {
+                            "Uni": "13",
+                            "Name": "M. HINTON",
+                            "Position": "",
+                            "CurrentlyInGame": "",
+                            "Minutes": "2",
+                            "Fgam": "0-1",
+                            "ShootingPercentage": "0.0%",
+                            "Tpam": "0-1",
+                            "Tppercentage": "0.0%",
+                            "Ftma": "0-0",
+                            "Ftp": "0.0%",
+                            "TotalRebounds": "0",
+                            "OffensiveRebounds": "0",
+                            "DefensiveRebounds": "0",
+                            "Assists": "0",
+                            "Turnovers": "1",
+                            "Blocks": "0",
+                            "Steals": "0",
+                            "PersonalFouls": "0",
+                            "TechnicalFouls": "0",
+                            "Efficiency": "-2.0",
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
@@ -2317,24 +2336,24 @@
                             "Name": "K. ALEXANDER",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "14",
+                            "Minutes": "13",
                             "Fgam": "0-3",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-1",
                             "Tppercentage": "0.0%",
                             "Ftma": "0-0",
                             "Ftp": "0.0%",
-                            "TotalRebounds": "3",
+                            "TotalRebounds": "1",
                             "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "3",
-                            "Assists": "1",
-                            "Turnovers": "4",
+                            "DefensiveRebounds": "1",
+                            "Assists": "0",
+                            "Turnovers": "2",
                             "Blocks": "1",
                             "Steals": "0",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
-                            "Efficiency": "-2.0",
-                            "UsagePercentage": "23.36",
+                            "Efficiency": "-3.0",
+                            "UsagePercentage": "17.97",
                             "PointsPerMinute": ".000",
                             "Points": "0",
                             "PersonId": ""
@@ -2344,53 +2363,26 @@
                             "Name": "M. FEDOSEEVA",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "22",
-                            "Fgam": "3-12",
-                            "ShootingPercentage": "25.0%",
-                            "Tpam": "2-7",
-                            "Tppercentage": "28.6%",
+                            "Minutes": "12",
+                            "Fgam": "1-5",
+                            "ShootingPercentage": "20.0%",
+                            "Tpam": "1-4",
+                            "Tppercentage": "25.0%",
                             "Ftma": "2-2",
                             "Ftp": "100.0%",
-                            "TotalRebounds": "3",
+                            "TotalRebounds": "1",
                             "OffensiveRebounds": "1",
-                            "DefensiveRebounds": "2",
+                            "DefensiveRebounds": "0",
                             "Assists": "0",
-                            "Turnovers": "2",
+                            "Turnovers": "0",
                             "Blocks": "1",
                             "Steals": "0",
                             "PersonalFouls": "2",
                             "TechnicalFouls": "0",
                             "Efficiency": "3.0",
-                            "UsagePercentage": "31.60",
-                            "PointsPerMinute": ".455",
-                            "Points": "10",
-                            "PersonId": ""
-                        },
-                        {
-                            "Uni": "34",
-                            "Name": "A. GALLEGOS",
-                            "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "4",
-                            "Fgam": "1-2",
-                            "ShootingPercentage": "50.0%",
-                            "Tpam": "0-0",
-                            "Tppercentage": "0.0%",
-                            "Ftma": "0-0",
-                            "Ftp": "0.0%",
-                            "TotalRebounds": "1",
-                            "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "1",
-                            "Assists": "0",
-                            "Turnovers": "0",
-                            "Blocks": "0",
-                            "Steals": "0",
-                            "PersonalFouls": "0",
-                            "TechnicalFouls": "0",
-                            "Efficiency": "2.0",
-                            "UsagePercentage": "-",
-                            "PointsPerMinute": "-",
-                            "Points": "2",
+                            "UsagePercentage": "22.90",
+                            "PointsPerMinute": ".417",
+                            "Points": "5",
                             "PersonId": ""
                         },
                         {
@@ -2398,7 +2390,7 @@
                             "Name": "K. CRAWFORD",
                             "Position": "",
                             "CurrentlyInGame": "",
-                            "Minutes": "5",
+                            "Minutes": "9",
                             "Fgam": "0-0",
                             "ShootingPercentage": "0.0%",
                             "Tpam": "0-0",
@@ -2418,33 +2410,6 @@
                             "UsagePercentage": "-",
                             "PointsPerMinute": "-",
                             "Points": "0",
-                            "PersonId": ""
-                        },
-                        {
-                            "Uni": "45",
-                            "Name": "J. BELUE",
-                            "Position": "",
-                            "CurrentlyInGame": "",
-                            "Minutes": "5",
-                            "Fgam": "1-1",
-                            "ShootingPercentage": "100.0%",
-                            "Tpam": "0-0",
-                            "Tppercentage": "0.0%",
-                            "Ftma": "0-0",
-                            "Ftp": "0.0%",
-                            "TotalRebounds": "0",
-                            "OffensiveRebounds": "0",
-                            "DefensiveRebounds": "0",
-                            "Assists": "0",
-                            "Turnovers": "1",
-                            "Blocks": "0",
-                            "Steals": "0",
-                            "PersonalFouls": "0",
-                            "TechnicalFouls": "0",
-                            "Efficiency": "1.0",
-                            "UsagePercentage": "-",
-                            "PointsPerMinute": "-",
-                            "Points": "2",
                             "PersonId": ""
                         }
                     ]
@@ -9129,3978 +9094,6 @@
             "ClockSeconds": 349,
             "Coordinate": null,
             "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper 3PTR MISS",
-            "Context": "",
-            "Id": "355+6BEF909",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 339,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure DEF. REBOUND (1 Reb, 1 Def)",
-            "Context": "",
-            "Id": "356+EFDDFBC4",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 336,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Daisia",
-                "LastName": "Mitchell",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "24 Daisia Mitchell 3PTR MISS",
-            "Context": "",
-            "Id": "357+F3BE0D0D",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 326,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride OFF. REBOUND (3 Reb, 1 Off)",
-            "Context": "",
-            "Id": "358+B47C1DA3",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 323,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper FOUL (4 PF)",
-            "Context": "",
-            "Id": "359+11AF5696",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 3,
-            "ClockSeconds": 314,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mariia",
-                    "LastName": "Fedoseeva",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper OUT; 33 Mariia Fedoseeva IN",
-            "Context": "",
-            "Id": "360+7B2C89CF",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 314,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FT GOOD (7 Pt)",
-            "Context": "",
-            "Id": "362+E0B4950A",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 314,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 73,
-                "VisitingTeam": 19
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FT GOOD (8 Pt)",
-            "Context": "",
-            "Id": "363+54E17F3C",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 314,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 74,
-                "VisitingTeam": 19
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jadyn",
-                    "LastName": "Atchison",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva JUMPER MISS; 13 Jadyn Atchison BLOCK (2 Blk)",
-            "Context": "",
-            "Id": "364+81528CCD",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 302,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison DEF. REBOUND (4 Reb, 4 Def)",
-            "Context": "",
-            "Id": "366+6BD54A7A",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 292,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride 3PTR MISS",
-            "Context": "",
-            "Id": "367+34935783",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 286,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva DEF. REBOUND (2 Reb, 1 Def)",
-            "Context": "",
-            "Id": "368+485239C0",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 281,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "369+69E32794",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 280,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Daisia",
-                "LastName": "Mitchell",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "24 Daisia Mitchell OUT; 23 Riley Stoker IN",
-            "Context": "",
-            "Id": "370+1FD954FF",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 264,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Riley",
-                "LastName": "Stoker",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "23 Riley Stoker LAYUP GOOD (2 Pt)",
-            "Context": "",
-            "Id": "372+CB94F900",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 261,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 76,
-                "VisitingTeam": 19
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams 3PTR MISS",
-            "Context": "",
-            "Id": "373+861DF35D",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 257,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure DEF. REBOUND (2 Reb, 2 Def)",
-            "Context": "",
-            "Id": "374+EC8F8477",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 251,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Addie",
-                "LastName": "Biel",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jaida",
-                    "LastName": "McClure",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Addie Biel LAYUP GOOD (4 Pt); 10 Jaida McClure Assist (2 Asst)",
-            "Context": "",
-            "Id": "375+66F7BC58",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 249,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 78,
-                "VisitingTeam": 19
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams TURNOVER (6 TO)",
-            "Context": "",
-            "Id": "377+125BEDD7",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 237,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure STEAL (1 Stl)",
-            "Context": "",
-            "Id": "378+A90FC59C",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 3,
-            "ClockSeconds": 237,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure LAYUP GOOD (2 Pt)",
-            "Context": "",
-            "Id": "379+8FE791C3",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 232,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 80,
-                "VisitingTeam": 19
-            }
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Montreat TIMEOUT 30 Sec. (1st TO, 1st 30)",
-            "Context": "",
-            "Id": "380+36E21E82",
-            "Type": "30SEC",
-            "Action": "TIMEOUT",
-            "Period": 3,
-            "ClockSeconds": 216,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
-            "Context": "",
-            "Id": "381+FE4EB4F0",
-            "Type": "MEDIA",
-            "Action": "TIMEOUT",
-            "Period": 3,
-            "ClockSeconds": 216,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Isa",
-                    "LastName": "Roman",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison OUT; 03 Isa Roman IN",
-            "Context": "",
-            "Id": "382+FF6ED910",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 216,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kailah",
-                    "LastName": "Crawford",
-                    "UniformNumber": "35",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kara",
-                    "LastName": "Connor",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Katie",
-                    "LastName": "Alexander",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva OUT; 35 Kailah Crawford OUT; 10 Kara Connor IN; 24 Katie Alexander IN",
-            "Context": "",
-            "Id": "384+73857F87",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 216,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Katie",
-                    "LastName": "Alexander",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams JUMPER GOOD (5 Pt); 24 Katie Alexander Assist (1 Asst)",
-            "Context": "",
-            "Id": "388+F42BFA10",
-            "Type": "JUMPER",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 207,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 80,
-                "VisitingTeam": 21
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride LAYUP MISS",
-            "Context": "",
-            "Id": "390+AF68FAC",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 188,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Katie",
-                "LastName": "Alexander",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "24 Katie Alexander DEF. REBOUND (2 Reb, 2 Def)",
-            "Context": "",
-            "Id": "391+3969BC96",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 184,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Katie",
-                "LastName": "Alexander",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "24 Katie Alexander TURNOVER (3 TO)",
-            "Context": "",
-            "Id": "392+412910C1",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 181,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure STEAL (2 Stl)",
-            "Context": "",
-            "Id": "393+3D950D64",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 3,
-            "ClockSeconds": 181,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride 3PTR MISS",
-            "Context": "",
-            "Id": "394+60A795E2",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 174,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Riley",
-                "LastName": "Stoker",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "23 Riley Stoker OFF. REBOUND (2 Reb, 1 Off)",
-            "Context": "",
-            "Id": "395+8B8F3EF6",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 169,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kara",
-                "LastName": "Connor",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Kara Connor FOUL (2 PF)",
-            "Context": "",
-            "Id": "396+D7AA4864",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
-            "Context": "",
-            "Id": "397+7F1536B0",
-            "Type": "MEDIA",
-            "Action": "TIMEOUT",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Riley",
-                "LastName": "Stoker",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jadyn",
-                    "LastName": "Atchison",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "23 Riley Stoker OUT; 13 Jadyn Atchison IN",
-            "Context": "",
-            "Id": "398+4E24A677",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Addie",
-                "LastName": "Biel",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "30 Addie Biel FT MISS",
-            "Context": "",
-            "Id": "400+7CA6747C",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "App State REBOUND",
-            "Context": "",
-            "Id": "401+71A1143C",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Addie",
-                "LastName": "Biel",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "30 Addie Biel FT MISS",
-            "Context": "",
-            "Id": "402+6304CDB6",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Katie",
-                "LastName": "Alexander",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "24 Katie Alexander DEF. REBOUND (3 Reb, 3 Def)",
-            "Context": "",
-            "Id": "403+7745F9E",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 168,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FOUL (2 PF)",
-            "Context": "",
-            "Id": "404+5967F21B",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 3,
-            "ClockSeconds": 161,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jadyn",
-                    "LastName": "Atchison",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Addie",
-                    "LastName": "Biel",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Raven",
-                    "LastName": "Preston",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Smith",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure OUT; 13 Jadyn Atchison OUT; 30 Addie Biel OUT; 05 Raven Preston IN; 11 Zoe Smith IN; 23 Riley Stoker IN",
-            "Context": "",
-            "Id": "405+EC2E86B9",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 161,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "EK",
-                "LastName": "Walraven",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mekiya",
-                    "LastName": "Hinton",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "14 EK Walraven OUT; 13 Mekiya Hinton IN",
-            "Context": "",
-            "Id": "411+DCD56E7F",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 161,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Nuria",
-                "LastName": "Rubio",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Nuria Rubio TURNOVER (3 TO)",
-            "Context": "",
-            "Id": "413+ADFA4418",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 151,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "414+361B9E3E",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 151,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kara",
-                "LastName": "Connor",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Ayanna",
-                    "LastName": "Varela",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Kara Connor OUT; 11 Ayanna Varela IN",
-            "Context": "",
-            "Id": "415+BC3DC191",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 144,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Katie",
-                "LastName": "Alexander",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "24 Katie Alexander TURNOVER (4 TO)",
-            "Context": "",
-            "Id": "417+27150070",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 138,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Katie",
-                "LastName": "Alexander",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Se'Nai",
-                    "LastName": "Camper",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "24 Katie Alexander OUT; 23 Se'Nai Camper IN",
-            "Context": "",
-            "Id": "418+F9DB1038",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 138,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Isa",
-                "LastName": "Roman",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jayden",
-                    "LastName": "McBride",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "03 Isa Roman LAYUP GOOD (5 Pt); 02 Jayden McBride Assist (1 Asst)",
-            "Context": "",
-            "Id": "420+CA25BB67",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 124,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 82,
-                "VisitingTeam": 21
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper LAYUP GOOD (4 Pt)",
-            "Context": "",
-            "Id": "422+F727BA7",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 106,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 82,
-                "VisitingTeam": 23
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Riley",
-                "LastName": "Stoker",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "23 Riley Stoker 3PTR MISS",
-            "Context": "",
-            "Id": "423+E2A094E7",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 85,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "App State REBOUND",
-            "Context": "",
-            "Id": "424+9169C460",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 81,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Nuria",
-                "LastName": "Rubio",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mariia",
-                    "LastName": "Fedoseeva",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Nuria Rubio OUT; 33 Mariia Fedoseeva IN",
-            "Context": "",
-            "Id": "425+DCEE41C2",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 80,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Isa",
-                "LastName": "Roman",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "03 Isa Roman 3PTR MISS",
-            "Context": "",
-            "Id": "427+C2A0D5DB",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 60,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Ayanna",
-                "LastName": "Varela",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Ayanna Varela DEF. REBOUND (1 Reb, 1 Def)",
-            "Context": "",
-            "Id": "428+3B5218AB",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 55,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams JUMPER GOOD (7 Pt)",
-            "Context": "",
-            "Id": "429+B7A7A012",
-            "Type": "JUMPER",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 49,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 82,
-                "VisitingTeam": 25
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Ayanna",
-                "LastName": "Varela",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Ayanna Varela FOUL (3 PF)",
-            "Context": "",
-            "Id": "430+DA845811",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 3,
-            "ClockSeconds": 36,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jaida",
-                    "LastName": "McClure",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston OUT; 10 Jaida McClure IN",
-            "Context": "",
-            "Id": "431+422DDE6C",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 36,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "EK",
-                    "LastName": "Walraven",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams OUT; 14 EK Walraven IN",
-            "Context": "",
-            "Id": "433+E77A1784",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 36,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "435+91F36B39",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 33,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Ayanna",
-                "LastName": "Varela",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Ayanna Varela STEAL (1 Stl)",
-            "Context": "",
-            "Id": "436+BFA863CA",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 3,
-            "ClockSeconds": 33,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Ayanna",
-                "LastName": "Varela",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Ayanna Varela TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "437+8B6606E6",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 28,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride STEAL (2 Stl)",
-            "Context": "",
-            "Id": "438+5DB9CD5A",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 3,
-            "ClockSeconds": 28,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Ayanna",
-                "LastName": "Varela",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Ayanna Varela FOUL (4 PF)",
-            "Context": "",
-            "Id": "439+9E58D310",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 3,
-            "ClockSeconds": 25,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride FT GOOD (14 Pt)",
-            "Context": "",
-            "Id": "440+F7F00E99",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 25,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 83,
-                "VisitingTeam": 25
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride FT GOOD (15 Pt)",
-            "Context": "",
-            "Id": "441+F04F0287",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 3,
-            "ClockSeconds": 25,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 84,
-                "VisitingTeam": 25
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Ayanna",
-                "LastName": "Varela",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jayden",
-                    "LastName": "Belue",
-                    "UniformNumber": "45",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "11 Ayanna Varela OUT; 45 Jayden Belue IN",
-            "Context": "",
-            "Id": "442+D5172023",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 3,
-            "ClockSeconds": 25,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "EK",
-                "LastName": "Walraven",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "14 EK Walraven TURNOVER (2 TO)",
-            "Context": "",
-            "Id": "444+C8AB6997",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 3,
-            "ClockSeconds": 17,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride JUMPER MISS",
-            "Context": "",
-            "Id": "445+8E8C163",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 3,
-            "ClockSeconds": 2,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Montreat REBOUND",
-            "Context": "",
-            "Id": "446+9BE4D69D",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 3,
-            "ClockSeconds": 2,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Isa",
-                    "LastName": "Roman",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jaida",
-                    "LastName": "McClure",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Smith",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Joi",
-                    "LastName": "Williams",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Raven",
-                    "LastName": "Preston",
-                    "UniformNumber": "05",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Torin",
-                    "LastName": "Rogers",
-                    "UniformNumber": "06",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Feryal Defne",
-                    "LastName": "Atli",
-                    "UniformNumber": "17",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Daisia",
-                    "LastName": "Mitchell",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride OUT; 03 Isa Roman OUT; 10 Jaida McClure OUT; 11 Zoe Smith OUT; 23 Riley Stoker OUT; 04 Joi Williams IN; 05 Raven Preston IN; 06 Torin Rogers IN; 17 Feryal Defne Atli IN; 24 Daisia Mitchell IN",
-            "Context": "",
-            "Id": "447+326E7D50",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 600,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Feryal Defne",
-                "LastName": "Atli",
-                "UniformNumber": "17",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "17 Feryal Defne Atli TURNOVER (3 TO)",
-            "Context": "",
-            "Id": "457+4AD89FEB",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 590,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper STEAL (2 Stl)",
-            "Context": "",
-            "Id": "458+1DFA9260",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 590,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jayden",
-                "LastName": "Belue",
-                "UniformNumber": "45",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "45 Jayden Belue TURNOVER (1 TO)",
-            "Context": "",
-            "Id": "459+E1544AEB",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 582,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston JUMPER MISS",
-            "Context": "",
-            "Id": "460+BAA9C80A",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 580,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "EK",
-                "LastName": "Walraven",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "14 EK Walraven DEF. REBOUND (3 Reb, 3 Def)",
-            "Context": "",
-            "Id": "461+D04C48A3",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 575,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva JUMPER MISS",
-            "Context": "",
-            "Id": "462+DE61F6C4",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 549,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston DEF. REBOUND (4 Reb, 4 Def)",
-            "Context": "",
-            "Id": "463+82FB30A5",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 546,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Torin",
-                "LastName": "Rogers",
-                "UniformNumber": "06",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "06 Torin Rogers JUMPER MISS",
-            "Context": "",
-            "Id": "464+C6B9B783",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 533,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston OFF. REBOUND (5 Reb, 1 Off)",
-            "Context": "",
-            "Id": "465+FBEF8493",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 530,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper FOUL (5 PF)",
-            "Context": "",
-            "Id": "466+B72FA694",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 525,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Se'Nai",
-                "LastName": "Camper",
-                "UniformNumber": "23",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Sarah",
-                    "LastName": "Williams",
-                    "UniformNumber": "21",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "23 Se'Nai Camper OUT; 21 Sarah Williams IN",
-            "Context": "",
-            "Id": "467+ACC0051",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 517,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston FT GOOD (7 Pt)",
-            "Context": "",
-            "Id": "469+D3C5E978",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 517,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 85,
-                "VisitingTeam": 25
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston FT GOOD (8 Pt)",
-            "Context": "",
-            "Id": "470+C6ED95A8",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 517,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 86,
-                "VisitingTeam": 25
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "EK",
-                "LastName": "Walraven",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "14 EK Walraven LAYUP GOOD (7 Pt)",
-            "Context": "",
-            "Id": "471+24469749",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 496,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 86,
-                "VisitingTeam": 27
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Daisia",
-                "LastName": "Mitchell",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "24 Daisia Mitchell LAYUP GOOD (10 Pt)",
-            "Context": "",
-            "Id": "472+45246339",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 481,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 88,
-                "VisitingTeam": 27
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Raven",
-                "LastName": "Preston",
-                "UniformNumber": "05",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jadyn",
-                    "LastName": "Atchison",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Joi",
-                    "LastName": "Williams",
-                    "UniformNumber": "04",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jaida",
-                    "LastName": "McClure",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "05 Raven Preston OUT; 13 Jadyn Atchison IN; 04 Joi Williams OUT; 10 Jaida McClure IN",
-            "Context": "",
-            "Id": "473+259D6CF9",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 466,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mekiya",
-                "LastName": "Hinton",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jayden",
-                    "LastName": "Belue",
-                    "UniformNumber": "45",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kara",
-                    "LastName": "Connor",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Lauren",
-                    "LastName": "Belue",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Mekiya Hinton OUT; 45 Jayden Belue OUT; 10 Kara Connor IN; 20 Lauren Belue IN",
-            "Context": "",
-            "Id": "475+44CB150B",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 466,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "EK",
-                    "LastName": "Walraven",
-                    "UniformNumber": "14",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams 3PTR GOOD (10 Pt); 14 EK Walraven Assist (1 Asst)",
-            "Context": "",
-            "Id": "481+68E6F35A",
-            "Type": "3PTR",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 452,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 88,
-                "VisitingTeam": 30
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Daisia",
-                "LastName": "Mitchell",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "24 Daisia Mitchell LAYUP GOOD (12 Pt)",
-            "Context": "",
-            "Id": "483+E79DFAE0",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 441,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 90,
-                "VisitingTeam": 30
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Daisia",
-                "LastName": "Mitchell",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "24 Daisia Mitchell FOUL (1 PF)",
-            "Context": "",
-            "Id": "484+BB8B64AF",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 427,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "EK",
-                "LastName": "Walraven",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Nuria",
-                    "LastName": "Rubio",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "14 EK Walraven OUT; 02 Nuria Rubio IN",
-            "Context": "",
-            "Id": "485+37B0A426",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 427,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kara",
-                "LastName": "Connor",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Kara Connor TURNOVER (2 TO)",
-            "Context": "",
-            "Id": "487+CD3D227B",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 423,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison STEAL (3 Stl)",
-            "Context": "",
-            "Id": "488+86D8985B",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 423,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison TURNOVER (2 TO)",
-            "Context": "",
-            "Id": "489+24F1337",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 423,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Nuria",
-                "LastName": "Rubio",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Nuria Rubio TURNOVER (4 TO)",
-            "Context": "",
-            "Id": "490+D9A080D0",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 418,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison STEAL (4 Stl)",
-            "Context": "",
-            "Id": "491+12AF8546",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 418,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Daisia",
-                "LastName": "Mitchell",
-                "UniformNumber": "24",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jadyn",
-                    "LastName": "Atchison",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "24 Daisia Mitchell LAYUP GOOD (14 Pt); 13 Jadyn Atchison Assist (1 Asst)",
-            "Context": "",
-            "Id": "492+F2797104",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 414,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 92,
-                "VisitingTeam": 30
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kara",
-                    "LastName": "Connor",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva 3PTR GOOD (8 Pt); 10 Kara Connor Assist (2 Asst)",
-            "Context": "",
-            "Id": "494+B0A24E41",
-            "Type": "3PTR",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 401,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 92,
-                "VisitingTeam": 33
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Torin",
-                "LastName": "Rogers",
-                "UniformNumber": "06",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Daisia",
-                    "LastName": "Mitchell",
-                    "UniformNumber": "24",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Addie",
-                    "LastName": "Biel",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "06 Torin Rogers OUT; 24 Daisia Mitchell OUT; 23 Riley Stoker IN; 30 Addie Biel IN",
-            "Context": "",
-            "Id": "496+822D9CF",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 384,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Lauren",
-                "LastName": "Belue",
-                "UniformNumber": "20",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mariia",
-                    "LastName": "Fedoseeva",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Ayanna",
-                    "LastName": "Varela",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Amaya",
-                    "LastName": "Gallegos",
-                    "UniformNumber": "34",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "20 Lauren Belue OUT; 33 Mariia Fedoseeva OUT; 11 Ayanna Varela IN; 34 Amaya Gallegos IN",
-            "Context": "",
-            "Id": "500+4626E59E",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 384,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FOUL (3 PF)",
-            "Context": "",
-            "Id": "504+B5CC1C52",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 376,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison TURNOVER (3 TO)",
-            "Context": "",
-            "Id": "505+DBCFBCC9",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 376,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams JUMPER MISS",
-            "Context": "",
-            "Id": "506+10053366",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 358,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure DEF. REBOUND (3 Reb, 3 Def)",
-            "Context": "",
-            "Id": "507+141C7B9E",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 354,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Addie",
-                "LastName": "Biel",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Addie Biel LAYUP GOOD (6 Pt); 23 Riley Stoker Assist (1 Asst)",
-            "Context": "",
-            "Id": "508+FC00D1A4",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 343,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 94,
-                "VisitingTeam": 33
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Nuria",
-                "LastName": "Rubio",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Nuria Rubio TURNOVER (5 TO)",
-            "Context": "",
-            "Id": "510+E43EAE06",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 327,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison STEAL (5 Stl)",
-            "Context": "",
-            "Id": "511+C2B6ECAA",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 327,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison LAYUP GOOD (10 Pt)",
-            "Context": "",
-            "Id": "512+18756730",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 316,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 96,
-                "VisitingTeam": 33
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Ayanna",
-                    "LastName": "Varela",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams JUMPER GOOD (12 Pt); 11 Ayanna Varela Assist (1 Asst)",
-            "Context": "",
-            "Id": "513+D403BC99",
-            "Type": "JUMPER",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 301,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 96,
-                "VisitingTeam": 35
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Feryal Defne",
-                "LastName": "Atli",
-                "UniformNumber": "17",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "17 Feryal Defne Atli LAYUP MISS",
-            "Context": "",
-            "Id": "515+966AC16F",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 287,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams DEF. REBOUND (2 Reb, 2 Def)",
-            "Context": "",
-            "Id": "516+2693F4CF",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 283,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Amaya",
-                "LastName": "Gallegos",
-                "UniformNumber": "34",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "34 Amaya Gallegos LAYUP MISS",
-            "Context": "",
-            "Id": "517+D12AEFB6",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 273,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison DEF. REBOUND (5 Reb, 5 Def)",
-            "Context": "",
-            "Id": "518+1A893D9D",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 270,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Feryal Defne",
-                "LastName": "Atli",
-                "UniformNumber": "17",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "17 Feryal Defne Atli LAYUP MISS",
-            "Context": "",
-            "Id": "519+99AA1361",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 261,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Amaya",
-                "LastName": "Gallegos",
-                "UniformNumber": "34",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "34 Amaya Gallegos DEF. REBOUND (1 Reb, 1 Def)",
-            "Context": "",
-            "Id": "520+EF9EA969",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 257,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Nuria",
-                "LastName": "Rubio",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Nuria Rubio 3PTR MISS",
-            "Context": "",
-            "Id": "521+5C59A88D",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 252,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kara",
-                "LastName": "Connor",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Kara Connor OFF. REBOUND (4 Reb, 2 Off)",
-            "Context": "",
-            "Id": "522+8303C5E5",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 248,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Amaya",
-                "LastName": "Gallegos",
-                "UniformNumber": "34",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "34 Amaya Gallegos LAYUP GOOD (2 Pt)",
-            "Context": "",
-            "Id": "523+63BE71A9",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 244,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 96,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "App State TIMEOUT Full (1st TO, 1st Full)",
-            "Context": "",
-            "Id": "524+79F0DD6C",
-            "Type": "TEAM",
-            "Action": "TIMEOUT",
-            "Period": 4,
-            "ClockSeconds": 242,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Media Timeout",
-            "Context": "",
-            "Id": "525+73031949",
-            "Type": "MEDIA",
-            "Action": "TIMEOUT",
-            "Period": 4,
-            "ClockSeconds": 242,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Feryal Defne",
-                "LastName": "Atli",
-                "UniformNumber": "17",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jayden",
-                    "LastName": "McBride",
-                    "UniformNumber": "02",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Isa",
-                    "LastName": "Roman",
-                    "UniformNumber": "03",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "17 Feryal Defne Atli OUT; 23 Riley Stoker OUT; 02 Jayden McBride IN; 03 Isa Roman IN",
-            "Context": "",
-            "Id": "526+44372865",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 242,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Nuria",
-                "LastName": "Rubio",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Ayanna",
-                    "LastName": "Varela",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mekiya",
-                    "LastName": "Hinton",
-                    "UniformNumber": "13",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Mariia",
-                    "LastName": "Fedoseeva",
-                    "UniformNumber": "33",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "02 Nuria Rubio OUT; 11 Ayanna Varela OUT; 13 Mekiya Hinton IN; 33 Mariia Fedoseeva IN",
-            "Context": "",
-            "Id": "530+808F0AD2",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 242,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride 3PTR MISS",
-            "Context": "",
-            "Id": "534+AABA12B",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 232,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Montreat REBOUND",
-            "Context": "",
-            "Id": "535+48D41AD7",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 230,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva 3PTR MISS",
-            "Context": "",
-            "Id": "536+54EA9A19",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 220,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Addie",
-                "LastName": "Biel",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "30 Addie Biel DEF. REBOUND (5 Reb, 3 Def)",
-            "Context": "",
-            "Id": "537+170DBF60",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 217,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kara",
-                "LastName": "Connor",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Kara Connor FOUL (3 PF)",
-            "Context": "",
-            "Id": "538+550BCFF2",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 212,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "EK",
-                "LastName": "Walraven",
-                "UniformNumber": "14",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Kara",
-                    "LastName": "Connor",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "14 EK Walraven OUT; 10 Kara Connor IN",
-            "Context": "",
-            "Id": "539+CE858FC8",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 212,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FT GOOD (11 Pt)",
-            "Context": "",
-            "Id": "541+6997D067",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 212,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 97,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FT MISS",
-            "Context": "",
-            "Id": "542+FE69E70E",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 212,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride OFF. REBOUND (4 Reb, 2 Off)",
-            "Context": "",
-            "Id": "543+F01133C4",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 212,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Addie",
-                "LastName": "Biel",
-                "UniformNumber": "30",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Jaida",
-                    "LastName": "McClure",
-                    "UniformNumber": "10",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "30 Addie Biel LAYUP GOOD (8 Pt); 10 Jaida McClure Assist (3 Asst)",
-            "Context": "",
-            "Id": "544+19A03A63",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 207,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 99,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams TURNOVER (7 TO)",
-            "Context": "",
-            "Id": "546+217D18BC",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 195,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison STEAL (6 Stl)",
-            "Context": "",
-            "Id": "547+2F0D4ED9",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 195,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison LAYUP GOOD (13 Pt)",
-            "Context": "",
-            "Id": "548+53A28E0C",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 189,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 101,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams JUMPER MISS",
-            "Context": "",
-            "Id": "549+D3EED70",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 179,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "Montreat REBOUND",
-            "Context": "",
-            "Id": "550+8AC32B3F",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 179,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva TURNOVER (2 TO)",
-            "Context": "",
-            "Id": "551+6F5C3799",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 177,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure STEAL (3 Stl)",
-            "Context": "",
-            "Id": "552+A4744A57",
-            "Type": "STEAL",
-            "Action": "STEAL",
-            "Period": 4,
-            "ClockSeconds": 177,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison LAYUP GOOD (15 Pt)",
-            "Context": "",
-            "Id": "553+32D0CE39",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 171,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 103,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mekiya",
-                "LastName": "Hinton",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "13 Mekiya Hinton FOUL (1 PF)",
-            "Context": "",
-            "Id": "554+51640178",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 165,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison FT GOOD (16 Pt)",
-            "Context": "",
-            "Id": "555+BC672391",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 165,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 104,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jadyn",
-                "LastName": "Atchison",
-                "UniformNumber": "13",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Addie",
-                    "LastName": "Biel",
-                    "UniformNumber": "30",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Zoe",
-                    "LastName": "Smith",
-                    "UniformNumber": "11",
-                    "Photo": null,
-                    "PersonId": ""
-                },
-                {
-                    "Team": "HomeTeam",
-                    "FirstName": "Riley",
-                    "LastName": "Stoker",
-                    "UniformNumber": "23",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "HomeTeam",
-            "Narrative": "13 Jadyn Atchison OUT; 30 Addie Biel OUT; 11 Zoe Smith IN; 23 Riley Stoker IN",
-            "Context": "",
-            "Id": "556+93953151",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 165,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Amaya",
-                "LastName": "Gallegos",
-                "UniformNumber": "34",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Jayden",
-                    "LastName": "Belue",
-                    "UniformNumber": "45",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "34 Amaya Gallegos OUT; 45 Jayden Belue IN",
-            "Context": "",
-            "Id": "560+357ABCCF",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 165,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva LAYUP MISS",
-            "Context": "",
-            "Id": "562+1EDEB72F",
-            "Type": "LAYUP",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 140,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jayden",
-                "LastName": "McBride",
-                "UniformNumber": "02",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "02 Jayden McBride DEF. REBOUND (5 Reb, 3 Def)",
-            "Context": "",
-            "Id": "563+C033C30D",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 135,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Zoe",
-                "LastName": "Smith",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Zoe Smith LAYUP GOOD (5 Pt)",
-            "Context": "",
-            "Id": "564+F8F93A9B",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 131,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 106,
-                "VisitingTeam": 37
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva 3PTR MISS",
-            "Context": "",
-            "Id": "565+D75C377E",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 114,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Zoe",
-                "LastName": "Smith",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Zoe Smith DEF. REBOUND (1 Reb, 1 Def)",
-            "Context": "",
-            "Id": "566+5846CE30",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 111,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Zoe",
-                "LastName": "Smith",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Zoe Smith JUMPER MISS",
-            "Context": "",
-            "Id": "567+6477BF10",
-            "Type": "JUMPER",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 102,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva DEF. REBOUND (3 Reb, 2 Def)",
-            "Context": "",
-            "Id": "568+37620C9",
-            "Type": "DEF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 97,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Kara",
-                "LastName": "Connor",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [
-                {
-                    "Team": "VisitingTeam",
-                    "FirstName": "Lauren",
-                    "LastName": "Belue",
-                    "UniformNumber": "20",
-                    "Photo": null,
-                    "PersonId": ""
-                }
-            ],
-            "Team": "VisitingTeam",
-            "Narrative": "10 Kara Connor OUT; 20 Lauren Belue IN",
-            "Context": "",
-            "Id": "569+623CC134",
-            "Type": "SUBS",
-            "Action": "SUBS",
-            "Period": 4,
-            "ClockSeconds": 87,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Jayden",
-                "LastName": "Belue",
-                "UniformNumber": "45",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "45 Jayden Belue JUMPER GOOD (2 Pt)",
-            "Context": "",
-            "Id": "571+D478D7FF",
-            "Type": "JUMPER",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 75,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 106,
-                "VisitingTeam": 39
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams FOUL (1 PF)",
-            "Context": "",
-            "Id": "572+AF495FB2",
-            "Type": "FOUL",
-            "Action": "FOUL",
-            "Period": 4,
-            "ClockSeconds": 61,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Isa",
-                "LastName": "Roman",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "03 Isa Roman FT MISS",
-            "Context": "",
-            "Id": "573+4803C0E8",
-            "Type": "FT",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 61,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": null,
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "App State REBOUND",
-            "Context": "",
-            "Id": "574+D4E42959",
-            "Type": "DEADB",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 61,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Isa",
-                "LastName": "Roman",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "03 Isa Roman FT GOOD (6 Pt)",
-            "Context": "",
-            "Id": "575+C32E9712",
-            "Type": "FT",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 61,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 107,
-                "VisitingTeam": 39
-            }
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Mariia",
-                "LastName": "Fedoseeva",
-                "UniformNumber": "33",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "33 Mariia Fedoseeva LAYUP GOOD (10 Pt)",
-            "Context": "",
-            "Id": "576+33D78391",
-            "Type": "LAYUP",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 41,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 107,
-                "VisitingTeam": 41
-            }
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Isa",
-                "LastName": "Roman",
-                "UniformNumber": "03",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "03 Isa Roman 3PTR MISS",
-            "Context": "",
-            "Id": "577+6726EE84",
-            "Type": "3PTR",
-            "Action": "MISS",
-            "Period": 4,
-            "ClockSeconds": 18,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Zoe",
-                "LastName": "Smith",
-                "UniformNumber": "11",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "11 Zoe Smith OFF. REBOUND (2 Reb, 1 Off)",
-            "Context": "",
-            "Id": "578+DEC65D86",
-            "Type": "OFF",
-            "Action": "REBOUND",
-            "Period": 4,
-            "ClockSeconds": 14,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "HomeTeam",
-                "FirstName": "Jaida",
-                "LastName": "McClure",
-                "UniformNumber": "10",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "HomeTeam",
-            "Narrative": "10 Jaida McClure TURNOVER (2 TO)",
-            "Context": "",
-            "Id": "579+CDD6575F",
-            "Type": "TURNOVER",
-            "Action": "TURNOVER",
-            "Period": 4,
-            "ClockSeconds": 11,
-            "Coordinate": null,
-            "Score": null
-        },
-        {
-            "Player": {
-                "Team": "VisitingTeam",
-                "FirstName": "Sarah",
-                "LastName": "Williams",
-                "UniformNumber": "21",
-                "Photo": null,
-                "PersonId": ""
-            },
-            "InvolvedPlayers": [],
-            "Team": "VisitingTeam",
-            "Narrative": "21 Sarah Williams JUMPER GOOD (14 Pt)",
-            "Context": "",
-            "Id": "580+FD0D41B6",
-            "Type": "JUMPER",
-            "Action": "GOOD",
-            "Period": 4,
-            "ClockSeconds": 3,
-            "Coordinate": null,
-            "Score": {
-                "HomeTeam": 107,
-                "VisitingTeam": 43
-            }
         }
     ]
 }

@@ -217,23 +217,35 @@ def parse_game(path, home_id, manifest_by_id, resolver):
 
 
 def dedupe_records(records):
-    """The same real game can appear multiple times: feeds sometimes re-key a
-    game (different id, identical content, e.g. 16617 vs 17101 for one WPI
-    game), and a game can be filed under either team's folder. Note that
-    equal game ids across folders are NOT duplicates — ids are only unique
-    per livestats client. Merge records with identical matchup/date/scores
-    and venue, keeping the first (the one whose box page / links we ship).
+    """The same real game can appear multiple times: a feed sometimes re-keys a
+    game (different id, identical content), and a game can be filed in either
+    team's folder with small capture differences. Note that equal game ids
+    across folders are NOT duplicates — ids are only unique per livestats
+    client. The merge key is therefore matchup + date + final scores only;
+    anything stricter misses real copies (feeds even disagree on attendance
+    for the same game: 1065 vs 10665 for one NKU/Kent State game). The kept
+    record is the most complete one, with missing fields filled from the
+    other copies.
     """
     groups = defaultdict(list)
     for r in records:
-        groups[(r["d8"], r["h"], r["v"], r["hs"], r["vs"],
-                r.get("loc"), r.get("at"), tuple(r.get("hp") or ()),
-                tuple(r.get("vp") or ()))].append(r)
+        groups[(r["d8"], r["h"], r["v"], r["hs"], r["vs"])].append(r)
     out, merged = [], 0
+
+    def richness(r):
+        return (bool(r["done"]), bool(r.get("loc")), bool(r.get("at")),
+                len(r.get("hp") or []), r["id"])
+
     for rs in groups.values():
         if len(rs) > 1:
             merged += len(rs) - 1
-        out.append(rs[0])
+            rs = sorted(rs, key=richness, reverse=True)
+        kept = dict(rs[0])
+        for other in rs[1:]:          # fill gaps from the copies we drop
+            for field in ("loc", "at", "hp", "vp", "t", "hn", "vn"):
+                if kept.get(field) in (None, "") and other.get(field) not in (None, ""):
+                    kept[field] = other[field]
+        out.append(kept)
     out.sort(key=lambda r: (r["d8"] or "", r["id"]))
     return out, merged
 

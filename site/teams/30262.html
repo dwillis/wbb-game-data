@@ -13,11 +13,19 @@ th{color:var(--mut);font-weight:600}td.n,th.n{text-align:right}
 .mut{color:var(--mut)}.win{font-weight:700}
 .sel{padding:.35rem .5rem;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--fg);margin-bottom:.8rem}
 nav{margin:.6rem 0 1.1rem}nav a{margin-right:.9rem}
+.exh{display:inline-block;font-size:.7rem;line-height:1.3;padding:.1rem .4rem;border-radius:9px;vertical-align:1px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}
 </style></head><body><main><h1>Jessup</h1><p class="mut">Division II — PacWest</p><nav><a href="../index.html">Home</a> <a href="../d1.html">D-I</a> <a href="../d2.html">D-II</a> <a href="../d3.html">D-III</a> <a href="../x.html">Other</a> <a href="../dates.html">Dates</a> <a href="../leaders.html">Leaders</a></nav><select class=sel id=season><option selected>2026-27</option><option>2025-26</option><option>2024-25</option><option>2023-24</option><option>2022-23</option><option>2021-22</option><option>2019-20</option><option>2018-19</option><option>2017-18</option><option>2016-17</option><option>2015-16</option><option>2014-15</option><option>2013-14</option><option>2012-13</option><option>2011-12</option><option>2005-06</option></select><table id=tbl style="display:none"></table><div id=load class=mut>Loading…</div><script>const TEAM_ID = 30262;
 const BOX_SEASONS = ["2026-27", "2025-26"];
 const CUR_TEAM_SEASON = "2026-27";
 const RAWJSON = "https://raw.githubusercontent.com/dwillis/wbb-game-data/main/";
 
+function isExh(map, g) {
+  const dh = (map[g.h] || {}).division, dv = (map[g.v] || {}).division;
+  const ok = [];
+  if (dh === 'I' || dh === 'II' || dh === 'III') ok.push(dh);
+  if (dv === 'I' || dv === 'II' || dv === 'III') ok.push(dv);
+  return ok.length < 2 || ok[0] !== ok[1];
+}
 const TEAM_ID_TEAMS = {};
 let GAMES = null, TEAMS_READY = false;
 const sel = document.getElementById('season'), tbl = document.getElementById('tbl'), ld = document.getElementById('load');
@@ -60,7 +68,8 @@ async function redraw() {
     tr.innerHTML = '<td>' + g.d8 + '</td><td>'
       + (opp != null ? '<a href="' + opp + '.html">' + oname + '</a>' : oname)
       + '</td><td>' + (home ? 'H' : 'A') + '</td><td class=n>'
-      + (home ? g.hs + '–' + g.vs : g.vs + '–' + g.hs) + '</td><td>' + result + '</td>'
+      + (home ? g.hs + '–' + g.vs : g.vs + '–' + g.hs) + '</td><td>' + result
+      + (isExh(TEAM_ID_TEAMS, g) ? ' <span class=exh>exhib.</span>' : '') + '</td>'
       + '<td>' + (g.loc || '') + '</td><td class=n>' + (g.at || '') + '</td>'
       + '<td><a href="' + link + '"' + (hasBox ? '' : ' target=_blank') + '>'
       + (hasBox ? 'box' : 'raw') + '</a></td>';

@@ -48,6 +48,7 @@ th{color:var(--mut);font-weight:600}td.n,th.n{text-align:right}
 .mut{color:var(--mut)}.win{font-weight:700}
 .sel{padding:.35rem .5rem;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--fg);margin-bottom:.8rem}
 nav{margin:.6rem 0 1.1rem}nav a{margin-right:.9rem}
+.exh{display:inline-block;font-size:.7rem;line-height:1.3;padding:.1rem .4rem;border-radius:9px;vertical-align:1px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}
 """
 
 BOX_COLS = ["Minutes", "Fgam", "Tpam", "Ftma", "TotalRebounds", "Assists",
@@ -64,6 +65,28 @@ def esc(v):
     if v is None or v == "":
         return ""
     return html.escape(str(v))
+
+
+def is_exhibition(rec, manifest):
+    """Cross-division matchup or a side not in the NCAA manifest. The payloads
+    carry no exhibition flag (Rules/Context are inconsistent), so this is the
+    reliable part of the picture: D1-vs-D2/D3/NAIA games never count. D1-vs-D1
+    charity exhibitions are not detectable automatically."""
+    divs = []
+    for tid in (rec["h"], rec["v"]):
+        divs.append(manifest[tid].get("division") if tid in manifest else None)
+    known = [d for d in divs if d in ("I", "II", "III")]
+    return len(known) < 2 or len(set(known)) > 1
+
+
+EXHIB_JS = """
+function isExh(map, g) {
+  const dh = (map[g.h] || {}).division, dv = (map[g.v] || {}).division;
+  const ok = [];
+  if (dh === 'I' || dh === 'II' || dh === 'III') ok.push(dh);
+  if (dv === 'I' || dv === 'II' || dv === 'III') ok.push(dv);
+  return ok.length < 2 || ok[0] !== ok[1];
+}"""
 
 
 def page(title, body, nav_html=None):
@@ -123,12 +146,13 @@ def build_home(manifest, seasons, current):
         v = tname(manifest, g, g["v"], "vn")
         h = tname(manifest, g, g["h"], "hnm")
         parts.append(
-            '<div class="card"><span class="mut">{}</span> · <a href="teams/{}.html">{}</a> '
-            '<b>{}–{}</b> <a href="teams/{}.html">{}</a> <span class="mut">· {} · '
-            '<a href="games/{}/{}.html">box</a></span></div>'.format(
-                esc(g["d8"]), esc(g["v"]), esc(v), esc(g["vs"]), esc(g["hs"]),
-                esc(g["h"]), esc(h), dict((s, l) for s, l in SHARDS)[shard],
-                esc(g["s"]), esc(g["id"])))
+            '<div class="card">{exh}<span class="mut">{date}</span> · <a href="teams/{v}.html">{vname}</a> '
+            '<b>{vs}–{hs}</b> <a href="teams/{h}.html">{hname}</a> <span class="mut">· {shard} · '
+            '<a href="games/{s}/{id}.html">box</a></span></div>'.format(
+                exh='<span class="exh">exhibition</span> ' if is_exhibition(g, manifest) else "",
+                date=esc(g["d8"]), v=esc(g["v"]), vname=esc(v), vs=esc(g["vs"]), hs=esc(g["hs"]),
+                h=esc(g["h"]), hname=esc(h), shard=dict((s, l) for s, l in SHARDS)[shard],
+                s=esc(g["s"]), id=esc(g["id"])))
     parts.append("<h2>Seasons</h2><table><tr><th>Season</th><th class=n>Games</th>"
                  "<th class=n>D-I</th><th class=n>D-II</th><th class=n>D-III</th>"
                  "<th class=n>Other</th></tr>")
@@ -188,6 +212,10 @@ def write_box_page(rec, data, manifest, current):
     if rec["done"] is False:
         meta_bits.append("not final")
     parts.append('<p class="mut">{}</p>'.format(" · ".join(b for b in meta_bits if b)))
+    if is_exhibition(rec, manifest):
+        parts.append('<p><span class="exh">exhibition game</span> <span class="mut">'
+                     'cross-division or non-NCAA opponent — typically does not count '
+                     'toward team records.</span></p>')
     parts.append('<p><a href="{}" target="_blank">raw JSON ▸</a></p>'.format(RAW_URL + rec["src"]))
 
     hp, vp = rec.get("hp") or [], rec.get("vp") or []
@@ -296,6 +324,7 @@ def build_dates(teams_list, box_seasons, latest):
     js = (js_const("DATES_JSON", summary)
           + js_const("BOX_SEASONS", box_seasons)
           + js_const("RAWJSON", RAW_URL)
+          + EXHIB_JS
           + """
 const TEAMS_JSON_URL = 'data/teams.json';
 let TEAMS = {};
@@ -332,6 +361,7 @@ async function render() {
       + (g.v ? '<a href="teams/' + g.v + '.html">' + tname(g, g.v, 'vn') + '</a>' : (g.vn || '—'))
       + '</td><td class=n>' + g.vs + '</td><td class=n>' + g.hs + '</td><td class=mut>'
       + div + '</td><td>' + (g.done ? 'final — ' + g.s : 'sched — ' + g.s)
+      + (isExh(TEAMS, g) ? ' <span class=exh>exhibition</span>' : '')
       + '</td><td><a href="' + href + '"' + (hasBox ? '' : ' target=_blank') + '>'
       + (hasBox ? 'box' : 'raw') + '</a></td>';
   }
@@ -411,6 +441,7 @@ def main():
               + js_const("CUR", current)
               + js_const("BOX_SEASONS", box_seasons)
               + js_const("SHARD", shard)
+              + EXHIB_JS
               + """
 const TEAMS={}; for (const t of TEAMS_JSON) TEAMS[t.id] = t;
 const sel = document.getElementById('season');
@@ -437,6 +468,7 @@ async function render() {
       + (g.v ? '<a href="teams/' + g.v + '.html">' + tname(g, g.v, 'vn') + '</a>' : (g.vn || '—'))
       + '</td><td class=n>' + g.vs + '</td><td class=n>' + g.hs + '</td><td>'
       + (g.done ? 'final' : (g.t ? 'sched, ' + g.t : 'scheduled'))
+      + (isExh(TEAMS, g) ? ' <span class=exh>exhib.</span>' : '')
       + '</td><td><a href="' + href + '"' + (hasBox ? '' : ' target=_blank') + '>'
       + (hasBox ? 'box' : 'raw') + '</a></td>';
   }
@@ -452,7 +484,7 @@ async function render() {
         w(SITE / (shard + ".html"), page(label, "".join(body)))
 
     # ---- team schedule pages ----------------------------------------------
-    team_js = js_const("RAWJSON", RAW_URL) + """
+    team_js = js_const("RAWJSON", RAW_URL) + EXHIB_JS + """
 const TEAM_ID_TEAMS = {};
 let GAMES = null, TEAMS_READY = false;
 const sel = document.getElementById('season'), tbl = document.getElementById('tbl'), ld = document.getElementById('load');
@@ -495,7 +527,8 @@ async function redraw() {
     tr.innerHTML = '<td>' + g.d8 + '</td><td>'
       + (opp != null ? '<a href="' + opp + '.html">' + oname + '</a>' : oname)
       + '</td><td>' + (home ? 'H' : 'A') + '</td><td class=n>'
-      + (home ? g.hs + '–' + g.vs : g.vs + '–' + g.hs) + '</td><td>' + result + '</td>'
+      + (home ? g.hs + '–' + g.vs : g.vs + '–' + g.hs) + '</td><td>' + result
+      + (isExh(TEAM_ID_TEAMS, g) ? ' <span class=exh>exhib.</span>' : '') + '</td>'
       + '<td>' + (g.loc || '') + '</td><td class=n>' + (g.at || '') + '</td>'
       + '<td><a href="' + link + '"' + (hasBox ? '' : ' target=_blank') + '>'
       + (hasBox ? 'box' : 'raw') + '</a></td>';

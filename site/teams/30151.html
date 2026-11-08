@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Shorter</title><style>
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#ddd;--accent:#8a3c1c;--card:#f6f6f4}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--fg:#e8e8e8;--mut:#999;--line:#333;--accent:#e0906b;--card:#1e2226}}
+*{box-sizing:border-box}
+body{margin:0;padding:1rem 1rem 3rem;background:var(--bg);color:var(--fg);font:15px/1.45 -apple-system,"Segoe UI",system-ui,sans-serif}
+main{max-width:64em;margin:0 auto}
+h1{font-size:1.4rem;margin:.2rem 0 .8rem}h2{font-size:1.1rem;margin:1.3rem 0 .4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.9rem}
+th,td{text-align:left;padding:.26rem .45rem;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:600}td.n,th.n{text-align:right}
+.card{background:var(--card);border-radius:8px;padding:.6rem .9rem;margin:.45rem 0}
+.mut{color:var(--mut)}.win{font-weight:700}
+.sel{padding:.35rem .5rem;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--fg);margin-bottom:.8rem}
+nav{margin:.6rem 0 1.1rem}nav a{margin-right:.9rem}
+</style></head><body><main><nav><a href="index.html">Home</a> <a href="d1.html">D-I</a> <a href="d2.html">D-II</a> <a href="d3.html">D-III</a> <a href="x.html">Other</a> <a href="leaders.html">Leaders</a></nav><h1>Shorter</h1><p class="mut">Division II — Gulf South</p><nav><a href="index.html">Home</a> <a href="d1.html">D-I</a> <a href="d2.html">D-II</a> <a href="d3.html">D-III</a> <a href="x.html">Other</a> <a href="leaders.html">Leaders</a></nav><select class=sel id=season><option selected>2026-27</option><option>2025-26</option><option>2024-25</option><option>2023-24</option><option>2022-23</option><option>2021-22</option><option>2020-21</option><option>2019-20</option><option>2018-19</option><option>2017-18</option><option>2016-17</option><option>2015-16</option><option>2014-15</option><option>2013-14</option><option>2012-13</option><option>2011-12</option></select><table id=tbl style="display:none"></table><div id=load class=mut>Loading…</div><script>const TEAM_ID = 30151;
+const BOX_SEASONS = ["2026-27", "2025-26"];
+const CUR_TEAM_SEASON = "2026-27";
+const RAWJSON = "https://raw.githubusercontent.com/dwillis/wbb-game-data/main/";
+
+const TEAM_ID_TEAMS = {};
+let GAMES = null, TEAMS_READY = false;
+const sel = document.getElementById('season'), tbl = document.getElementById('tbl'), ld = document.getElementById('load');
+sel.onchange = () => redraw();
+fetch('../data/teams.json').then(r => r.json()).then(t => {
+  for (const x of t) TEAM_ID_TEAMS[x.id] = x;
+  TEAMS_READY = true; redraw();
+});
+async function boot() {
+  const j = await (await fetch('../data/teams/' + TEAM_ID + '.json')).json();
+  GAMES = j.games;
+  const ss = [...new Set(GAMES.map(g => g.s))].sort().reverse();
+  if (!sel.options.length) for (const s of ss) {
+    const o = document.createElement('option'); o.value = o.textContent = s; sel.appendChild(o);
+  }
+  if (!sel.value) sel.value = ss.includes(CUR_TEAM_SEASON) ? CUR_TEAM_SEASON : (ss[0] || '');
+  redraw();
+}
+async function redraw() {
+  if (!GAMES) { setTimeout(redraw, 50); return; }
+  if (!TEAMS_READY) { setTimeout(redraw, 50); return; }
+  const me = TEAM_ID;
+  const rows = GAMES.filter(g => g.s === sel.value);
+  tbl.innerHTML = '<thead><tr><th>Date</th><th>Opponent</th><th>H/A</th><th class=n>Score</th>'
+    + '<th>Result</th><th>Venue</th><th class=n>Att</th><th>Link</th></tr></thead>';
+  for (const g of rows) {
+    const tr = tbl.insertRow();
+    const home = g.h === me;
+    const opp = home ? g.v : g.h;
+    const oname = TEAM_ID_TEAMS[opp] ? TEAM_ID_TEAMS[opp].name
+      : (home ? (g.vn || (opp == null ? '—' : opp)) : (g.hn || (g.h == null ? '—' : g.h)));
+    const mine = home ? g.hs : g.vs, oth = home ? g.vs : g.hs;
+    let result = '';
+    if (g.done && mine != null && oth != null) {
+      const k = mine > oth ? 'W' : (mine < oth ? 'L' : 'T');
+      result = '<span class="' + (k === 'W' ? 'win' : 'mut') + '">' + k + ' ' + mine + '–' + oth + '</span>';
+    }
+    const hasBox = (BOX_SEASONS.indexOf(g.s) >= 0);
+    const link = hasBox ? ('../games/' + g.s + '/' + g.id + '.html') : (RAWJSON + g.src);
+    tr.innerHTML = '<td>' + g.d8 + '</td><td>'
+      + (opp != null ? '<a href="' + opp + '.html">' + oname + '</a>' : oname)
+      + '</td><td>' + (home ? 'H' : 'A') + '</td><td class=n>'
+      + (home ? g.hs + '–' + g.vs : g.vs + '–' + g.hs) + '</td><td>' + result + '</td>'
+      + '<td>' + (g.loc || '') + '</td><td class=n>' + (g.at || '') + '</td>'
+      + '<td><a href="' + link + '"' + (hasBox ? '' : ' target=_blank') + '>'
+      + (hasBox ? 'box' : 'raw') + '</a></td>';
+  }
+  if (!rows.length) tbl.innerHTML += '<tr><td colspan=8 class=mut>No games on file for this season.</td></tr>';
+  ld.style.display = 'none'; tbl.style.display = '';
+}
+boot();
+</script></main></body></html>

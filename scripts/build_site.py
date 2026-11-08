@@ -24,8 +24,14 @@ SITE = ROOT / "site"
 RAW_URL = "https://raw.githubusercontent.com/dwillis/wbb-game-data/main/"
 SHARDS = (("d1", "Division I"), ("d2", "Division II"),
           ("d3", "Division III"), ("x", "Other (non-D I/II/III)"))
-NAV = ('<nav><a href="index.html">Home</a> <a href="d1.html">D-I</a> <a href="d2.html">D-II</a>'
-       ' <a href="d3.html">D-III</a> <a href="x.html">Other</a> <a href="leaders.html">Leaders</a></nav>')
+NAV_ITEMS = (("index.html", "Home"), ("d1.html", "D-I"), ("d2.html", "D-II"),
+             ("d3.html", "D-III"), ("x.html", "Other"), ("dates.html", "Dates"),
+             ("leaders.html", "Leaders"))
+
+
+def nav(prefix=""):
+    return "<nav>" + " ".join('<a href="{}{}">{}</a>'.format(prefix, href, label)
+                              for href, label in NAV_ITEMS) + "</nav>"
 
 CSS = """
 :root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#ddd;--accent:#8a3c1c;--card:#f6f6f4}
@@ -60,12 +66,12 @@ def esc(v):
     return html.escape(str(v))
 
 
-def page(title, body, with_nav=True):
-    nav = NAV if with_nav else ""
+def page(title, body, nav_html=None):
+    n = nav("") if nav_html is None else nav_html
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             '<title>{}</title><style>{}</style></head><body><main>{}{}</main></body></html>'
-            ).format(esc(title), CSS, nav, body)
+            ).format(esc(title), CSS, n, body)
 
 
 def w(path, text):
@@ -132,7 +138,7 @@ def build_home(manifest, seasons, current):
                      "<td class=n>{}</td><td class=n>{}</td></tr>".format(
                          esc(s), m["games"], m["d1"], m["d2"], m["d3"], m["x"]))
     parts.append("</table>")
-    w(SITE / "index.html", page("NCAA WBB game data", "".join(parts), with_nav=False))
+    w(SITE / "index.html", page("NCAA WBB game data", "".join(parts) + nav("")))
 
 
 # --------------------------------------------------------------- box pages
@@ -238,12 +244,12 @@ def write_box_page(rec, data, manifest, current):
             if bits:
                 parts.append('<div class="card"><b>{}</b> — {}</div>'.format(esc(name), " · ".join(bits)))
     w(SITE / "games" / rec["s"] / "{}.html".format(rec["id"]),
-      page(title, "".join(parts)))
+      page(title, "".join(parts), nav_html=nav("../../")))
 
 
 # ------------------------------------------------------------------ leaders
 def write_leaders(leaders_acc, current, manifest):
-    parts = ["<h1>Scoring leaders — {}</h1>".format(esc(current)), NAV,
+    parts = ["<h1>Scoring leaders — {}</h1>".format(esc(current)), nav(""),
              '<p class="mut">Points accumulated from this season’s box scores, game by '
              'game. Player identity is the raw box-score name, so a player can appear '
              'twice (e.g. after a transfer) — treat as a starting point.</p>']
@@ -264,6 +270,87 @@ def write_leaders(leaders_acc, current, manifest):
     w(SITE / "leaders.html", page("Scoring leaders", "".join(parts)))
 
 
+# ------------------------------------------------------------------ dates
+def build_dates(teams_list, box_seasons, latest):
+    """One JSON slice per calendar date with games (all seasons) + one page."""
+    by_date = defaultdict(list)
+    n_dates = 0
+    for season_dir in sorted((INDEX / "seasons").iterdir()):
+        fp = season_dir / "games.json"
+        if not fp.exists():
+            continue
+        for rec in load(fp)["games"]:
+            if rec.get("d8"):
+                by_date[rec["d8"]].append(rec)
+        print("  dates: scanned " + season_dir.name, flush=True)
+    out = SITE / "data" / "dates"
+    summary = []
+    for d8 in sorted(by_date):
+        games = sorted(by_date[d8], key=lambda r: (r.get("t") or "", r["id"]))
+        w(out / (d8 + ".json"), json.dumps({"date": d8, "games": games},
+                                           separators=(",", ":")))
+        summary.append({"d": d8, "n": len(games)})
+        n_dates += 1
+    w(SITE / "data" / "dates.json", json.dumps(summary, separators=(",", ":")))
+
+    js = (js_const("DATES_JSON", summary)
+          + js_const("BOX_SEASONS", box_seasons)
+          + js_const("RAWJSON", RAW_URL)
+          + """
+const TEAMS_JSON_URL = 'data/teams.json';
+let TEAMS = {};
+const inp = document.getElementById('date'), tbl = document.getElementById('tbl'),
+      ld = document.getElementById('load'), cnt = document.getElementById('count');
+const POS = {}; DATES_JSON.forEach((d, i) => POS[d.d] = i);
+fetch(TEAMS_JSON_URL).then(r => r.json()).then(t => { for (const x of t) TEAMS[x.id] = x; });
+inp.value = __LATEST__; inp.onchange = () => render(); render();
+function step(delta) {
+  const i = POS[inp.value];
+  const j = i == null ? DATES_JSON.length - 1 : (i + delta);
+  if (j < 0 || j >= DATES_JSON.length) return;
+  inp.value = DATES_JSON[j].d; render();
+}
+function tname(g, id, rawKey) { return TEAMS[id] ? TEAMS[id].name : (g[rawKey] || id || '—'); }
+async function render() {
+  const d8 = inp.value;
+  if (!d8) return;
+  tbl.style.display = 'none'; ld.style.display = '';
+  ld.textContent = 'Loading ' + d8 + '…';
+  const r = await fetch('data/dates/' + d8 + '.json');
+  if (!r.ok) { ld.textContent = 'No games on file for this date.'; cnt.textContent = ''; return; }
+  const games = (await r.json()).games;
+  ld.style.display = 'none'; tbl.style.display = '';
+  cnt.textContent = games.length + ' games';
+  tbl.innerHTML = '<thead><tr><th>Time</th><th>Visitor</th><th class=n>vs</th>'
+    + '<th class=n>Home</th><th>Div</th><th>Status</th><th>Link</th></tr></thead>';
+  for (const g of games) {
+    const tr = tbl.insertRow();
+    const hasBox = (BOX_SEASONS.indexOf(g.s) >= 0);
+    const href = hasBox ? ('games/' + g.s + '/' + g.id + '.html') : (RAWJSON + g.src);
+    const div = (TEAMS[g.h] && TEAMS[g.h].division) || '?';
+    tr.innerHTML = '<td class=mut>' + (g.t || '') + '</td><td>'
+      + (g.v ? '<a href="teams/' + g.v + '.html">' + tname(g, g.v, 'vn') + '</a>' : (g.vn || '—'))
+      + '</td><td class=n>' + g.vs + '</td><td class=n>' + g.hs + '</td><td class=mut>'
+      + div + '</td><td>' + (g.done ? 'final — ' + g.s : 'sched — ' + g.s)
+      + '</td><td><a href="' + href + '"' + (hasBox ? '' : ' target=_blank') + '>'
+      + (hasBox ? 'box' : 'raw') + '</a></td>';
+  }
+}
+""")
+    body = ['<h1>Games by date</h1>', nav(""),
+            '<p><button onclick="step(-1)">‹ prev</button> '
+            '<input type="date" id="date" class="sel"> '
+            '<button onclick="step(1)">next ›</button> <span id="count" class="mut"></span></p>',
+            '<p class="mut">Steps jump between dates with games on file. Dates use '
+            'the game’s local date as published by each school’s feed.</p>',
+            '<table id=tbl style="display:none"></table>',
+            '<div id=load class=mut>Loading…</div>',
+            '<script>', js.replace("__LATEST__", json.dumps(latest)), '</script>']
+    w(SITE / "dates.html", page("Games by date", "".join(body)))
+    print("dates: {} date pages, {} summary entries".format(n_dates, len(summary)), flush=True)
+
+
+
 # ----------------------------------------------------------------- helpers
 def js_const(name, value):
     return "const {} = {};\n".format(name, json.dumps(value))
@@ -282,6 +369,14 @@ def main():
     seasons = meta["seasons"]
     current = max(seasons)
     box_seasons = sorted(seasons, reverse=True)[:args.seasons]
+    latest = None
+    for s in box_seasons:
+        for rec in load(INDEX / "seasons" / s / "games.json")["games"]:
+            d8 = rec.get("d8")
+            if d8 and (latest is None or d8 > latest):
+                latest = d8
+    if latest is None:
+        latest = "2026-01-01"  # placeholder; pages fall back to the last date with games
 
     shutil.rmtree(SITE, ignore_errors=True)
 
@@ -306,6 +401,7 @@ def main():
         n_team_data += 1
 
     build_home(manifest_by_id, seasons, current)
+    build_dates(teams_list, box_seasons, latest=latest)
 
     # ---- division browsers -------------------------------------------------
     season_keys = sorted(seasons, reverse=True)
@@ -346,7 +442,7 @@ async function render() {
   }
 }
 """)
-        body = ['<h1>{}</h1>'.format(esc(label)), NAV,
+        body = ['<h1>{}</h1>'.format(esc(label)), nav(""),
                 '<p class="mut">Pick a season to load its schedule. “box” = detail page '
                 '(most recent seasons); “raw” = raw archive JSON.</p>',
                 '<select class=sel id=season></select>',
@@ -421,7 +517,7 @@ boot();
                                           t.get("conference")) if x)
         body = ['<h1>{}</h1>'.format(esc(t["team"])),
                 '<p class="mut">{}</p>'.format(esc(subtitle)) if subtitle else "",
-                NAV,
+                nav("../"),
                 '<select class=sel id=season>{}</select>'.format(opts),
                 '<table id=tbl style="display:none"></table>',
                 '<div id=load class=mut>Loading…</div>']
@@ -429,7 +525,8 @@ boot();
               + js_const("BOX_SEASONS", box_seasons)
               + ("let CUR_TEAM_SEASON = null;\n" if not default else js_const("CUR_TEAM_SEASON", default))
               + team_js)
-        w(SITE / "teams" / "{}.html".format(tid), page(t["team"], "".join(body) + "<script>" + js + "</script>"))
+        w(SITE / "teams" / "{}.html".format(tid),
+          page(t["team"], "".join(body) + "<script>" + js + "</script>", nav_html=""))
         n_team_pages += 1
 
     # ---- box pages for the most recent seasons + leaderboard aggregation ----
